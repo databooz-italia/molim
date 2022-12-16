@@ -1,0 +1,157 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_regioni_di_interesse" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::BusinessLayer::Data::Entities::RegioniDiInteresse</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_regioni_di_interesse_1abf33f54c614d8289d83aec518b3ceb0d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Molim.Backend.API.BusinessLayer.Data.Entities.RegioniDiInteresse.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/RegioniDiInteresse.cs" line="14" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/RegioniDiInteresse.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_regioni_di_interesse_1a3aede6d9fa14764e2996a3335ed56e4b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Molim.Backend.API.BusinessLayer.Data.Entities.RegioniDiInteresse.IdImmagine</definition>
+        <argsstring></argsstring>
+        <name>IdImmagine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/RegioniDiInteresse.cs" line="15" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/RegioniDiInteresse.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_regioni_di_interesse_1ac31c562fdc4d675e53d2d3b415474e2e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Data.Entities.RegioniDiInteresse.NomeFile</definition>
+        <argsstring></argsstring>
+        <name>NomeFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/RegioniDiInteresse.cs" line="16" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/RegioniDiInteresse.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_regioni_di_interesse_1adc082ecfb08472a170da3d8216a70c49" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime Molim.Backend.API.BusinessLayer.Data.Entities.RegioniDiInteresse.DataCaricamento</definition>
+        <argsstring></argsstring>
+        <name>DataCaricamento</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/RegioniDiInteresse.cs" line="17" column="25" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/RegioniDiInteresse.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_regioni_di_interesse_1af3f2b0b684cc72aed6fc88342b6b24bb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? Molim.Backend.API.BusinessLayer.Data.Entities.RegioniDiInteresse.CreatorAccountId</definition>
+        <argsstring></argsstring>
+        <name>CreatorAccountId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/RegioniDiInteresse.cs" line="18" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/RegioniDiInteresse.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_regioni_di_interesse_1a50b58d647658375fd7081baa7399776a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? Molim.Backend.API.BusinessLayer.Data.Entities.RegioniDiInteresse.UpdaterAccountId</definition>
+        <argsstring></argsstring>
+        <name>UpdaterAccountId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/RegioniDiInteresse.cs" line="19" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/RegioniDiInteresse.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_regioni_di_interesse_1a83fdf7fb5036754b33b03ed463e269f2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_immagini" kindref="compound">Immagini</ref></type>
+        <definition>virtual Immagini Molim.Backend.API.BusinessLayer.Data.Entities.RegioniDiInteresse.IdImmagineNavigation</definition>
+        <argsstring></argsstring>
+        <name>IdImmagineNavigation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/RegioniDiInteresse.cs" line="21" column="33" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/RegioniDiInteresse.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_regioni_di_interesse_1a7a35cc48e5e693a155b0b2da78639e92" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ICollection&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_diagnosi" kindref="compound">Diagnosi</ref> &gt;</type>
+        <definition>virtual ICollection&lt;Diagnosi&gt; Molim.Backend.API.BusinessLayer.Data.Entities.RegioniDiInteresse.Diagnosi</definition>
+        <argsstring></argsstring>
+        <name>Diagnosi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/RegioniDiInteresse.cs" line="22" column="36" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/RegioniDiInteresse.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_regioni_di_interesse_1ae1cb52d5a1943c913d02015295279c6c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ICollection&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_features_esame" kindref="compound">FeaturesEsame</ref> &gt;</type>
+        <definition>virtual ICollection&lt;FeaturesEsame&gt; Molim.Backend.API.BusinessLayer.Data.Entities.RegioniDiInteresse.FeaturesEsame</definition>
+        <argsstring></argsstring>
+        <name>FeaturesEsame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/RegioniDiInteresse.cs" line="23" column="36" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/RegioniDiInteresse.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_regioni_di_interesse_1af8774c3dd183c1210a6a9e0b6e52f377" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Molim.Backend.API.BusinessLayer.Data.Entities.RegioniDiInteresse.RegioniDiInteresse</definition>
+        <argsstring>()</argsstring>
+        <name>RegioniDiInteresse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/RegioniDiInteresse.cs" line="8" column="16" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/RegioniDiInteresse.cs" bodystart="8" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/RegioniDiInteresse.cs" line="6" column="19" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/RegioniDiInteresse.cs" bodystart="7" bodyend="24"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_regioni_di_interesse_1af3f2b0b684cc72aed6fc88342b6b24bb" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::RegioniDiInteresse</scope><name>CreatorAccountId</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_regioni_di_interesse_1adc082ecfb08472a170da3d8216a70c49" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::RegioniDiInteresse</scope><name>DataCaricamento</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_regioni_di_interesse_1a7a35cc48e5e693a155b0b2da78639e92" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::RegioniDiInteresse</scope><name>Diagnosi</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_regioni_di_interesse_1ae1cb52d5a1943c913d02015295279c6c" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::RegioniDiInteresse</scope><name>FeaturesEsame</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_regioni_di_interesse_1abf33f54c614d8289d83aec518b3ceb0d" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::RegioniDiInteresse</scope><name>Id</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_regioni_di_interesse_1a3aede6d9fa14764e2996a3335ed56e4b" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::RegioniDiInteresse</scope><name>IdImmagine</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_regioni_di_interesse_1a83fdf7fb5036754b33b03ed463e269f2" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::RegioniDiInteresse</scope><name>IdImmagineNavigation</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_regioni_di_interesse_1ac31c562fdc4d675e53d2d3b415474e2e" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::RegioniDiInteresse</scope><name>NomeFile</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_regioni_di_interesse_1af8774c3dd183c1210a6a9e0b6e52f377" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::RegioniDiInteresse</scope><name>RegioniDiInteresse</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_regioni_di_interesse_1a50b58d647658375fd7081baa7399776a" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::RegioniDiInteresse</scope><name>UpdaterAccountId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

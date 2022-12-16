@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_tipologia_esame_d_t_o_8cs" kind="file" language="C#">
+    <compoundname>TipologiaEsameDTO.cs</compoundname>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_patologie_1_1_tipologia_esame_d_t_o" prot="public">Molim::Backend::API::DTO::Patologie::TipologiaEsameDTO</innerclass>
+    <innernamespace refid="namespace_molim">Molim</innernamespace>
+    <innernamespace refid="namespace_molim_1_1_backend">Molim::Backend</innernamespace>
+    <innernamespace refid="namespace_molim_1_1_backend_1_1_a_p_i">Molim::Backend::API</innernamespace>
+    <innernamespace refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o">Molim::Backend::API::DTO</innernamespace>
+    <innernamespace refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_patologie">Molim::Backend::API::DTO::Patologie</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Text;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_patologie" kindref="compound">Molim.Backend.API.DTO.Patologie</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7" refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_patologie_1_1_tipologia_esame_d_t_o" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_patologie_1_1_tipologia_esame_d_t_o" kindref="compound">TipologiaEsameDTO</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_patologie_1_1_tipologia_esame_d_t_o_1a7ad5f9d7699e5a8a3cce6c84f7bff201" kindref="member">IdTipologiaEsame</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_patologie_1_1_tipologia_esame_d_t_o_1a9d810e854893ba62f5ea6c2539a8a096" kindref="member">IdPatologia</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_patologie_1_1_tipologia_esame_d_t_o_1aa6b2c3e0687f4d61445d61949cd28b08" kindref="member">Descrizione</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">bool</highlight><highlight class="normal"><sp/><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_patologie_1_1_tipologia_esame_d_t_o_1aeb2a51aa939e29b24d70262debebd2ec" kindref="member">RichiedeImmagini</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>IEnumerable&lt;FeatureDTO&gt;<sp/><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_patologie_1_1_tipologia_esame_d_t_o_1a47c1f8912d67f776fb53ed70ea3fca36" kindref="member">Features</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="15"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Patologie/TipologiaEsameDTO.cs"/>
+  </compounddef>
+</doxygen>

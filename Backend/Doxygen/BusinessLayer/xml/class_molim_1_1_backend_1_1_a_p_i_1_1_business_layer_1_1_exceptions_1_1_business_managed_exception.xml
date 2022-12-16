@@ -1,0 +1,108 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_exceptions_1_1_business_managed_exception" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::BusinessLayer::Exceptions::BusinessManagedException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_exceptions_1_1_business_managed_exception_1a124535b89449e47d60c3f2dbd99ee465" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Exceptions.BusinessManagedException.Code</definition>
+        <argsstring></argsstring>
+        <name>Code</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Exceptions/BusinessManagedException.cs" line="9" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Exceptions/BusinessManagedException.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_exceptions_1_1_business_managed_exception_1ae4d2dee3b5285f00ccff88d4f0cf3098" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Exceptions.BusinessManagedException.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Exceptions/BusinessManagedException.cs" line="10" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Exceptions/BusinessManagedException.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_exceptions_1_1_business_managed_exception_1a3f9f858030f09d794168857c5366d265" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Molim.Backend.API.BusinessLayer.Exceptions.BusinessManagedException.BusinessManagedException</definition>
+        <argsstring>(string code)</argsstring>
+        <name>BusinessManagedException</name>
+        <param>
+          <type>string</type>
+          <declname>code</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Exceptions/BusinessManagedException.cs" line="12" column="16" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Exceptions/BusinessManagedException.cs" bodystart="12" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_exceptions_1_1_business_managed_exception_1aca45dd46f675cffa17bae1aecafcdc19" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Molim.Backend.API.BusinessLayer.Exceptions.BusinessManagedException.BusinessManagedException</definition>
+        <argsstring>(string code, string description)</argsstring>
+        <name>BusinessManagedException</name>
+        <param>
+          <type>string</type>
+          <declname>code</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Exceptions/BusinessManagedException.cs" line="17" column="16" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Exceptions/BusinessManagedException.cs" bodystart="17" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>Molim.Backend.API.BusinessLayer.Exceptions.BusinessManagedException</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_exceptions_1_1_business_managed_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>Molim.Backend.API.BusinessLayer.Exceptions.BusinessManagedException</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_exceptions_1_1_business_managed_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Exceptions/BusinessManagedException.cs" line="7" column="11" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Exceptions/BusinessManagedException.cs" bodystart="8" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_exceptions_1_1_business_managed_exception_1a3f9f858030f09d794168857c5366d265" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Exceptions::BusinessManagedException</scope><name>BusinessManagedException</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_exceptions_1_1_business_managed_exception_1aca45dd46f675cffa17bae1aecafcdc19" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Exceptions::BusinessManagedException</scope><name>BusinessManagedException</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_exceptions_1_1_business_managed_exception_1a124535b89449e47d60c3f2dbd99ee465" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Exceptions::BusinessManagedException</scope><name>Code</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_exceptions_1_1_business_managed_exception_1ae4d2dee3b5285f00ccff88d4f0cf3098" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Exceptions::BusinessManagedException</scope><name>Description</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

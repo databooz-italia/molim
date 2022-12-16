@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_exceptions_1_1_managed_exception" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::Exceptions::ManagedException</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Exception</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_molim_1_1_backend_1_1_a_p_i_1_1_exceptions_1_1_managed_exception_1a6288053815f11cab83a50d6354b7061f" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>ExceptionCodes</name>
+        <enumvalue id="class_molim_1_1_backend_1_1_a_p_i_1_1_exceptions_1_1_managed_exception_1a6288053815f11cab83a50d6354b7061fa88183b946cc5f0e8c96b2e66e1c74a7e" prot="public">
+          <name>Unknown</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_molim_1_1_backend_1_1_a_p_i_1_1_exceptions_1_1_managed_exception_1a6288053815f11cab83a50d6354b7061fa8045a0a6c688b0635e3caccc408a1446" prot="public">
+          <name>Generic</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_molim_1_1_backend_1_1_a_p_i_1_1_exceptions_1_1_managed_exception_1a6288053815f11cab83a50d6354b7061fa6140c41eed2db8c6b1a3aa46ab2e3d51" prot="public">
+          <name>AuthFail</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Exceptions/ManagedException.cs" line="24" column="15" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Exceptions/ManagedException.cs" bodystart="25" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_exceptions_1_1_managed_exception_1ae9a36f958d4349f340aac5f6d8325795" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.Exceptions.ManagedException.Code</definition>
+        <argsstring></argsstring>
+        <name>Code</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Exceptions/ManagedException.cs" line="10" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Exceptions/ManagedException.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_exceptions_1_1_managed_exception_1a47da4a1fe2a05ef2da4512aed04e577d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="yes" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.Exceptions.ManagedException.Description</definition>
+        <argsstring></argsstring>
+        <name>Description</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Exceptions/ManagedException.cs" line="11" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Exceptions/ManagedException.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_exceptions_1_1_managed_exception_1a0dde21ec3d24f6ce80f09e08b6cd66e1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Molim.Backend.API.Exceptions.ManagedException.ManagedException</definition>
+        <argsstring>(ExceptionCodes code)</argsstring>
+        <name>ManagedException</name>
+        <param>
+          <type><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_exceptions_1_1_managed_exception_1a6288053815f11cab83a50d6354b7061f" kindref="member">ExceptionCodes</ref></type>
+          <declname>code</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Exceptions/ManagedException.cs" line="13" column="16" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Exceptions/ManagedException.cs" bodystart="13" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_exceptions_1_1_managed_exception_1a47fb67e1d6503ad9252d65ef124d1636" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Molim.Backend.API.Exceptions.ManagedException.ManagedException</definition>
+        <argsstring>(ExceptionCodes code, string description)</argsstring>
+        <name>ManagedException</name>
+        <param>
+          <type><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_exceptions_1_1_managed_exception_1a6288053815f11cab83a50d6354b7061f" kindref="member">ExceptionCodes</ref></type>
+          <declname>code</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>description</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Exceptions/ManagedException.cs" line="18" column="16" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Exceptions/ManagedException.cs" bodystart="18" bodyend="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>Molim.Backend.API.Exceptions.ManagedException</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_exceptions_1_1_managed_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Exception</label>
+      </node>
+      <node id="1">
+        <label>Molim.Backend.API.Exceptions.ManagedException</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_exceptions_1_1_managed_exception"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Exceptions/ManagedException.cs" line="8" column="11" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Exceptions/ManagedException.cs" bodystart="9" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_exceptions_1_1_managed_exception_1ae9a36f958d4349f340aac5f6d8325795" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Exceptions::ManagedException</scope><name>Code</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_exceptions_1_1_managed_exception_1a47da4a1fe2a05ef2da4512aed04e577d" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Exceptions::ManagedException</scope><name>Description</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_exceptions_1_1_managed_exception_1a6288053815f11cab83a50d6354b7061f" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Exceptions::ManagedException</scope><name>ExceptionCodes</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_exceptions_1_1_managed_exception_1a0dde21ec3d24f6ce80f09e08b6cd66e1" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Exceptions::ManagedException</scope><name>ManagedException</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_exceptions_1_1_managed_exception_1a47fb67e1d6503ad9252d65ef124d1636" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Exceptions::ManagedException</scope><name>ManagedException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

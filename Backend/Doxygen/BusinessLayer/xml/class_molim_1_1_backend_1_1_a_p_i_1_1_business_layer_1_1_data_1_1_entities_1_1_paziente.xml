@@ -1,0 +1,325 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::BusinessLayer::Data::Entities::Paziente</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente_1af9611d9ec6983bcbadcef5da967bc02e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Data.Entities.Paziente.IdPaziente</definition>
+        <argsstring></argsstring>
+        <name>IdPaziente</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Paziente.cs" line="14" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Paziente.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente_1a04c3de17988d52385bd66c0a42b9effd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Data.Entities.Paziente.NomePaziente</definition>
+        <argsstring></argsstring>
+        <name>NomePaziente</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Paziente.cs" line="15" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Paziente.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente_1aa34b1586107d1c26e2fdeaac7031350c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Data.Entities.Paziente.CognomePaziente</definition>
+        <argsstring></argsstring>
+        <name>CognomePaziente</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Paziente.cs" line="16" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Paziente.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente_1aaee762d73239a5f94bf0a6e7229c6db5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? Molim.Backend.API.BusinessLayer.Data.Entities.Paziente.AnnoNascita</definition>
+        <argsstring></argsstring>
+        <name>AnnoNascita</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Paziente.cs" line="17" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Paziente.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente_1a26b5b952b8c22b9a10d7977b05219777" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Data.Entities.Paziente.Sesso</definition>
+        <argsstring></argsstring>
+        <name>Sesso</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Paziente.cs" line="18" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Paziente.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente_1a795f0f0ba6797c920fcaf36597adc476" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Data.Entities.Paziente.City</definition>
+        <argsstring></argsstring>
+        <name>City</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Paziente.cs" line="19" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Paziente.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente_1a670cf0f6e8777ddc7b1d8a4e853190bf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Data.Entities.Paziente.CodiceFiscale</definition>
+        <argsstring></argsstring>
+        <name>CodiceFiscale</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Paziente.cs" line="20" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Paziente.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente_1a3e4d51009ba28bd3823c3e70139a3a5d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Data.Entities.Paziente.Indirizzo</definition>
+        <argsstring></argsstring>
+        <name>Indirizzo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Paziente.cs" line="21" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Paziente.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente_1a4d2c00560722df73df9859f51003bed0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Data.Entities.Paziente.IndirizzoMail</definition>
+        <argsstring></argsstring>
+        <name>IndirizzoMail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Paziente.cs" line="22" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Paziente.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente_1a4487f1d69cef3f20d4c8e66e9aecd819" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Data.Entities.Paziente.NumeroCellulare</definition>
+        <argsstring></argsstring>
+        <name>NumeroCellulare</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Paziente.cs" line="23" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Paziente.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente_1a40f451465f85312a784a02701d80d667" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? Molim.Backend.API.BusinessLayer.Data.Entities.Paziente.Education</definition>
+        <argsstring></argsstring>
+        <name>Education</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Paziente.cs" line="24" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Paziente.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente_1a0204aa3687480bdde9caa47bdc9ef0c2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? Molim.Backend.API.BusinessLayer.Data.Entities.Paziente.CreatorAccountId</definition>
+        <argsstring></argsstring>
+        <name>CreatorAccountId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Paziente.cs" line="25" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Paziente.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente_1aedc23f700fe4a1761109c355881add51" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? Molim.Backend.API.BusinessLayer.Data.Entities.Paziente.UpdaterAccountId</definition>
+        <argsstring></argsstring>
+        <name>UpdaterAccountId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Paziente.cs" line="26" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Paziente.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente_1a6c5577583402bac445d1fce5fb48373b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime Molim.Backend.API.BusinessLayer.Data.Entities.Paziente.CreationDate</definition>
+        <argsstring></argsstring>
+        <name>CreationDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Paziente.cs" line="27" column="25" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Paziente.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente_1af42d5bac207b13e97730373d55e06e03" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime Molim.Backend.API.BusinessLayer.Data.Entities.Paziente.LastUpdateDate</definition>
+        <argsstring></argsstring>
+        <name>LastUpdateDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Paziente.cs" line="28" column="25" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Paziente.cs" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente_1a2b6d9f13acdb968b8d47b52cb8f1f7d6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool Molim.Backend.API.BusinessLayer.Data.Entities.Paziente.Deleted</definition>
+        <argsstring></argsstring>
+        <name>Deleted</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Paziente.cs" line="29" column="21" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Paziente.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente_1a443d7bbcde23dfd99dafe473bb510735" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ICollection&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_esame" kindref="compound">Esame</ref> &gt;</type>
+        <definition>virtual ICollection&lt;Esame&gt; Molim.Backend.API.BusinessLayer.Data.Entities.Paziente.Esami</definition>
+        <argsstring></argsstring>
+        <name>Esami</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Paziente.cs" line="31" column="36" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Paziente.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente_1a8230f0d2a5c524c753a4261887d8fbfb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ICollection&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_stile_di_vita_paziente" kindref="compound">StileDiVitaPaziente</ref> &gt;</type>
+        <definition>virtual ICollection&lt;StileDiVitaPaziente&gt; Molim.Backend.API.BusinessLayer.Data.Entities.Paziente.StiliDiVitaPazienti</definition>
+        <argsstring></argsstring>
+        <name>StiliDiVitaPazienti</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Paziente.cs" line="32" column="36" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Paziente.cs" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente_1a43c2663596b18fcb9221c55c4592ebc0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ICollection&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_predizione" kindref="compound">Predizione</ref> &gt;</type>
+        <definition>virtual ICollection&lt;Predizione&gt; Molim.Backend.API.BusinessLayer.Data.Entities.Paziente.Predizioni</definition>
+        <argsstring></argsstring>
+        <name>Predizioni</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Paziente.cs" line="33" column="36" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Paziente.cs" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente_1ae7bb75238974ceb4a3772b72f7d43bfe" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ICollection&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_diagnosi" kindref="compound">Diagnosi</ref> &gt;</type>
+        <definition>virtual ICollection&lt;Diagnosi&gt; Molim.Backend.API.BusinessLayer.Data.Entities.Paziente.Diagnosi</definition>
+        <argsstring></argsstring>
+        <name>Diagnosi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Paziente.cs" line="34" column="36" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Paziente.cs" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente_1adb800e4e84cf9bdfd07e2c455979113a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ICollection&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_richiesta_esecuzione" kindref="compound">RichiestaEsecuzione</ref> &gt;</type>
+        <definition>virtual ICollection&lt;RichiestaEsecuzione&gt; Molim.Backend.API.BusinessLayer.Data.Entities.Paziente.RichiesteEsecuzione</definition>
+        <argsstring></argsstring>
+        <name>RichiesteEsecuzione</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Paziente.cs" line="35" column="36" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Paziente.cs" bodystart="35" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente_1a13be398dae084d320a251dde1074196d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Molim.Backend.API.BusinessLayer.Data.Entities.Paziente.Paziente</definition>
+        <argsstring>()</argsstring>
+        <name>Paziente</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Paziente.cs" line="8" column="16" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Paziente.cs" bodystart="8" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Paziente.cs" line="6" column="19" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Paziente.cs" bodystart="7" bodyend="36"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente_1aaee762d73239a5f94bf0a6e7229c6db5" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::Paziente</scope><name>AnnoNascita</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente_1a795f0f0ba6797c920fcaf36597adc476" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::Paziente</scope><name>City</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente_1a670cf0f6e8777ddc7b1d8a4e853190bf" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::Paziente</scope><name>CodiceFiscale</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente_1aa34b1586107d1c26e2fdeaac7031350c" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::Paziente</scope><name>CognomePaziente</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente_1a6c5577583402bac445d1fce5fb48373b" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::Paziente</scope><name>CreationDate</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente_1a0204aa3687480bdde9caa47bdc9ef0c2" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::Paziente</scope><name>CreatorAccountId</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente_1a2b6d9f13acdb968b8d47b52cb8f1f7d6" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::Paziente</scope><name>Deleted</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente_1ae7bb75238974ceb4a3772b72f7d43bfe" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::Paziente</scope><name>Diagnosi</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente_1a40f451465f85312a784a02701d80d667" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::Paziente</scope><name>Education</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente_1a443d7bbcde23dfd99dafe473bb510735" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::Paziente</scope><name>Esami</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente_1af9611d9ec6983bcbadcef5da967bc02e" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::Paziente</scope><name>IdPaziente</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente_1a3e4d51009ba28bd3823c3e70139a3a5d" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::Paziente</scope><name>Indirizzo</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente_1a4d2c00560722df73df9859f51003bed0" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::Paziente</scope><name>IndirizzoMail</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente_1af42d5bac207b13e97730373d55e06e03" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::Paziente</scope><name>LastUpdateDate</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente_1a04c3de17988d52385bd66c0a42b9effd" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::Paziente</scope><name>NomePaziente</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente_1a4487f1d69cef3f20d4c8e66e9aecd819" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::Paziente</scope><name>NumeroCellulare</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente_1a13be398dae084d320a251dde1074196d" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::Paziente</scope><name>Paziente</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente_1a43c2663596b18fcb9221c55c4592ebc0" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::Paziente</scope><name>Predizioni</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente_1adb800e4e84cf9bdfd07e2c455979113a" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::Paziente</scope><name>RichiesteEsecuzione</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente_1a26b5b952b8c22b9a10d7977b05219777" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::Paziente</scope><name>Sesso</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente_1a8230f0d2a5c524c753a4261887d8fbfb" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::Paziente</scope><name>StiliDiVitaPazienti</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente_1aedc23f700fe4a1761109c355881add51" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::Paziente</scope><name>UpdaterAccountId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

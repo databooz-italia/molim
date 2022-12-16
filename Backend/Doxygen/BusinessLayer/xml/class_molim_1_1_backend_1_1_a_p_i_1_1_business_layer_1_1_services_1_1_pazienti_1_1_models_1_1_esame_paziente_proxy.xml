@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_esame_paziente_proxy" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::BusinessLayer::Services::Pazienti::Models::EsamePazienteProxy</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_esame_paziente_proxy_1a9462bb47d1a53d48c2ecb22dbef4c85d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Molim.Backend.API.BusinessLayer.Services.Pazienti.Models.EsamePazienteProxy.IdEsame</definition>
+        <argsstring></argsstring>
+        <name>IdEsame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/EsamePazienteProxy.cs" line="9" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/EsamePazienteProxy.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_esame_paziente_proxy_1a747aa8b12a146a10564e99dba5c59165" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime Molim.Backend.API.BusinessLayer.Services.Pazienti.Models.EsamePazienteProxy.Data</definition>
+        <argsstring></argsstring>
+        <name>Data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/EsamePazienteProxy.cs" line="10" column="25" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/EsamePazienteProxy.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_esame_paziente_proxy_1af155023e45a92b4f947103a03018c349" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool Molim.Backend.API.BusinessLayer.Services.Pazienti.Models.EsamePazienteProxy.RichiedeImmagini</definition>
+        <argsstring></argsstring>
+        <name>RichiedeImmagini</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/EsamePazienteProxy.cs" line="11" column="21" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/EsamePazienteProxy.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_esame_paziente_proxy_1a476de16db87d9c4b38e419ab46b79f17" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Services.Pazienti.Models.EsamePazienteProxy.IdPaziente</definition>
+        <argsstring></argsstring>
+        <name>IdPaziente</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/EsamePazienteProxy.cs" line="12" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/EsamePazienteProxy.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_esame_paziente_proxy_1acff478dd37d35843ab3670d3d3655d8a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Services.Pazienti.Models.EsamePazienteProxy.DescrizionePaziente</definition>
+        <argsstring></argsstring>
+        <name>DescrizionePaziente</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/EsamePazienteProxy.cs" line="13" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/EsamePazienteProxy.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_esame_paziente_proxy_1a3d073e23ad82df36522fba7e14117d80" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Services.Pazienti.Models.EsamePazienteProxy.IdPatologia</definition>
+        <argsstring></argsstring>
+        <name>IdPatologia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/EsamePazienteProxy.cs" line="14" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/EsamePazienteProxy.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_esame_paziente_proxy_1ad5c7234edda104d4e96716b6508c350d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Services.Pazienti.Models.EsamePazienteProxy.DescrizionePatologia</definition>
+        <argsstring></argsstring>
+        <name>DescrizionePatologia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/EsamePazienteProxy.cs" line="15" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/EsamePazienteProxy.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_esame_paziente_proxy_1a6256f3716590fb5616ba5bce29190b2b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Services.Pazienti.Models.EsamePazienteProxy.IdTipoEsame</definition>
+        <argsstring></argsstring>
+        <name>IdTipoEsame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/EsamePazienteProxy.cs" line="16" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/EsamePazienteProxy.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_esame_paziente_proxy_1ae3030de86ca60e51847110ce696d4424" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Services.Pazienti.Models.EsamePazienteProxy.DescrizioneTipoEsame</definition>
+        <argsstring></argsstring>
+        <name>DescrizioneTipoEsame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/EsamePazienteProxy.cs" line="17" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/EsamePazienteProxy.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_esame_paziente_proxy_1aa1517436a24b2b99efc2a71d79b803c4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>IEnumerable&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_immagine_proxy" kindref="compound">ImmagineProxy</ref> &gt;</type>
+        <definition>IEnumerable&lt;ImmagineProxy&gt; Molim.Backend.API.BusinessLayer.Services.Pazienti.Models.EsamePazienteProxy.Immagini</definition>
+        <argsstring></argsstring>
+        <name>Immagini</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/EsamePazienteProxy.cs" line="19" column="28" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/EsamePazienteProxy.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_esame_paziente_proxy_1a7e1d4768116f4f0356859d7fa0d72ed8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>IEnumerable&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_feature_esame_proxy" kindref="compound">FeatureEsameProxy</ref> &gt;</type>
+        <definition>IEnumerable&lt;FeatureEsameProxy&gt; Molim.Backend.API.BusinessLayer.Services.Pazienti.Models.EsamePazienteProxy.Features</definition>
+        <argsstring></argsstring>
+        <name>Features</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/EsamePazienteProxy.cs" line="20" column="28" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/EsamePazienteProxy.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/EsamePazienteProxy.cs" line="7" column="11" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/EsamePazienteProxy.cs" bodystart="8" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_esame_paziente_proxy_1a747aa8b12a146a10564e99dba5c59165" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Pazienti::Models::EsamePazienteProxy</scope><name>Data</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_esame_paziente_proxy_1ad5c7234edda104d4e96716b6508c350d" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Pazienti::Models::EsamePazienteProxy</scope><name>DescrizionePatologia</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_esame_paziente_proxy_1acff478dd37d35843ab3670d3d3655d8a" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Pazienti::Models::EsamePazienteProxy</scope><name>DescrizionePaziente</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_esame_paziente_proxy_1ae3030de86ca60e51847110ce696d4424" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Pazienti::Models::EsamePazienteProxy</scope><name>DescrizioneTipoEsame</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_esame_paziente_proxy_1a7e1d4768116f4f0356859d7fa0d72ed8" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Pazienti::Models::EsamePazienteProxy</scope><name>Features</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_esame_paziente_proxy_1a9462bb47d1a53d48c2ecb22dbef4c85d" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Pazienti::Models::EsamePazienteProxy</scope><name>IdEsame</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_esame_paziente_proxy_1a3d073e23ad82df36522fba7e14117d80" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Pazienti::Models::EsamePazienteProxy</scope><name>IdPatologia</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_esame_paziente_proxy_1a476de16db87d9c4b38e419ab46b79f17" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Pazienti::Models::EsamePazienteProxy</scope><name>IdPaziente</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_esame_paziente_proxy_1a6256f3716590fb5616ba5bce29190b2b" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Pazienti::Models::EsamePazienteProxy</scope><name>IdTipoEsame</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_esame_paziente_proxy_1aa1517436a24b2b99efc2a71d79b803c4" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Pazienti::Models::EsamePazienteProxy</scope><name>Immagini</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_esame_paziente_proxy_1af155023e45a92b4f947103a03018c349" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Pazienti::Models::EsamePazienteProxy</scope><name>RichiedeImmagini</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

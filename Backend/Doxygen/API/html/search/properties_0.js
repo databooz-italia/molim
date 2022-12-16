@@ -1,0 +1,7 @@
+var searchData=
+[
+  ['accounts_0',['Accounts',['../class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context.html#a8728cbcd9648960d2215635acd8780e1',1,'Molim.Backend.API.BusinessLayer.Data.Entities.molim_v2Context.Accounts()'],['../class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_profili.html#ac169ab4765db79a4eaa9a9c3642d05a1',1,'Molim.Backend.API.BusinessLayer.Data.Entities.Profili.Accounts()']]],
+  ['algoritmi_1',['Algoritmi',['../class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context.html#a1984615411ae51df4ffaa1d70b873c44',1,'Molim.Backend.API.BusinessLayer.Data.Entities.molim_v2Context.Algoritmi()'],['../class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_tipi_esami.html#affeeea556804c87bd4197f50065f01d8',1,'Molim.Backend.API.BusinessLayer.Data.Entities.TipiEsami.Algoritmi()']]],
+  ['annonascita_2',['AnnoNascita',['../class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_pazienti.html#aae08a263789020c6bfe09647e10d99c3',1,'Molim::Backend::API::BusinessLayer::Data::Entities::Pazienti']]],
+  ['avalore_3',['Avalore',['../class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_normalizzazione_feature.html#ab27e9ce439417329be523bc19590c2de',1,'Molim::Backend::API::BusinessLayer::Data::Entities::NormalizzazioneFeature']]]
+];

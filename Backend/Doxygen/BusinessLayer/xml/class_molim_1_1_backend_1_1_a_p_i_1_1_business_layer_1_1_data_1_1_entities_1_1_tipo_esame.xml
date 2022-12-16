@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_tipo_esame" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::BusinessLayer::Data::Entities::TipoEsame</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_tipo_esame_1aa606e55e1038fcdc06a8e2e654201476" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Data.Entities.TipoEsame.IdTipoEsame</definition>
+        <argsstring></argsstring>
+        <name>IdTipoEsame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/TipoEsame.cs" line="13" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/TipoEsame.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_tipo_esame_1a667a68a53742cbc0ab3ac280817eea6c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Data.Entities.TipoEsame.IdPatologia</definition>
+        <argsstring></argsstring>
+        <name>IdPatologia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/TipoEsame.cs" line="14" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/TipoEsame.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_tipo_esame_1adf64eb20146add977ea9a424498c7e59" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Data.Entities.TipoEsame.Descrizione</definition>
+        <argsstring></argsstring>
+        <name>Descrizione</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/TipoEsame.cs" line="15" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/TipoEsame.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_tipo_esame_1a9368a4e98a300e4c410c4c726898f09a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool Molim.Backend.API.BusinessLayer.Data.Entities.TipoEsame.RichiedeImmagini</definition>
+        <argsstring></argsstring>
+        <name>RichiedeImmagini</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/TipoEsame.cs" line="16" column="21" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/TipoEsame.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_tipo_esame_1add87c8e4a4bdb21fa538351dc4701678" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? Molim.Backend.API.BusinessLayer.Data.Entities.TipoEsame.CreatorAccountId</definition>
+        <argsstring></argsstring>
+        <name>CreatorAccountId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/TipoEsame.cs" line="17" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/TipoEsame.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_tipo_esame_1a8f781197af815114ba9988aeadb3dc80" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? Molim.Backend.API.BusinessLayer.Data.Entities.TipoEsame.UpdaterAccountId</definition>
+        <argsstring></argsstring>
+        <name>UpdaterAccountId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/TipoEsame.cs" line="18" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/TipoEsame.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_tipo_esame_1a8702182a3b0ce3c88b97b2acb217f7f6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime Molim.Backend.API.BusinessLayer.Data.Entities.TipoEsame.CreationDate</definition>
+        <argsstring></argsstring>
+        <name>CreationDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/TipoEsame.cs" line="19" column="25" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/TipoEsame.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_tipo_esame_1a7f810a3aa3e1059d78b87c107081f7a6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime Molim.Backend.API.BusinessLayer.Data.Entities.TipoEsame.LastUpdateDate</definition>
+        <argsstring></argsstring>
+        <name>LastUpdateDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/TipoEsame.cs" line="20" column="25" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/TipoEsame.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_tipo_esame_1aa237ed0f7e36b2e352e232544ba6e564" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_patologia" kindref="compound">Patologia</ref></type>
+        <definition>virtual Patologia Molim.Backend.API.BusinessLayer.Data.Entities.TipoEsame.Patologia</definition>
+        <argsstring></argsstring>
+        <name>Patologia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/TipoEsame.cs" line="22" column="34" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/TipoEsame.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_tipo_esame_1aa6313cb1df63527356e6769d232841f4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ICollection&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_algoritmo" kindref="compound">Algoritmo</ref> &gt;</type>
+        <definition>virtual ICollection&lt;Algoritmo&gt; Molim.Backend.API.BusinessLayer.Data.Entities.TipoEsame.Algoritmi</definition>
+        <argsstring></argsstring>
+        <name>Algoritmi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/TipoEsame.cs" line="23" column="36" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/TipoEsame.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_tipo_esame_1a38aef6bf40ef5667e7a69cc100e37155" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ICollection&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_esame" kindref="compound">Esame</ref> &gt;</type>
+        <definition>virtual ICollection&lt;Esame&gt; Molim.Backend.API.BusinessLayer.Data.Entities.TipoEsame.Esami</definition>
+        <argsstring></argsstring>
+        <name>Esami</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/TipoEsame.cs" line="24" column="36" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/TipoEsame.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_tipo_esame_1a1f00c3fc6a39304e098b0b4160c6e5b3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ICollection&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_feature" kindref="compound">Feature</ref> &gt;</type>
+        <definition>virtual ICollection&lt;Feature&gt; Molim.Backend.API.BusinessLayer.Data.Entities.TipoEsame.Features</definition>
+        <argsstring></argsstring>
+        <name>Features</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/TipoEsame.cs" line="25" column="36" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/TipoEsame.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_tipo_esame_1a04ecf5c3dc72f226059f068f634c2ac1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Molim.Backend.API.BusinessLayer.Data.Entities.TipoEsame.TipoEsame</definition>
+        <argsstring>()</argsstring>
+        <name>TipoEsame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/TipoEsame.cs" line="8" column="16" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/TipoEsame.cs" bodystart="8" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/TipoEsame.cs" line="6" column="19" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/TipoEsame.cs" bodystart="7" bodyend="26"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_tipo_esame_1aa6313cb1df63527356e6769d232841f4" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::TipoEsame</scope><name>Algoritmi</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_tipo_esame_1a8702182a3b0ce3c88b97b2acb217f7f6" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::TipoEsame</scope><name>CreationDate</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_tipo_esame_1add87c8e4a4bdb21fa538351dc4701678" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::TipoEsame</scope><name>CreatorAccountId</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_tipo_esame_1adf64eb20146add977ea9a424498c7e59" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::TipoEsame</scope><name>Descrizione</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_tipo_esame_1a38aef6bf40ef5667e7a69cc100e37155" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::TipoEsame</scope><name>Esami</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_tipo_esame_1a1f00c3fc6a39304e098b0b4160c6e5b3" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::TipoEsame</scope><name>Features</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_tipo_esame_1a667a68a53742cbc0ab3ac280817eea6c" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::TipoEsame</scope><name>IdPatologia</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_tipo_esame_1aa606e55e1038fcdc06a8e2e654201476" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::TipoEsame</scope><name>IdTipoEsame</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_tipo_esame_1a7f810a3aa3e1059d78b87c107081f7a6" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::TipoEsame</scope><name>LastUpdateDate</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_tipo_esame_1aa237ed0f7e36b2e352e232544ba6e564" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::TipoEsame</scope><name>Patologia</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_tipo_esame_1a9368a4e98a300e4c410c4c726898f09a" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::TipoEsame</scope><name>RichiedeImmagini</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_tipo_esame_1a04ecf5c3dc72f226059f068f634c2ac1" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::TipoEsame</scope><name>TipoEsame</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_tipo_esame_1a8f781197af815114ba9988aeadb3dc80" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::TipoEsame</scope><name>UpdaterAccountId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

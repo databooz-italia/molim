@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_a6eaf94e7f54ade4c24933b555200a78" kind="dir">
+    <compoundname>C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Exceptions</compoundname>
+    <innerfile refid="_business_managed_exception_8cs">BusinessManagedException.cs</innerfile>
+    <innerfile refid="_data_managed_exception_8cs">DataManagedException.cs</innerfile>
+    <innerfile refid="_error_codes_8cs">ErrorCodes.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Exceptions/"/>
+  </compounddef>
+</doxygen>

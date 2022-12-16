@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_57f9a44cfba6e03ae6d259ec4958be76" kind="dir">
+    <compoundname>C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Enums</compoundname>
+    <innerfile refid="_permissions_8cs">Permissions.cs</innerfile>
+    <innerfile refid="_tipi_algoritmo_8cs">TipiAlgoritmo.cs</innerfile>
+    <innerfile refid="_tipi_valore_test_8cs">TipiValoreTest.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Enums/"/>
+  </compounddef>
+</doxygen>

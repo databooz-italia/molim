@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_permissions_8cs" kind="file" language="C#">
+    <compoundname>Permissions.cs</compoundname>
+    <innernamespace refid="namespace_molim">Molim</innernamespace>
+    <innernamespace refid="namespace_molim_1_1_backend">Molim::Backend</innernamespace>
+    <innernamespace refid="namespace_molim_1_1_backend_1_1_a_p_i">Molim::Backend::API</innernamespace>
+    <innernamespace refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer">Molim::Backend::API::BusinessLayer</innernamespace>
+    <innernamespace refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data">Molim::Backend::API::BusinessLayer::Data</innernamespace>
+    <innernamespace refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities">Molim::Backend::API::BusinessLayer::Data::Entities</innernamespace>
+    <innernamespace refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_enums">Molim::Backend::API::BusinessLayer::Data::Entities::Enums</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Text;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5" refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_enums" refkind="compound"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_enums" kindref="compound">Molim.Backend.API.BusinessLayer.Data.Entities.Enums</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_enums_1a3e28ff664e73cbe7f9e3df160acc81a0" kindref="member">Permissions</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_enums_1a3e28ff664e73cbe7f9e3df160acc81a0a7b7bc2512ee1fedcd76bdc68926d4f7b" kindref="member">Administrator</ref>,</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Accounts<sp/>CRUD</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_enums_1a3e28ff664e73cbe7f9e3df160acc81a0a53c3ead3cf1b15d6c4a75ca108639974" kindref="member">ReadAccounts</ref>,</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_enums_1a3e28ff664e73cbe7f9e3df160acc81a0aff73f1128f8ebcac8679ea4bd99768a3" kindref="member">CreateAccounts</ref>,</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_enums_1a3e28ff664e73cbe7f9e3df160acc81a0ae3e5313af4f4cc119181519d9b35703f" kindref="member">UpdateAccounts</ref>,</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_enums_1a3e28ff664e73cbe7f9e3df160acc81a0a5921ccbf465db81d3e546c6474dfff59" kindref="member">DeleteAccounts</ref>,</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//PAZIENTI<sp/>CRUD</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_enums_1a3e28ff664e73cbe7f9e3df160acc81a0a988d25824414bdc7db509a21600ce9c2" kindref="member">ReadPazienti</ref>,</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_enums_1a3e28ff664e73cbe7f9e3df160acc81a0aff67b82910440a011a55e997ee919872" kindref="member">CreatePazienti</ref>,</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_enums_1a3e28ff664e73cbe7f9e3df160acc81a0ab7c5d2366e9a224febb75896706cfef2" kindref="member">UpdatePazienti</ref>,</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_enums_1a3e28ff664e73cbe7f9e3df160acc81a0a858c22012a099800bc3d4f01e62846cd" kindref="member">DeletePazienti</ref>,</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//ESAMI<sp/>PAZIENTI</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_enums_1a3e28ff664e73cbe7f9e3df160acc81a0a4ee6c9133c67e92c6b8f2f40db6cf580" kindref="member">ReadEsamiPazienti</ref>,</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//PATOLOGIE</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_enums_1a3e28ff664e73cbe7f9e3df160acc81a0a0573d14175613fc118bef718aa03e7ac" kindref="member">ReadPatologie</ref>,</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_enums_1a3e28ff664e73cbe7f9e3df160acc81a0a785eb8294920a11c09edc311cc9d9f9e" kindref="member">UploadImmagineEsame</ref></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Enums/Permissions.cs"/>
+  </compounddef>
+</doxygen>

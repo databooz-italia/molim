@@ -1,0 +1,57 @@
+<app-header [navbarBrandRouterLink]="['/dashboard']" [fixed]="true"
+  [navbarBrandFull]="{src: 'assets/img/brand/logo.png', width: 50, height: 50, alt: 'CoreUI Logo'}"
+  [navbarBrandMinimized]="{src: 'assets/img/brand/logo.png', width: 30, height: 30, alt: 'CoreUI Logo'}"
+  [sidebarToggler]="'lg'" [asideMenuToggler]="false" [mobileAsideMenuToggler]="false">
+  <div class="ml-auto">
+    <div class="mr-4" *ngIf="availableLanguages">
+      Language:
+      <select [ngModel]="selectedLanguage" (ngModelChange)="onLanguageChange($event)">
+        <option *ngFor="let l of availableLanguages" [value]="l">{{l}}</option>
+      </select>
+    </div>
+  </div>
+</app-header>
+<div class="app-body">
+  <app-sidebar [fixed]="true" [display]="'lg'" [minimized]="minimized" #sidebar
+    (minimizedChange)="toggleMinimize($event)">
+    <app-sidebar-nav *ngIf="showAppSidebar" [navItems]="navItemsLocal" [perfectScrollbar] [disabled]="sidebar.minimized"></app-sidebar-nav>
+    <app-sidebar-minimizer></app-sidebar-minimizer>
+  </app-sidebar>
+  <!-- Main content -->
+  <main class="main">
+    <!-- Breadcrumb -->
+    <cui-breadcrumb>
+      <!-- Breadcrumb Menu-->
+    </cui-breadcrumb>
+    <div class="container-fluid">
+      <router-outlet></router-outlet>
+    </div>
+  </main>
+  <app-aside [fixed]="true" [display]="false">
+  </app-aside>
+</div>
+<app-footer>
+  <div class="row w-100 p-0">
+    <div class="col-12 text-right">
+      <a href="https://europa.eu/european-union/index_it" target="_blank">
+        <img src="assets/img/partners/unione_europea.jpg" height="45" />
+      </a>
+      <a href="https://www.miur.gov.it/" target="_blank">
+        <img src="assets/img/partners/ministero_istruzione.jpg" height="45" />
+      </a>
+      <a href="https://www.istruzione.it/pon/" target="_blank">
+        <img src="assets/img/partners/pon.png" height="45" />
+      </a>
+    </div>
+    <!-- <div class="col-4">
+      
+    </div>
+    <div class="col-4">
+      
+    </div> -->
+  </div>
+  <!--
+  <span><a href="https://coreui.io">CoreUI</a> &copy; 2021 creativeLabs.</span>
+  <span class="ml-auto">Powered by <a href="https://coreui.io/angular">CoreUI 2 for Angular</a></span>
+  -->
+</app-footer>

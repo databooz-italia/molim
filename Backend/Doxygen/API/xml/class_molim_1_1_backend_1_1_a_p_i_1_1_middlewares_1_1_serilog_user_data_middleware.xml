@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_middlewares_1_1_serilog_user_data_middleware" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::Middlewares::SerilogUserDataMiddleware</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_molim_1_1_backend_1_1_a_p_i_1_1_middlewares_1_1_serilog_user_data_middleware_1aac5b45cedfdd8a38ba860ab13e8d2445" prot="private" static="no" mutable="no">
+        <type>readonly RequestDelegate</type>
+        <definition>readonly RequestDelegate Molim.Backend.API.Middlewares.SerilogUserDataMiddleware._next</definition>
+        <argsstring></argsstring>
+        <name>_next</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Middlewares/SerilogUserDataMiddleware.cs" line="11" column="34" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Middlewares/SerilogUserDataMiddleware.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_molim_1_1_backend_1_1_a_p_i_1_1_middlewares_1_1_serilog_user_data_middleware_1a166c1b5ac86aaefd6066c44eb4dccaaf" prot="private" static="no" mutable="no">
+        <type>readonly IAuthenticationProvider</type>
+        <definition>readonly IAuthenticationProvider Molim.Backend.API.Middlewares.SerilogUserDataMiddleware._authProvider</definition>
+        <argsstring></argsstring>
+        <name>_authProvider</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Middlewares/SerilogUserDataMiddleware.cs" line="12" column="42" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Middlewares/SerilogUserDataMiddleware.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_middlewares_1_1_serilog_user_data_middleware_1a61de67acd04804113b0f62feb94c29e4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Molim.Backend.API.Middlewares.SerilogUserDataMiddleware.SerilogUserDataMiddleware</definition>
+        <argsstring>(RequestDelegate next, IAuthenticationProvider authProvider)</argsstring>
+        <name>SerilogUserDataMiddleware</name>
+        <param>
+          <type>RequestDelegate</type>
+          <declname>next</declname>
+        </param>
+        <param>
+          <type>IAuthenticationProvider</type>
+          <declname>authProvider</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Middlewares/SerilogUserDataMiddleware.cs" line="14" column="16" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Middlewares/SerilogUserDataMiddleware.cs" bodystart="14" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_middlewares_1_1_serilog_user_data_middleware_1a9dc7078e2bfd14bf29597150540873f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task</type>
+        <definition>async Task Molim.Backend.API.Middlewares.SerilogUserDataMiddleware.Invoke</definition>
+        <argsstring>(HttpContext httpContext)</argsstring>
+        <name>Invoke</name>
+        <param>
+          <type>HttpContext</type>
+          <declname>httpContext</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Middlewares/SerilogUserDataMiddleware.cs" line="25" column="27" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Middlewares/SerilogUserDataMiddleware.cs" bodystart="25" bodyend="39"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Middlewares/SerilogUserDataMiddleware.cs" line="9" column="11" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Middlewares/SerilogUserDataMiddleware.cs" bodystart="10" bodyend="40"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_middlewares_1_1_serilog_user_data_middleware_1a166c1b5ac86aaefd6066c44eb4dccaaf" prot="private" virt="non-virtual"><scope>Molim::Backend::API::Middlewares::SerilogUserDataMiddleware</scope><name>_authProvider</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_middlewares_1_1_serilog_user_data_middleware_1aac5b45cedfdd8a38ba860ab13e8d2445" prot="private" virt="non-virtual"><scope>Molim::Backend::API::Middlewares::SerilogUserDataMiddleware</scope><name>_next</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_middlewares_1_1_serilog_user_data_middleware_1a9dc7078e2bfd14bf29597150540873f1" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Middlewares::SerilogUserDataMiddleware</scope><name>Invoke</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_middlewares_1_1_serilog_user_data_middleware_1a61de67acd04804113b0f62feb94c29e4" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Middlewares::SerilogUserDataMiddleware</scope><name>SerilogUserDataMiddleware</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

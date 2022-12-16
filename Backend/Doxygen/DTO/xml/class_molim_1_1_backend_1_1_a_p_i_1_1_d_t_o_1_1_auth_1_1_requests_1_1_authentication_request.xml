@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_auth_1_1_requests_1_1_authentication_request" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::DTO::Auth::Requests::AuthenticationRequest</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_auth_1_1_requests_1_1_authentication_request_1a8586ff25d110202ff9d0d9b72ca079ce" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.DTO.Auth.Requests.AuthenticationRequest.Username</definition>
+        <argsstring></argsstring>
+        <name>Username</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Auth/Requests/AuthenticationRequest.cs" line="11" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Auth/Requests/AuthenticationRequest.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_auth_1_1_requests_1_1_authentication_request_1a546b15d9753d2e81aa08599d0514fc5b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.DTO.Auth.Requests.AuthenticationRequest.Password</definition>
+        <argsstring></argsstring>
+        <name>Password</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Auth/Requests/AuthenticationRequest.cs" line="14" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Auth/Requests/AuthenticationRequest.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Auth/Requests/AuthenticationRequest.cs" line="8" column="11" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Auth/Requests/AuthenticationRequest.cs" bodystart="9" bodyend="15"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_auth_1_1_requests_1_1_authentication_request_1a546b15d9753d2e81aa08599d0514fc5b" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Auth::Requests::AuthenticationRequest</scope><name>Password</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_auth_1_1_requests_1_1_authentication_request_1a8586ff25d110202ff9d0d9b72ca079ce" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Auth::Requests::AuthenticationRequest</scope><name>Username</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

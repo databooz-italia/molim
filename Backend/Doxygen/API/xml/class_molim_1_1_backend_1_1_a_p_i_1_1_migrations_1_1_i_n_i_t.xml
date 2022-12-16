@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_i_n_i_t" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::Migrations::INIT</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Migration</basecompoundref>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_i_n_i_t_1a460da0e345ca174c9def8f08a94e0493" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Molim.Backend.API.Migrations.INIT.Up</definition>
+        <argsstring>(MigrationBuilder migrationBuilder)</argsstring>
+        <name>Up</name>
+        <param>
+          <type>MigrationBuilder</type>
+          <declname>migrationBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Migrations/20210629153120_INIT.cs" line="9" column="33" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Migrations/20210629153120_INIT.cs" bodystart="9" bodyend="541"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_i_n_i_t_1adb5d078ce5f1845f37114c103b0f97a1" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Molim.Backend.API.Migrations.INIT.Down</definition>
+        <argsstring>(MigrationBuilder migrationBuilder)</argsstring>
+        <name>Down</name>
+        <param>
+          <type>MigrationBuilder</type>
+          <declname>migrationBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Migrations/20210629153120_INIT.cs" line="543" column="33" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Migrations/20210629153120_INIT.cs" bodystart="543" bodyend="597"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_i_n_i_t_1a08fd017c2881d9dbb3d66e11f3fa6293" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Molim.Backend.API.Migrations.INIT.BuildTargetModel</definition>
+        <argsstring>(ModelBuilder modelBuilder)</argsstring>
+        <name>BuildTargetModel</name>
+        <param>
+          <type>ModelBuilder</type>
+          <declname>modelBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Migrations/20210629153120_INIT.Designer.cs" line="15" column="33" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Migrations/20210629153120_INIT.Designer.cs" bodystart="15" bodyend="908"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Migration</label>
+      </node>
+      <node id="1">
+        <label>Molim.Backend.API.Migrations.INIT</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_i_n_i_t"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Migration</label>
+      </node>
+      <node id="1">
+        <label>Molim.Backend.API.Migrations.INIT</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_i_n_i_t"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Migrations/20210629153120_INIT.cs" line="7" column="19" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Migrations/20210629153120_INIT.cs" bodystart="8" bodyend="598"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_i_n_i_t_1a08fd017c2881d9dbb3d66e11f3fa6293" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::Migrations::INIT</scope><name>BuildTargetModel</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_i_n_i_t_1adb5d078ce5f1845f37114c103b0f97a1" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::Migrations::INIT</scope><name>Down</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_i_n_i_t_1a460da0e345ca174c9def8f08a94e0493" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::Migrations::INIT</scope><name>Up</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

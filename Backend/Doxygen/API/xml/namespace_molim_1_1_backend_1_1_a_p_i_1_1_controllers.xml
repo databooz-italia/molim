@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="namespace_molim_1_1_backend_1_1_a_p_i_1_1_controllers" kind="namespace" language="C#">
+    <compoundname>Molim::Backend::API::Controllers</compoundname>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_accounts_controller" prot="public">Molim::Backend::API::Controllers::AccountsController</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_algoritmi_controller" prot="public">Molim::Backend::API::Controllers::AlgoritmiController</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_auth_controller" prot="public">Molim::Backend::API::Controllers::AuthController</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_patologie_controller" prot="public">Molim::Backend::API::Controllers::PatologieController</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_pazienti_controller" prot="public">Molim::Backend::API::Controllers::PazientiController</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_version_controller" prot="public">Molim::Backend::API::Controllers::VersionController</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/AccountsController.cs" line="14" column="1"/>
+  </compounddef>
+</doxygen>

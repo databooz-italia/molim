@@ -1,0 +1,25 @@
+var searchData=
+[
+  ['getaccountfilter_0',['GetAccountFilter',['../class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service.html#acffb84144b7314d8a213d7b8b4be91cc',1,'Molim::Backend::API::BusinessLayer::Services::BaseService']]],
+  ['getaccounts_1',['GetAccounts',['../class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_accounts_service.html#a424b4c4f449c4288e3f1d8d5ab0891d1',1,'Molim::Backend::API::BusinessLayer::Services::Authentication::AccountsService']]],
+  ['getaccountsquery_2ecs_2',['GetAccountsQuery.cs',['../_get_accounts_query_8cs.html',1,'']]],
+  ['getalgoritmi_3',['GetAlgoritmi',['../class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_patologie_1_1_algoritmi_service.html#aff02130ec001a4c5732dd142c463dacc',1,'Molim::Backend::API::BusinessLayer::Services::Patologie::AlgoritmiService']]],
+  ['getalgoritmiquery_2ecs_4',['GetAlgoritmiQuery.cs',['../_get_algoritmi_query_8cs.html',1,'']]],
+  ['getdettagliesamequery_2ecs_5',['GetDettagliEsameQuery.cs',['../_get_dettagli_esame_query_8cs.html',1,'']]],
+  ['getdiagnosipaziente_6',['GetDiagnosiPaziente',['../class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_pazienti_service.html#a1a0c7f8688b36180e57dfe430b565986',1,'Molim::Backend::API::BusinessLayer::Services::Authentication::PazientiService']]],
+  ['getdiagnosiquery_2ecs_7',['GetDiagnosiQuery.cs',['../_get_diagnosi_query_8cs.html',1,'']]],
+  ['getesamipaziente_8',['GetEsamiPaziente',['../class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_pazienti_service.html#ac7a243df184544762e07cf712a434feb',1,'Molim::Backend::API::BusinessLayer::Services::Authentication::PazientiService']]],
+  ['getesamiquery_2ecs_9',['GetEsamiQuery.cs',['../_get_esami_query_8cs.html',1,'']]],
+  ['getidesecutore_10',['GetIdEsecutore',['../class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_interfaces_1_1_i_manager_richieste_esecuzione.html#aec79ac2a1148241a6727ccec27935f78',1,'Molim::Backend::API::BusinessLayer::Interfaces::IManagerRichiesteEsecuzione']]],
+  ['getimmaginiquery_2ecs_11',['GetImmaginiQuery.cs',['../_get_immagini_query_8cs.html',1,'']]],
+  ['getloggedaccountid_12',['GetLoggedAccountId',['../interface_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_interfaces_1_1_i_authentication_provider.html#aedb75d7f51652bffd6e314e4cf7cfa6f',1,'Molim::Backend::API::BusinessLayer::Interfaces::IAuthenticationProvider']]],
+  ['getloggedaccountusername_13',['GetLoggedAccountUsername',['../interface_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_interfaces_1_1_i_authentication_provider.html#a53c7cc3665cda886534a981db0d59cea',1,'Molim::Backend::API::BusinessLayer::Interfaces::IAuthenticationProvider']]],
+  ['getmachineid_14',['GetMachineID',['../interface_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_interfaces_1_1_i_authentication_provider.html#a4a1f746613f411e3fcaeb961ee2722a2',1,'Molim::Backend::API::BusinessLayer::Interfaces::IAuthenticationProvider']]],
+  ['getpatologie_15',['GetPatologie',['../class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_patologie_1_1_patologie_service.html#ac4a39637c00185e1e6037123fbfab88a',1,'Molim::Backend::API::BusinessLayer::Services::Patologie::PatologieService']]],
+  ['getpatologiequery_2ecs_16',['GetPatologieQuery.cs',['../_get_patologie_query_8cs.html',1,'']]],
+  ['getpazienti_17',['GetPazienti',['../class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_pazienti_service.html#a7ef364b706293e563d8e92e504102368',1,'Molim::Backend::API::BusinessLayer::Services::Authentication::PazientiService']]],
+  ['getpazientiquery_2ecs_18',['GetPazientiQuery.cs',['../_get_pazienti_query_8cs.html',1,'']]],
+  ['getpredizionipaziente_19',['GetPredizioniPaziente',['../class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_pazienti_service.html#ad6b89f4df720121f1d720ff873172d2b',1,'Molim::Backend::API::BusinessLayer::Services::Authentication::PazientiService']]],
+  ['getpredizioniquery_2ecs_20',['GetPredizioniQuery.cs',['../_get_predizioni_query_8cs.html',1,'']]],
+  ['getrolepermissions_21',['GetRolePermissions',['../class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_permissions_service.html#a904ea0130ae8c4b4ebe636feb4af4a98',1,'Molim::Backend::API::BusinessLayer::Services::Authentication::PermissionsService']]]
+];

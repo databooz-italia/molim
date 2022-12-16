@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_422b1fab23a8cd2e0b27737a653039b9" kind="dir">
+    <compoundname>C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Interfaces</compoundname>
+    <innerdir refid="dir_5f0c21d90bb28bc1211edbd8fe635104">C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Interfaces/Entities</innerdir>
+    <innerfile refid="_i_authentication_provider_8cs">IAuthenticationProvider.cs</innerfile>
+    <innerfile refid="_i_manager_richieste_esecuzione_8cs">IManagerRichiesteEsecuzione.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Interfaces/"/>
+  </compounddef>
+</doxygen>

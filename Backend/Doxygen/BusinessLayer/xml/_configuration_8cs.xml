@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_configuration_8cs" kind="file" language="C#">
+    <compoundname>Configuration.cs</compoundname>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_configuration" prot="public">Molim::Backend::API::BusinessLayer::Services::Configuration</innerclass>
+    <innernamespace refid="namespace_molim">Molim</innernamespace>
+    <innernamespace refid="namespace_molim_1_1_backend">Molim::Backend</innernamespace>
+    <innernamespace refid="namespace_molim_1_1_backend_1_1_a_p_i">Molim::Backend::API</innernamespace>
+    <innernamespace refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer">Molim::Backend::API::BusinessLayer</innernamespace>
+    <innernamespace refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services">Molim::Backend::API::BusinessLayer::Services</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Text;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services" kindref="compound">Molim.Backend.API.BusinessLayer.Services</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7" refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_configuration" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_configuration" kindref="compound">Configuration</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_configuration_1a0129096ef9b74b148066cbb25da6ace0" kindref="member">NotificationImplementorType</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_configuration_1a4dde9a2305716a544fa27ae35ec655f4" kindref="member">RootPath</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_configuration_1a6262ededb1985ba3e3d7b8b567b4b336" kindref="member">CryptoSecret</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}<sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">string</highlight><highlight class="normal"><sp/><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_configuration_1ae2765a36066d8e7da45d98db11b6aaa1" kindref="member">Version</ref><sp/>{<sp/></highlight><highlight class="keyword">get</highlight><highlight class="normal">;<sp/></highlight><highlight class="keyword">set</highlight><highlight class="normal">;<sp/>}</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="14"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Configuration.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_configuration" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::BusinessLayer::Services::Configuration</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_configuration_1a0129096ef9b74b148066cbb25da6ace0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Services.Configuration.NotificationImplementorType</definition>
+        <argsstring></argsstring>
+        <name>NotificationImplementorType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Configuration.cs" line="9" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Configuration.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_configuration_1a4dde9a2305716a544fa27ae35ec655f4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Services.Configuration.RootPath</definition>
+        <argsstring></argsstring>
+        <name>RootPath</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Configuration.cs" line="10" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Configuration.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_configuration_1a6262ededb1985ba3e3d7b8b567b4b336" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Services.Configuration.CryptoSecret</definition>
+        <argsstring></argsstring>
+        <name>CryptoSecret</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Configuration.cs" line="11" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Configuration.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_configuration_1ae2765a36066d8e7da45d98db11b6aaa1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Services.Configuration.Version</definition>
+        <argsstring></argsstring>
+        <name>Version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Configuration.cs" line="12" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Configuration.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Configuration.cs" line="7" column="11" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Configuration.cs" bodystart="8" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_configuration_1a6262ededb1985ba3e3d7b8b567b4b336" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Configuration</scope><name>CryptoSecret</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_configuration_1a0129096ef9b74b148066cbb25da6ace0" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Configuration</scope><name>NotificationImplementorType</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_configuration_1a4dde9a2305716a544fa27ae35ec655f4" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Configuration</scope><name>RootPath</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_configuration_1ae2765a36066d8e7da45d98db11b6aaa1" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Configuration</scope><name>Version</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

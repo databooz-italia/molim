@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_dd828c9bce7ce3a4bd4d150b4fd5f58d" kind="dir">
+    <compoundname>C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services</compoundname>
+    <innerdir refid="dir_a840a9ef3054692cf8d4243fa09718e8">C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Algoritmi</innerdir>
+    <innerdir refid="dir_2de6a4127ba726b584a68dbbe150a360">C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication</innerdir>
+    <innerdir refid="dir_7dda9ed54ca35524497f941e62d7ec3f">C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Patologie</innerdir>
+    <innerdir refid="dir_17d2c82a852e789e3b5e1a411237017d">C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti</innerdir>
+    <innerfile refid="_base_service_8cs">BaseService.cs</innerfile>
+    <innerfile refid="_configuration_8cs">Configuration.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/"/>
+  </compounddef>
+</doxygen>

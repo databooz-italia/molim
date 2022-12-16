@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_diagnosi_proxy" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::BusinessLayer::Services::Pazienti::Models::DiagnosiProxy</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_diagnosi_proxy_1a6af39e753dd76ac298bd81997d47d2b6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Molim.Backend.API.BusinessLayer.Services.Pazienti.Models.DiagnosiProxy.ID</definition>
+        <argsstring></argsstring>
+        <name>ID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/DiagnosiProxy.cs" line="9" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/DiagnosiProxy.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_diagnosi_proxy_1a5f59ee96a701d4eb95de006e021bf4fe" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Services.Pazienti.Models.DiagnosiProxy.IdPaziente</definition>
+        <argsstring></argsstring>
+        <name>IdPaziente</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/DiagnosiProxy.cs" line="10" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/DiagnosiProxy.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_diagnosi_proxy_1a09a68fc64bc18398ab11af779f116519" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Services.Pazienti.Models.DiagnosiProxy.IdPatologia</definition>
+        <argsstring></argsstring>
+        <name>IdPatologia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/DiagnosiProxy.cs" line="11" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/DiagnosiProxy.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_diagnosi_proxy_1aac85d253580199278da067ed092aa2f0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime Molim.Backend.API.BusinessLayer.Services.Pazienti.Models.DiagnosiProxy.Data</definition>
+        <argsstring></argsstring>
+        <name>Data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/DiagnosiProxy.cs" line="12" column="25" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/DiagnosiProxy.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_diagnosi_proxy_1a37bad049c823c0d28010969e92c1e175" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Services.Pazienti.Models.DiagnosiProxy.DescrizionePatologia</definition>
+        <argsstring></argsstring>
+        <name>DescrizionePatologia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/DiagnosiProxy.cs" line="13" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/DiagnosiProxy.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_diagnosi_proxy_1ac5a73da92d026917bcbf0490865c07ce" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Services.Pazienti.Models.DiagnosiProxy.DescrizionePaziente</definition>
+        <argsstring></argsstring>
+        <name>DescrizionePaziente</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/DiagnosiProxy.cs" line="14" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/DiagnosiProxy.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_diagnosi_proxy_1a9b96ce38c2a13551f912f77196cb06a1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Services.Pazienti.Models.DiagnosiProxy.Esito</definition>
+        <argsstring></argsstring>
+        <name>Esito</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/DiagnosiProxy.cs" line="15" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/DiagnosiProxy.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/DiagnosiProxy.cs" line="7" column="11" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/DiagnosiProxy.cs" bodystart="8" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_diagnosi_proxy_1aac85d253580199278da067ed092aa2f0" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Pazienti::Models::DiagnosiProxy</scope><name>Data</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_diagnosi_proxy_1a37bad049c823c0d28010969e92c1e175" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Pazienti::Models::DiagnosiProxy</scope><name>DescrizionePatologia</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_diagnosi_proxy_1ac5a73da92d026917bcbf0490865c07ce" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Pazienti::Models::DiagnosiProxy</scope><name>DescrizionePaziente</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_diagnosi_proxy_1a9b96ce38c2a13551f912f77196cb06a1" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Pazienti::Models::DiagnosiProxy</scope><name>Esito</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_diagnosi_proxy_1a6af39e753dd76ac298bd81997d47d2b6" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Pazienti::Models::DiagnosiProxy</scope><name>ID</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_diagnosi_proxy_1a09a68fc64bc18398ab11af779f116519" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Pazienti::Models::DiagnosiProxy</scope><name>IdPatologia</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_diagnosi_proxy_1a5f59ee96a701d4eb95de006e021bf4fe" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Pazienti::Models::DiagnosiProxy</scope><name>IdPaziente</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

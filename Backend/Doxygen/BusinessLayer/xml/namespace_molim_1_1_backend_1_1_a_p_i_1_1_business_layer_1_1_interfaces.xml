@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_interfaces" kind="namespace" language="C#">
+    <compoundname>Molim::Backend::API::BusinessLayer::Interfaces</compoundname>
+    <innerclass refid="interface_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_interfaces_1_1_i_authentication_provider" prot="public">Molim::Backend::API::BusinessLayer::Interfaces::IAuthenticationProvider</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_interfaces_1_1_i_manager_richieste_esecuzione" prot="public">Molim::Backend::API::BusinessLayer::Interfaces::IManagerRichiesteEsecuzione</innerclass>
+    <innernamespace refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_interfaces_1_1_entities">Molim::Backend::API::BusinessLayer::Interfaces::Entities</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Interfaces/Entities/IConcurrencyObject.cs" line="5" column="1"/>
+  </compounddef>
+</doxygen>

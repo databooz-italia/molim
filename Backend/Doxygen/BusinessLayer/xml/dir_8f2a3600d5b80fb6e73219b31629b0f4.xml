@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_8f2a3600d5b80fb6e73219b31629b0f4" kind="dir">
+    <compoundname>C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities</compoundname>
+    <innerdir refid="dir_a121096068fcd3d133b2c02bdc3a79ca">C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Configurations</innerdir>
+    <innerdir refid="dir_57f9a44cfba6e03ae6d259ec4958be76">C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Enums</innerdir>
+    <innerfile refid="_account_8cs">Account.cs</innerfile>
+    <innerfile refid="_algoritmo_8cs">Algoritmo.cs</innerfile>
+    <innerfile refid="_diagnosi_8cs">Diagnosi.cs</innerfile>
+    <innerfile refid="_esame_8cs">Esame.cs</innerfile>
+    <innerfile refid="_esecutore_richiesta_8cs">EsecutoreRichiesta.cs</innerfile>
+    <innerfile refid="_feature_8cs">Feature.cs</innerfile>
+    <innerfile refid="_feature_algoritmo_8cs">FeatureAlgoritmo.cs</innerfile>
+    <innerfile refid="_feature_esame_8cs">FeatureEsame.cs</innerfile>
+    <innerfile refid="_immagine_8cs">Immagine.cs</innerfile>
+    <innerfile refid="_normalizzazione_feature_8cs">NormalizzazioneFeature.cs</innerfile>
+    <innerfile refid="_patologia_8cs">Patologia.cs</innerfile>
+    <innerfile refid="_paziente_8cs">Paziente.cs</innerfile>
+    <innerfile refid="_permesso_profilo_8cs">PermessoProfilo.cs</innerfile>
+    <innerfile refid="_predizione_8cs">Predizione.cs</innerfile>
+    <innerfile refid="_profilo_8cs">Profilo.cs</innerfile>
+    <innerfile refid="_regione_di_interesse_8cs">RegioneDiInteresse.cs</innerfile>
+    <innerfile refid="_richiesta_esecuzione_8cs">RichiestaEsecuzione.cs</innerfile>
+    <innerfile refid="_richiesta_esecuzione_fase_8cs">RichiestaEsecuzioneFase.cs</innerfile>
+    <innerfile refid="_score_predizione_8cs">ScorePredizione.cs</innerfile>
+    <innerfile refid="_stile_di_vita_8cs">StileDiVita.cs</innerfile>
+    <innerfile refid="_stile_di_vita_paziente_8cs">StileDiVitaPaziente.cs</innerfile>
+    <innerfile refid="_tipo_esame_8cs">TipoEsame.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/"/>
+  </compounddef>
+</doxygen>

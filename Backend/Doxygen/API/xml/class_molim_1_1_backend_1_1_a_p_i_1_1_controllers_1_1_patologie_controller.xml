@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_patologie_controller" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::Controllers::PatologieController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ControllerBase</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_patologie_controller_1a9bbfe2b9cc699d8dec3508d762753677" prot="private" static="no" mutable="no">
+        <type>readonly ILogger&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_patologie_controller" kindref="compound">PatologieController</ref> &gt;</type>
+        <definition>readonly ILogger&lt;PatologieController&gt; Molim.Backend.API.Controllers.PatologieController._logger</definition>
+        <argsstring></argsstring>
+        <name>_logger</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PatologieController.cs" line="25" column="34" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PatologieController.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_patologie_controller_1a1d6a46272608f27f8bdbd8b6fe53420f" prot="private" static="no" mutable="no">
+        <type>readonly BaseService</type>
+        <definition>readonly BaseService Molim.Backend.API.Controllers.PatologieController._uow</definition>
+        <argsstring></argsstring>
+        <name>_uow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PatologieController.cs" line="26" column="38" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PatologieController.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_patologie_controller_1ac664cbf56930befe11514e604a3c9aa4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Molim.Backend.API.Controllers.PatologieController.PatologieController</definition>
+        <argsstring>(ILogger&lt; PatologieController &gt; logger, BaseService uow)</argsstring>
+        <name>PatologieController</name>
+        <param>
+          <type>ILogger&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_patologie_controller" kindref="compound">PatologieController</ref> &gt;</type>
+          <declname>logger</declname>
+        </param>
+        <param>
+          <type>BaseService</type>
+          <declname>uow</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PatologieController.cs" line="28" column="16" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PatologieController.cs" bodystart="28" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_patologie_controller_1abb0d6935be790dced66d3c6c4b4fafa4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GetPatologieResponse</type>
+        <definition>GetPatologieResponse Molim.Backend.API.Controllers.PatologieController.GetPatologie</definition>
+        <argsstring>()</argsstring>
+        <name>GetPatologie</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PatologieController.cs" line="38" column="37" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PatologieController.cs" bodystart="38" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ControllerBase</label>
+      </node>
+      <node id="1">
+        <label>Molim.Backend.API.Controllers.PatologieController</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_patologie_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ControllerBase</label>
+      </node>
+      <node id="1">
+        <label>Molim.Backend.API.Controllers.PatologieController</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_patologie_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PatologieController.cs" line="23" column="11" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PatologieController.cs" bodystart="24" bodyend="56"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_patologie_controller_1a9bbfe2b9cc699d8dec3508d762753677" prot="private" virt="non-virtual"><scope>Molim::Backend::API::Controllers::PatologieController</scope><name>_logger</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_patologie_controller_1a1d6a46272608f27f8bdbd8b6fe53420f" prot="private" virt="non-virtual"><scope>Molim::Backend::API::Controllers::PatologieController</scope><name>_uow</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_patologie_controller_1abb0d6935be790dced66d3c6c4b4fafa4" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Controllers::PatologieController</scope><name>GetPatologie</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_patologie_controller_1ac664cbf56930befe11514e604a3c9aa4" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Controllers::PatologieController</scope><name>PatologieController</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

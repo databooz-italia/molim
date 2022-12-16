@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>C:\Progetti\Molim\Backend\Molim.Backend.API.DTO\Molim.Backend.API.DTO.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Algoritmi\Requests\" />
+    <Folder Include="Patologie\Requests\" />
+    <Folder Include="Pazienti\Esami\Requests\" />
+  </ItemGroup>
+
+</Project>

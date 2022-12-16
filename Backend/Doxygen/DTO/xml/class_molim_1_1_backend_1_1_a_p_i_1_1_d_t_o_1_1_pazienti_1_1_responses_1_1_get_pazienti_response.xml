@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_responses_1_1_get_pazienti_response" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::DTO::Pazienti::Responses::GetPazientiResponse</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_responses_1_1_get_pazienti_response_1a475196a0452d40895d93acc69633834c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>IEnumerable&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_paziente_d_t_o" kindref="compound">PazienteDTO</ref> &gt;</type>
+        <definition>IEnumerable&lt;PazienteDTO&gt; Molim.Backend.API.DTO.Pazienti.Responses.GetPazientiResponse.Pazienti</definition>
+        <argsstring></argsstring>
+        <name>Pazienti</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Responses/GetPazientiResponse.cs" line="9" column="28" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Responses/GetPazientiResponse.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Responses/GetPazientiResponse.cs" line="7" column="11" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Responses/GetPazientiResponse.cs" bodystart="8" bodyend="10"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_responses_1_1_get_pazienti_response_1a475196a0452d40895d93acc69633834c" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::Responses::GetPazientiResponse</scope><name>Pazienti</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

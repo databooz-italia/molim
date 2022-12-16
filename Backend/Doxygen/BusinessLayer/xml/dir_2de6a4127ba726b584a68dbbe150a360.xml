@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_2de6a4127ba726b584a68dbbe150a360" kind="dir">
+    <compoundname>C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication</compoundname>
+    <innerdir refid="dir_0a9e4aae64912c6d83d50c1aa95be8b5">C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication/Models</innerdir>
+    <innerfile refid="_accounts_service_8cs">AccountsService.cs</innerfile>
+    <innerfile refid="_permissions_service_8cs">PermissionsService.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication/"/>
+  </compounddef>
+</doxygen>

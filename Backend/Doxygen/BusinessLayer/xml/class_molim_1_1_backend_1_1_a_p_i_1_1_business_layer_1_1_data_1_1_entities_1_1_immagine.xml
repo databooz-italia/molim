@@ -1,0 +1,213 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_immagine" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::BusinessLayer::Data::Entities::Immagine</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_immagine_1ab8ff5f41fe8fca6987308093142ee544" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Molim.Backend.API.BusinessLayer.Data.Entities.Immagine.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Immagine.cs" line="13" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Immagine.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_immagine_1aecd325941d658ed16663a4452673c1de" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Molim.Backend.API.BusinessLayer.Data.Entities.Immagine.IdEsame</definition>
+        <argsstring></argsstring>
+        <name>IdEsame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Immagine.cs" line="14" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Immagine.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_immagine_1adfa2dbaaeac4e43c5064acbd924a8f61" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Data.Entities.Immagine.NomeFile</definition>
+        <argsstring></argsstring>
+        <name>NomeFile</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Immagine.cs" line="15" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Immagine.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_immagine_1ae92cce8e20d14d20f7cc40024960e8ad" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime Molim.Backend.API.BusinessLayer.Data.Entities.Immagine.DataCaricamento</definition>
+        <argsstring></argsstring>
+        <name>DataCaricamento</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Immagine.cs" line="16" column="25" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Immagine.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_immagine_1a6e2ce98d140733dfa29d48ab3381addf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long Molim.Backend.API.BusinessLayer.Data.Entities.Immagine.Dimensione</definition>
+        <argsstring></argsstring>
+        <name>Dimensione</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Immagine.cs" line="17" column="21" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Immagine.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_immagine_1a03d1fb47eac534bf1caf9e1ee21bead5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? Molim.Backend.API.BusinessLayer.Data.Entities.Immagine.CreatorAccountId</definition>
+        <argsstring></argsstring>
+        <name>CreatorAccountId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Immagine.cs" line="18" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Immagine.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_immagine_1a9247704d97051d9ddfc9552656c9c17f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? Molim.Backend.API.BusinessLayer.Data.Entities.Immagine.UpdaterAccountId</definition>
+        <argsstring></argsstring>
+        <name>UpdaterAccountId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Immagine.cs" line="19" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Immagine.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_immagine_1a926dffdaa59d454c1843a3b4fa055c74" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime Molim.Backend.API.BusinessLayer.Data.Entities.Immagine.CreationDate</definition>
+        <argsstring></argsstring>
+        <name>CreationDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Immagine.cs" line="20" column="25" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Immagine.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_immagine_1aa6afa77a836f979704e352cb2a7d4043" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime Molim.Backend.API.BusinessLayer.Data.Entities.Immagine.LastUpdateDate</definition>
+        <argsstring></argsstring>
+        <name>LastUpdateDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Immagine.cs" line="21" column="25" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Immagine.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_immagine_1a4e419e3868dbb100dc49f2847198918b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_esame" kindref="compound">Esame</ref></type>
+        <definition>virtual Esame Molim.Backend.API.BusinessLayer.Data.Entities.Immagine.Esame</definition>
+        <argsstring></argsstring>
+        <name>Esame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Immagine.cs" line="23" column="30" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Immagine.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_immagine_1a7a28af2a3b09f2ead0fb3de640ce11b5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ICollection&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_regione_di_interesse" kindref="compound">RegioneDiInteresse</ref> &gt;</type>
+        <definition>virtual ICollection&lt;RegioneDiInteresse&gt; Molim.Backend.API.BusinessLayer.Data.Entities.Immagine.RegioniDiInteresse</definition>
+        <argsstring></argsstring>
+        <name>RegioniDiInteresse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Immagine.cs" line="24" column="36" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Immagine.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_immagine_1accb8d546e61ca6b6e756d0f44c7ef2ab" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ICollection&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_feature_esame" kindref="compound">FeatureEsame</ref> &gt;</type>
+        <definition>virtual ICollection&lt;FeatureEsame&gt; Molim.Backend.API.BusinessLayer.Data.Entities.Immagine.Features</definition>
+        <argsstring></argsstring>
+        <name>Features</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Immagine.cs" line="25" column="36" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Immagine.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_immagine_1a18d8b86d6d32059d01938ecc25bf430f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ICollection&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_richiesta_esecuzione" kindref="compound">RichiestaEsecuzione</ref> &gt;</type>
+        <definition>virtual ICollection&lt;RichiestaEsecuzione&gt; Molim.Backend.API.BusinessLayer.Data.Entities.Immagine.RichiesteEsecuzione</definition>
+        <argsstring></argsstring>
+        <name>RichiesteEsecuzione</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Immagine.cs" line="26" column="36" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Immagine.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_immagine_1a9fcac5a47a88adf71b9fcc308a3aa5c1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Molim.Backend.API.BusinessLayer.Data.Entities.Immagine.Immagine</definition>
+        <argsstring>()</argsstring>
+        <name>Immagine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Immagine.cs" line="8" column="16" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Immagine.cs" bodystart="8" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Immagine.cs" line="6" column="19" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Immagine.cs" bodystart="7" bodyend="27"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_immagine_1a926dffdaa59d454c1843a3b4fa055c74" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::Immagine</scope><name>CreationDate</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_immagine_1a03d1fb47eac534bf1caf9e1ee21bead5" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::Immagine</scope><name>CreatorAccountId</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_immagine_1ae92cce8e20d14d20f7cc40024960e8ad" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::Immagine</scope><name>DataCaricamento</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_immagine_1a6e2ce98d140733dfa29d48ab3381addf" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::Immagine</scope><name>Dimensione</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_immagine_1a4e419e3868dbb100dc49f2847198918b" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::Immagine</scope><name>Esame</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_immagine_1accb8d546e61ca6b6e756d0f44c7ef2ab" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::Immagine</scope><name>Features</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_immagine_1ab8ff5f41fe8fca6987308093142ee544" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::Immagine</scope><name>Id</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_immagine_1aecd325941d658ed16663a4452673c1de" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::Immagine</scope><name>IdEsame</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_immagine_1a9fcac5a47a88adf71b9fcc308a3aa5c1" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::Immagine</scope><name>Immagine</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_immagine_1aa6afa77a836f979704e352cb2a7d4043" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::Immagine</scope><name>LastUpdateDate</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_immagine_1adfa2dbaaeac4e43c5064acbd924a8f61" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::Immagine</scope><name>NomeFile</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_immagine_1a7a28af2a3b09f2ead0fb3de640ce11b5" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::Immagine</scope><name>RegioniDiInteresse</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_immagine_1a18d8b86d6d32059d01938ecc25bf430f" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::Immagine</scope><name>RichiesteEsecuzione</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_immagine_1a9247704d97051d9ddfc9552656c9c17f" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::Immagine</scope><name>UpdaterAccountId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

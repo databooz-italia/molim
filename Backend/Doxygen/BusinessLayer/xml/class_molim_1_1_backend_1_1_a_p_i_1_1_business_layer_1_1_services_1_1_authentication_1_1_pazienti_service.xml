@@ -1,0 +1,485 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_pazienti_service" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::BusinessLayer::Services::Authentication::PazientiService</compoundname>
+    <basecompoundref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service" prot="public" virt="non-virtual">Molim.Backend.API.BusinessLayer.Services.BaseService</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_pazienti_service_1a1e914e217d7d40e0eaa2155897483925" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Molim.Backend.API.BusinessLayer.Services.Authentication.PazientiService.PazientiService</definition>
+        <argsstring>(MolimDb db, Configuration conf, IAuthenticationProvider auth, ILogger logger)</argsstring>
+        <name>PazientiService</name>
+        <param>
+          <type><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_molim_db" kindref="compound">MolimDb</ref></type>
+          <declname>db</declname>
+        </param>
+        <param>
+          <type><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_configuration" kindref="compound">Configuration</ref></type>
+          <declname>conf</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_interfaces_1_1_i_authentication_provider" kindref="compound">IAuthenticationProvider</ref></type>
+          <declname>auth</declname>
+        </param>
+        <param>
+          <type>ILogger</type>
+          <declname>logger</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/PazientiService.cs" line="22" column="16" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/PazientiService.cs" bodystart="22" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_pazienti_service_1aafcadd7a1613dd46d61f754edc5e27f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Molim.Backend.API.BusinessLayer.Services.Authentication.PazientiService.PazientiService</definition>
+        <argsstring>(BaseService b)</argsstring>
+        <name>PazientiService</name>
+        <param>
+          <type><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service" kindref="compound">BaseService</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/PazientiService.cs" line="27" column="16" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/PazientiService.cs" bodystart="27" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_pazienti_service_1a7ef364b706293e563d8e92e504102368" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_paziente_proxy" kindref="compound">PazienteProxy</ref> &gt;</type>
+        <definition>IEnumerable&lt; PazienteProxy &gt; Molim.Backend.API.BusinessLayer.Services.Authentication.PazientiService.GetPazienti</definition>
+        <argsstring>()</argsstring>
+        <name>GetPazienti</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/PazientiService.cs" line="32" column="28" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/PazientiService.cs" bodystart="32" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_pazienti_service_1a1f5bb9f3ee16b75f2ecb95277988b879" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente" kindref="compound">Paziente</ref></type>
+        <definition>Paziente Molim.Backend.API.BusinessLayer.Services.Authentication.PazientiService.CreatePaziente</definition>
+        <argsstring>(string id, string city, string codiceFiscale, string cognome, string nome, string numeroCellulare, string sesso, int? education, string indirizzo, string indirizzoMail, int? annoNascita)</argsstring>
+        <name>CreatePaziente</name>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>city</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>codiceFiscale</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>cognome</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>nome</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>numeroCellulare</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>sesso</declname>
+        </param>
+        <param>
+          <type>int?</type>
+          <declname>education</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>indirizzo</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>indirizzoMail</declname>
+        </param>
+        <param>
+          <type>int?</type>
+          <declname>annoNascita</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/PazientiService.cs" line="58" column="25" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/PazientiService.cs" bodystart="58" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_pazienti_service_1aa93f3e5f002b7c487e5900c4aeecfa9e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente" kindref="compound">Paziente</ref></type>
+        <definition>Paziente Molim.Backend.API.BusinessLayer.Services.Authentication.PazientiService.UpdatePaziente</definition>
+        <argsstring>(string id, string city, string codiceFiscale, string cognome, string nome, string numeroCellulare, string sesso, int? education, string indirizzo, string indirizzoMail, int? annoNascita)</argsstring>
+        <name>UpdatePaziente</name>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>city</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>codiceFiscale</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>cognome</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>nome</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>numeroCellulare</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>sesso</declname>
+        </param>
+        <param>
+          <type>int?</type>
+          <declname>education</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>indirizzo</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>indirizzoMail</declname>
+        </param>
+        <param>
+          <type>int?</type>
+          <declname>annoNascita</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/PazientiService.cs" line="93" column="25" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/PazientiService.cs" bodystart="93" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_pazienti_service_1a27586569edb019213b5a2d709967e9ba" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Molim.Backend.API.BusinessLayer.Services.Authentication.PazientiService.DeletePaziente</definition>
+        <argsstring>(string id)</argsstring>
+        <name>DeletePaziente</name>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/PazientiService.cs" line="124" column="21" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/PazientiService.cs" bodystart="124" bodyend="139"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_pazienti_service_1ac7a243df184544762e07cf712a434feb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_esame_paziente_proxy" kindref="compound">EsamePazienteProxy</ref> &gt;</type>
+        <definition>IEnumerable&lt; EsamePazienteProxy &gt; Molim.Backend.API.BusinessLayer.Services.Authentication.PazientiService.GetEsamiPaziente</definition>
+        <argsstring>(string idPaziente)</argsstring>
+        <name>GetEsamiPaziente</name>
+        <param>
+          <type>string</type>
+          <declname>idPaziente</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/PazientiService.cs" line="141" column="28" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/PazientiService.cs" bodystart="141" bodyend="262"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_pazienti_service_1ad6b89f4df720121f1d720ff873172d2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_predizione_proxy" kindref="compound">PredizioneProxy</ref> &gt;</type>
+        <definition>IEnumerable&lt; PredizioneProxy &gt; Molim.Backend.API.BusinessLayer.Services.Authentication.PazientiService.GetPredizioniPaziente</definition>
+        <argsstring>(string idPaziente)</argsstring>
+        <name>GetPredizioniPaziente</name>
+        <param>
+          <type>string</type>
+          <declname>idPaziente</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/PazientiService.cs" line="264" column="28" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/PazientiService.cs" bodystart="264" bodyend="285"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_pazienti_service_1a1a0c7f8688b36180e57dfe430b565986" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_diagnosi_proxy" kindref="compound">DiagnosiProxy</ref> &gt;</type>
+        <definition>IEnumerable&lt; DiagnosiProxy &gt; Molim.Backend.API.BusinessLayer.Services.Authentication.PazientiService.GetDiagnosiPaziente</definition>
+        <argsstring>(string idPaziente)</argsstring>
+        <name>GetDiagnosiPaziente</name>
+        <param>
+          <type>string</type>
+          <declname>idPaziente</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/PazientiService.cs" line="287" column="28" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/PazientiService.cs" bodystart="287" bodyend="305"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_pazienti_service_1ac6b14e1e9987e8be0874de1116da71ee" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Molim.Backend.API.BusinessLayer.Services.Authentication.PazientiService.SaveDiagnosi</definition>
+        <argsstring>(string idPaziente, string idPatologia, DateTime date, string esito)</argsstring>
+        <name>SaveDiagnosi</name>
+        <param>
+          <type>string</type>
+          <declname>idPaziente</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>idPatologia</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>date</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>esito</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/PazientiService.cs" line="307" column="21" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/PazientiService.cs" bodystart="307" bodyend="323"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_pazienti_service_1adb8fc5de8dbd9ff098c136950c573b27" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Molim.Backend.API.BusinessLayer.Services.Authentication.PazientiService.CreateImmagine</definition>
+        <argsstring>(string idPaziente, int idEsame, string fileName, long fileLength)</argsstring>
+        <name>CreateImmagine</name>
+        <param>
+          <type>string</type>
+          <declname>idPaziente</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>idEsame</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>fileLength</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/PazientiService.cs" line="325" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/PazientiService.cs" bodystart="325" bodyend="345"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_pazienti_service_1ab87c82005bd3366308fde947d573abae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Molim.Backend.API.BusinessLayer.Services.Authentication.PazientiService.CreateRoi</definition>
+        <argsstring>(int idImmagine, string fileName, long fileLength)</argsstring>
+        <name>CreateRoi</name>
+        <param>
+          <type>int</type>
+          <declname>idImmagine</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>fileLength</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/PazientiService.cs" line="347" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/PazientiService.cs" bodystart="347" bodyend="366"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_pazienti_service_1a88925dc9074db40d761e82ca4102f7f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Molim.Backend.API.BusinessLayer.Services.Authentication.PazientiService.SaveFeatureEsame</definition>
+        <argsstring>(int idEsame, string idFeature, string valore)</argsstring>
+        <name>SaveFeatureEsame</name>
+        <param>
+          <type>int</type>
+          <declname>idEsame</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>idFeature</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>valore</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/PazientiService.cs" line="368" column="21" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/PazientiService.cs" bodystart="368" bodyend="413"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_pazienti_service_1a1cf457d1a0e6d2a80ce6f6b71a5eca04" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Molim.Backend.API.BusinessLayer.Services.Authentication.PazientiService.SaveEsame</definition>
+        <argsstring>(string idPaziente, string idPatologia, string idTipoEsame, DateTime date)</argsstring>
+        <name>SaveEsame</name>
+        <param>
+          <type>string</type>
+          <declname>idPaziente</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>idPatologia</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>idTipoEsame</declname>
+        </param>
+        <param>
+          <type>DateTime</type>
+          <declname>date</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/PazientiService.cs" line="415" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/PazientiService.cs" bodystart="415" bodyend="438"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BaseService</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IDisposable</label>
+      </node>
+      <node id="1">
+        <label>Molim.Backend.API.BusinessLayer.Services.Authentication.PazientiService</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_pazienti_service"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BaseService</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>_db</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>_conf</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>_auth</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>DbContext</label>
+      </node>
+      <node id="3">
+        <label>IDisposable</label>
+      </node>
+      <node id="1">
+        <label>Molim.Backend.API.BusinessLayer.Services.Authentication.PazientiService</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_pazienti_service"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Molim.Backend.API.BusinessLayer.Data.MolimDb</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_molim_db"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>_authProvider</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Molim.Backend.API.BusinessLayer.Interfaces.IAuthenticationProvider</label>
+        <link refid="interface_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_interfaces_1_1_i_authentication_provider"/>
+      </node>
+      <node id="7">
+        <label>Molim.Backend.API.BusinessLayer.Services.Configuration</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_configuration"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/PazientiService.cs" line="19" column="11" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/PazientiService.cs" bodystart="20" bodyend="439"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a36217be48299da65d31a87eb60c55d6d" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::PazientiService</scope><name>_auth</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a9192187bf2560ff73c19b0aef14f1e47" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::PazientiService</scope><name>_conf</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1ac57080880999c7ee8934bdd3c604551d" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::PazientiService</scope><name>_db</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a4b12efc8d974ac29ca5f03cc5482a6c4" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::PazientiService</scope><name>_logger</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a6330d4e327ae7cc6edf09d7279e7b3a2" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::PazientiService</scope><name>BaseService</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1ae2117087b44b26782caa1f6c8c43eb53" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::PazientiService</scope><name>BaseService</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a2ef723fe8681ace7c663b7b8819d572d" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::PazientiService</scope><name>CheckPermissionBase</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a170d3181c78a90d2e637579de6ffd5bb" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::PazientiService</scope><name>CheckPermissionBase</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a8c84e15cab213eb8256ac6354d6b256d" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::PazientiService</scope><name>CheckPermissionBase</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a4de5455074d660f45875aff92ebaf172" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::PazientiService</scope><name>Complete</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_pazienti_service_1adb8fc5de8dbd9ff098c136950c573b27" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::PazientiService</scope><name>CreateImmagine</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_pazienti_service_1a1f5bb9f3ee16b75f2ecb95277988b879" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::PazientiService</scope><name>CreatePaziente</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_pazienti_service_1ab87c82005bd3366308fde947d573abae" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::PazientiService</scope><name>CreateRoi</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a6b6e7f00a5c2d12bb111ffbaba2f2042" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::PazientiService</scope><name>Database</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_pazienti_service_1a27586569edb019213b5a2d709967e9ba" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::PazientiService</scope><name>DeletePaziente</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a27bb528bc06be6bac2d3a92b5298ec9d" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::PazientiService</scope><name>Dispose</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1acffb84144b7314d8a213d7b8b4be91cc" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::PazientiService</scope><name>GetAccountFilter</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_pazienti_service_1a1a0c7f8688b36180e57dfe430b565986" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::PazientiService</scope><name>GetDiagnosiPaziente</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_pazienti_service_1ac7a243df184544762e07cf712a434feb" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::PazientiService</scope><name>GetEsamiPaziente</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_pazienti_service_1a7ef364b706293e563d8e92e504102368" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::PazientiService</scope><name>GetPazienti</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_pazienti_service_1ad6b89f4df720121f1d720ff873172d2b" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::PazientiService</scope><name>GetPredizioniPaziente</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1ae6d1ec877514141042d2d976b4cd3b92" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::PazientiService</scope><name>MolimConfiguration</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_pazienti_service_1a1e914e217d7d40e0eaa2155897483925" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::PazientiService</scope><name>PazientiService</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_pazienti_service_1aafcadd7a1613dd46d61f754edc5e27f9" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::PazientiService</scope><name>PazientiService</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_pazienti_service_1ac6b14e1e9987e8be0874de1116da71ee" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::PazientiService</scope><name>SaveDiagnosi</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_pazienti_service_1a1cf457d1a0e6d2a80ce6f6b71a5eca04" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::PazientiService</scope><name>SaveEsame</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_pazienti_service_1a88925dc9074db40d761e82ca4102f7f5" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::PazientiService</scope><name>SaveFeatureEsame</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_pazienti_service_1aa93f3e5f002b7c487e5900c4aeecfa9e" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::PazientiService</scope><name>UpdatePaziente</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

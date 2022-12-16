@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_requests_1_1_update_account_request" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::DTO::Accounts::Requests::UpdateAccountRequest</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_requests_1_1_update_account_request_1a4d689ad959edbf250c5ee15a72ad6b27" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.DTO.Accounts.Requests.UpdateAccountRequest.Username</definition>
+        <argsstring></argsstring>
+        <name>Username</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Accounts/Requests/UpdateAccountRequest.cs" line="9" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Accounts/Requests/UpdateAccountRequest.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_requests_1_1_update_account_request_1a2b3bcfe17106120b1fcb2eb94a65d780" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.DTO.Accounts.Requests.UpdateAccountRequest.Password</definition>
+        <argsstring></argsstring>
+        <name>Password</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Accounts/Requests/UpdateAccountRequest.cs" line="10" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Accounts/Requests/UpdateAccountRequest.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_requests_1_1_update_account_request_1a184bb2ea3f3b47f481266cfdec5403b2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.DTO.Accounts.Requests.UpdateAccountRequest.LastName</definition>
+        <argsstring></argsstring>
+        <name>LastName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Accounts/Requests/UpdateAccountRequest.cs" line="11" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Accounts/Requests/UpdateAccountRequest.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_requests_1_1_update_account_request_1aededa91a8bce3d1cf7b99542abf6b42d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.DTO.Accounts.Requests.UpdateAccountRequest.FirstName</definition>
+        <argsstring></argsstring>
+        <name>FirstName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Accounts/Requests/UpdateAccountRequest.cs" line="12" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Accounts/Requests/UpdateAccountRequest.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_requests_1_1_update_account_request_1a1cc629fdcb1c4e1e81e057899a6026cf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? Molim.Backend.API.DTO.Accounts.Requests.UpdateAccountRequest.Bookings</definition>
+        <argsstring></argsstring>
+        <name>Bookings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Accounts/Requests/UpdateAccountRequest.cs" line="13" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Accounts/Requests/UpdateAccountRequest.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_requests_1_1_update_account_request_1a6662421f731a3b24dbc69b51845af3dc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? Molim.Backend.API.DTO.Accounts.Requests.UpdateAccountRequest.BookingsToDate</definition>
+        <argsstring></argsstring>
+        <name>BookingsToDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Accounts/Requests/UpdateAccountRequest.cs" line="14" column="25" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Accounts/Requests/UpdateAccountRequest.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_requests_1_1_update_account_request_1aceced28a7ead89a2b6e0d3fa18b90013" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? Molim.Backend.API.DTO.Accounts.Requests.UpdateAccountRequest.AccountType_ID</definition>
+        <argsstring></argsstring>
+        <name>AccountType_ID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Accounts/Requests/UpdateAccountRequest.cs" line="15" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Accounts/Requests/UpdateAccountRequest.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_requests_1_1_update_account_request_1a9103a46718f7f10251fcbb40616954d9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long Molim.Backend.API.DTO.Accounts.Requests.UpdateAccountRequest.Version</definition>
+        <argsstring></argsstring>
+        <name>Version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Accounts/Requests/UpdateAccountRequest.cs" line="16" column="21" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Accounts/Requests/UpdateAccountRequest.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Accounts/Requests/UpdateAccountRequest.cs" line="7" column="11" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Accounts/Requests/UpdateAccountRequest.cs" bodystart="8" bodyend="17"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_requests_1_1_update_account_request_1aceced28a7ead89a2b6e0d3fa18b90013" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Accounts::Requests::UpdateAccountRequest</scope><name>AccountType_ID</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_requests_1_1_update_account_request_1a1cc629fdcb1c4e1e81e057899a6026cf" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Accounts::Requests::UpdateAccountRequest</scope><name>Bookings</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_requests_1_1_update_account_request_1a6662421f731a3b24dbc69b51845af3dc" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Accounts::Requests::UpdateAccountRequest</scope><name>BookingsToDate</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_requests_1_1_update_account_request_1aededa91a8bce3d1cf7b99542abf6b42d" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Accounts::Requests::UpdateAccountRequest</scope><name>FirstName</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_requests_1_1_update_account_request_1a184bb2ea3f3b47f481266cfdec5403b2" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Accounts::Requests::UpdateAccountRequest</scope><name>LastName</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_requests_1_1_update_account_request_1a2b3bcfe17106120b1fcb2eb94a65d780" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Accounts::Requests::UpdateAccountRequest</scope><name>Password</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_requests_1_1_update_account_request_1a4d689ad959edbf250c5ee15a72ad6b27" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Accounts::Requests::UpdateAccountRequest</scope><name>Username</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_requests_1_1_update_account_request_1a9103a46718f7f10251fcbb40616954d9" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Accounts::Requests::UpdateAccountRequest</scope><name>Version</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

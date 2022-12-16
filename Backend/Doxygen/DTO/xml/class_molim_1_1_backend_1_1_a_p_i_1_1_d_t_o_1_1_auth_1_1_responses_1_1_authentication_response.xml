@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_auth_1_1_responses_1_1_authentication_response" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::DTO::Auth::Responses::AuthenticationResponse</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_auth_1_1_responses_1_1_authentication_response_1aa4fb4486ea97ae3f8c22f08087b2064d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.DTO.Auth.Responses.AuthenticationResponse.ShortTermToken</definition>
+        <argsstring></argsstring>
+        <name>ShortTermToken</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Auth/Responses/AuthenticationResponse.cs" line="11" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Auth/Responses/AuthenticationResponse.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_auth_1_1_responses_1_1_authentication_response_1a5d6429ef7a9f13faf9b86260440d7278" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.DTO.Auth.Responses.AuthenticationResponse.LongTermToken</definition>
+        <argsstring></argsstring>
+        <name>LongTermToken</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Auth/Responses/AuthenticationResponse.cs" line="14" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Auth/Responses/AuthenticationResponse.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_auth_1_1_responses_1_1_authentication_response_1ac0593b187b34dba67a547dc335680e03" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.DTO.Auth.Responses.AuthenticationResponse.Username</definition>
+        <argsstring></argsstring>
+        <name>Username</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Auth/Responses/AuthenticationResponse.cs" line="17" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Auth/Responses/AuthenticationResponse.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_auth_1_1_responses_1_1_authentication_response_1a0a51311d800675bbbf74f587a3cdc403" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Molim.Backend.API.DTO.Auth.Responses.AuthenticationResponse.Account_ID</definition>
+        <argsstring></argsstring>
+        <name>Account_ID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Auth/Responses/AuthenticationResponse.cs" line="20" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Auth/Responses/AuthenticationResponse.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_auth_1_1_responses_1_1_authentication_response_1a6cf4c58fbaaae72fa60193bb68f2464d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.DTO.Auth.Responses.AuthenticationResponse.RoleType</definition>
+        <argsstring></argsstring>
+        <name>RoleType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Auth/Responses/AuthenticationResponse.cs" line="23" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Auth/Responses/AuthenticationResponse.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_auth_1_1_responses_1_1_authentication_response_1a80a54321031eb8236aa40f74f2762b3b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; string &gt;</type>
+        <definition>List&lt;string&gt; Molim.Backend.API.DTO.Auth.Responses.AuthenticationResponse.Permissions</definition>
+        <argsstring></argsstring>
+        <name>Permissions</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Auth/Responses/AuthenticationResponse.cs" line="26" column="21" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Auth/Responses/AuthenticationResponse.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_auth_1_1_responses_1_1_authentication_response_1a684050d663e30c6bdbcf8c363b8663cb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool Molim.Backend.API.DTO.Auth.Responses.AuthenticationResponse.ResetPassword</definition>
+        <argsstring></argsstring>
+        <name>ResetPassword</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Auth/Responses/AuthenticationResponse.cs" line="29" column="21" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Auth/Responses/AuthenticationResponse.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Auth/Responses/AuthenticationResponse.cs" line="8" column="11" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Auth/Responses/AuthenticationResponse.cs" bodystart="9" bodyend="30"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_auth_1_1_responses_1_1_authentication_response_1a0a51311d800675bbbf74f587a3cdc403" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Auth::Responses::AuthenticationResponse</scope><name>Account_ID</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_auth_1_1_responses_1_1_authentication_response_1a5d6429ef7a9f13faf9b86260440d7278" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Auth::Responses::AuthenticationResponse</scope><name>LongTermToken</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_auth_1_1_responses_1_1_authentication_response_1a80a54321031eb8236aa40f74f2762b3b" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Auth::Responses::AuthenticationResponse</scope><name>Permissions</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_auth_1_1_responses_1_1_authentication_response_1a684050d663e30c6bdbcf8c363b8663cb" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Auth::Responses::AuthenticationResponse</scope><name>ResetPassword</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_auth_1_1_responses_1_1_authentication_response_1a6cf4c58fbaaae72fa60193bb68f2464d" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Auth::Responses::AuthenticationResponse</scope><name>RoleType</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_auth_1_1_responses_1_1_authentication_response_1aa4fb4486ea97ae3f8c22f08087b2064d" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Auth::Responses::AuthenticationResponse</scope><name>ShortTermToken</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_auth_1_1_responses_1_1_authentication_response_1ac0593b187b34dba67a547dc335680e03" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Auth::Responses::AuthenticationResponse</scope><name>Username</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

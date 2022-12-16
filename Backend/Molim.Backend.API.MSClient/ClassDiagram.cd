@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Molim.Backend.API.MSClient.HttpClient">
+    <Position X="6.25" Y="3.5" Width="2.75" />
+    <NestedTypes>
+      <Struct Name="Molim.Backend.API.MSClient.HttpClient.ObjectResponseResult&lt;T&gt;" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>HttpClient.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAABQUggAAAEAAQAhBAAgAAAAAAgACAwAAAIAwAEAAA=</HashCode>
+      <FileName>HttpClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.MSClient.Task" Collapsed="true">
+    <Position X="10.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAEAAAEAAAQAAAIAAAAEAAAAIAgAAAAAAAAAAA=</HashCode>
+      <FileName>HttpClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.MSClient.SampleInput" Collapsed="true">
+    <Position X="8.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HttpClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.MSClient.TaskHandle" Collapsed="true">
+    <Position X="12.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAEAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HttpClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.MSClient.FileParameter" Collapsed="true">
+    <Position X="8.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAABAAAA=</HashCode>
+      <FileName>HttpClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.MSClient.ApiException" Collapsed="true">
+    <Position X="6.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAEAAAAAAAACAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>HttpClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.MSClient.ApiException&lt;TResult&gt;" Collapsed="true">
+    <Position X="6.5" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HttpClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.MSClient.ManagerRichiesteEsecuzioneMS">
+    <Position X="9.5" Y="3.5" Width="3.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Class Name="Molim.Backend.API.MSClient.ManagerRichiesteEsecuzioneMS.ParametriRichiesta" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ManagerRichiesteEsecuzioneMS.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AEGAgAAACCAAIAAQAAgAEgAAAAAAAAAAAAQAAAAAABA=</HashCode>
+      <FileName>ManagerRichiesteEsecuzioneMS.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Molim.Backend.API.MSClient.TaskStatus">
+    <Position X="4.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAgAAAAAAAAAAAQQAAAAAAAAAAAACBAAA=</HashCode>
+      <FileName>HttpClient.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

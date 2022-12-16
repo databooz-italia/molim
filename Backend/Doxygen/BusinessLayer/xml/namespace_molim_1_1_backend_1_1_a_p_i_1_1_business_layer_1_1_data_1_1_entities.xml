@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities" kind="namespace" language="C#">
+    <compoundname>Molim::Backend::API::BusinessLayer::Data::Entities</compoundname>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_account" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::Account</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_algoritmo" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::Algoritmo</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_diagnosi" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::Diagnosi</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_esame" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::Esame</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_esecutore_richiesta" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::EsecutoreRichiesta</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_feature" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::Feature</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_feature_algoritmo" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::FeatureAlgoritmo</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_feature_esame" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::FeatureEsame</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_immagine" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::Immagine</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_normalizzazione_feature" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::NormalizzazioneFeature</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_patologia" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::Patologia</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::Paziente</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_permesso_profilo" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::PermessoProfilo</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_predizione" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::Predizione</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_profilo" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::Profilo</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_regione_di_interesse" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::RegioneDiInteresse</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_richiesta_esecuzione" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::RichiestaEsecuzione</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_richiesta_esecuzione_fase" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::RichiestaEsecuzioneFase</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_score_predizione" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::ScorePredizione</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_stile_di_vita" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::StileDiVita</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_stile_di_vita_paziente" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::StileDiVitaPaziente</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_tipo_esame" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::TipoEsame</innerclass>
+    <innernamespace refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_configurations">Molim::Backend::API::BusinessLayer::Data::Entities::Configurations</innernamespace>
+    <innernamespace refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_enums">Molim::Backend::API::BusinessLayer::Data::Entities::Enums</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Account.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

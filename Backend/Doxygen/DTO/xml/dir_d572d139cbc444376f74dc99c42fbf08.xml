@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_d572d139cbc444376f74dc99c42fbf08" kind="dir">
+    <compoundname>C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Predizioni/Requests</compoundname>
+    <innerfile refid="_create_predizione_paziente_8cs">CreatePredizionePaziente.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Predizioni/Requests/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_b38a00f0ecc812a6fbd2b6e10f0d1148" kind="dir">
+    <compoundname>C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries</compoundname>
+    <innerdir refid="dir_01ecd4cb8abf02b9925b7d0b3c9ce073">C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Accounts</innerdir>
+    <innerdir refid="dir_bc2a19ece0d087393efe7f0dee3eb487">C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Algoritmi</innerdir>
+    <innerdir refid="dir_a523735762791694d517943834a7d24f">C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Patologie</innerdir>
+    <innerdir refid="dir_e288ffc14d61853ac5e327597378ac0b">C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/"/>
+  </compounddef>
+</doxygen>

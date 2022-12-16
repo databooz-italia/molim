@@ -1,0 +1,12 @@
+var searchData=
+[
+  ['regionidiinteresse_0',['RegioniDiInteresse',['../class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_immagine_d_t_o.html#aabeaceef5d4cf6765c2ac04ccf975974',1,'Molim::Backend::API::DTO::Pazienti::Esami::ImmagineDTO']]],
+  ['regionofinterestdto_1',['RegionOfInterestDTO',['../class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_region_of_interest_d_t_o.html',1,'Molim::Backend::API::DTO::Pazienti::Esami']]],
+  ['regionofinterestdto_2ecs_2',['RegionOfInterestDTO.cs',['../_region_of_interest_d_t_o_8cs.html',1,'']]],
+  ['resetpassword_3',['ResetPassword',['../class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_auth_1_1_responses_1_1_authentication_response.html#a684050d663e30c6bdbcf8c363b8663cb',1,'Molim::Backend::API::DTO::Auth::Responses::AuthenticationResponse']]],
+  ['resetpasswordrequest_4',['ResetPasswordRequest',['../class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_auth_1_1_requests_1_1_reset_password_request.html',1,'Molim::Backend::API::DTO::Auth::Requests']]],
+  ['resetpasswordrequest_2ecs_5',['ResetPasswordRequest.cs',['../_reset_password_request_8cs.html',1,'']]],
+  ['richiedeimmagini_6',['RichiedeImmagini',['../class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_patologie_1_1_tipologia_esame_d_t_o.html#aeb2a51aa939e29b24d70262debebd2ec',1,'Molim.Backend.API.DTO.Patologie.TipologiaEsameDTO.RichiedeImmagini()'],['../class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_esame_paziente_d_t_o.html#a12031eae9d5e1b7b1ff6d9009bbfa87c',1,'Molim.Backend.API.DTO.Pazienti.Esami.EsamePazienteDTO.RichiedeImmagini()']]],
+  ['roledescription_7',['RoleDescription',['../class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_account_d_t_o.html#a1df4fc33825137b7bafc385e5d635236',1,'Molim::Backend::API::DTO::Accounts::AccountDTO']]],
+  ['roletype_8',['RoleType',['../class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_account_d_t_o.html#a222d2af1900f385781259ab7522f8d2b',1,'Molim.Backend.API.DTO.Accounts.AccountDTO.RoleType()'],['../class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_requests_1_1_create_account_request.html#ab20c9453adf5bb0f238a09b0dd082410',1,'Molim.Backend.API.DTO.Accounts.Requests.CreateAccountRequest.RoleType()'],['../class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_auth_1_1_responses_1_1_authentication_response.html#a6cf4c58fbaaae72fa60193bb68f2464d',1,'Molim.Backend.API.DTO.Auth.Responses.AuthenticationResponse.RoleType()']]]
+];

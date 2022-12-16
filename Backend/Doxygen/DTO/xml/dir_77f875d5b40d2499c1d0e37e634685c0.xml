@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_77f875d5b40d2499c1d0e37e634685c0" kind="dir">
+    <compoundname>C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Accounts/Responses</compoundname>
+    <innerfile refid="_get_accounts_response_8cs">GetAccountsResponse.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Accounts/Responses/"/>
+  </compounddef>
+</doxygen>

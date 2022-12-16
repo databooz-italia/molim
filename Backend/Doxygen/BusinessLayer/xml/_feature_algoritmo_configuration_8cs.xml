@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_feature_algoritmo_configuration_8cs" kind="file" language="C#">
+    <compoundname>FeatureAlgoritmoConfiguration.cs</compoundname>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_configurations_1_d766c7962ff94153a133df2cfabd83b9" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::Configurations::FeatureAlgoritmoConfiguration</innerclass>
+    <innernamespace refid="namespace_molim">Molim</innernamespace>
+    <innernamespace refid="namespace_molim_1_1_backend">Molim::Backend</innernamespace>
+    <innernamespace refid="namespace_molim_1_1_backend_1_1_a_p_i">Molim::Backend::API</innernamespace>
+    <innernamespace refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer">Molim::Backend::API::BusinessLayer</innernamespace>
+    <innernamespace refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data">Molim::Backend::API::BusinessLayer::Data</innernamespace>
+    <innernamespace refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities">Molim::Backend::API::BusinessLayer::Data::Entities</innernamespace>
+    <innernamespace refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_configurations">Molim::Backend::API::BusinessLayer::Data::Entities::Configurations</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Microsoft.EntityFrameworkCore;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Microsoft.EntityFrameworkCore.Metadata.Builders;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Text;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_configurations" kindref="compound">Molim.Backend.API.BusinessLayer.Data.Entities.Configurations</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9" refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_configurations_1_d766c7962ff94153a133df2cfabd83b9" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_configurations_1_d766c7962ff94153a133df2cfabd83b9" kindref="compound">FeatureAlgoritmoConfiguration</ref><sp/>:<sp/>IEntityTypeConfiguration&lt;FeatureAlgoritmo&gt;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_configurations_1_d766c7962ff94153a133df2cfabd83b9_1ae91290e2ad1d0bf75e87aff5ef5b9c56" kindref="member">Configure</ref>(EntityTypeBuilder&lt;FeatureAlgoritmo&gt;<sp/>entity)</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>entity.ToTable(</highlight><highlight class="stringliteral">&quot;features_algoritmi&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>entity.HasKey(x<sp/>=&gt;<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>{<sp/>x.IdAlgoritmo,<sp/>x.IdFeature<sp/>});</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>entity.HasOne(d<sp/>=&gt;<sp/>d.Algoritmo)</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.WithMany(p<sp/>=&gt;<sp/>p.Features)</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.HasForeignKey(d<sp/>=&gt;<sp/>d.IdAlgoritmo)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.OnDelete(DeleteBehavior.ClientSetNull)</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.HasConstraintName(</highlight><highlight class="stringliteral">&quot;fk_algoritmifeatures_algoritmi&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>entity.HasOne(d<sp/>=&gt;<sp/>d.Feature)</highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.WithMany(p<sp/>=&gt;<sp/>p.Algoritmi)</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.HasForeignKey(d<sp/>=&gt;<sp/>d.IdFeature)</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.OnDelete(DeleteBehavior.ClientSetNull)</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.HasConstraintName(</highlight><highlight class="stringliteral">&quot;fk_algoritmifeatures_features&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Configurations/FeatureAlgoritmoConfiguration.cs"/>
+  </compounddef>
+</doxygen>

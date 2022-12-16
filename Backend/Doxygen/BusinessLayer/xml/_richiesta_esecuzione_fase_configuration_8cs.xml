@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_richiesta_esecuzione_fase_configuration_8cs" kind="file" language="C#">
+    <compoundname>RichiestaEsecuzioneFaseConfiguration.cs</compoundname>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_configurations_1_da25de468f91aeba9ced4c0cf832a2dc" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::Configurations::RichiestaEsecuzioneFaseConfiguration</innerclass>
+    <innernamespace refid="namespace_molim">Molim</innernamespace>
+    <innernamespace refid="namespace_molim_1_1_backend">Molim::Backend</innernamespace>
+    <innernamespace refid="namespace_molim_1_1_backend_1_1_a_p_i">Molim::Backend::API</innernamespace>
+    <innernamespace refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer">Molim::Backend::API::BusinessLayer</innernamespace>
+    <innernamespace refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data">Molim::Backend::API::BusinessLayer::Data</innernamespace>
+    <innernamespace refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities">Molim::Backend::API::BusinessLayer::Data::Entities</innernamespace>
+    <innernamespace refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_configurations">Molim::Backend::API::BusinessLayer::Data::Entities::Configurations</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Microsoft.EntityFrameworkCore;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Microsoft.EntityFrameworkCore.Metadata.Builders;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Text;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_configurations" kindref="compound">Molim.Backend.API.BusinessLayer.Data.Entities.Configurations</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="9" refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_configurations_1_da25de468f91aeba9ced4c0cf832a2dc" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_configurations_1_da25de468f91aeba9ced4c0cf832a2dc" kindref="compound">RichiestaEsecuzioneFaseConfiguration</ref><sp/>:<sp/>IEntityTypeConfiguration&lt;RichiestaEsecuzioneFase&gt;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_configurations_1_da25de468f91aeba9ced4c0cf832a2dc_1ac07b169de62c99a45b0aaab5abf1ac44" kindref="member">Configure</ref>(EntityTypeBuilder&lt;RichiestaEsecuzioneFase&gt;<sp/>entity)</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>entity.ToTable(</highlight><highlight class="stringliteral">&quot;richiestaesecuzionefasi&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>entity.HasKey(x<sp/>=&gt;<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>{<sp/>x.IdRichiestaEsecuzione,<sp/>x.IdFase,<sp/>x.Ordine<sp/>});</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>entity.Property(x<sp/>=&gt;<sp/>x.IdFase).HasMaxLength(100).IsRequired();</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>entity.Property(x<sp/>=&gt;<sp/>x.Status).HasMaxLength(250).IsRequired(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>entity.HasOne(x<sp/>=&gt;<sp/>x.Richiesta)</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.WithMany(x<sp/>=&gt;<sp/>x.Fasi)</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.HasForeignKey(x<sp/>=&gt;<sp/>x.IdRichiestaEsecuzione);</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="24"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Configurations/RichiestaEsecuzioneFaseConfiguration.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_profili" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::BusinessLayer::Data::Entities::Profili</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_profili_1a0b47d7250b4d996692590b9e74f7be96" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Data.Entities.Profili.Tipo</definition>
+        <argsstring></argsstring>
+        <name>Tipo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/Profili.cs" line="14" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/Profili.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_profili_1a154a0adc0146122145fabb97461d80c7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Data.Entities.Profili.Descrizione</definition>
+        <argsstring></argsstring>
+        <name>Descrizione</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/Profili.cs" line="15" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/Profili.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_profili_1ac169ab4765db79a4eaa9a9c3642d05a1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ICollection&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_accounts" kindref="compound">Accounts</ref> &gt;</type>
+        <definition>virtual ICollection&lt;Accounts&gt; Molim.Backend.API.BusinessLayer.Data.Entities.Profili.Accounts</definition>
+        <argsstring></argsstring>
+        <name>Accounts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/Profili.cs" line="17" column="36" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/Profili.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_profili_1a81e83f6574198d25b0aac9516c54e8dd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ICollection&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_permessi_profili" kindref="compound">PermessiProfili</ref> &gt;</type>
+        <definition>virtual ICollection&lt;PermessiProfili&gt; Molim.Backend.API.BusinessLayer.Data.Entities.Profili.PermessiProfili</definition>
+        <argsstring></argsstring>
+        <name>PermessiProfili</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/Profili.cs" line="18" column="36" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/Profili.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_profili_1aa7d5166fe21e6e6b23629f55b8f7f1dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Molim.Backend.API.BusinessLayer.Data.Entities.Profili.Profili</definition>
+        <argsstring>()</argsstring>
+        <name>Profili</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/Profili.cs" line="8" column="16" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/Profili.cs" bodystart="8" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/Profili.cs" line="6" column="19" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/Profili.cs" bodystart="7" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_profili_1ac169ab4765db79a4eaa9a9c3642d05a1" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::Profili</scope><name>Accounts</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_profili_1a154a0adc0146122145fabb97461d80c7" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::Profili</scope><name>Descrizione</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_profili_1a81e83f6574198d25b0aac9516c54e8dd" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::Profili</scope><name>PermessiProfili</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_profili_1aa7d5166fe21e6e6b23629f55b8f7f1dd" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::Profili</scope><name>Profili</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_profili_1a0b47d7250b4d996692590b9e74f7be96" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::Profili</scope><name>Tipo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

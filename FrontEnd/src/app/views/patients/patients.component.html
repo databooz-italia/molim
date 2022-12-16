@@ -1,0 +1,445 @@
+<div class="animated fadeIn">
+    <div class="row" *ngIf="!detail">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header"><strong>{{'PATIENTS.LIST.TITLE' | translate}}</strong></div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="input-group mb-3">
+                                <div class="input-group-prepend"><span class="input-group-text"><i
+                                            class="icon-magnifier"></i></span>
+                                </div>
+                                <input type="text" [(ngModel)]="textFilter" (ngModelChange)="filter()"
+                                    placeholder="{{'PATIENTS.LIST.FILTER' | translate}}" class="form-control">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-12">
+                            <ngx-datatable *ngIf="!isBusy" rowHeight="auto" class="bootstrap" [rows]="showingPatients"
+                                [columns]="columns" [columnMode]="ColumnMode.flex" [selected]="selected"
+                                [selectionType]="SelectionType.single" (activate)="onActivate($event)" [limit]="10"
+                                [footerHeight]="50"> </ngx-datatable>
+                        </div>
+                    </div>
+                    <div class="row mt-3">
+                        <div class="col-12 text-right">
+                            <button type="button" class="btn btn-sm btn-success" (click)="newPatient()">{{'BUTTONS.ADD' | translate}}</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row" *ngIf="detail">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-header"><strong>{{'PATIENTS.DETAIL.TITLE' | translate}} {{detail.cognomePaziente}} {{detail.nomePaziente}}</strong>
+                </div>
+                <div class="card-body">
+                    <nav ngbNav #nav="ngbNav" class="nav-tabs">
+                        <ng-container ngbNavItem>
+                            <a ngbNavLink>Details</a>
+                            <ng-template ngbNavContent>
+                                <div class="row mt-3">
+                                    <div class="col-12">
+                                        <form [formGroup]="patientForm" (ngSubmit)="onSubmit()">
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <input type="text" id="idPaziente" formControlName="idPaziente"
+                                                        name="idPaziente" placeholder="{{'PATIENTS.DETAIL.ID' | translate}}" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <input type="text" formControlName="cognomePaziente"
+                                                        id="cognomePaziente" name="cognomePaziente"
+                                                        placeholder="{{'PATIENTS.DETAIL.LAST_NAME' | translate}}" autocomplete="cognomePaziente"
+                                                        class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <input type="text" formControlName="nomePaziente" id="nomePaziente"
+                                                        name="nomePaziente" placeholder="{{'PATIENTS.DETAIL.FIRST_NAME' | translate}}"
+                                                        autocomplete="nomePaziente" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <input type="text" formControlName="sesso" id="sesso" name="sesso"
+                                                        placeholder="{{'PATIENTS.DETAIL.GENDER' | translate}}" autocomplete="current-password"
+                                                        class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <input type="number" formControlName="annoNascita" id="annoNascita"
+                                                        name="annoNascita" placeholder="{{'PATIENTS.DETAIL.YEAR_OF_BIRTH' | translate}}"
+                                                        autocomplete="annoNascita" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <input type="text" formControlName="city" id="city" name="city"
+                                                        placeholder="{{'PATIENTS.DETAIL.CITY' | translate}}" autocomplete="city" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <input type="number" formControlName="education" id="password"
+                                                        name="education" placeholder="{{'PATIENTS.DETAIL.EDUCATION' | translate}}"
+                                                        autocomplete="education" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <input type="text" formControlName="indirizzoMail"
+                                                        id="indirizzoMail" name="indirizzoMail" placeholder="{{'PATIENTS.DETAIL.EMAIL' | translate}}"
+                                                        autocomplete="indirizzoMail" class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="form-group">
+                                                <div class="input-group">
+                                                    <input type="text" formControlName="numeroCellulare"
+                                                        id="numeroCellulare" name="numeroCellulare"
+                                                        placeholder="{{'PATIENTS.DETAIL.CELLPHONE' | translate}}" autocomplete="numeroCellulare"
+                                                        class="form-control">
+                                                </div>
+                                            </div>
+                                            <div class="form-group form-actions">
+                                                <div class="row">
+                                                    <div class="col-6">
+
+                                                    </div>
+                                                    <div class="col-6 text-right">
+                                                        <button type="submit" class="btn btn-sm btn-success"
+                                                            [disabled]="isBusy">{{ (detailOriginalId != null ? 'BUTTONS.MODIFY' : 'BUTTONS.SUBMIT') | translate }}</button>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </ng-template>
+                        </ng-container>
+                        <ng-container ngbNavItem>
+                            <a ngbNavLink>{{'PATIENTS.DETAIL.PATHOLOGIES' | translate}}</a>
+                            <ng-template ngbNavContent>
+                                <div class="row">
+                                    <div class="col-3">
+                                        <ul class="list-group list-group-flush">
+                                            <li class="list-group-item p-2">{{'PATIENTS.DETAIL.SELECT_PATHOLOGY' | translate}}</li>
+                                            <li *ngFor="let pathology of pathologies"
+                                                class="list-group-item list-group-item-action {{pathology == selectedPathology ? 'active' : ''}} p-2"
+                                                (click)="selectPathology(pathology)">{{pathology.descrizione}} ({{getPathologyExamNumber(pathology)}})</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-9">
+                                        <div class="row" *ngIf="selectedPathology && exams">
+                                            <!-- <div class="col-6">
+                                                <h3>
+                                                    Exams
+                                                    <button type="button" class="btn btn-sm btn-success" (click)="showAddExam = true">Add</button>
+                                                </h3>
+                                                
+                                            </div> -->
+                                            <div class="col-12">
+                                                <nav ngbNav #nav2="ngbNav" class="nav-tabs">
+                                                    <ng-container ngbNavItem>
+                                                        <a ngbNavLink>{{'PATIENTS.DETAIL.PREDICTIONS' | translate}} <button type="button"
+                                                                class="btn btn-sm btn-success"
+                                                                (click)="showPredictionRequest = !showPredictionRequest"><i
+                                                                    class="icon-plus"></i></button></a>
+                                                        <ng-template ngbNavContent>
+                                                            <div class="row" *ngIf="showPredictionRequest">
+                                                                <div class="col-3">
+                                                                    <select class="form-control"
+                                                                        [(ngModel)]="idImageForPrediction">
+                                                                        <option value="" disabled selected>{{'PATIENTS.DETAIL.SELECT_IMAGE_ROI' | translate}}</option>
+                                                                        <ng-container *ngFor="let exam of showingExams">
+                                                                            <ng-container
+                                                                                *ngFor="let image of exam.immagini">
+
+                                                                                <option value="I_{{image.id}}">
+                                                                                    {{image.nome}} - 
+                                                                                    {{image.dataCaricamento | date:
+                                                                                    'dd/MM/yyyy'}}.
+                                                                                </option>
+                                                                                <option 
+                                                                                    *ngFor="let roi of image.regioniDiInteresse" value="R_{{roi.id}}">
+                                                                                    {{image.nome}} ROI {{roi.nomeFile}}
+                                                                                </option>
+                                                                            </ng-container>
+                                                                        </ng-container>
+                                                                    </select>
+                                                                </div>
+                                                                <div class="col-3">
+                                                                    <div class="form-check">
+                                                                        {{'PATIENTS.DETAIL.SEX' | translate}}: {{detail.sesso}}
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        {{'PATIENTS.DETAIL.YEAR_OF_BIRTH' | translate}}: {{detail.annoNascita}}
+                                                                    </div>
+                                                                    <div class="form-check">
+                                                                        {{'PATIENTS.DETAIL.EDUCATION' | translate}}:
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-3">
+                                                                    <select [(ngModel)]="idSelectedPredictionAlgorithm" *ngIf="idImageForPrediction" class="w-100">
+                                                                        <option value="" disabled>{{'PATIENTS.DETAIL.SELECT_PREDICTION_ALGORITHM' | translate}}
+                                                                        </option>
+                                                                        <option *ngFor="let alg of algorithms" [value]="alg.id">
+                                                                            {{alg.desc}}
+                                                                        </option>                                                                       
+                                                                    </select>
+                                                                </div>
+
+                                                                <div class="col-3">
+                                                                    <button type="button" class="btn btn-sm btn-success"
+                                                                        (click)="requestPrediction()" [disabled]="!idSelectedPredictionAlgorithm">{{'BUTTONS.SUBMIT' | translate}}</button>
+                                                                </div>
+                                                            </div>
+                                                            <ngx-datatable rowHeight="auto" class="bootstrap"
+                                                                [rows]="showingPredictions"
+                                                                [columns]="predictionsColumns"
+                                                                [columnMode]="ColumnMode.flex" [footerHeight]="50">
+                                                            </ngx-datatable>
+                                                        </ng-template>
+                                                    </ng-container>
+                                                    <ng-container ngbNavItem>
+                                                        <a ngbNavLink>{{'PATIENTS.DETAIL.DIAGNOSIS' | translate}} <button type="button"
+                                                                class="btn btn-sm btn-success"
+                                                                (click)="showAddDiagnosis = !showAddDiagnosis"><i
+                                                                    class="icon-plus"></i></button></a>
+                                                        <ng-template ngbNavContent>
+                                                            <div class="row" *ngIf="showAddDiagnosis">
+                                                                <div class="col-4">
+                                                                    <input type="date"
+                                                                        [ngModel]="newDiagnosisDate | date:'yyyy-MM-dd'"
+                                                                        (ngModelChange)="newDiagnosisDate = $event"
+                                                                        class="w-100">
+                                                                </div>
+                                                                <div class="col-4">
+                                                                    <input type="text" class="w-100"
+                                                                        [(ngModel)]="newDiagnosisResult">
+                                                                </div>
+                                                                <div class="col-4">
+                                                                    <button type="button" class="btn btn-sm btn-success"
+                                                                        (click)="saveNewDiagnosis()">{{'BUTTONS.SUBMIT' | translate}}</button>
+                                                                </div>
+                                                            </div>
+                                                            <ngx-datatable rowHeight="auto" class="bootstrap"
+                                                                [rows]="showingDiagnosis" [columns]="diagnosisColumns"
+                                                                [columnMode]="ColumnMode.flex" [footerHeight]="50">
+                                                            </ngx-datatable>
+                                                        </ng-template>
+                                                    </ng-container>
+                                                </nav>
+
+                                                <div [ngbNavOutlet]="nav2"></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <hr />
+                                <!-- <h3 class="text-center" *ngIf="selectedExam">
+                                    {{selectedPathology.descrizione}} - {{selectedExam.descrizioneTipoEsame}} of
+                                    {{selectedExam.data | date:'MM/dd/yyyy'}}
+                                </h3> -->
+                                <div class="row mt-4" *ngIf="selectedPathology">
+                                    <div class="col-4">
+                                        <h3>{{'PATIENTS.DETAIL.EXAMS' | translate}} <button type="button" class="btn btn-sm btn-success"
+                                                (click)="showAddExam = !showAddExam"><i class="icon-plus"></i></button>
+                                        </h3>
+                                        <h4 *ngIf="showAddExam">{{'PATIENTS.DETAIL.ADD_EXAM' | translate}}</h4>
+                                        <div class="row" *ngIf="showAddExam">
+                                            <div class="col-4">
+                                                <select class="form-control" [(ngModel)]="newExamType">
+                                                    <option value="" disabled selected>{{'PATIENTS.DETAIL.SELECT_EXAM_TYPE' | translate}}</option>
+                                                    <option *ngFor="let examType of selectedPathology.tipiEsami"
+                                                        [value]="examType.idTipologiaEsame">{{examType.descrizione}}
+                                                    </option>
+                                                </select>
+                                            </div>
+                                            <div class="col-4">
+                                                <input type="date" [ngModel]="newExamDate | date:'yyyy-MM-dd'"
+                                                    (ngModelChange)="newExamDate = $event" class="w-100">
+                                            </div>
+                                            <div class="col-4">
+                                                <button type="button" class="btn btn-sm btn-success"
+                                                    (click)="saveNewExam()">{{'BUTTONS.SUBMIT' | translate}}</button>
+                                            </div>
+                                        </div>
+                                        <ngx-datatable *ngIf="showingExams && showingExams.length > 0" rowHeight="auto"
+                                            class="bootstrap" [rows]="showingExams" [columns]="examsColumns"
+                                            [columnMode]="ColumnMode.flex" [selected]="selectedExams"
+                                            [selectionType]="SelectionType.single" (activate)="onExamActivate($event)"
+                                            [footerHeight]="50">
+                                        </ngx-datatable>
+                                    </div>
+                                    <div class="col-8" *ngIf="selectedExam">
+                                        <div *ngIf="selectedExam.richiedeImmagini">
+                                            <ngx-spinner bdColor="rgba(0, 0, 0, 0.8)" size="medium" color="#fff"
+                                                type="square-jelly-box" [fullScreen]="true">
+                                                <p style="color: white"> {{'LOADING' | translate}} </p>
+                                            </ngx-spinner>
+                                            <h3>
+                                                {{'PATIENTS.DETAIL.IMAGES' | translate}}
+                                                <button type="button" class="btn btn-sm btn-success"
+                                                    (click)="showAddImage = !showAddImage; idImmagineMaster = undefined">{{'BUTTONS.ADD' | translate}}</button>
+                                            </h3>
+                                            <div class="row" *ngIf="showAddImage">
+                                                <div class="col-9">
+                                                    <input #imageFileInput type="file" class="w-100" accept=".nii.gz">
+                                                </div>
+                                                <div class="col-3">
+                                                    <button type="button" class="btn btn-sm btn-success"
+                                                        (click)="uploadImageFileInput(imageFileInput.files)">{{'BUTTONS.SUBMIT' | translate}}</button>
+                                                </div>
+                                            </div>
+                                            <div class="row" *ngIf="showFeatureExtraction">
+                                                <div class="col-4">
+                                                    <select class="form-control"
+                                                        [(ngModel)]="idRoiForFeatureExtraction">
+                                                        <option value="" disabled selected>{{'PATIENTS.DETAIL.SELECT_IMAGE_ROI' | translate}}</option>
+                                                        <option [value]="'-1'">{{'PATIENTS.DETAIL.USE_IMAGE' | translate}}</option>
+                                                        <option
+                                                            *ngFor="let roi of imageForFeatureExtraction.regioniDiInteresse"
+                                                            [value]="roi.id">{{roi.nomeFile}}</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-4">
+                                                    <select class="form-control"
+                                                        [(ngModel)]="selectedFeatureExtractionAlgorithm">
+                                                        <option value="" disabled selected>{{'PATIENTS.DETAIL.SELECT_FEATURE_EXTRACTION_ALGORITHM' | translate}}</option>
+                                                        <option [value]="'1'">Feature Extraction</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-3">
+                                                    <button type="button" class="btn btn-sm btn-success"
+                                                        (click)="requestFeatureExtraction()">{{'BUTTONS.SUBMIT' | translate}}</button>
+                                                </div>
+                                            </div>
+                                            <div class="row" *ngIf="showFeaturesUpload">
+                                                <div class="col-4">
+                                                    <select class="form-control"
+                                                        [(ngModel)]="idImageForFeaturesUpload">
+                                                        <option value="" disabled selected>{{'PATIENTS.DETAIL.SELECT_IMAGE_ROI' | translate}}</option>
+                                                        <option value="I_{{imageForFeaturesUpload.id}}">{{'PATIENTS.DETAIL.USE_IMAGE' | translate}}</option>
+                                                        <option
+                                                            *ngFor="let roi of imageForFeaturesUpload.regioniDiInteresse"
+                                                            value="R_{{roi.id}}">{{roi.nomeFile}}</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-4">
+                                                    <input #jsonFileInput type="file" class="w-100" accept=".json">
+                                                </div>
+                                                <div class="col-3">
+                                                    <button type="button" class="btn btn-sm btn-success"
+                                                        (click)="uploadFeatures(jsonFileInput.files)">{{'BUTTONS.SUBMIT' | translate}}</button>
+                                                </div>
+                                            </div>
+                                            <ngx-datatable rowHeight="auto" class="bootstrap"
+                                                [rows]="selectedExam.immagini" [columnMode]="ColumnMode.force"
+                                                [footerHeight]="50">
+                                                <ngx-datatable-column name="{{'PATIENTS.DETAIL.IMAGE_NAME' | translate}}" prop="nome">
+                                                    <ng-template ngx-datatable-cell-template let-rowIndex="rowIndex"
+                                                        let-row="row" let-value="value">
+                                                        {{value}}
+                                                    </ng-template>
+                                                </ngx-datatable-column>
+                                                <ngx-datatable-column name="{{'PATIENTS.DETAIL.IMAGE_SIZE' | translate}}" prop="dimensione">
+                                                    <ng-template ngx-datatable-cell-template let-rowIndex="rowIndex"
+                                                        let-row="row" let-value="value">
+                                                        {{value}} (b)
+                                                    </ng-template>
+                                                </ngx-datatable-column>
+                                                <ngx-datatable-column name="{{'PATIENTS.DETAIL.IMAGE_DATE' | translate}}" prop="dataCaricamento">
+                                                    <ng-template ngx-datatable-cell-template let-rowIndex="rowIndex"
+                                                        let-row="row" let-value="value">
+                                                        {{value | date:'MM/dd/yyyy'}}
+                                                    </ng-template>
+                                                </ngx-datatable-column>
+                                                <ngx-datatable-column name="{{'PATIENTS.DETAIL.IMAGE_NUM_ROI' | translate}}" prop="regioniDiInteresse">
+                                                    <ng-template ngx-datatable-cell-template let-rowIndex="rowIndex"
+                                                        let-row="row" let-value="value">
+                                                        {{value.length}} <button type="button"
+                                                            class="btn btn-sm btn-success"
+                                                            (click)="showAddImage = !showAddImage; idImmagineMaster = row.id"><i
+                                                                class="icon-plus"></i></button>
+                                                    </ng-template>
+                                                </ngx-datatable-column>
+                                                <ngx-datatable-column name="" prop="id" sort="false" minWidth="150"
+                                                    maxWidth="150">
+                                                    <ng-template ngx-datatable-cell-template let-rowIndex="rowIndex"
+                                                        let-row="row" let-value="value">
+                                                        <button type="button" class="btn btn-sm btn-success"
+                                                            *ngIf="row.id" (click)="downloadImage(value)"><i
+                                                                class="icon-cloud-download"></i></button>
+                                                        <button type="button" class="btn btn-sm btn-success"
+                                                            (click)="showFeatureExtraction = !showFeatureExtraction; imageForFeatureExtraction = row"><i
+                                                                class="icon-equalizer"></i></button>
+                                                        <button type="button" class="btn btn-sm btn-success"
+                                                                (click)="showFeaturesUpload = !showFeaturesUpload; imageForFeaturesUpload = row"><i
+                                                                    class="icon-doc"></i></button>
+                                                    </ng-template>
+                                                </ngx-datatable-column>
+                                            </ngx-datatable>
+                                        </div>
+                                        <h3 class="mt-4" *ngIf="!selectedExam.richiedeImmagini">
+                                            {{(selectedExam.richiedeImmagini ? 'PATIENTS.DETAIL.RADIOMIC_FEATURES' : 'PATIENTS.DETAIL.OBSERVATIONS') | translate}}
+                                            <button type="button" class="btn btn-sm btn-success"
+                                                (click)="addFeature()">{{'BUTTONS.ADD' | translate}}</button>
+                                        </h3>
+                                        <ngx-datatable *ngIf="!selectedExam.richiedeImmagini" rowHeight="auto"
+                                            class="bootstrap" [rows]="selectedExam.features"
+                                            [columnMode]="ColumnMode.force" [footerHeight]="50">
+                                            <ngx-datatable-column name="{{'PATIENTS.DETAIL.FEATURE_NAME' | translate}}" prop="idFeature">
+                                                <ng-template ngx-datatable-cell-template let-rowIndex="rowIndex"
+                                                    let-row="row" let-value="value">
+                                                    <select *ngIf="features" [(ngModel)]="row.idFeature">
+                                                        <option *ngFor="let f of features" [value]="f.idFeature">
+                                                            {{f.idFeature}}</option>
+                                                    </select>
+                                                    <!-- <input type="text" [(ngModel)]="row.idFeature" class="w-100" /> -->
+                                                    <!--  (blur)="updateValue($event, 'name', rowIndex)" -->
+                                                </ng-template>
+                                            </ngx-datatable-column>
+                                            <ngx-datatable-column name="{{'PATIENTS.DETAIL.FEATURE_VALUE' | translate}} " prop="valore">
+                                                <ng-template ngx-datatable-cell-template let-rowIndex="rowIndex"
+                                                    let-row="row" let-value="value">
+                                                    <input type="number" [(ngModel)]="row.valore" class="w-100" />
+                                                    <!--  (blur)="updateValue($event, 'name', rowIndex)" -->
+                                                </ng-template>
+                                            </ngx-datatable-column>
+                                            <ngx-datatable-column name="" prop="valore" sort="false" minWidth="100"
+                                                maxWidth="100">
+                                                <ng-template ngx-datatable-cell-template let-rowIndex="rowIndex"
+                                                    let-row="row" let-value="value">
+                                                    <button *ngIf="row.idFeature && row.valore" type="button"
+                                                        class="btn btn-sm btn-success"
+                                                        (click)="saveFeatureEsame(row)">{{'BUTTONS.SUBMIT' | translate}}</button>
+                                                </ng-template>
+                                            </ngx-datatable-column>
+                                        </ngx-datatable>
+
+                                    </div>
+                                </div>
+                            </ng-template>
+                        </ng-container>
+                    </nav>
+
+                    <div [ngbNavOutlet]="nav"></div>
+
+                    <div class="row mt-3">
+                        <div class="col-6 text-left">
+                            <button type="button" class="btn btn-sm" (click)="hideDetail()">{{'BUTTONS.CANCEL' | translate}}</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

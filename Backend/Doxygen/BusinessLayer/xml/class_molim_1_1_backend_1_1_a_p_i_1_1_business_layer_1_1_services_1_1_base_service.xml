@@ -1,0 +1,394 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::BusinessLayer::Services::BaseService</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IDisposable</basecompoundref>
+    <derivedcompoundref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_interfaces_1_1_i_manager_richieste_esecuzione" prot="public" virt="non-virtual">Molim.Backend.API.BusinessLayer.Interfaces.IManagerRichiesteEsecuzione</derivedcompoundref>
+    <derivedcompoundref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_accounts_service" prot="public" virt="non-virtual">Molim.Backend.API.BusinessLayer.Services.Authentication.AccountsService</derivedcompoundref>
+    <derivedcompoundref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_pazienti_service" prot="public" virt="non-virtual">Molim.Backend.API.BusinessLayer.Services.Authentication.PazientiService</derivedcompoundref>
+    <derivedcompoundref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_permissions_service" prot="public" virt="non-virtual">Molim.Backend.API.BusinessLayer.Services.Authentication.PermissionsService</derivedcompoundref>
+    <derivedcompoundref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_patologie_1_1_algoritmi_service" prot="public" virt="non-virtual">Molim.Backend.API.BusinessLayer.Services.Patologie.AlgoritmiService</derivedcompoundref>
+    <derivedcompoundref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_patologie_1_1_patologie_service" prot="public" virt="non-virtual">Molim.Backend.API.BusinessLayer.Services.Patologie.PatologieService</derivedcompoundref>
+      <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1ac57080880999c7ee8934bdd3c604551d" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_molim_db" kindref="compound">MolimDb</ref></type>
+        <definition>MolimDb Molim.Backend.API.BusinessLayer.Services.BaseService._db</definition>
+        <argsstring></argsstring>
+        <name>_db</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/BaseService.cs" line="13" column="27" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/BaseService.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a9192187bf2560ff73c19b0aef14f1e47" prot="protected" static="no" mutable="no">
+        <type><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_configuration" kindref="compound">Configuration</ref></type>
+        <definition>Configuration Molim.Backend.API.BusinessLayer.Services.BaseService._conf</definition>
+        <argsstring></argsstring>
+        <name>_conf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/BaseService.cs" line="14" column="33" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/BaseService.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a36217be48299da65d31a87eb60c55d6d" prot="protected" static="no" mutable="no">
+        <type><ref refid="interface_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_interfaces_1_1_i_authentication_provider" kindref="compound">IAuthenticationProvider</ref></type>
+        <definition>IAuthenticationProvider Molim.Backend.API.BusinessLayer.Services.BaseService._auth</definition>
+        <argsstring></argsstring>
+        <name>_auth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/BaseService.cs" line="15" column="43" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/BaseService.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a4b12efc8d974ac29ca5f03cc5482a6c4" prot="protected" static="no" mutable="no">
+        <type>ILogger</type>
+        <definition>ILogger Molim.Backend.API.BusinessLayer.Services.BaseService._logger</definition>
+        <argsstring></argsstring>
+        <name>_logger</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/BaseService.cs" line="16" column="27" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/BaseService.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a72d7aa7bcf45df9b22d850e2711d8759" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Molim.Backend.API.BusinessLayer.Services.BaseService.transactionOwner</definition>
+        <argsstring></argsstring>
+        <name>transactionOwner</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/BaseService.cs" line="18" column="22" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/BaseService.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a4e39de13c136bd9ead0513bb8b989092" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Molim.Backend.API.BusinessLayer.Services.BaseService.complete</definition>
+        <argsstring></argsstring>
+        <name>complete</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/BaseService.cs" line="19" column="22" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/BaseService.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a28a6d6646eddb8c82aab8d399856f9dc" prot="private" static="no" mutable="no">
+        <type><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_permissions_service" kindref="compound">PermissionsService</ref></type>
+        <definition>PermissionsService Molim.Backend.API.BusinessLayer.Services.BaseService.permissionsService</definition>
+        <argsstring></argsstring>
+        <name>permissionsService</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/BaseService.cs" line="44" column="36" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/BaseService.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1ae6d1ec877514141042d2d976b4cd3b92" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_configuration" kindref="compound">Configuration</ref></type>
+        <definition>Configuration Molim.Backend.API.BusinessLayer.Services.BaseService.MolimConfiguration</definition>
+        <argsstring></argsstring>
+        <name>MolimConfiguration</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/BaseService.cs" line="41" column="30" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/BaseService.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a6b6e7f00a5c2d12bb111ffbaba2f2042" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_molim_db" kindref="compound">MolimDb</ref></type>
+        <definition>MolimDb Molim.Backend.API.BusinessLayer.Services.BaseService.Database</definition>
+        <argsstring></argsstring>
+        <name>Database</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/BaseService.cs" line="42" column="24" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/BaseService.cs" bodystart="42" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a6330d4e327ae7cc6edf09d7279e7b3a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Molim.Backend.API.BusinessLayer.Services.BaseService.BaseService</definition>
+        <argsstring>(MolimDb db, Configuration configuration, IAuthenticationProvider authProvider, ILogger logger)</argsstring>
+        <name>BaseService</name>
+        <param>
+          <type><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_molim_db" kindref="compound">MolimDb</ref></type>
+          <declname>db</declname>
+        </param>
+        <param>
+          <type><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_configuration" kindref="compound">Configuration</ref></type>
+          <declname>configuration</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_interfaces_1_1_i_authentication_provider" kindref="compound">IAuthenticationProvider</ref></type>
+          <declname>authProvider</declname>
+        </param>
+        <param>
+          <type>ILogger</type>
+          <declname>logger</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/BaseService.cs" line="21" column="16" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/BaseService.cs" bodystart="21" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1ae2117087b44b26782caa1f6c8c43eb53" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Molim.Backend.API.BusinessLayer.Services.BaseService.BaseService</definition>
+        <argsstring>(BaseService b)</argsstring>
+        <name>BaseService</name>
+        <param>
+          <type><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service" kindref="compound">BaseService</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/BaseService.cs" line="36" column="16" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/BaseService.cs" bodystart="36" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a4de5455074d660f45875aff92ebaf172" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Molim.Backend.API.BusinessLayer.Services.BaseService.Complete</definition>
+        <argsstring>()</argsstring>
+        <name>Complete</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/BaseService.cs" line="85" column="21" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/BaseService.cs" bodystart="85" bodyend="89"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a27bb528bc06be6bac2d3a92b5298ec9d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Molim.Backend.API.BusinessLayer.Services.BaseService.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/BaseService.cs" line="91" column="21" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/BaseService.cs" bodystart="91" bodyend="100"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1acffb84144b7314d8a213d7b8b4be91cc" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int?</type>
+        <definition>int? Molim.Backend.API.BusinessLayer.Services.BaseService.GetAccountFilter</definition>
+        <argsstring>()</argsstring>
+        <name>GetAccountFilter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/BaseService.cs" line="46" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/BaseService.cs" bodystart="46" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a2ef723fe8681ace7c663b7b8819d572d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Molim.Backend.API.BusinessLayer.Services.BaseService.CheckPermissionBase</definition>
+        <argsstring>(Permissions p)</argsstring>
+        <name>CheckPermissionBase</name>
+        <param>
+          <type><ref refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_enums_1a3e28ff664e73cbe7f9e3df160acc81a0" kindref="member">Permissions</ref></type>
+          <declname>p</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/BaseService.cs" line="59" column="24" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/BaseService.cs" bodystart="59" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a170d3181c78a90d2e637579de6ffd5bb" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Molim.Backend.API.BusinessLayer.Services.BaseService.CheckPermissionBase</definition>
+        <argsstring>(string permission)</argsstring>
+        <name>CheckPermissionBase</name>
+        <param>
+          <type>string</type>
+          <declname>permission</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/BaseService.cs" line="69" column="24" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/BaseService.cs" bodystart="69" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a8c84e15cab213eb8256ac6354d6b256d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool Molim.Backend.API.BusinessLayer.Services.BaseService.CheckPermissionBase</definition>
+        <argsstring>(Permissions p, params string[] parameters)</argsstring>
+        <name>CheckPermissionBase</name>
+        <param>
+          <type><ref refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_enums_1a3e28ff664e73cbe7f9e3df160acc81a0" kindref="member">Permissions</ref></type>
+          <declname>p</declname>
+        </param>
+        <param>
+          <type>params string[]</type>
+          <declname>parameters</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/BaseService.cs" line="77" column="24" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/BaseService.cs" bodystart="77" bodyend="83"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IDisposable</label>
+      </node>
+      <node id="1">
+        <label>Molim.Backend.API.BusinessLayer.Services.BaseService</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Molim.Backend.API.BusinessLayer.Interfaces.IManagerRichiesteEsecuzione</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_interfaces_1_1_i_manager_richieste_esecuzione"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Molim.Backend.API.BusinessLayer.Services.Authentication.AccountsService</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_accounts_service"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Molim.Backend.API.BusinessLayer.Services.Authentication.PazientiService</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_pazienti_service"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Molim.Backend.API.BusinessLayer.Services.Authentication.PermissionsService</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_permissions_service"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="7">
+        <label>Molim.Backend.API.BusinessLayer.Services.Patologie.AlgoritmiService</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_patologie_1_1_algoritmi_service"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="8">
+        <label>Molim.Backend.API.BusinessLayer.Services.Patologie.PatologieService</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_patologie_1_1_patologie_service"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="4">
+        <label>DbContext</label>
+      </node>
+      <node id="2">
+        <label>IDisposable</label>
+      </node>
+      <node id="1">
+        <label>Molim.Backend.API.BusinessLayer.Services.BaseService</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>_db</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>_conf</edgelabel>
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>_auth</edgelabel>
+        </childnode>
+      </node>
+      <node id="3">
+        <label>Molim.Backend.API.BusinessLayer.Data.MolimDb</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_molim_db"/>
+        <childnode refid="4" relation="public-inheritance">
+        </childnode>
+        <childnode refid="5" relation="usage">
+          <edgelabel>_authProvider</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>Molim.Backend.API.BusinessLayer.Interfaces.IAuthenticationProvider</label>
+        <link refid="interface_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_interfaces_1_1_i_authentication_provider"/>
+      </node>
+      <node id="6">
+        <label>Molim.Backend.API.BusinessLayer.Services.Configuration</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_configuration"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/BaseService.cs" line="11" column="11" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/BaseService.cs" bodystart="12" bodyend="101"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a36217be48299da65d31a87eb60c55d6d" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::BaseService</scope><name>_auth</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a9192187bf2560ff73c19b0aef14f1e47" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::BaseService</scope><name>_conf</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1ac57080880999c7ee8934bdd3c604551d" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::BaseService</scope><name>_db</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a4b12efc8d974ac29ca5f03cc5482a6c4" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::BaseService</scope><name>_logger</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a6330d4e327ae7cc6edf09d7279e7b3a2" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::BaseService</scope><name>BaseService</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1ae2117087b44b26782caa1f6c8c43eb53" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::BaseService</scope><name>BaseService</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a2ef723fe8681ace7c663b7b8819d572d" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::BaseService</scope><name>CheckPermissionBase</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a170d3181c78a90d2e637579de6ffd5bb" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::BaseService</scope><name>CheckPermissionBase</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a8c84e15cab213eb8256ac6354d6b256d" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::BaseService</scope><name>CheckPermissionBase</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a4e39de13c136bd9ead0513bb8b989092" prot="private" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::BaseService</scope><name>complete</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a4de5455074d660f45875aff92ebaf172" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::BaseService</scope><name>Complete</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a6b6e7f00a5c2d12bb111ffbaba2f2042" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::BaseService</scope><name>Database</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a27bb528bc06be6bac2d3a92b5298ec9d" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::BaseService</scope><name>Dispose</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1acffb84144b7314d8a213d7b8b4be91cc" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::BaseService</scope><name>GetAccountFilter</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1ae6d1ec877514141042d2d976b4cd3b92" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::BaseService</scope><name>MolimConfiguration</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a28a6d6646eddb8c82aab8d399856f9dc" prot="private" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::BaseService</scope><name>permissionsService</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a72d7aa7bcf45df9b22d850e2711d8759" prot="private" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::BaseService</scope><name>transactionOwner</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

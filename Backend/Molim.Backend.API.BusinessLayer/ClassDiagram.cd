@@ -1,0 +1,622 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Entities.Configurations.AccountConfiguration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14" Y="3.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Entities\Configurations\AccountConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Entities.Configurations.AlgoritmoConfiguration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.5" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Entities\Configurations\AlgoritmoConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Entities.Configurations.DiagnosiConfiguration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Entities\Configurations\DiagnosiConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Entities.Configurations.EsameConfiguration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19.5" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Entities\Configurations\EsameConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Entities.Configurations.EsecutoreRichiestaConfiguration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25.25" Y="4.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Entities\Configurations\EsecutoreRichiestaConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Entities.Configurations.FeatureAlgoritmoConfiguration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14" Y="5.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Entities\Configurations\FeatureAlgoritmoConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Entities.Configurations.FeatureConfiguration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="19" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Entities\Configurations\FeatureConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Entities.Configurations.FeatureEsameConfiguration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.75" Y="5.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Entities\Configurations\FeatureEsameConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Entities.Configurations.ImmagineConfiguration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="7.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Entities\Configurations\ImmagineConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Entities.Configurations.NormalizzazioneFeatureConfiguration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="20.25" Y="7.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Entities\Configurations\NormalizzazioneFeatureConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Entities.Configurations.PatologiaConfiguration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="25" Y="7.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Entities\Configurations\PatologiaConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Entities.Configurations.PazienteConfiguration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="12.25" Y="8.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Entities\Configurations\PazienteConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Entities.Configurations.PermessoProfiloConfiguration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18" Y="8.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Entities\Configurations\PermessoProfiloConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Entities.Configurations.PredizioneConfiguration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.25" Y="8.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Entities\Configurations\PredizioneConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Entities.Configurations.ProfiloConfiguration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="28" Y="8.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Entities\Configurations\ProfiloConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Entities.Configurations.RegioneDiInteresseConfiguration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14.25" Y="9.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Entities\Configurations\RegioneDiInteresseConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Entities.Configurations.RichiestaEsecuzioneConfiguration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="21.25" Y="9.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Entities\Configurations\RichiestaEsecuzioneConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Entities.Configurations.RichiestaEsecuzioneFaseConfiguration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="26.25" Y="9.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Entities\Configurations\RichiestaEsecuzioneFaseConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Entities.Configurations.ScorePredizioniConfiguration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="31" Y="9.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Entities\Configurations\ScorePredizioniConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Entities.Configurations.StileDiVitaConfiguration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="14" Y="10.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Entities\Configurations\StileDiVitaConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Entities.Configurations.StileDiVitaPazienteConfiguration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="18.25" Y="10.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Entities\Configurations\StileDiVitaPazienteConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Entities.Configurations.TipoEsameConfiguration" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="22.75" Y="10.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Entities\Configurations\TipoEsameConfiguration.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Entities.Account" Collapsed="true">
+    <Position X="12.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YAACAAAAAAAAgAAAAQAAFAAIAAAAAAACAAEEAAkAAAA=</HashCode>
+      <FileName>Data\Entities\Account.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Entities.Algoritmo" Collapsed="true">
+    <Position X="17.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBACAAAECAAAAAAAAAABQACAAAAAAAAAAAQBBAgAAAQ=</HashCode>
+      <FileName>Data\Entities\Algoritmo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Entities.Diagnosi" Collapsed="true">
+    <Position X="12.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RAAAAACAABAAgAAAAAAAAACEAAAAAAADAAAAAAgAAAA=</HashCode>
+      <FileName>Data\Entities\Diagnosi.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Entities.Esame" Collapsed="true">
+    <Position X="17.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RAAAAAAACBIAgAAAAAAAAAKEAAAAABACAAABAEgAAAA=</HashCode>
+      <FileName>Data\Entities\Esame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Entities.EsecutoreRichiesta" Collapsed="true">
+    <Position X="23.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAAAAQAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Data\Entities\EsecutoreRichiesta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Entities.Feature" Collapsed="true">
+    <Position X="28.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RBACAAAAGgIApBAAAAAAEACAAAAAAAACAABBAAkQAAA=</HashCode>
+      <FileName>Data\Entities\Feature.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Entities.FeatureAlgoritmo" Collapsed="true">
+    <Position X="12.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAACIAAAAAAAAAAAAAAAAAAAAABACAAAAAA=</HashCode>
+      <FileName>Data\Entities\FeatureAlgoritmo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Entities.FeatureEsame" Collapsed="true">
+    <Position X="21" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAgAAAAAAAAAAEEAAAAAACEABACEgNAAA=</HashCode>
+      <FileName>Data\Entities\FeatureEsame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Entities.Immagine" Collapsed="true">
+    <Position X="28" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAACAAAAAAAAgAAAEAABQAAAkQAAAAACAAACAEgAAAA=</HashCode>
+      <FileName>Data\Entities\Immagine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Entities.NormalizzazioneFeature" Collapsed="true">
+    <Position X="18" Y="7.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>QAACAAAAAACAgAAIAAAAAAAgAAAAAAACAABACAgAAAA=</HashCode>
+      <FileName>Data\Entities\NormalizzazioneFeature.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Entities.Patologia" Collapsed="true">
+    <Position X="23.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBAAAAABAAAAgBAAAAABAACAAAAAAAACAAAABAggAAA=</HashCode>
+      <FileName>Data\Entities\Patologia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Entities.Paziente" Collapsed="true">
+    <Position X="29" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEAAAAgBAQAAkBAIAAAA0AAEAgAAAAACAQAgBAgAAAA=</HashCode>
+      <FileName>Data\Entities\Paziente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Entities.PermessoProfilo" Collapsed="true">
+    <Position X="16.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAgAAAAAAAAAAIAAAAAAACAAAEAAgAAAA=</HashCode>
+      <FileName>Data\Entities\PermessoProfilo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Entities.Predizione" Collapsed="true">
+    <Position X="20.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RAACAQCAABACoAAAAAAAAACMAAAAAAECAAAAAAgAAAA=</HashCode>
+      <FileName>Data\Entities\Predizione.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Entities.Profilo" Collapsed="true">
+    <Position X="26.25" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAw=</HashCode>
+      <FileName>Data\Entities\Profilo.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Entities.RegioneDiInteresse" Collapsed="true">
+    <Position X="12.25" Y="9.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>QAACAAAAAAIAgAAAAAAAQAAAAQAAAAACEAACAAgIAAA=</HashCode>
+      <FileName>Data\Entities\RegioneDiInteresse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Entities.RichiestaEsecuzione" Collapsed="true">
+    <Position X="19.25" Y="9.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AgAAgAQAABCCoAAAAAAAQACEAACAABAAEAAAAAANAAA=</HashCode>
+      <FileName>Data\Entities\RichiestaEsecuzione.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Entities.RichiestaEsecuzioneFase" Collapsed="true">
+    <Position X="24" Y="9.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAEAAAAAAAAAAAAAAAAAACAABAAAgAAQAEAAAA=</HashCode>
+      <FileName>Data\Entities\RichiestaEsecuzioneFase.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Entities.ScorePredizione" Collapsed="true">
+    <Position X="29.25" Y="9.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBAAAAAAAAAAgAAAAAAAAQAEAAAAAAACAEAAAAgAAAA=</HashCode>
+      <FileName>Data\Entities\ScorePredizione.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Entities.StileDiVita" Collapsed="true">
+    <Position X="12.25" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QBAAAAAAAAAAgAAAAAAAAAAAAiAAAAACAAAAAAgAAAA=</HashCode>
+      <FileName>Data\Entities\StileDiVita.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Entities.StileDiVitaPaziente" Collapsed="true">
+    <Position X="16.25" Y="10.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAABAAgAAAAAAAAAAEACAAAAACAAQAAAgAAAA=</HashCode>
+      <FileName>Data\Entities\StileDiVitaPaziente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Entities.TipoEsame" Collapsed="true">
+    <Position X="21" Y="10.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RBAAAAABAAAAoAAAABABQACAAAAAAAACAAABAAgAAAA=</HashCode>
+      <FileName>Data\Entities\TipoEsame.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Queries.Accounts.GetAccountsQuery" Collapsed="true">
+    <Position X="29" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Queries\Accounts\GetAccountsQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Queries.Accounts.GetDettagliEsameQuery" Collapsed="true">
+    <Position X="14.25" Y="6.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Queries\Pazienti\GetDettagliEsameQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Queries.Accounts.GetDiagnosiQuery" Collapsed="true">
+    <Position X="16.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Queries\Pazienti\GetDiagnosiQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Queries.Accounts.GetEsamiQuery" Collapsed="true">
+    <Position X="18.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Queries\Pazienti\GetEsamiQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Queries.Accounts.GetImmaginiQuery" Collapsed="true">
+    <Position X="20.25" Y="6.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Queries\Pazienti\GetImmaginiQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Queries.Accounts.GetPazientiQuery" Collapsed="true">
+    <Position X="24.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Queries\Pazienti\GetPazientiQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Queries.Accounts.GetPredizioniQuery" Collapsed="true">
+    <Position X="26" Y="6.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Queries\Pazienti\GetPredizioniQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Queries.Patologie.GetAlgoritmiQuery" Collapsed="true">
+    <Position X="12.25" Y="6.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Queries\Algoritmi\GetAlgoritmiQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.Queries.Patologie.GetPatologieQuery" Collapsed="true">
+    <Position X="22.25" Y="6.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Queries\Patologie\GetPatologieQuery.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Data.MolimDb" Collapsed="true">
+    <Position X="16.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hEAAAAABEQIAIBAAEAABQEIAEgAAAUCABAABBAAgRAg=</HashCode>
+      <FileName>Data\MolimDb.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Exceptions.BusinessManagedException" Collapsed="true">
+    <Position X="23.5" Y="3.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\BusinessManagedException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Exceptions.DataManagedException" Collapsed="true">
+    <Position X="27.75" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Exceptions\DataManagedException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Interfaces.IManagerRichiesteEsecuzione">
+    <Position X="6.25" Y="1.75" Width="3.5" />
+    <NestedTypes>
+      <Enum Name="Molim.Backend.API.BusinessLayer.Interfaces.IManagerRichiesteEsecuzione.StatiRichieste" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Interfaces\IManagerRichiesteEsecuzione.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAwAAgAAACRAAAAAAAACAAAAABA=</HashCode>
+      <FileName>Interfaces\IManagerRichiesteEsecuzione.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Services.Algoritmi.Models.AlgoritmoProxy" Collapsed="true">
+    <Position X="21.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABACAAAEAAAAAAAAAAABAACAAAAAAAAAAAQBAAAAAAQ=</HashCode>
+      <FileName>Services\Algoritmi\Models\AlgoritmoProxy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Services.Algoritmi.Models.FeatureAlgoritmoProxy" Collapsed="true">
+    <Position X="16.75" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Services\Algoritmi\Models\FeatureAlgoritmoProxy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Services.Patologie.AlgoritmiService">
+    <Position X="10.25" Y="1.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Algoritmi\AlgoritmiService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Services.Patologie.PatologieService">
+    <Position X="13.25" Y="1.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Patologie\PatologieService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Services.Authentication.Models.AccountProxy" Collapsed="true">
+    <Position X="16" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAIAAEAAAIAAgAAAIQAAAAAAAAAAAAAAAAEAAAAAACg=</HashCode>
+      <FileName>Services\Authentication\Models\AccountProxy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Services.Authentication.AccountsService">
+    <Position X="6.75" Y="5.5" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAIAARAIAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Services\Authentication\AccountsService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Services.Authentication.PermissionsService">
+    <Position X="0.5" Y="1.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Authentication\PermissionsService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Services.Authentication.PazientiService">
+    <Position X="3.5" Y="1.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAARAAAAAAAAAAgAAAAAACgCUAAEAAIAAAEAA=</HashCode>
+      <FileName>Services\Pazienti\PazientiService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Services.Patologie.Models.FeatureProxy" Collapsed="true">
+    <Position X="27.25" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACBAAQAgAABAAAAAAAAACABAAIAAAAgABAAAEAAAA=</HashCode>
+      <FileName>Services\Patologie\Models\FeatureProxy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Services.Patologie.Models.PatologiaProxy" Collapsed="true">
+    <Position X="27.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Services\Patologie\Models\PatologiaProxy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Services.Patologie.Models.TipologiaEsameProxy" Collapsed="true">
+    <Position X="25" Y="10.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAQAAAAAAAAABABAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Patologie\Models\TipologiaEsameProxy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Services.Pazienti.Models.DiagnosiProxy" Collapsed="true">
+    <Position X="16" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABACAAAAAgAAAAAIAAACEAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Pazienti\Models\DiagnosiProxy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Services.Pazienti.Models.EsamePazienteProxy" Collapsed="true">
+    <Position X="21.5" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAgAAAABIBAAKEAAAAABAAAAABAEAAAAA=</HashCode>
+      <FileName>Services\Pazienti\Models\EsamePazienteProxy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Services.Pazienti.Models.FeatureEsameProxy" Collapsed="true">
+    <Position X="25.25" Y="5.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAgAAAAAAAAAAAAAEAAAAAAAAAABAAAEQAAA=</HashCode>
+      <FileName>Services\Pazienti\Models\FeatureEsameProxy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Services.Pazienti.Models.ImmagineProxy" Collapsed="true">
+    <Position X="14.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAEAABAAAAgQAAAAAAAAAAAEEAAAA=</HashCode>
+      <FileName>Services\Pazienti\Models\ImmagineProxy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Services.Pazienti.Models.PazienteProxy" Collapsed="true">
+    <Position X="14.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAgBAQAAEAAIAAAAgAAEAgAAAAAAAQAgAAAAAAA=</HashCode>
+      <FileName>Services\Pazienti\Models\PazienteProxy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Services.Pazienti.Models.PredizioneProxy" Collapsed="true">
+    <Position X="24.5" Y="8.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABACAAAMDgAAAAAIAAACEAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Services\Pazienti\Models\PredizioneProxy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Services.Pazienti.Models.RegionOfInterestProxy" Collapsed="true">
+    <Position X="17" Y="9.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAgAAAAAABAAAAgAAAAAAAEAACAAAAAAA=</HashCode>
+      <FileName>Services\Pazienti\Models\RegionOfInterestProxy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Services.BaseService" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAnAAAEIAAAAAAAAAIABAABAAAAAAAAAgAAQ=</HashCode>
+      <FileName>Services\BaseService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Molim.Backend.API.BusinessLayer.Services.Configuration" Collapsed="true">
+    <Position X="26" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAEAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Services\Configuration.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Molim.Backend.API.BusinessLayer.Interfaces.Entities.IConcurrencyObject" Collapsed="true">
+    <Position X="14.75" Y="12" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\Entities\IConcurrencyObject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Molim.Backend.API.BusinessLayer.Interfaces.Entities.ITrackedObject" Collapsed="true">
+    <Position X="16.75" Y="12" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAgAAEA=</HashCode>
+      <FileName>Interfaces\Entities\ITrackedObject.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Molim.Backend.API.BusinessLayer.Interfaces.IAuthenticationProvider" Collapsed="true">
+    <Position X="12.25" Y="12" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAKAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IAuthenticationProvider.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="Molim.Backend.API.BusinessLayer.Data.Entities.Enums.Permissions" Collapsed="true">
+    <Position X="14" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIEAAAAACAABAAAAAAEAAAAAAAEAAAGAQAAAACABAAA=</HashCode>
+      <FileName>Data\Entities\Enums\Permissions.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Molim.Backend.API.BusinessLayer.Data.Entities.Enums.TipiAlgoritmo" Collapsed="true">
+    <Position X="15.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Entities\Enums\TipiAlgoritmo.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Molim.Backend.API.BusinessLayer.Data.Entities.Enums.TipiValoreTest" Collapsed="true">
+    <Position X="17.5" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Data\Entities\Enums\TipiValoreTest.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Molim.Backend.API.BusinessLayer.Exceptions.ErrorCodes" Collapsed="true">
+    <Position X="12.25" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIEAAAAAgAIIAAAAAAEAAAACAAEAAAAAAAAAAEAAIAE=</HashCode>
+      <FileName>Exceptions\ErrorCodes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

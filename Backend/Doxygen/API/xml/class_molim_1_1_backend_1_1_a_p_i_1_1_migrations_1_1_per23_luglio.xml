@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_per23_luglio" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::Migrations::Per23Luglio</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Migration</basecompoundref>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_per23_luglio_1a9e8f70d9b29953aeaf874d535b773fd7" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Molim.Backend.API.Migrations.Per23Luglio.Up</definition>
+        <argsstring>(MigrationBuilder migrationBuilder)</argsstring>
+        <name>Up</name>
+        <param>
+          <type>MigrationBuilder</type>
+          <declname>migrationBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Migrations/20210721155655_Per23Luglio.cs" line="9" column="33" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Migrations/20210721155655_Per23Luglio.cs" bodystart="9" bodyend="175"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_per23_luglio_1a4d08b3dae261451ac2f4db31a55a4220" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Molim.Backend.API.Migrations.Per23Luglio.Down</definition>
+        <argsstring>(MigrationBuilder migrationBuilder)</argsstring>
+        <name>Down</name>
+        <param>
+          <type>MigrationBuilder</type>
+          <declname>migrationBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Migrations/20210721155655_Per23Luglio.cs" line="177" column="33" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Migrations/20210721155655_Per23Luglio.cs" bodystart="177" bodyend="295"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_per23_luglio_1a7cd36a0da436366998c47e671594b9c4" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Molim.Backend.API.Migrations.Per23Luglio.BuildTargetModel</definition>
+        <argsstring>(ModelBuilder modelBuilder)</argsstring>
+        <name>BuildTargetModel</name>
+        <param>
+          <type>ModelBuilder</type>
+          <declname>modelBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Migrations/20210721155655_Per23Luglio.Designer.cs" line="15" column="33" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Migrations/20210721155655_Per23Luglio.Designer.cs" bodystart="15" bodyend="1016"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Migration</label>
+      </node>
+      <node id="1">
+        <label>Molim.Backend.API.Migrations.Per23Luglio</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_per23_luglio"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Migration</label>
+      </node>
+      <node id="1">
+        <label>Molim.Backend.API.Migrations.Per23Luglio</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_per23_luglio"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Migrations/20210721155655_Per23Luglio.cs" line="7" column="19" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Migrations/20210721155655_Per23Luglio.cs" bodystart="8" bodyend="296"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_per23_luglio_1a7cd36a0da436366998c47e671594b9c4" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::Migrations::Per23Luglio</scope><name>BuildTargetModel</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_per23_luglio_1a4d08b3dae261451ac2f4db31a55a4220" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::Migrations::Per23Luglio</scope><name>Down</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_per23_luglio_1a9e8f70d9b29953aeaf874d535b773fd7" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::Migrations::Per23Luglio</scope><name>Up</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

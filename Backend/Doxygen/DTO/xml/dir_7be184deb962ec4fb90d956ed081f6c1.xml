@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_7be184deb962ec4fb90d956ed081f6c1" kind="dir">
+    <compoundname>C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Predizioni</compoundname>
+    <innerdir refid="dir_d572d139cbc444376f74dc99c42fbf08">C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Predizioni/Requests</innerdir>
+    <innerdir refid="dir_be89af6271fa17b08e758670f3be2c06">C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Predizioni/Responses</innerdir>
+    <innerfile refid="_predizione_d_t_o_8cs">PredizioneDTO.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Predizioni/"/>
+  </compounddef>
+</doxygen>

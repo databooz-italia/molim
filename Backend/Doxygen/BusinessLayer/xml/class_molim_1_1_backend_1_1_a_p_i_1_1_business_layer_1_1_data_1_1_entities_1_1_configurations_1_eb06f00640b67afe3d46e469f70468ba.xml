@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_configurations_1_eb06f00640b67afe3d46e469f70468ba" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::BusinessLayer::Data::Entities::Configurations::NormalizzazioneFeatureConfiguration</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IEntityTypeConfiguration&lt; NormalizzazioneFeature &gt;</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_configurations_1_eb06f00640b67afe3d46e469f70468ba_1a871d8c2950ec7fb067ef7345f07e3147" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Molim.Backend.API.BusinessLayer.Data.Entities.Configurations.NormalizzazioneFeatureConfiguration.Configure</definition>
+        <argsstring>(EntityTypeBuilder&lt; NormalizzazioneFeature &gt; entity)</argsstring>
+        <name>Configure</name>
+        <param>
+          <type>EntityTypeBuilder&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_normalizzazione_feature" kindref="compound">NormalizzazioneFeature</ref> &gt;</type>
+          <declname>entity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Configurations/NormalizzazioneFeatureConfiguration.cs" line="11" column="21" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Configurations/NormalizzazioneFeatureConfiguration.cs" bodystart="11" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>IEntityTypeConfiguration&lt; NormalizzazioneFeature &gt;</label>
+      </node>
+      <node id="1">
+        <label>Molim.Backend.API.BusinessLayer.Data.Entities.Configurations.NormalizzazioneFeatureConfiguration</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_configurations_1_eb06f00640b67afe3d46e469f70468ba"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>IEntityTypeConfiguration&lt; NormalizzazioneFeature &gt;</label>
+      </node>
+      <node id="1">
+        <label>Molim.Backend.API.BusinessLayer.Data.Entities.Configurations.NormalizzazioneFeatureConfiguration</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_configurations_1_eb06f00640b67afe3d46e469f70468ba"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Configurations/NormalizzazioneFeatureConfiguration.cs" line="9" column="11" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Configurations/NormalizzazioneFeatureConfiguration.cs" bodystart="10" bodyend="33"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_configurations_1_eb06f00640b67afe3d46e469f70468ba_1a871d8c2950ec7fb067ef7345f07e3147" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::Configurations::NormalizzazioneFeatureConfiguration</scope><name>Configure</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

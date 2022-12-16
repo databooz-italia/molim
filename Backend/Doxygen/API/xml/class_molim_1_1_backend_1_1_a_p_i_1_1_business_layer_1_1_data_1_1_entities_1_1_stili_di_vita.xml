@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_stili_di_vita" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::BusinessLayer::Data::Entities::StiliDiVita</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_stili_di_vita_1a6d06223b495e2151dd72ae93f91711b9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Data.Entities.StiliDiVita.IdStileDiVita</definition>
+        <argsstring></argsstring>
+        <name>IdStileDiVita</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/StiliDiVita.cs" line="13" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/StiliDiVita.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_stili_di_vita_1aeda7c24ba43fc5a56f1250f32b126895" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Data.Entities.StiliDiVita.Descrizione</definition>
+        <argsstring></argsstring>
+        <name>Descrizione</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/StiliDiVita.cs" line="14" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/StiliDiVita.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_stili_di_vita_1a612306a8c7f0447b552b1b5eff4e75eb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? Molim.Backend.API.BusinessLayer.Data.Entities.StiliDiVita.CreatorAccountId</definition>
+        <argsstring></argsstring>
+        <name>CreatorAccountId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/StiliDiVita.cs" line="15" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/StiliDiVita.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_stili_di_vita_1ae9df2bd713b6e4099ec9eb1ef1cd550f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? Molim.Backend.API.BusinessLayer.Data.Entities.StiliDiVita.UpdaterAccountId</definition>
+        <argsstring></argsstring>
+        <name>UpdaterAccountId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/StiliDiVita.cs" line="16" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/StiliDiVita.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_stili_di_vita_1a32bb1b0ed6d2bedfccb4239ea9f92394" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>ICollection&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_stili_di_vita_pazienti" kindref="compound">StiliDiVitaPazienti</ref> &gt;</type>
+        <definition>virtual ICollection&lt;StiliDiVitaPazienti&gt; Molim.Backend.API.BusinessLayer.Data.Entities.StiliDiVita.StiliDiVitaPazienti</definition>
+        <argsstring></argsstring>
+        <name>StiliDiVitaPazienti</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/StiliDiVita.cs" line="18" column="36" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/StiliDiVita.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_stili_di_vita_1abbb10bea2765c8cfb0190e69e8426a2c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Molim.Backend.API.BusinessLayer.Data.Entities.StiliDiVita.StiliDiVita</definition>
+        <argsstring>()</argsstring>
+        <name>StiliDiVita</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/StiliDiVita.cs" line="8" column="16" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/StiliDiVita.cs" bodystart="8" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/StiliDiVita.cs" line="6" column="19" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/StiliDiVita.cs" bodystart="7" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_stili_di_vita_1a612306a8c7f0447b552b1b5eff4e75eb" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::StiliDiVita</scope><name>CreatorAccountId</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_stili_di_vita_1aeda7c24ba43fc5a56f1250f32b126895" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::StiliDiVita</scope><name>Descrizione</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_stili_di_vita_1a6d06223b495e2151dd72ae93f91711b9" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::StiliDiVita</scope><name>IdStileDiVita</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_stili_di_vita_1abbb10bea2765c8cfb0190e69e8426a2c" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::StiliDiVita</scope><name>StiliDiVita</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_stili_di_vita_1a32bb1b0ed6d2bedfccb4239ea9f92394" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::StiliDiVita</scope><name>StiliDiVitaPazienti</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_stili_di_vita_1ae9df2bd713b6e4099ec9eb1ef1cd550f" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::StiliDiVita</scope><name>UpdaterAccountId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

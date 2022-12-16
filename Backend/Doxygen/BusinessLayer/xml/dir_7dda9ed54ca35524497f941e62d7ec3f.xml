@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_7dda9ed54ca35524497f941e62d7ec3f" kind="dir">
+    <compoundname>C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Patologie</compoundname>
+    <innerdir refid="dir_e176fe107aa96350e17f8cec533aa684">C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Patologie/Models</innerdir>
+    <innerfile refid="_patologie_service_8cs">PatologieService.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Patologie/"/>
+  </compounddef>
+</doxygen>

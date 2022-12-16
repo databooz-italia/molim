@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_be89af6271fa17b08e758670f3be2c06" kind="dir">
+    <compoundname>C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Predizioni/Responses</compoundname>
+    <innerfile refid="_get_predizioni_paziente_response_8cs">GetPredizioniPazienteResponse.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Predizioni/Responses/"/>
+  </compounddef>
+</doxygen>

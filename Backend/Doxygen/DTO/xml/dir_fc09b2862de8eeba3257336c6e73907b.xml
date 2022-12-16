@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_fc09b2862de8eeba3257336c6e73907b" kind="dir">
+    <compoundname>C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Auth</compoundname>
+    <innerdir refid="dir_ff1c493afaa5b4df671271ce972c28c4">C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Auth/Requests</innerdir>
+    <innerdir refid="dir_546b0ee463a6303f5740517ece8d923b">C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Auth/Responses</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Auth/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_normalizzazione_feature" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::BusinessLayer::Data::Entities::NormalizzazioneFeature</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_normalizzazione_feature_1aad497258091e48dcba13b4b79cc05769" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Molim.Backend.API.BusinessLayer.Data.Entities.NormalizzazioneFeature.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/NormalizzazioneFeatures.cs" line="8" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/NormalizzazioneFeatures.cs" bodystart="8" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_normalizzazione_feature_1af47a783902279bfd2aa87265d4c7dc69" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Molim.Backend.API.BusinessLayer.Data.Entities.NormalizzazioneFeature.IdFeature</definition>
+        <argsstring></argsstring>
+        <name>IdFeature</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/NormalizzazioneFeatures.cs" line="9" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/NormalizzazioneFeatures.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_normalizzazione_feature_1a4bc7490839537151b238d792c81d6230" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal</type>
+        <definition>decimal Molim.Backend.API.BusinessLayer.Data.Entities.NormalizzazioneFeature.DaValore</definition>
+        <argsstring></argsstring>
+        <name>DaValore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/NormalizzazioneFeatures.cs" line="10" column="24" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/NormalizzazioneFeatures.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_normalizzazione_feature_1ab27e9ce439417329be523bc19590c2de" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>decimal</type>
+        <definition>decimal Molim.Backend.API.BusinessLayer.Data.Entities.NormalizzazioneFeature.Avalore</definition>
+        <argsstring></argsstring>
+        <name>Avalore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/NormalizzazioneFeatures.cs" line="11" column="24" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/NormalizzazioneFeatures.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_normalizzazione_feature_1ae537e1dd6bdc719477bc92e61c32eb37" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Molim.Backend.API.BusinessLayer.Data.Entities.NormalizzazioneFeature.ValoreNormalizzato</definition>
+        <argsstring></argsstring>
+        <name>ValoreNormalizzato</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/NormalizzazioneFeatures.cs" line="12" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/NormalizzazioneFeatures.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_normalizzazione_feature_1a2c84ac048a89fa41ddd121c4ffd31475" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? Molim.Backend.API.BusinessLayer.Data.Entities.NormalizzazioneFeature.CreatorAccountId</definition>
+        <argsstring></argsstring>
+        <name>CreatorAccountId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/NormalizzazioneFeatures.cs" line="13" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/NormalizzazioneFeatures.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_normalizzazione_feature_1ab0020f1631801725abe09ab6f2b3ad13" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? Molim.Backend.API.BusinessLayer.Data.Entities.NormalizzazioneFeature.UpdaterAccountId</definition>
+        <argsstring></argsstring>
+        <name>UpdaterAccountId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/NormalizzazioneFeatures.cs" line="14" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/NormalizzazioneFeatures.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_normalizzazione_feature_1a3d0d5b2527a8f65483e17a625b1f2f7f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_features" kindref="compound">Features</ref></type>
+        <definition>virtual Features Molim.Backend.API.BusinessLayer.Data.Entities.NormalizzazioneFeature.IdFeatureNavigation</definition>
+        <argsstring></argsstring>
+        <name>IdFeatureNavigation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/NormalizzazioneFeatures.cs" line="16" column="33" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/NormalizzazioneFeatures.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/NormalizzazioneFeatures.cs" line="6" column="19" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/NormalizzazioneFeatures.cs" bodystart="7" bodyend="17"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_normalizzazione_feature_1ab27e9ce439417329be523bc19590c2de" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::NormalizzazioneFeature</scope><name>Avalore</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_normalizzazione_feature_1a2c84ac048a89fa41ddd121c4ffd31475" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::NormalizzazioneFeature</scope><name>CreatorAccountId</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_normalizzazione_feature_1a4bc7490839537151b238d792c81d6230" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::NormalizzazioneFeature</scope><name>DaValore</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_normalizzazione_feature_1aad497258091e48dcba13b4b79cc05769" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::NormalizzazioneFeature</scope><name>Id</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_normalizzazione_feature_1af47a783902279bfd2aa87265d4c7dc69" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::NormalizzazioneFeature</scope><name>IdFeature</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_normalizzazione_feature_1a3d0d5b2527a8f65483e17a625b1f2f7f" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::NormalizzazioneFeature</scope><name>IdFeatureNavigation</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_normalizzazione_feature_1ab0020f1631801725abe09ab6f2b3ad13" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::NormalizzazioneFeature</scope><name>UpdaterAccountId</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_normalizzazione_feature_1ae537e1dd6bdc719477bc92e61c32eb37" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::NormalizzazioneFeature</scope><name>ValoreNormalizzato</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

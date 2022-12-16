@@ -1,0 +1,51 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_program" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::Program</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_program_1acb8054f799773d014a8b868109cc21db" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Molim.Backend.API.Program.Main</definition>
+        <argsstring>(string[] args)</argsstring>
+        <name>Main</name>
+        <param>
+          <type>string[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Program.cs" line="16" column="28" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Program.cs" bodystart="16" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_program_1abe3658ad32149bd530dff903aaea048f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>IHostBuilder</type>
+        <definition>static IHostBuilder Molim.Backend.API.Program.CreateHostBuilder</definition>
+        <argsstring>(string[] args)</argsstring>
+        <name>CreateHostBuilder</name>
+        <param>
+          <type>string[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Program.cs" line="45" column="36"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Program.cs" line="14" column="11" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Program.cs" bodystart="15" bodyend="52"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_program_1abe3658ad32149bd530dff903aaea048f" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Program</scope><name>CreateHostBuilder</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_program_1acb8054f799773d014a8b868109cc21db" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Program</scope><name>Main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_b117dc7a55fcd88341d3b38764bca8b9" kind="dir">
+    <compoundname>C:/Progetti/Molim/Backend/Molim.Backend.API/Mappers</compoundname>
+    <innerfile refid="_accounts_mapper_8cs">AccountsMapper.cs</innerfile>
+    <innerfile refid="_algoritmi_mapper_8cs">AlgoritmiMapper.cs</innerfile>
+    <innerfile refid="_patologie_mapper_8cs">PatologieMapper.cs</innerfile>
+    <innerfile refid="_pazienti_mapper_8cs">PazientiMapper.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Mappers/"/>
+  </compounddef>
+</doxygen>

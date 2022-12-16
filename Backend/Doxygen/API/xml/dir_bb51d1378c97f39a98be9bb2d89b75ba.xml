@@ -1,0 +1,21 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_bb51d1378c97f39a98be9bb2d89b75ba" kind="dir">
+    <compoundname>C:/Progetti/Molim/Backend/Molim.Backend.API</compoundname>
+    <innerdir refid="dir_8eba37d1791470539fc7465512bcf0e2">C:/Progetti/Molim/Backend/Molim.Backend.API/Auth</innerdir>
+    <innerdir refid="dir_fb28310ba850f2f6c3f3d48d46ea3c2e">C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers</innerdir>
+    <innerdir refid="dir_9793e7d0bcae1f22017413ce0de3f9b0">C:/Progetti/Molim/Backend/Molim.Backend.API/Exceptions</innerdir>
+    <innerdir refid="dir_b117dc7a55fcd88341d3b38764bca8b9">C:/Progetti/Molim/Backend/Molim.Backend.API/Mappers</innerdir>
+    <innerdir refid="dir_3de4877f04ca7b26bdc2b485f04bbe62">C:/Progetti/Molim/Backend/Molim.Backend.API/Middlewares</innerdir>
+    <innerdir refid="dir_923f8ebacf1cf05d3dedfd9bfb8cf755">C:/Progetti/Molim/Backend/Molim.Backend.API/Migrations</innerdir>
+    <innerdir refid="dir_192ad44afe5ece0651bddb3d188b3c5d">C:/Progetti/Molim/Backend/Molim.Backend.API/Models</innerdir>
+    <innerdir refid="dir_5f60c42ca2056b106d6006bd37d0a610">C:/Progetti/Molim/Backend/Molim.Backend.API/obj</innerdir>
+    <innerfile refid="_program_8cs">Program.cs</innerfile>
+    <innerfile refid="_startup_8cs">Startup.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/"/>
+  </compounddef>
+</doxygen>

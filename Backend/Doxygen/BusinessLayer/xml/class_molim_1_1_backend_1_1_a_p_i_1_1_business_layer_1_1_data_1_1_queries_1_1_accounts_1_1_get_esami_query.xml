@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_esami_query" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::BusinessLayer::Data::Queries::Accounts::GetEsamiQuery</compoundname>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_e05e19f19d47be559ca7075b29fc63434" prot="public">Molim::Backend::API::BusinessLayer::Data::Queries::Accounts::GetEsamiQuery::EsameImmaginiFeatures</innerclass>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_esami_query_1ab1c560e18f1fc503984afe40c14d61e1" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IQueryable&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_e05e19f19d47be559ca7075b29fc63434" kindref="compound">EsameImmaginiFeatures</ref> &gt;</type>
+        <definition>static IQueryable&lt; EsameImmaginiFeatures &gt; Molim.Backend.API.BusinessLayer.Data.Queries.Accounts.GetEsamiQuery.GetEsamiPaziente</definition>
+        <argsstring>(this MolimDb _db, string idPaziente)</argsstring>
+        <name>GetEsamiPaziente</name>
+        <param>
+          <type>this <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_molim_db" kindref="compound">MolimDb</ref></type>
+          <declname>_db</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>idPaziente</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetEsamiQuery.cs" line="12" column="34" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetEsamiQuery.cs" bodystart="12" bodyend="47"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetEsamiQuery.cs" line="10" column="19" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetEsamiQuery.cs" bodystart="11" bodyend="66"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_esami_query_1ab1c560e18f1fc503984afe40c14d61e1" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Queries::Accounts::GetEsamiQuery</scope><name>GetEsamiPaziente</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

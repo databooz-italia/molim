@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_interfaces_1_1_entities" kind="namespace" language="C#">
+    <compoundname>Molim::Backend::API::BusinessLayer::Interfaces::Entities</compoundname>
+    <innerclass refid="interface_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_interfaces_1_1_entities_1_1_i_concurrency_object" prot="public">Molim::Backend::API::BusinessLayer::Interfaces::Entities::IConcurrencyObject</innerclass>
+    <innerclass refid="interface_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_interfaces_1_1_entities_1_1_i_tracked_object" prot="public">Molim::Backend::API::BusinessLayer::Interfaces::Entities::ITrackedObject</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Interfaces/Entities/IConcurrencyObject.cs" line="5" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_adattamenti___vari" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::Migrations::Adattamenti_Vari</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Migration</basecompoundref>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_adattamenti___vari_1a2d3e71a01bb89d37a9616cc30acf9afa" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Molim.Backend.API.Migrations.Adattamenti_Vari.Up</definition>
+        <argsstring>(MigrationBuilder migrationBuilder)</argsstring>
+        <name>Up</name>
+        <param>
+          <type>MigrationBuilder</type>
+          <declname>migrationBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Migrations/20210630093533_Adattamenti_Vari.cs" line="7" column="33" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Migrations/20210630093533_Adattamenti_Vari.cs" bodystart="7" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_adattamenti___vari_1adc2c2eb79e7c1718f75087607520bf61" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Molim.Backend.API.Migrations.Adattamenti_Vari.Down</definition>
+        <argsstring>(MigrationBuilder migrationBuilder)</argsstring>
+        <name>Down</name>
+        <param>
+          <type>MigrationBuilder</type>
+          <declname>migrationBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Migrations/20210630093533_Adattamenti_Vari.cs" line="47" column="33" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Migrations/20210630093533_Adattamenti_Vari.cs" bodystart="47" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_adattamenti___vari_1a4b44c08a1d75b552bba44bf628a69749" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Molim.Backend.API.Migrations.Adattamenti_Vari.BuildTargetModel</definition>
+        <argsstring>(ModelBuilder modelBuilder)</argsstring>
+        <name>BuildTargetModel</name>
+        <param>
+          <type>ModelBuilder</type>
+          <declname>modelBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Migrations/20210630093533_Adattamenti_Vari.Designer.cs" line="15" column="33" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Migrations/20210630093533_Adattamenti_Vari.Designer.cs" bodystart="15" bodyend="958"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Migration</label>
+      </node>
+      <node id="1">
+        <label>Molim.Backend.API.Migrations.Adattamenti_Vari</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_adattamenti___vari"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Migration</label>
+      </node>
+      <node id="1">
+        <label>Molim.Backend.API.Migrations.Adattamenti_Vari</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_adattamenti___vari"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Migrations/20210630093533_Adattamenti_Vari.cs" line="5" column="19" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Migrations/20210630093533_Adattamenti_Vari.cs" bodystart="6" bodyend="73"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_adattamenti___vari_1a4b44c08a1d75b552bba44bf628a69749" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::Migrations::Adattamenti_Vari</scope><name>BuildTargetModel</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_adattamenti___vari_1adc2c2eb79e7c1718f75087607520bf61" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::Migrations::Adattamenti_Vari</scope><name>Down</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_adattamenti___vari_1a2d3e71a01bb89d37a9616cc30acf9afa" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::Migrations::Adattamenti_Vari</scope><name>Up</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

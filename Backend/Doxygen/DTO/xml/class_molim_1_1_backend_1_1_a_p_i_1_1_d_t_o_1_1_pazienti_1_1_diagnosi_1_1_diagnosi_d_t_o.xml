@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_diagnosi_1_1_diagnosi_d_t_o" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::DTO::Pazienti::Diagnosi::DiagnosiDTO</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_diagnosi_1_1_diagnosi_d_t_o_1afce7e5ff9691fd4a8fad2855a1505ca1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Molim.Backend.API.DTO.Pazienti.Diagnosi.DiagnosiDTO.ID</definition>
+        <argsstring></argsstring>
+        <name>ID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Diagnosi/DiagnosiDTO.cs" line="9" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Diagnosi/DiagnosiDTO.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_diagnosi_1_1_diagnosi_d_t_o_1af9a14b33da975d21a7c8afbbb4c8d0f7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.DTO.Pazienti.Diagnosi.DiagnosiDTO.IdPaziente</definition>
+        <argsstring></argsstring>
+        <name>IdPaziente</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Diagnosi/DiagnosiDTO.cs" line="10" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Diagnosi/DiagnosiDTO.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_diagnosi_1_1_diagnosi_d_t_o_1a677283cfd4290464f642f28c079a2a1c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.DTO.Pazienti.Diagnosi.DiagnosiDTO.IdPatologia</definition>
+        <argsstring></argsstring>
+        <name>IdPatologia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Diagnosi/DiagnosiDTO.cs" line="11" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Diagnosi/DiagnosiDTO.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_diagnosi_1_1_diagnosi_d_t_o_1aa9e60365d94a051e1e4aea8ffab86941" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime Molim.Backend.API.DTO.Pazienti.Diagnosi.DiagnosiDTO.Data</definition>
+        <argsstring></argsstring>
+        <name>Data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Diagnosi/DiagnosiDTO.cs" line="12" column="25" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Diagnosi/DiagnosiDTO.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_diagnosi_1_1_diagnosi_d_t_o_1a6673556127e31a00934eb7ec1e326f0f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.DTO.Pazienti.Diagnosi.DiagnosiDTO.DescrizionePatologia</definition>
+        <argsstring></argsstring>
+        <name>DescrizionePatologia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Diagnosi/DiagnosiDTO.cs" line="13" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Diagnosi/DiagnosiDTO.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_diagnosi_1_1_diagnosi_d_t_o_1a225cda6e38d652fb13a3db41aa0b3180" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.DTO.Pazienti.Diagnosi.DiagnosiDTO.DescrizionePaziente</definition>
+        <argsstring></argsstring>
+        <name>DescrizionePaziente</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Diagnosi/DiagnosiDTO.cs" line="14" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Diagnosi/DiagnosiDTO.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_diagnosi_1_1_diagnosi_d_t_o_1a5a390a35b5847d4b63c82dead771fa44" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.DTO.Pazienti.Diagnosi.DiagnosiDTO.Esito</definition>
+        <argsstring></argsstring>
+        <name>Esito</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Diagnosi/DiagnosiDTO.cs" line="15" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Diagnosi/DiagnosiDTO.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Diagnosi/DiagnosiDTO.cs" line="7" column="11" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Diagnosi/DiagnosiDTO.cs" bodystart="8" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_diagnosi_1_1_diagnosi_d_t_o_1aa9e60365d94a051e1e4aea8ffab86941" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::Diagnosi::DiagnosiDTO</scope><name>Data</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_diagnosi_1_1_diagnosi_d_t_o_1a6673556127e31a00934eb7ec1e326f0f" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::Diagnosi::DiagnosiDTO</scope><name>DescrizionePatologia</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_diagnosi_1_1_diagnosi_d_t_o_1a225cda6e38d652fb13a3db41aa0b3180" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::Diagnosi::DiagnosiDTO</scope><name>DescrizionePaziente</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_diagnosi_1_1_diagnosi_d_t_o_1a5a390a35b5847d4b63c82dead771fa44" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::Diagnosi::DiagnosiDTO</scope><name>Esito</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_diagnosi_1_1_diagnosi_d_t_o_1afce7e5ff9691fd4a8fad2855a1505ca1" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::Diagnosi::DiagnosiDTO</scope><name>ID</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_diagnosi_1_1_diagnosi_d_t_o_1a677283cfd4290464f642f28c079a2a1c" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::Diagnosi::DiagnosiDTO</scope><name>IdPatologia</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_diagnosi_1_1_diagnosi_d_t_o_1af9a14b33da975d21a7c8afbbb4c8d0f7" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::Diagnosi::DiagnosiDTO</scope><name>IdPaziente</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

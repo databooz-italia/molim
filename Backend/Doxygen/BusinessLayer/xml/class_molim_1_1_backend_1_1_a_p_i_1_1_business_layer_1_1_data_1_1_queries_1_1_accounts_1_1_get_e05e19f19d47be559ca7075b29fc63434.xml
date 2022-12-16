@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_e05e19f19d47be559ca7075b29fc63434" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::BusinessLayer::Data::Queries::Accounts::GetEsamiQuery::EsameImmaginiFeatures</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_e05e19f19d47be559ca7075b29fc63434_1a93deeb6847b7f281ff2b2050dcba385d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Molim.Backend.API.BusinessLayer.Data.Queries.Accounts.GetEsamiQuery.EsameImmaginiFeatures.IdEsame</definition>
+        <argsstring></argsstring>
+        <name>IdEsame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetEsamiQuery.cs" line="51" column="24" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetEsamiQuery.cs" bodystart="51" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_e05e19f19d47be559ca7075b29fc63434_1a61d9a238bdf0fa4df3df015554e112b7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Data.Queries.Accounts.GetEsamiQuery.EsameImmaginiFeatures.IdTipoEsame</definition>
+        <argsstring></argsstring>
+        <name>IdTipoEsame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetEsamiQuery.cs" line="52" column="27" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetEsamiQuery.cs" bodystart="52" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_e05e19f19d47be559ca7075b29fc63434_1acd8e0f67afc97731e83099503f6e4b76" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Data.Queries.Accounts.GetEsamiQuery.EsameImmaginiFeatures.IdPaziente</definition>
+        <argsstring></argsstring>
+        <name>IdPaziente</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetEsamiQuery.cs" line="53" column="27" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetEsamiQuery.cs" bodystart="53" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_e05e19f19d47be559ca7075b29fc63434_1a942383691a5cbc50ff636c4e67c8e3a5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Data.Queries.Accounts.GetEsamiQuery.EsameImmaginiFeatures.IdPatologia</definition>
+        <argsstring></argsstring>
+        <name>IdPatologia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetEsamiQuery.cs" line="54" column="27" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetEsamiQuery.cs" bodystart="54" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_e05e19f19d47be559ca7075b29fc63434_1aee87fba47b729034af060648f61dfd91" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime Molim.Backend.API.BusinessLayer.Data.Queries.Accounts.GetEsamiQuery.EsameImmaginiFeatures.Data</definition>
+        <argsstring></argsstring>
+        <name>Data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetEsamiQuery.cs" line="55" column="29" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetEsamiQuery.cs" bodystart="55" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_e05e19f19d47be559ca7075b29fc63434_1aa1026cff6c9d352ac4f4fa90ff1cb0db" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Data.Queries.Accounts.GetEsamiQuery.EsameImmaginiFeatures.DescrizionePaziente</definition>
+        <argsstring></argsstring>
+        <name>DescrizionePaziente</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetEsamiQuery.cs" line="56" column="27" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetEsamiQuery.cs" bodystart="56" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_e05e19f19d47be559ca7075b29fc63434_1abd7a9c1b21cc25ca0a909321718af4ed" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Data.Queries.Accounts.GetEsamiQuery.EsameImmaginiFeatures.DescrizionePatologia</definition>
+        <argsstring></argsstring>
+        <name>DescrizionePatologia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetEsamiQuery.cs" line="57" column="27" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetEsamiQuery.cs" bodystart="57" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_e05e19f19d47be559ca7075b29fc63434_1a403b4028cdac94451940b6ebe0ab8d90" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Data.Queries.Accounts.GetEsamiQuery.EsameImmaginiFeatures.DescrizioneTipoEsame</definition>
+        <argsstring></argsstring>
+        <name>DescrizioneTipoEsame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetEsamiQuery.cs" line="58" column="27" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetEsamiQuery.cs" bodystart="58" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_e05e19f19d47be559ca7075b29fc63434_1aa74e250b08453bee1943623ccf29034c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool Molim.Backend.API.BusinessLayer.Data.Queries.Accounts.GetEsamiQuery.EsameImmaginiFeatures.RichiedeImmagini</definition>
+        <argsstring></argsstring>
+        <name>RichiedeImmagini</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetEsamiQuery.cs" line="59" column="25" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetEsamiQuery.cs" bodystart="59" bodyend="59"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_e05e19f19d47be559ca7075b29fc63434_1afb1b5f89ff775855c505d09af7a9b25b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Data.Queries.Accounts.GetEsamiQuery.EsameImmaginiFeatures.IdFeature</definition>
+        <argsstring></argsstring>
+        <name>IdFeature</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetEsamiQuery.cs" line="60" column="27" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetEsamiQuery.cs" bodystart="60" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_e05e19f19d47be559ca7075b29fc63434_1a0fa502c3aae3e5bc4ecb8905d01b58b7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Data.Queries.Accounts.GetEsamiQuery.EsameImmaginiFeatures.DescrizioneFeature</definition>
+        <argsstring></argsstring>
+        <name>DescrizioneFeature</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetEsamiQuery.cs" line="61" column="27" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetEsamiQuery.cs" bodystart="61" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_e05e19f19d47be559ca7075b29fc63434_1a8e3b3a0f004dfb1dab5be6d49fdc9549" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Data.Queries.Accounts.GetEsamiQuery.EsameImmaginiFeatures.TipoValoreFeature</definition>
+        <argsstring></argsstring>
+        <name>TipoValoreFeature</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetEsamiQuery.cs" line="62" column="27" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetEsamiQuery.cs" bodystart="62" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_e05e19f19d47be559ca7075b29fc63434_1ad8f7eac8c39a7d499eee1e56dc2618c6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? Molim.Backend.API.BusinessLayer.Data.Queries.Accounts.GetEsamiQuery.EsameImmaginiFeatures.IdImmagine</definition>
+        <argsstring></argsstring>
+        <name>IdImmagine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetEsamiQuery.cs" line="63" column="24" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetEsamiQuery.cs" bodystart="63" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_e05e19f19d47be559ca7075b29fc63434_1a3398cde486c25dc6c965c2cfc3ba16b5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Data.Queries.Accounts.GetEsamiQuery.EsameImmaginiFeatures.ValoreFeature</definition>
+        <argsstring></argsstring>
+        <name>ValoreFeature</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetEsamiQuery.cs" line="64" column="27" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetEsamiQuery.cs" bodystart="64" bodyend="64"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetEsamiQuery.cs" line="49" column="15" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetEsamiQuery.cs" bodystart="50" bodyend="65"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_e05e19f19d47be559ca7075b29fc63434_1aee87fba47b729034af060648f61dfd91" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Queries::Accounts::GetEsamiQuery::EsameImmaginiFeatures</scope><name>Data</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_e05e19f19d47be559ca7075b29fc63434_1a0fa502c3aae3e5bc4ecb8905d01b58b7" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Queries::Accounts::GetEsamiQuery::EsameImmaginiFeatures</scope><name>DescrizioneFeature</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_e05e19f19d47be559ca7075b29fc63434_1abd7a9c1b21cc25ca0a909321718af4ed" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Queries::Accounts::GetEsamiQuery::EsameImmaginiFeatures</scope><name>DescrizionePatologia</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_e05e19f19d47be559ca7075b29fc63434_1aa1026cff6c9d352ac4f4fa90ff1cb0db" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Queries::Accounts::GetEsamiQuery::EsameImmaginiFeatures</scope><name>DescrizionePaziente</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_e05e19f19d47be559ca7075b29fc63434_1a403b4028cdac94451940b6ebe0ab8d90" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Queries::Accounts::GetEsamiQuery::EsameImmaginiFeatures</scope><name>DescrizioneTipoEsame</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_e05e19f19d47be559ca7075b29fc63434_1a93deeb6847b7f281ff2b2050dcba385d" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Queries::Accounts::GetEsamiQuery::EsameImmaginiFeatures</scope><name>IdEsame</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_e05e19f19d47be559ca7075b29fc63434_1afb1b5f89ff775855c505d09af7a9b25b" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Queries::Accounts::GetEsamiQuery::EsameImmaginiFeatures</scope><name>IdFeature</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_e05e19f19d47be559ca7075b29fc63434_1ad8f7eac8c39a7d499eee1e56dc2618c6" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Queries::Accounts::GetEsamiQuery::EsameImmaginiFeatures</scope><name>IdImmagine</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_e05e19f19d47be559ca7075b29fc63434_1a942383691a5cbc50ff636c4e67c8e3a5" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Queries::Accounts::GetEsamiQuery::EsameImmaginiFeatures</scope><name>IdPatologia</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_e05e19f19d47be559ca7075b29fc63434_1acd8e0f67afc97731e83099503f6e4b76" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Queries::Accounts::GetEsamiQuery::EsameImmaginiFeatures</scope><name>IdPaziente</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_e05e19f19d47be559ca7075b29fc63434_1a61d9a238bdf0fa4df3df015554e112b7" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Queries::Accounts::GetEsamiQuery::EsameImmaginiFeatures</scope><name>IdTipoEsame</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_e05e19f19d47be559ca7075b29fc63434_1aa74e250b08453bee1943623ccf29034c" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Queries::Accounts::GetEsamiQuery::EsameImmaginiFeatures</scope><name>RichiedeImmagini</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_e05e19f19d47be559ca7075b29fc63434_1a8e3b3a0f004dfb1dab5be6d49fdc9549" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Queries::Accounts::GetEsamiQuery::EsameImmaginiFeatures</scope><name>TipoValoreFeature</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_e05e19f19d47be559ca7075b29fc63434_1a3398cde486c25dc6c965c2cfc3ba16b5" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Queries::Accounts::GetEsamiQuery::EsameImmaginiFeatures</scope><name>ValoreFeature</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

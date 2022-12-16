@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="namespace_molim_1_1_backend_1_1_a_p_i_1_1_migrations" kind="namespace" language="C#">
+    <compoundname>Molim::Backend::API::Migrations</compoundname>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_adattamenti___vari" prot="public">Molim::Backend::API::Migrations::Adattamenti_Vari</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_adattamenti___vari__2" prot="public">Molim::Backend::API::Migrations::Adattamenti_Vari_2</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_adattamenti___vari__3" prot="public">Molim::Backend::API::Migrations::Adattamenti_Vari_3</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_add___feature_algoritmo" prot="public">Molim::Backend::API::Migrations::Add_FeatureAlgoritmo</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_i_n_i_t" prot="public">Molim::Backend::API::Migrations::INIT</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_integrazione_servizi__051021" prot="public">Molim::Backend::API::Migrations::IntegrazioneServizi_051021</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_molim_db_model_snapshot" prot="public">Molim::Backend::API::Migrations::MolimDbModelSnapshot</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_per23_luglio" prot="public">Molim::Backend::API::Migrations::Per23Luglio</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_richieste_esecuzione___integrazione_servizi_esterni" prot="public">Molim::Backend::API::Migrations::RichiesteEsecuzione_IntegrazioneServiziEsterni</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Migrations/20210629153120_INIT.cs" line="5" column="1"/>
+  </compounddef>
+</doxygen>

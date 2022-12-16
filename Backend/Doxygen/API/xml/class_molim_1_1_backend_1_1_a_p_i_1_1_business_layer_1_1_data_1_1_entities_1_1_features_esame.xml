@@ -1,0 +1,141 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_features_esame" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::BusinessLayer::Data::Entities::FeaturesEsame</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_features_esame_1af942edabf49aefa3447d3de6f4643fe2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Molim.Backend.API.BusinessLayer.Data.Entities.FeaturesEsame.IdEsame</definition>
+        <argsstring></argsstring>
+        <name>IdEsame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/FeaturesEsame.cs" line="8" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/FeaturesEsame.cs" bodystart="8" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_features_esame_1af6adb30ef4b2b427579e0dd0609165fb" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Molim.Backend.API.BusinessLayer.Data.Entities.FeaturesEsame.IdFeature</definition>
+        <argsstring></argsstring>
+        <name>IdFeature</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/FeaturesEsame.cs" line="9" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/FeaturesEsame.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_features_esame_1a5fe5740269a8daff7411c0edb468641a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? Molim.Backend.API.BusinessLayer.Data.Entities.FeaturesEsame.IdRegioneDiInteresse</definition>
+        <argsstring></argsstring>
+        <name>IdRegioneDiInteresse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/FeaturesEsame.cs" line="10" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/FeaturesEsame.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_features_esame_1afc7f07981e77c339019cc94e1fcfbc1d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Data.Entities.FeaturesEsame.Valore</definition>
+        <argsstring></argsstring>
+        <name>Valore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/FeaturesEsame.cs" line="11" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/FeaturesEsame.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_features_esame_1a073caae68c4226f0073553fe9e11cd04" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? Molim.Backend.API.BusinessLayer.Data.Entities.FeaturesEsame.CreatorAccountId</definition>
+        <argsstring></argsstring>
+        <name>CreatorAccountId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/FeaturesEsame.cs" line="12" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/FeaturesEsame.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_features_esame_1a633377bf55fa7d652875d452f8cafb49" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? Molim.Backend.API.BusinessLayer.Data.Entities.FeaturesEsame.UpdaterAccountId</definition>
+        <argsstring></argsstring>
+        <name>UpdaterAccountId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/FeaturesEsame.cs" line="13" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/FeaturesEsame.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_features_esame_1a5273ca947222631b6195689fc88bfec9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_esami" kindref="compound">Esami</ref></type>
+        <definition>virtual Esami Molim.Backend.API.BusinessLayer.Data.Entities.FeaturesEsame.IdEsameNavigation</definition>
+        <argsstring></argsstring>
+        <name>IdEsameNavigation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/FeaturesEsame.cs" line="15" column="30" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/FeaturesEsame.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_features_esame_1a06fe6dd80066c9ff185e233e8b2f817b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_features" kindref="compound">Features</ref></type>
+        <definition>virtual Features Molim.Backend.API.BusinessLayer.Data.Entities.FeaturesEsame.IdFeatureNavigation</definition>
+        <argsstring></argsstring>
+        <name>IdFeatureNavigation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/FeaturesEsame.cs" line="16" column="33" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/FeaturesEsame.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_features_esame_1a0e610cb1cc30bffdbcd12889e258d3e4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_regioni_di_interesse" kindref="compound">RegioniDiInteresse</ref></type>
+        <definition>virtual RegioniDiInteresse Molim.Backend.API.BusinessLayer.Data.Entities.FeaturesEsame.IdRegioneDiInteresseNavigation</definition>
+        <argsstring></argsstring>
+        <name>IdRegioneDiInteresseNavigation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/FeaturesEsame.cs" line="17" column="43" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/FeaturesEsame.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/FeaturesEsame.cs" line="6" column="19" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/FeaturesEsame.cs" bodystart="7" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_features_esame_1a073caae68c4226f0073553fe9e11cd04" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::FeaturesEsame</scope><name>CreatorAccountId</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_features_esame_1af942edabf49aefa3447d3de6f4643fe2" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::FeaturesEsame</scope><name>IdEsame</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_features_esame_1a5273ca947222631b6195689fc88bfec9" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::FeaturesEsame</scope><name>IdEsameNavigation</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_features_esame_1af6adb30ef4b2b427579e0dd0609165fb" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::FeaturesEsame</scope><name>IdFeature</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_features_esame_1a06fe6dd80066c9ff185e233e8b2f817b" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::FeaturesEsame</scope><name>IdFeatureNavigation</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_features_esame_1a5fe5740269a8daff7411c0edb468641a" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::FeaturesEsame</scope><name>IdRegioneDiInteresse</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_features_esame_1a0e610cb1cc30bffdbcd12889e258d3e4" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::FeaturesEsame</scope><name>IdRegioneDiInteresseNavigation</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_features_esame_1a633377bf55fa7d652875d452f8cafb49" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::FeaturesEsame</scope><name>UpdaterAccountId</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_features_esame_1afc7f07981e77c339019cc94e1fcfbc1d" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::FeaturesEsame</scope><name>Valore</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

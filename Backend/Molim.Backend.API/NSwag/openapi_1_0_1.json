@@ -1,0 +1,335 @@
+{
+	"openapi": "3.0.0",
+	"servers": [],
+	"info": {
+		"description": "This is an API for Molim Project",
+		"version": "1.0.0",
+		"title": "Molim Wrapper-Model API",
+		"contact": {
+			"email": "you@your-company.com"
+		},
+		"license": {
+			"name": "Apache 2.0",
+			"url": "http://www.apache.org/licenses/LICENSE-2.0.html"
+		}
+	},
+	"tags": [
+		{
+			"name": "admins",
+			"description": "Secured Admin-only calls"
+		},
+		{
+			"name": "developers",
+			"description": "Operations available to regular developers"
+		}
+	],
+	"paths": {
+		"/name": {
+			"get": {
+				"summary": "Get the name of the model/algorithm wrapper in this API",
+				"responses": {
+					"200": {
+						"description": "the model/algorithm name",
+						"content": {
+							"text/plain": {
+								"example": "Iris Classification Tree"
+							}
+						}
+					}
+				}
+			}
+		},
+		"/description": {
+			"get": {
+				"summary": "Get a rich description of how this model/algorithm works",
+				"responses": {
+					"200": {
+						"description": "A rich description of this model/algorithm in plain text",
+						"content": {
+							"text/plain": {
+								"example": "This model is based upon a classification tree based on the GINI index..."
+							}
+						}
+					}
+				}
+			}
+		},
+		"/init": {
+			"get": {
+				"summary": "Init a new task",
+				"description": "Init a new task to run this model on a given input",
+				"responses": {
+					"200": {
+						"description": "UUID handle to access this task instance in all subsequent requests",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/TaskHandle"
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"/load/{uuid}": {
+			"post": {
+				"summary": "Load and set the input for this task instance",
+				"description": "If input parameters are required for this model, they must be included at this path",
+				"parameters": [
+					{
+						"in": "path",
+						"name": "uuid",
+						"description": "Specify a valid uuid handle of an already initializated task",
+						"required": true,
+						"schema": {
+							"type": "string",
+							"format": "uuid"
+						}
+					}
+				],
+				"requestBody": {
+					"description": "Input object containing all parameters for the task.",
+					"required": false,
+					"content": {
+						"application/json": {
+							"schema": {
+								"$ref": "#/components/schemas/SampleInput"
+							}
+						}
+					}
+				},
+				"responses": {
+					"200": {
+						"description": "OK",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/Task"
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"/upload/{uuid}": {
+			"post": {
+				"summary": "Upload files and other resources for this task instance",
+				"description": "Use this endpoint to easily load large files and resources",
+				"parameters": [
+					{
+						"in": "path",
+						"name": "uuid",
+						"description": "Specify a valid uuid handle of an already initializated task",
+						"required": true,
+						"schema": {
+							"type": "string",
+							"format": "uuid"
+						}
+					}
+				],
+				"requestBody": {
+					"description": "Any binary file",
+					"content": {
+						"multipart/form-data": {
+							"schema": {
+								"type": "object",
+								"properties": {
+									"filename": {
+										"type": "array",
+										"items": {
+											"type": "string",
+											"format": "binary"
+										}
+									}
+								}
+							}
+						}
+					}
+				},
+				"responses": {
+					"200": {
+						"description": "OK",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/Task"
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"/check/{uuid}": {
+			"get": {
+				"summary": "Check if a task is ready to run",
+				"parameters": [
+					{
+						"in": "path",
+						"name": "uuid",
+						"description": "Specify a valid uuid handle of an already existing task",
+						"required": true,
+						"schema": {
+							"type": "string",
+							"format": "uuid"
+						}
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/Task"
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"/run/{uuid}": {
+			"get": {
+				"summary": "Run a (just initializaed, well-defined) task",
+				"parameters": [
+					{
+						"in": "path",
+						"name": "uuid",
+						"description": "Specify a valid uuid handle of an already existing task",
+						"required": true,
+						"schema": {
+							"type": "string",
+							"format": "uuid"
+						}
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/SampleOutput"
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"/output/{uuid}": {
+			"get": {
+				"summary": "Get the output of a task",
+				"parameters": [
+					{
+						"in": "path",
+						"name": "uuid",
+						"description": "Specify a valid uuid handle of an already existing task",
+						"required": true,
+						"schema": {
+							"type": "string",
+							"format": "uuid"
+						}
+					}
+				],
+				"responses": {
+					"200": {
+						"description": "OK",
+						"content": {
+							"application/json": {
+								"schema": {
+									"$ref": "#/components/schemas/SampleOutput"
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"components": {
+		"schemas": {
+			"Task": {
+				"description": "A task object",
+				"type": "object",
+				"properties": {
+					"uuid": {
+						"type": "string",
+						"format": "uuid",
+						"example": "d290f1ee-6c54-4b01-90e6-d701748f0851"
+					},
+					"status": {
+						"type": "string",
+						"enum": [
+							"INIT",
+							"READY",
+							"RUNNING",
+							"DONE",
+							"ABORTED"
+						]
+					},
+					"created_at": {
+						"type": "string",
+						"format": "date-time",
+						"example": "2021-01-29T09:12:33.001Z"
+					},
+					"updated_at": {
+						"type": "string",
+						"format": "date-time",
+						"example": "2021-01-29T09:12:35.002Z"
+					},
+					"input": {
+						"$ref": "#/components/schemas/SampleInput"
+					}
+				}
+			},
+			"SampleInput": {
+				"description": "A generic input object containing all input parameters. Supposed to be different for each model",
+				"type": "object",
+				"properties": {
+					"param1": {
+						"type": "integer",
+						"example": 100
+					},
+					"param2": {
+						"type": "string",
+						"example": "pruning-type"
+					},
+					"param3": {
+						"type": "array",
+						"items": {
+							"type": "integer"
+						},
+						"example": [
+							4,
+							7,
+							9
+						]
+					},
+					"param4": {
+						"type": "boolean",
+						"example": true
+					}
+				}
+			},
+			"SampleOutput": {
+				"description": "A generic output object containing a the model decision output. It is expected to be very simple like a yes/no or 0/1 response",
+				"type": "string"
+			},
+			"TaskHandle": {
+				"description": "Universal Unique Indetifier to handle a task instance",
+				"type": "object",
+				"properties": {
+					"uuid": {
+						"type": "string",
+						"format": "uuid",
+						"example": "d290f1ee-6c54-4b01-90e6-d701748f0851"
+					}
+				}
+			}
+		}
+	}
+}

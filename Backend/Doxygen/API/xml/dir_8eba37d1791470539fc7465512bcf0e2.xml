@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_8eba37d1791470539fc7465512bcf0e2" kind="dir">
+    <compoundname>C:/Progetti/Molim/Backend/Molim.Backend.API/Auth</compoundname>
+    <innerfile refid="_authentication_provider_8cs">AuthenticationProvider.cs</innerfile>
+    <innerfile refid="_j_w_t_configuration_8cs">JWTConfiguration.cs</innerfile>
+    <innerfile refid="_tokens_provider_8cs">TokensProvider.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Auth/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_mappers_1_1_algoritmi_mapper" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::Mappers::AlgoritmiMapper</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_mappers_1_1_algoritmi_mapper_1a47b88d39471afa5beb1f93308142ed0e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>AlgoritmoDTO</type>
+        <definition>static AlgoritmoDTO Molim.Backend.API.Mappers.AlgoritmiMapper.Map</definition>
+        <argsstring>(AlgoritmoProxy proxy)</argsstring>
+        <name>Map</name>
+        <param>
+          <type>AlgoritmoProxy</type>
+          <declname>proxy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Mappers/AlgoritmiMapper.cs" line="20" column="36" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Mappers/AlgoritmiMapper.cs" bodystart="20" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_mappers_1_1_algoritmi_mapper_1a6c3809bb12b4a3c2bd122b43ed981481" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>AlgoritmoProxy</type>
+        <definition>static AlgoritmoProxy Molim.Backend.API.Mappers.AlgoritmiMapper.Map</definition>
+        <argsstring>(AlgoritmoDTO dto)</argsstring>
+        <name>Map</name>
+        <param>
+          <type>AlgoritmoDTO</type>
+          <declname>dto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Mappers/AlgoritmiMapper.cs" line="39" column="38" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Mappers/AlgoritmiMapper.cs" bodystart="39" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_mappers_1_1_algoritmi_mapper_1ac31ef49e93a0f3a2eeba616c0ce1c821" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FeatureAlgoritmoDTO</type>
+        <definition>static FeatureAlgoritmoDTO Molim.Backend.API.Mappers.AlgoritmiMapper.Map</definition>
+        <argsstring>(FeatureAlgoritmoProxy proxy)</argsstring>
+        <name>Map</name>
+        <param>
+          <type>FeatureAlgoritmoProxy</type>
+          <declname>proxy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Mappers/AlgoritmiMapper.cs" line="57" column="43" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Mappers/AlgoritmiMapper.cs" bodystart="57" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_mappers_1_1_algoritmi_mapper_1acec851724ec796d812df20a007c3ae78" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FeatureAlgoritmoProxy</type>
+        <definition>static FeatureAlgoritmoProxy Molim.Backend.API.Mappers.AlgoritmiMapper.Map</definition>
+        <argsstring>(FeatureAlgoritmoDTO dto)</argsstring>
+        <name>Map</name>
+        <param>
+          <type>FeatureAlgoritmoDTO</type>
+          <declname>dto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Mappers/AlgoritmiMapper.cs" line="70" column="45" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Mappers/AlgoritmiMapper.cs" bodystart="70" bodyend="81"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Mappers/AlgoritmiMapper.cs" line="18" column="19" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Mappers/AlgoritmiMapper.cs" bodystart="19" bodyend="82"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_mappers_1_1_algoritmi_mapper_1a47b88d39471afa5beb1f93308142ed0e" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Mappers::AlgoritmiMapper</scope><name>Map</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_mappers_1_1_algoritmi_mapper_1a6c3809bb12b4a3c2bd122b43ed981481" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Mappers::AlgoritmiMapper</scope><name>Map</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_mappers_1_1_algoritmi_mapper_1ac31ef49e93a0f3a2eeba616c0ce1c821" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Mappers::AlgoritmiMapper</scope><name>Map</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_mappers_1_1_algoritmi_mapper_1acec851724ec796d812df20a007c3ae78" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Mappers::AlgoritmiMapper</scope><name>Map</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

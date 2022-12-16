@@ -1,0 +1,104 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_algoritmi_controller" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::Controllers::AlgoritmiController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ControllerBase</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_algoritmi_controller_1a4e29d2f20dfdd63331ddef5169b533d2" prot="private" static="no" mutable="no">
+        <type>readonly ILogger&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_algoritmi_controller" kindref="compound">AlgoritmiController</ref> &gt;</type>
+        <definition>readonly ILogger&lt;AlgoritmiController&gt; Molim.Backend.API.Controllers.AlgoritmiController._logger</definition>
+        <argsstring></argsstring>
+        <name>_logger</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/AlgoritmiController.cs" line="26" column="34" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/AlgoritmiController.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_algoritmi_controller_1a3b5b0a7c9ebfba962f6130a470f784f9" prot="private" static="no" mutable="no">
+        <type>readonly BaseService</type>
+        <definition>readonly BaseService Molim.Backend.API.Controllers.AlgoritmiController._uow</definition>
+        <argsstring></argsstring>
+        <name>_uow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/AlgoritmiController.cs" line="27" column="38" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/AlgoritmiController.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_algoritmi_controller_1ac11b7e63d03af14e8df1ca15f22bf75e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Molim.Backend.API.Controllers.AlgoritmiController.AlgoritmiController</definition>
+        <argsstring>(ILogger&lt; AlgoritmiController &gt; logger, BaseService uow)</argsstring>
+        <name>AlgoritmiController</name>
+        <param>
+          <type>ILogger&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_algoritmi_controller" kindref="compound">AlgoritmiController</ref> &gt;</type>
+          <declname>logger</declname>
+        </param>
+        <param>
+          <type>BaseService</type>
+          <declname>uow</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/AlgoritmiController.cs" line="29" column="16" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/AlgoritmiController.cs" bodystart="29" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_algoritmi_controller_1abcfd96ed94f294b0429d01817d5b5dab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GetAlgoritmiResponse</type>
+        <definition>GetAlgoritmiResponse Molim.Backend.API.Controllers.AlgoritmiController.GetAlgoritmi</definition>
+        <argsstring>()</argsstring>
+        <name>GetAlgoritmi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/AlgoritmiController.cs" line="39" column="37" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/AlgoritmiController.cs" bodystart="39" bodyend="56"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ControllerBase</label>
+      </node>
+      <node id="1">
+        <label>Molim.Backend.API.Controllers.AlgoritmiController</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_algoritmi_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ControllerBase</label>
+      </node>
+      <node id="1">
+        <label>Molim.Backend.API.Controllers.AlgoritmiController</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_algoritmi_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/AlgoritmiController.cs" line="24" column="11" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/AlgoritmiController.cs" bodystart="25" bodyend="57"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_algoritmi_controller_1a4e29d2f20dfdd63331ddef5169b533d2" prot="private" virt="non-virtual"><scope>Molim::Backend::API::Controllers::AlgoritmiController</scope><name>_logger</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_algoritmi_controller_1a3b5b0a7c9ebfba962f6130a470f784f9" prot="private" virt="non-virtual"><scope>Molim::Backend::API::Controllers::AlgoritmiController</scope><name>_uow</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_algoritmi_controller_1ac11b7e63d03af14e8df1ca15f22bf75e" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Controllers::AlgoritmiController</scope><name>AlgoritmiController</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_algoritmi_controller_1abcfd96ed94f294b0429d01817d5b5dab" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Controllers::AlgoritmiController</scope><name>GetAlgoritmi</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

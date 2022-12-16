@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_configurations" kind="namespace" language="C#">
+    <compoundname>Molim::Backend::API::BusinessLayer::Data::Entities::Configurations</compoundname>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_configurations_1_1_account_configuration" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::Configurations::AccountConfiguration</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_configurations_1_1_algoritmo_configuration" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::Configurations::AlgoritmoConfiguration</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_configurations_1_1_diagnosi_configuration" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::Configurations::DiagnosiConfiguration</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_configurations_1_1_esame_configuration" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::Configurations::EsameConfiguration</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_configurations_1_e6eee09e75297821c6c38e9849b37bb4" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::Configurations::EsecutoreRichiestaConfiguration</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_configurations_1_d766c7962ff94153a133df2cfabd83b9" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::Configurations::FeatureAlgoritmoConfiguration</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_configurations_1_1_feature_configuration" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::Configurations::FeatureConfiguration</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_configurations_1_1_feature_esame_configuration" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::Configurations::FeatureEsameConfiguration</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_configurations_1_1_immagine_configuration" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::Configurations::ImmagineConfiguration</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_configurations_1_eb06f00640b67afe3d46e469f70468ba" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::Configurations::NormalizzazioneFeatureConfiguration</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_configurations_1_1_patologia_configuration" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::Configurations::PatologiaConfiguration</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_configurations_1_1_paziente_configuration" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::Configurations::PazienteConfiguration</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_configurations_1_8a69ed8b8f1b58bc8de9448fcca0be05" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::Configurations::PermessoProfiloConfiguration</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_configurations_1_1_predizione_configuration" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::Configurations::PredizioneConfiguration</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_configurations_1_1_profilo_configuration" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::Configurations::ProfiloConfiguration</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_configurations_1_78647b30b9ebfdf0f155186e5081856e" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::Configurations::RegioneDiInteresseConfiguration</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_configurations_1_e8b8253801e12b5b29d4fffb832bcb6d" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::Configurations::RichiestaEsecuzioneConfiguration</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_configurations_1_da25de468f91aeba9ced4c0cf832a2dc" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::Configurations::RichiestaEsecuzioneFaseConfiguration</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_configurations_1_2571ec1f2709672dd5711c79bc99dad0" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::Configurations::ScorePredizioniConfiguration</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_configurations_1_1_stile_di_vita_configuration" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::Configurations::StileDiVitaConfiguration</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_configurations_1_4967a5d908a6f1fe601e4d3bc5d3e464" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::Configurations::StileDiVitaPazienteConfiguration</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_configurations_1_1_tipo_esame_configuration" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::Configurations::TipoEsameConfiguration</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Configurations/AccountConfiguration.cs" line="7" column="1"/>
+  </compounddef>
+</doxygen>

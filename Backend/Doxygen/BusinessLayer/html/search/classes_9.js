@@ -1,0 +1,20 @@
+var searchData=
+[
+  ['patologia_0',['Patologia',['../class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_patologia.html',1,'Molim::Backend::API::BusinessLayer::Data::Entities']]],
+  ['patologiaconfiguration_1',['PatologiaConfiguration',['../class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_configurations_1_1_patologia_configuration.html',1,'Molim::Backend::API::BusinessLayer::Data::Entities::Configurations']]],
+  ['patologiaproxy_2',['PatologiaProxy',['../class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_patologie_1_1_models_1_1_patologia_proxy.html',1,'Molim::Backend::API::BusinessLayer::Services::Patologie::Models']]],
+  ['patologieservice_3',['PatologieService',['../class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_patologie_1_1_patologie_service.html',1,'Molim::Backend::API::BusinessLayer::Services::Patologie']]],
+  ['paziente_4',['Paziente',['../class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_paziente.html',1,'Molim::Backend::API::BusinessLayer::Data::Entities']]],
+  ['pazienteconfiguration_5',['PazienteConfiguration',['../class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_configurations_1_1_paziente_configuration.html',1,'Molim::Backend::API::BusinessLayer::Data::Entities::Configurations']]],
+  ['pazienteproxy_6',['PazienteProxy',['../class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_paziente_proxy.html',1,'Molim::Backend::API::BusinessLayer::Services::Pazienti::Models']]],
+  ['pazientiservice_7',['PazientiService',['../class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_pazienti_service.html',1,'Molim::Backend::API::BusinessLayer::Services::Authentication']]],
+  ['permessoprofilo_8',['PermessoProfilo',['../class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_permesso_profilo.html',1,'Molim::Backend::API::BusinessLayer::Data::Entities']]],
+  ['permessoprofiloconfiguration_9',['PermessoProfiloConfiguration',['../class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_configurations_1_8a69ed8b8f1b58bc8de9448fcca0be05.html',1,'Molim::Backend::API::BusinessLayer::Data::Entities::Configurations']]],
+  ['permissionsservice_10',['PermissionsService',['../class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_permissions_service.html',1,'Molim::Backend::API::BusinessLayer::Services::Authentication']]],
+  ['predizione_11',['Predizione',['../class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_predizione.html',1,'Molim::Backend::API::BusinessLayer::Data::Entities']]],
+  ['predizioneconfiguration_12',['PredizioneConfiguration',['../class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_configurations_1_1_predizione_configuration.html',1,'Molim::Backend::API::BusinessLayer::Data::Entities::Configurations']]],
+  ['predizioneconvalore_13',['PredizioneConValore',['../class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_pec8ee5c69d5c0c147c920147d1346aa2.html',1,'Molim::Backend::API::BusinessLayer::Data::Queries::Accounts::GetPredizioniQuery']]],
+  ['predizioneproxy_14',['PredizioneProxy',['../class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_predizione_proxy.html',1,'Molim::Backend::API::BusinessLayer::Services::Pazienti::Models']]],
+  ['profilo_15',['Profilo',['../class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_profilo.html',1,'Molim::Backend::API::BusinessLayer::Data::Entities']]],
+  ['profiloconfiguration_16',['ProfiloConfiguration',['../class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_configurations_1_1_profilo_configuration.html',1,'Molim::Backend::API::BusinessLayer::Data::Entities::Configurations']]]
+];

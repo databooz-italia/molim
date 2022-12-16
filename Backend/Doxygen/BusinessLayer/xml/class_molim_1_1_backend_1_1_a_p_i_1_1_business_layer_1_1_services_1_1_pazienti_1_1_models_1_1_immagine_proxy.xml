@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_immagine_proxy" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::BusinessLayer::Services::Pazienti::Models::ImmagineProxy</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_immagine_proxy_1ad2976033e22e4ff22810d4d8f1338856" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Molim.Backend.API.BusinessLayer.Services.Pazienti.Models.ImmagineProxy.ID</definition>
+        <argsstring></argsstring>
+        <name>ID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/ImmagineProxy.cs" line="9" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/ImmagineProxy.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_immagine_proxy_1ac2bb57bce21490d0786bf4d7bcf5d43d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Molim.Backend.API.BusinessLayer.Services.Pazienti.Models.ImmagineProxy.IdEsame</definition>
+        <argsstring></argsstring>
+        <name>IdEsame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/ImmagineProxy.cs" line="10" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/ImmagineProxy.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_immagine_proxy_1a01abdeaffa897b01929acb6c59def72f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Services.Pazienti.Models.ImmagineProxy.Nome</definition>
+        <argsstring></argsstring>
+        <name>Nome</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/ImmagineProxy.cs" line="11" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/ImmagineProxy.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_immagine_proxy_1ac7ed59e1ca5b8195b7ebfbe2d4719b7e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long Molim.Backend.API.BusinessLayer.Services.Pazienti.Models.ImmagineProxy.Dimensione</definition>
+        <argsstring></argsstring>
+        <name>Dimensione</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/ImmagineProxy.cs" line="12" column="21" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/ImmagineProxy.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_immagine_proxy_1a2b121a3ad2946bee48b0487adc966afc" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime Molim.Backend.API.BusinessLayer.Services.Pazienti.Models.ImmagineProxy.DataCaricamento</definition>
+        <argsstring></argsstring>
+        <name>DataCaricamento</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/ImmagineProxy.cs" line="13" column="25" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/ImmagineProxy.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_immagine_proxy_1a50306d503f63079379ae53cc46ce93b0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>IEnumerable&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_feature_esame_proxy" kindref="compound">FeatureEsameProxy</ref> &gt;</type>
+        <definition>IEnumerable&lt;FeatureEsameProxy&gt; Molim.Backend.API.BusinessLayer.Services.Pazienti.Models.ImmagineProxy.Features</definition>
+        <argsstring></argsstring>
+        <name>Features</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/ImmagineProxy.cs" line="15" column="28" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/ImmagineProxy.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_immagine_proxy_1a05140326e5a5f62d559a6ff46631d304" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>IEnumerable&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_region_of_interest_proxy" kindref="compound">RegionOfInterestProxy</ref> &gt;</type>
+        <definition>IEnumerable&lt;RegionOfInterestProxy&gt; Molim.Backend.API.BusinessLayer.Services.Pazienti.Models.ImmagineProxy.RegioniDiInteresse</definition>
+        <argsstring></argsstring>
+        <name>RegioniDiInteresse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/ImmagineProxy.cs" line="16" column="28" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/ImmagineProxy.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/ImmagineProxy.cs" line="7" column="11" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/ImmagineProxy.cs" bodystart="8" bodyend="17"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_immagine_proxy_1a2b121a3ad2946bee48b0487adc966afc" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Pazienti::Models::ImmagineProxy</scope><name>DataCaricamento</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_immagine_proxy_1ac7ed59e1ca5b8195b7ebfbe2d4719b7e" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Pazienti::Models::ImmagineProxy</scope><name>Dimensione</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_immagine_proxy_1a50306d503f63079379ae53cc46ce93b0" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Pazienti::Models::ImmagineProxy</scope><name>Features</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_immagine_proxy_1ad2976033e22e4ff22810d4d8f1338856" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Pazienti::Models::ImmagineProxy</scope><name>ID</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_immagine_proxy_1ac2bb57bce21490d0786bf4d7bcf5d43d" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Pazienti::Models::ImmagineProxy</scope><name>IdEsame</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_immagine_proxy_1a01abdeaffa897b01929acb6c59def72f" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Pazienti::Models::ImmagineProxy</scope><name>Nome</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_immagine_proxy_1a05140326e5a5f62d559a6ff46631d304" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Pazienti::Models::ImmagineProxy</scope><name>RegioniDiInteresse</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

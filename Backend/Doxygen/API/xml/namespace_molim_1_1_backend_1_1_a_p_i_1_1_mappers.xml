@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="namespace_molim_1_1_backend_1_1_a_p_i_1_1_mappers" kind="namespace" language="C#">
+    <compoundname>Molim::Backend::API::Mappers</compoundname>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_mappers_1_1_accounts_mapper" prot="public">Molim::Backend::API::Mappers::AccountsMapper</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_mappers_1_1_algoritmi_mapper" prot="public">Molim::Backend::API::Mappers::AlgoritmiMapper</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_mappers_1_1_patologie_mapper" prot="public">Molim::Backend::API::Mappers::PatologieMapper</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_mappers_1_1_pazienti_mapper" prot="public">Molim::Backend::API::Mappers::PazientiMapper</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Mappers/AccountsMapper.cs" line="9" column="1"/>
+  </compounddef>
+</doxygen>

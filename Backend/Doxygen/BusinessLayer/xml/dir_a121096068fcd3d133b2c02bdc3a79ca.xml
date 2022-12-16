@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_a121096068fcd3d133b2c02bdc3a79ca" kind="dir">
+    <compoundname>C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Configurations</compoundname>
+    <innerfile refid="_account_configuration_8cs">AccountConfiguration.cs</innerfile>
+    <innerfile refid="_algoritmo_configuration_8cs">AlgoritmoConfiguration.cs</innerfile>
+    <innerfile refid="_diagnosi_configuration_8cs">DiagnosiConfiguration.cs</innerfile>
+    <innerfile refid="_esame_configuration_8cs">EsameConfiguration.cs</innerfile>
+    <innerfile refid="_esecutore_richiesta_configuration_8cs">EsecutoreRichiestaConfiguration.cs</innerfile>
+    <innerfile refid="_feature_algoritmo_configuration_8cs">FeatureAlgoritmoConfiguration.cs</innerfile>
+    <innerfile refid="_feature_configuration_8cs">FeatureConfiguration.cs</innerfile>
+    <innerfile refid="_feature_esame_configuration_8cs">FeatureEsameConfiguration.cs</innerfile>
+    <innerfile refid="_immagine_configuration_8cs">ImmagineConfiguration.cs</innerfile>
+    <innerfile refid="_normalizzazione_feature_configuration_8cs">NormalizzazioneFeatureConfiguration.cs</innerfile>
+    <innerfile refid="_patologia_configuration_8cs">PatologiaConfiguration.cs</innerfile>
+    <innerfile refid="_paziente_configuration_8cs">PazienteConfiguration.cs</innerfile>
+    <innerfile refid="_permesso_profilo_configuration_8cs">PermessoProfiloConfiguration.cs</innerfile>
+    <innerfile refid="_predizione_configuration_8cs">PredizioneConfiguration.cs</innerfile>
+    <innerfile refid="_profilo_configuration_8cs">ProfiloConfiguration.cs</innerfile>
+    <innerfile refid="_regione_di_interesse_configuration_8cs">RegioneDiInteresseConfiguration.cs</innerfile>
+    <innerfile refid="_richiesta_esecuzione_configuration_8cs">RichiestaEsecuzioneConfiguration.cs</innerfile>
+    <innerfile refid="_richiesta_esecuzione_fase_configuration_8cs">RichiestaEsecuzioneFaseConfiguration.cs</innerfile>
+    <innerfile refid="_score_predizioni_configuration_8cs">ScorePredizioniConfiguration.cs</innerfile>
+    <innerfile refid="_stile_di_vita_configuration_8cs">StileDiVitaConfiguration.cs</innerfile>
+    <innerfile refid="_stile_di_vita_paziente_configuration_8cs">StileDiVitaPazienteConfiguration.cs</innerfile>
+    <innerfile refid="_tipo_esame_configuration_8cs">TipoEsameConfiguration.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Configurations/"/>
+  </compounddef>
+</doxygen>

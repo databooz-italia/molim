@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_add___feature_algoritmo" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::Migrations::Add_FeatureAlgoritmo</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Migration</basecompoundref>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_add___feature_algoritmo_1aa315ea14f62dd08d4c69187f6545b5f0" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Molim.Backend.API.Migrations.Add_FeatureAlgoritmo.Up</definition>
+        <argsstring>(MigrationBuilder migrationBuilder)</argsstring>
+        <name>Up</name>
+        <param>
+          <type>MigrationBuilder</type>
+          <declname>migrationBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Migrations/20210629154942_Add_FeatureAlgoritmo.cs" line="7" column="33" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Migrations/20210629154942_Add_FeatureAlgoritmo.cs" bodystart="7" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_add___feature_algoritmo_1afe21b30e7075156349ec5f1870952e4d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Molim.Backend.API.Migrations.Add_FeatureAlgoritmo.Down</definition>
+        <argsstring>(MigrationBuilder migrationBuilder)</argsstring>
+        <name>Down</name>
+        <param>
+          <type>MigrationBuilder</type>
+          <declname>migrationBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Migrations/20210629154942_Add_FeatureAlgoritmo.cs" line="44" column="33" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Migrations/20210629154942_Add_FeatureAlgoritmo.cs" bodystart="44" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_add___feature_algoritmo_1a5819fac48b16c0c269e0401f852d04c0" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Molim.Backend.API.Migrations.Add_FeatureAlgoritmo.BuildTargetModel</definition>
+        <argsstring>(ModelBuilder modelBuilder)</argsstring>
+        <name>BuildTargetModel</name>
+        <param>
+          <type>ModelBuilder</type>
+          <declname>modelBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Migrations/20210629154942_Add_FeatureAlgoritmo.Designer.cs" line="15" column="33" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Migrations/20210629154942_Add_FeatureAlgoritmo.Designer.cs" bodystart="15" bodyend="938"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Migration</label>
+      </node>
+      <node id="1">
+        <label>Molim.Backend.API.Migrations.Add_FeatureAlgoritmo</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_add___feature_algoritmo"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Migration</label>
+      </node>
+      <node id="1">
+        <label>Molim.Backend.API.Migrations.Add_FeatureAlgoritmo</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_add___feature_algoritmo"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Migrations/20210629154942_Add_FeatureAlgoritmo.cs" line="5" column="19" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Migrations/20210629154942_Add_FeatureAlgoritmo.cs" bodystart="6" bodyend="56"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_add___feature_algoritmo_1a5819fac48b16c0c269e0401f852d04c0" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::Migrations::Add_FeatureAlgoritmo</scope><name>BuildTargetModel</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_add___feature_algoritmo_1afe21b30e7075156349ec5f1870952e4d" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::Migrations::Add_FeatureAlgoritmo</scope><name>Down</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_add___feature_algoritmo_1aa315ea14f62dd08d4c69187f6545b5f0" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::Migrations::Add_FeatureAlgoritmo</scope><name>Up</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

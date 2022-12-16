@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_diagnosi_1_1_responses_1_1_get_diagnosi_paziente_response" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::DTO::Pazienti::Diagnosi::Responses::GetDiagnosiPazienteResponse</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_diagnosi_1_1_responses_1_1_get_diagnosi_paziente_response_1af4cee4e1948cefb8c1743f6e7f20b182" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Dictionary&lt; string, IEnumerable&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_diagnosi_1_1_diagnosi_d_t_o" kindref="compound">DiagnosiDTO</ref> &gt; &gt;</type>
+        <definition>Dictionary&lt;string, IEnumerable&lt;DiagnosiDTO&gt; &gt; Molim.Backend.API.DTO.Pazienti.Diagnosi.Responses.GetDiagnosiPazienteResponse.DiagnosiPaziente</definition>
+        <argsstring></argsstring>
+        <name>DiagnosiPaziente</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Diagnosi/Responses/GetDiagnosiPazienteResponse.cs" line="9" column="27" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Diagnosi/Responses/GetDiagnosiPazienteResponse.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Diagnosi/Responses/GetDiagnosiPazienteResponse.cs" line="7" column="11" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Diagnosi/Responses/GetDiagnosiPazienteResponse.cs" bodystart="8" bodyend="10"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_diagnosi_1_1_responses_1_1_get_diagnosi_paziente_response_1af4cee4e1948cefb8c1743f6e7f20b182" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::Diagnosi::Responses::GetDiagnosiPazienteResponse</scope><name>DiagnosiPaziente</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

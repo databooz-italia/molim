@@ -1,0 +1,267 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_mappers_1_1_patologie_mapper" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::Mappers::PatologieMapper</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_mappers_1_1_patologie_mapper_1a1ed213cd86996939122810de3df230cd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>PatologiaDTO</type>
+        <definition>static PatologiaDTO Molim.Backend.API.Mappers.PatologieMapper.Map</definition>
+        <argsstring>(PatologiaProxy proxy)</argsstring>
+        <name>Map</name>
+        <param>
+          <type>PatologiaProxy</type>
+          <declname>proxy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Mappers/PatologieMapper.cs" line="19" column="36" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Mappers/PatologieMapper.cs" bodystart="19" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_mappers_1_1_patologie_mapper_1ad0f678b5f8c8264bdf089eeb524132f0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>PatologiaProxy</type>
+        <definition>static PatologiaProxy Molim.Backend.API.Mappers.PatologieMapper.Map</definition>
+        <argsstring>(PatologiaDTO dto)</argsstring>
+        <name>Map</name>
+        <param>
+          <type>PatologiaDTO</type>
+          <declname>dto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Mappers/PatologieMapper.cs" line="33" column="38" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Mappers/PatologieMapper.cs" bodystart="33" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_mappers_1_1_patologie_mapper_1a5d52c9c82b39c621f106cadc2f44de37" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TipologiaEsameDTO</type>
+        <definition>static TipologiaEsameDTO Molim.Backend.API.Mappers.PatologieMapper.Map</definition>
+        <argsstring>(TipologiaEsameProxy proxy)</argsstring>
+        <name>Map</name>
+        <param>
+          <type>TipologiaEsameProxy</type>
+          <declname>proxy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Mappers/PatologieMapper.cs" line="46" column="41" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Mappers/PatologieMapper.cs" bodystart="46" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_mappers_1_1_patologie_mapper_1afa845e5d1e11f6bbe08ddc06438ae8d2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>TipologiaEsameProxy</type>
+        <definition>static TipologiaEsameProxy Molim.Backend.API.Mappers.PatologieMapper.Map</definition>
+        <argsstring>(TipologiaEsameDTO dto)</argsstring>
+        <name>Map</name>
+        <param>
+          <type>TipologiaEsameDTO</type>
+          <declname>dto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Mappers/PatologieMapper.cs" line="62" column="43" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Mappers/PatologieMapper.cs" bodystart="62" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_mappers_1_1_patologie_mapper_1a22f53f1ca6733ada78c9c712743b9820" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FeatureDTO</type>
+        <definition>static FeatureDTO Molim.Backend.API.Mappers.PatologieMapper.Map</definition>
+        <argsstring>(FeatureProxy proxy)</argsstring>
+        <name>Map</name>
+        <param>
+          <type>FeatureProxy</type>
+          <declname>proxy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Mappers/PatologieMapper.cs" line="77" column="34" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Mappers/PatologieMapper.cs" bodystart="77" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_mappers_1_1_patologie_mapper_1a4e733d17ab8d307731f82cdc95e52fed" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FeatureProxy</type>
+        <definition>static FeatureProxy Molim.Backend.API.Mappers.PatologieMapper.Map</definition>
+        <argsstring>(FeatureDTO dto)</argsstring>
+        <name>Map</name>
+        <param>
+          <type>FeatureDTO</type>
+          <declname>dto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Mappers/PatologieMapper.cs" line="98" column="36" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Mappers/PatologieMapper.cs" bodystart="98" bodyend="116"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_mappers_1_1_patologie_mapper_1ae2798e834677beb6d54d0c2cf0d9643a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FeatureEsameDTO</type>
+        <definition>static FeatureEsameDTO Molim.Backend.API.Mappers.PatologieMapper.Map</definition>
+        <argsstring>(FeatureEsameProxy proxy)</argsstring>
+        <name>Map</name>
+        <param>
+          <type>FeatureEsameProxy</type>
+          <declname>proxy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Mappers/PatologieMapper.cs" line="118" column="39" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Mappers/PatologieMapper.cs" bodystart="118" bodyend="132"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_mappers_1_1_patologie_mapper_1a8aef582e68172f157d7f47555162473e" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>FeatureEsameProxy</type>
+        <definition>static FeatureEsameProxy Molim.Backend.API.Mappers.PatologieMapper.Map</definition>
+        <argsstring>(FeatureEsameDTO dto)</argsstring>
+        <name>Map</name>
+        <param>
+          <type>FeatureEsameDTO</type>
+          <declname>dto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Mappers/PatologieMapper.cs" line="134" column="41" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Mappers/PatologieMapper.cs" bodystart="134" bodyend="148"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_mappers_1_1_patologie_mapper_1aac76a5d5d0e0765f817bccd87fbd246d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ImmagineDTO</type>
+        <definition>static ImmagineDTO Molim.Backend.API.Mappers.PatologieMapper.Map</definition>
+        <argsstring>(ImmagineProxy proxy)</argsstring>
+        <name>Map</name>
+        <param>
+          <type>ImmagineProxy</type>
+          <declname>proxy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Mappers/PatologieMapper.cs" line="150" column="35" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Mappers/PatologieMapper.cs" bodystart="150" bodyend="165"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_mappers_1_1_patologie_mapper_1af2b34ed9f607f160e12178a015e89067" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>ImmagineProxy</type>
+        <definition>static ImmagineProxy Molim.Backend.API.Mappers.PatologieMapper.Map</definition>
+        <argsstring>(ImmagineDTO dto)</argsstring>
+        <name>Map</name>
+        <param>
+          <type>ImmagineDTO</type>
+          <declname>dto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Mappers/PatologieMapper.cs" line="167" column="37" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Mappers/PatologieMapper.cs" bodystart="167" bodyend="181"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_mappers_1_1_patologie_mapper_1ad46a57713ac9810626888f93e6ed570b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>PredizioneDTO</type>
+        <definition>static PredizioneDTO Molim.Backend.API.Mappers.PatologieMapper.Map</definition>
+        <argsstring>(PredizioneProxy proxy)</argsstring>
+        <name>Map</name>
+        <param>
+          <type>PredizioneProxy</type>
+          <declname>proxy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Mappers/PatologieMapper.cs" line="183" column="37" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Mappers/PatologieMapper.cs" bodystart="183" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_mappers_1_1_patologie_mapper_1ab71b7157e1bee0c8f8bd5aec8fc93d3b" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>PredizioneProxy</type>
+        <definition>static PredizioneProxy Molim.Backend.API.Mappers.PatologieMapper.Map</definition>
+        <argsstring>(PredizioneDTO dto)</argsstring>
+        <name>Map</name>
+        <param>
+          <type>PredizioneDTO</type>
+          <declname>dto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Mappers/PatologieMapper.cs" line="203" column="39" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Mappers/PatologieMapper.cs" bodystart="203" bodyend="221"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_mappers_1_1_patologie_mapper_1a31e84981b36594fc115d2a70948fcd89" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>EsamePazienteDTO</type>
+        <definition>static EsamePazienteDTO Molim.Backend.API.Mappers.PatologieMapper.Map</definition>
+        <argsstring>(EsamePazienteProxy proxy)</argsstring>
+        <name>Map</name>
+        <param>
+          <type>EsamePazienteProxy</type>
+          <declname>proxy</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Mappers/PatologieMapper.cs" line="223" column="40" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Mappers/PatologieMapper.cs" bodystart="223" bodyend="241"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_mappers_1_1_patologie_mapper_1adcaed55ab06b0775ae3891f4cc214c08" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>EsamePazienteProxy</type>
+        <definition>static EsamePazienteProxy Molim.Backend.API.Mappers.PatologieMapper.Map</definition>
+        <argsstring>(EsamePazienteDTO dto)</argsstring>
+        <name>Map</name>
+        <param>
+          <type>EsamePazienteDTO</type>
+          <declname>dto</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Mappers/PatologieMapper.cs" line="243" column="42" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Mappers/PatologieMapper.cs" bodystart="243" bodyend="261"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Mappers/PatologieMapper.cs" line="17" column="19" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Mappers/PatologieMapper.cs" bodystart="18" bodyend="264"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_mappers_1_1_patologie_mapper_1a1ed213cd86996939122810de3df230cd" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Mappers::PatologieMapper</scope><name>Map</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_mappers_1_1_patologie_mapper_1ad0f678b5f8c8264bdf089eeb524132f0" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Mappers::PatologieMapper</scope><name>Map</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_mappers_1_1_patologie_mapper_1a5d52c9c82b39c621f106cadc2f44de37" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Mappers::PatologieMapper</scope><name>Map</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_mappers_1_1_patologie_mapper_1afa845e5d1e11f6bbe08ddc06438ae8d2" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Mappers::PatologieMapper</scope><name>Map</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_mappers_1_1_patologie_mapper_1a22f53f1ca6733ada78c9c712743b9820" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Mappers::PatologieMapper</scope><name>Map</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_mappers_1_1_patologie_mapper_1a4e733d17ab8d307731f82cdc95e52fed" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Mappers::PatologieMapper</scope><name>Map</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_mappers_1_1_patologie_mapper_1ae2798e834677beb6d54d0c2cf0d9643a" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Mappers::PatologieMapper</scope><name>Map</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_mappers_1_1_patologie_mapper_1a8aef582e68172f157d7f47555162473e" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Mappers::PatologieMapper</scope><name>Map</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_mappers_1_1_patologie_mapper_1aac76a5d5d0e0765f817bccd87fbd246d" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Mappers::PatologieMapper</scope><name>Map</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_mappers_1_1_patologie_mapper_1af2b34ed9f607f160e12178a015e89067" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Mappers::PatologieMapper</scope><name>Map</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_mappers_1_1_patologie_mapper_1ad46a57713ac9810626888f93e6ed570b" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Mappers::PatologieMapper</scope><name>Map</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_mappers_1_1_patologie_mapper_1ab71b7157e1bee0c8f8bd5aec8fc93d3b" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Mappers::PatologieMapper</scope><name>Map</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_mappers_1_1_patologie_mapper_1a31e84981b36594fc115d2a70948fcd89" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Mappers::PatologieMapper</scope><name>Map</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_mappers_1_1_patologie_mapper_1adcaed55ab06b0775ae3891f4cc214c08" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Mappers::PatologieMapper</scope><name>Map</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

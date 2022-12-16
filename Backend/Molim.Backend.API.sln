@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Molim.Backend.API", "Molim.Backend.API\Molim.Backend.API.csproj", "{BCB1CC98-7071-46DD-A317-D27AD771F769}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Molim.Backend.API.BusinessLayer", "Molim.Backend.API.BusinessLayer\Molim.Backend.API.BusinessLayer.csproj", "{4DD4B681-003B-44E2-82DB-2DE79859E54E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Molim.Backend.API.Utils", "Molim.Backend.API.Utils\Molim.Backend.API.Utils.csproj", "{4DBE6A3F-AFED-4DDA-84BE-D82381BA79B4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Molim.Backend.API.DTO", "Molim.Backend.API.DTO\Molim.Backend.API.DTO.csproj", "{099159EA-DC72-4103-AD1B-0355114CA4A2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Molim.Backend.API.MSClient", "Molim.Backend.API.MSClient\Molim.Backend.API.MSClient.csproj", "{2F6706AE-407F-4944-B551-099DA0686BC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Molim.Backend.ConsoleEsecutore", "Molim.Backend.ConsoleEsecutore\Molim.Backend.ConsoleEsecutore.csproj", "{1F2FC039-25E1-4983-A925-F8FEE46A83AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BCB1CC98-7071-46DD-A317-D27AD771F769}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCB1CC98-7071-46DD-A317-D27AD771F769}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCB1CC98-7071-46DD-A317-D27AD771F769}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCB1CC98-7071-46DD-A317-D27AD771F769}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DD4B681-003B-44E2-82DB-2DE79859E54E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DD4B681-003B-44E2-82DB-2DE79859E54E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DD4B681-003B-44E2-82DB-2DE79859E54E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DD4B681-003B-44E2-82DB-2DE79859E54E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DBE6A3F-AFED-4DDA-84BE-D82381BA79B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DBE6A3F-AFED-4DDA-84BE-D82381BA79B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DBE6A3F-AFED-4DDA-84BE-D82381BA79B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DBE6A3F-AFED-4DDA-84BE-D82381BA79B4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{099159EA-DC72-4103-AD1B-0355114CA4A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{099159EA-DC72-4103-AD1B-0355114CA4A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{099159EA-DC72-4103-AD1B-0355114CA4A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{099159EA-DC72-4103-AD1B-0355114CA4A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F6706AE-407F-4944-B551-099DA0686BC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F6706AE-407F-4944-B551-099DA0686BC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F6706AE-407F-4944-B551-099DA0686BC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F6706AE-407F-4944-B551-099DA0686BC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F2FC039-25E1-4983-A925-F8FEE46A83AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F2FC039-25E1-4983-A925-F8FEE46A83AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F2FC039-25E1-4983-A925-F8FEE46A83AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F2FC039-25E1-4983-A925-F8FEE46A83AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B13307E2-5CAE-4174-B729-7CF98934FB68}
+	EndGlobalSection
+EndGlobal

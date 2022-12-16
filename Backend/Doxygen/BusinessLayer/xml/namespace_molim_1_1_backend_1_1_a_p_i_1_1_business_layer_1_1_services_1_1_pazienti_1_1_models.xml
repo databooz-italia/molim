@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models" kind="namespace" language="C#">
+    <compoundname>Molim::Backend::API::BusinessLayer::Services::Pazienti::Models</compoundname>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_diagnosi_proxy" prot="public">Molim::Backend::API::BusinessLayer::Services::Pazienti::Models::DiagnosiProxy</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_esame_paziente_proxy" prot="public">Molim::Backend::API::BusinessLayer::Services::Pazienti::Models::EsamePazienteProxy</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_feature_esame_proxy" prot="public">Molim::Backend::API::BusinessLayer::Services::Pazienti::Models::FeatureEsameProxy</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_immagine_proxy" prot="public">Molim::Backend::API::BusinessLayer::Services::Pazienti::Models::ImmagineProxy</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_paziente_proxy" prot="public">Molim::Backend::API::BusinessLayer::Services::Pazienti::Models::PazienteProxy</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_predizione_proxy" prot="public">Molim::Backend::API::BusinessLayer::Services::Pazienti::Models::PredizioneProxy</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_pazienti_1_1_models_1_1_region_of_interest_proxy" prot="public">Molim::Backend::API::BusinessLayer::Services::Pazienti::Models::RegionOfInterestProxy</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/DiagnosiProxy.cs" line="5" column="1"/>
+  </compounddef>
+</doxygen>

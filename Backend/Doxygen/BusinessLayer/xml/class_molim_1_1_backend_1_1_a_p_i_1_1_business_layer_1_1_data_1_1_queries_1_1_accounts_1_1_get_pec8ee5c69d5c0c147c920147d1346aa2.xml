@@ -1,0 +1,211 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_pec8ee5c69d5c0c147c920147d1346aa2" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::BusinessLayer::Data::Queries::Accounts::GetPredizioniQuery::PredizioneConValore</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_pec8ee5c69d5c0c147c920147d1346aa2_1a0decb891c1af47f6cf19f6f1f126283b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Molim.Backend.API.BusinessLayer.Data.Queries.Accounts.GetPredizioniQuery.PredizioneConValore.ID</definition>
+        <argsstring></argsstring>
+        <name>ID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetPredizioniQuery.cs" line="19" column="24" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetPredizioniQuery.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_pec8ee5c69d5c0c147c920147d1346aa2_1a763b6e9e843b0ecdd88595fc943882d0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Data.Queries.Accounts.GetPredizioniQuery.PredizioneConValore.IdPaziente</definition>
+        <argsstring></argsstring>
+        <name>IdPaziente</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetPredizioniQuery.cs" line="20" column="27" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetPredizioniQuery.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_pec8ee5c69d5c0c147c920147d1346aa2_1a1ea8b5e20fa5489fc055c8fa85058c5d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Data.Queries.Accounts.GetPredizioniQuery.PredizioneConValore.IdPatologia</definition>
+        <argsstring></argsstring>
+        <name>IdPatologia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetPredizioniQuery.cs" line="21" column="27" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetPredizioniQuery.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_pec8ee5c69d5c0c147c920147d1346aa2_1a89b9a4b60ab9d1de16ab7090971d2754" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Molim.Backend.API.BusinessLayer.Data.Queries.Accounts.GetPredizioniQuery.PredizioneConValore.IdAlgoritmo</definition>
+        <argsstring></argsstring>
+        <name>IdAlgoritmo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetPredizioniQuery.cs" line="22" column="24" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetPredizioniQuery.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_pec8ee5c69d5c0c147c920147d1346aa2_1aaf50ca6de3daad33c770522be34b88ff" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime Molim.Backend.API.BusinessLayer.Data.Queries.Accounts.GetPredizioniQuery.PredizioneConValore.DataRichiesta</definition>
+        <argsstring></argsstring>
+        <name>DataRichiesta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetPredizioniQuery.cs" line="23" column="29" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetPredizioniQuery.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_pec8ee5c69d5c0c147c920147d1346aa2_1af550e9cd1196946328495b72389ab0e7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Data.Queries.Accounts.GetPredizioniQuery.PredizioneConValore.DescrizionePatologia</definition>
+        <argsstring></argsstring>
+        <name>DescrizionePatologia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetPredizioniQuery.cs" line="24" column="27" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetPredizioniQuery.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_pec8ee5c69d5c0c147c920147d1346aa2_1a6cf6ca95c7b516cc6690ace6ae666620" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Data.Queries.Accounts.GetPredizioniQuery.PredizioneConValore.DescrizioneAlgoritmo</definition>
+        <argsstring></argsstring>
+        <name>DescrizioneAlgoritmo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetPredizioniQuery.cs" line="25" column="27" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetPredizioniQuery.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_pec8ee5c69d5c0c147c920147d1346aa2_1a380be5e9134578b8b4d4ab45e5f3a250" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Data.Queries.Accounts.GetPredizioniQuery.PredizioneConValore.DescrizionePaziente</definition>
+        <argsstring></argsstring>
+        <name>DescrizionePaziente</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetPredizioniQuery.cs" line="26" column="27" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetPredizioniQuery.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_pec8ee5c69d5c0c147c920147d1346aa2_1ab1d4010e186b942093e4faae43df419d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Data.Queries.Accounts.GetPredizioniQuery.PredizioneConValore.Esito</definition>
+        <argsstring></argsstring>
+        <name>Esito</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetPredizioniQuery.cs" line="27" column="27" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetPredizioniQuery.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_pec8ee5c69d5c0c147c920147d1346aa2_1a03495af15c0954806cc2c9f923720322" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Data.Queries.Accounts.GetPredizioniQuery.PredizioneConValore.EsitoPredizione</definition>
+        <argsstring></argsstring>
+        <name>EsitoPredizione</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetPredizioniQuery.cs" line="28" column="27" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetPredizioniQuery.cs" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_pec8ee5c69d5c0c147c920147d1346aa2_1aebd249d230ba692bc04d58eefe7af220" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Data.Queries.Accounts.GetPredizioniQuery.PredizioneConValore.IdFeature</definition>
+        <argsstring></argsstring>
+        <name>IdFeature</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetPredizioniQuery.cs" line="29" column="27" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetPredizioniQuery.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_pec8ee5c69d5c0c147c920147d1346aa2_1ac7d6ec9e774dd930621a4b26e22928f0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Data.Queries.Accounts.GetPredizioniQuery.PredizioneConValore.DescrizioneFeature</definition>
+        <argsstring></argsstring>
+        <name>DescrizioneFeature</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetPredizioniQuery.cs" line="30" column="27" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetPredizioniQuery.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_pec8ee5c69d5c0c147c920147d1346aa2_1a40a620210b761a1fb09ff25749d0c98d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Data.Queries.Accounts.GetPredizioniQuery.PredizioneConValore.Valore</definition>
+        <argsstring></argsstring>
+        <name>Valore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetPredizioniQuery.cs" line="31" column="27" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetPredizioniQuery.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_pec8ee5c69d5c0c147c920147d1346aa2_1a6cf6f33361271913e9c9b542895fa3d1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Data.Queries.Accounts.GetPredizioniQuery.PredizioneConValore.TipoValore</definition>
+        <argsstring></argsstring>
+        <name>TipoValore</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetPredizioniQuery.cs" line="32" column="27" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetPredizioniQuery.cs" bodystart="32" bodyend="32"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetPredizioniQuery.cs" line="17" column="15" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/GetPredizioniQuery.cs" bodystart="18" bodyend="33"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_pec8ee5c69d5c0c147c920147d1346aa2_1aaf50ca6de3daad33c770522be34b88ff" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Queries::Accounts::GetPredizioniQuery::PredizioneConValore</scope><name>DataRichiesta</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_pec8ee5c69d5c0c147c920147d1346aa2_1a6cf6ca95c7b516cc6690ace6ae666620" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Queries::Accounts::GetPredizioniQuery::PredizioneConValore</scope><name>DescrizioneAlgoritmo</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_pec8ee5c69d5c0c147c920147d1346aa2_1ac7d6ec9e774dd930621a4b26e22928f0" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Queries::Accounts::GetPredizioniQuery::PredizioneConValore</scope><name>DescrizioneFeature</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_pec8ee5c69d5c0c147c920147d1346aa2_1af550e9cd1196946328495b72389ab0e7" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Queries::Accounts::GetPredizioniQuery::PredizioneConValore</scope><name>DescrizionePatologia</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_pec8ee5c69d5c0c147c920147d1346aa2_1a380be5e9134578b8b4d4ab45e5f3a250" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Queries::Accounts::GetPredizioniQuery::PredizioneConValore</scope><name>DescrizionePaziente</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_pec8ee5c69d5c0c147c920147d1346aa2_1ab1d4010e186b942093e4faae43df419d" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Queries::Accounts::GetPredizioniQuery::PredizioneConValore</scope><name>Esito</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_pec8ee5c69d5c0c147c920147d1346aa2_1a03495af15c0954806cc2c9f923720322" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Queries::Accounts::GetPredizioniQuery::PredizioneConValore</scope><name>EsitoPredizione</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_pec8ee5c69d5c0c147c920147d1346aa2_1a0decb891c1af47f6cf19f6f1f126283b" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Queries::Accounts::GetPredizioniQuery::PredizioneConValore</scope><name>ID</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_pec8ee5c69d5c0c147c920147d1346aa2_1a89b9a4b60ab9d1de16ab7090971d2754" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Queries::Accounts::GetPredizioniQuery::PredizioneConValore</scope><name>IdAlgoritmo</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_pec8ee5c69d5c0c147c920147d1346aa2_1aebd249d230ba692bc04d58eefe7af220" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Queries::Accounts::GetPredizioniQuery::PredizioneConValore</scope><name>IdFeature</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_pec8ee5c69d5c0c147c920147d1346aa2_1a1ea8b5e20fa5489fc055c8fa85058c5d" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Queries::Accounts::GetPredizioniQuery::PredizioneConValore</scope><name>IdPatologia</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_pec8ee5c69d5c0c147c920147d1346aa2_1a763b6e9e843b0ecdd88595fc943882d0" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Queries::Accounts::GetPredizioniQuery::PredizioneConValore</scope><name>IdPaziente</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_pec8ee5c69d5c0c147c920147d1346aa2_1a6cf6f33361271913e9c9b542895fa3d1" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Queries::Accounts::GetPredizioniQuery::PredizioneConValore</scope><name>TipoValore</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_pec8ee5c69d5c0c147c920147d1346aa2_1a40a620210b761a1fb09ff25749d0c98d" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Queries::Accounts::GetPredizioniQuery::PredizioneConValore</scope><name>Valore</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

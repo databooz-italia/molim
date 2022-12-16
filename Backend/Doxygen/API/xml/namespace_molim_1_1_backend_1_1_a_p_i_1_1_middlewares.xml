@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="namespace_molim_1_1_backend_1_1_a_p_i_1_1_middlewares" kind="namespace" language="C#">
+    <compoundname>Molim::Backend::API::Middlewares</compoundname>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_middlewares_1_1_exceptions_handler_middleware" prot="public">Molim::Backend::API::Middlewares::ExceptionsHandlerMiddleware</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_middlewares_1_1_serilog_user_data_middleware" prot="public">Molim::Backend::API::Middlewares::SerilogUserDataMiddleware</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Middlewares/ExceptionsHandlerMiddleware.cs" line="12" column="1"/>
+  </compounddef>
+</doxygen>

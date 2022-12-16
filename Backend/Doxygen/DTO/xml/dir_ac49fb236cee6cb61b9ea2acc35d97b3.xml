@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_ac49fb236cee6cb61b9ea2acc35d97b3" kind="dir">
+    <compoundname>C:/Progetti/Molim/Backend/Molim.Backend.API.DTO</compoundname>
+    <innerdir refid="dir_79da751a201e9b4a2efd56b407a13b68">C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Accounts</innerdir>
+    <innerdir refid="dir_b63508eb869a3d4d2484983a49fceb24">C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Algoritmi</innerdir>
+    <innerdir refid="dir_fc09b2862de8eeba3257336c6e73907b">C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Auth</innerdir>
+    <innerdir refid="dir_6d6704509a1bde1c7a857f45f7a74fc3">C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Errors</innerdir>
+    <innerdir refid="dir_532388f8131ce579c21e9982cd06aff2">C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/obj</innerdir>
+    <innerdir refid="dir_474cebbbfddc09f690be074328b94211">C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Patologie</innerdir>
+    <innerdir refid="dir_930eccc66a8f69018fd865e5efdc488f">C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/"/>
+  </compounddef>
+</doxygen>

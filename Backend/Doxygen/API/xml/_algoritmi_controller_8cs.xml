@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_algoritmi_controller_8cs" kind="file" language="C#">
+    <compoundname>AlgoritmiController.cs</compoundname>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_algoritmi_controller" prot="public">Molim::Backend::API::Controllers::AlgoritmiController</innerclass>
+    <innernamespace refid="namespace_molim">Molim</innernamespace>
+    <innernamespace refid="namespace_molim_1_1_backend">Molim::Backend</innernamespace>
+    <innernamespace refid="namespace_molim_1_1_backend_1_1_a_p_i">Molim::Backend::API</innernamespace>
+    <innernamespace refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_controllers">Molim::Backend::API::Controllers</innernamespace>
+    <innernamespace refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_responses">Molim::Backend::API::DTO::Pazienti::Responses</innernamespace>
+    <innernamespace refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_requests">Molim::Backend::API::DTO::Pazienti::Requests</innernamespace>
+    <innernamespace refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_responses">Molim::Backend::API::DTO::Pazienti::Esami::Responses</innernamespace>
+    <innernamespace refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_patologie_1_1_responses">Molim::Backend::API::DTO::Patologie::Responses</innernamespace>
+    <innernamespace refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_patologie">Molim::Backend::API::BusinessLayer::Services::Patologie</innernamespace>
+    <innernamespace refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_algoritmi_1_1_responses">Molim::Backend::API::DTO::Algoritmi::Responses</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Linq;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_molim" kindref="compound">Molim</ref>.<ref refid="namespace_molim_1_1_backend" kindref="compound">Backend</ref>.<ref refid="namespace_molim_1_1_backend_1_1_a_p_i" kindref="compound">API</ref>.<ref refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_auth" kindref="compound">Auth</ref>;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_molim" kindref="compound">Molim</ref>.<ref refid="namespace_molim_1_1_backend" kindref="compound">Backend</ref>.<ref refid="namespace_molim_1_1_backend_1_1_a_p_i" kindref="compound">API</ref>.<ref refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer" kindref="compound">BusinessLayer</ref>.Services.Authentication;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_molim" kindref="compound">Molim</ref>.<ref refid="namespace_molim_1_1_backend" kindref="compound">Backend</ref>.<ref refid="namespace_molim_1_1_backend_1_1_a_p_i" kindref="compound">API</ref>.DTO.Accounts.Requests;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_molim" kindref="compound">Molim</ref>.<ref refid="namespace_molim_1_1_backend" kindref="compound">Backend</ref>.<ref refid="namespace_molim_1_1_backend_1_1_a_p_i" kindref="compound">API</ref>.DTO.Accounts.Responses;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Microsoft.AspNetCore.Authorization;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Microsoft.AspNetCore.Mvc;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Microsoft.Extensions.Logging;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>Microsoft.AspNetCore.Authentication.JwtBearer;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_molim" kindref="compound">Molim</ref>.<ref refid="namespace_molim_1_1_backend" kindref="compound">Backend</ref>.<ref refid="namespace_molim_1_1_backend_1_1_a_p_i" kindref="compound">API</ref>.<ref refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_mappers" kindref="compound">Mappers</ref>;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_molim" kindref="compound">Molim</ref>.<ref refid="namespace_molim_1_1_backend" kindref="compound">Backend</ref>.<ref refid="namespace_molim_1_1_backend_1_1_a_p_i" kindref="compound">API</ref>.<ref refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer" kindref="compound">BusinessLayer</ref>.Services;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_molim" kindref="compound">Molim</ref>.<ref refid="namespace_molim_1_1_backend" kindref="compound">Backend</ref>.<ref refid="namespace_molim_1_1_backend_1_1_a_p_i" kindref="compound">API</ref>.DTO.Pazienti.Responses;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_molim" kindref="compound">Molim</ref>.<ref refid="namespace_molim_1_1_backend" kindref="compound">Backend</ref>.<ref refid="namespace_molim_1_1_backend_1_1_a_p_i" kindref="compound">API</ref>.DTO.Pazienti.Requests;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_molim" kindref="compound">Molim</ref>.<ref refid="namespace_molim_1_1_backend" kindref="compound">Backend</ref>.<ref refid="namespace_molim_1_1_backend_1_1_a_p_i" kindref="compound">API</ref>.DTO.Pazienti.Esami.Responses;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_molim" kindref="compound">Molim</ref>.<ref refid="namespace_molim_1_1_backend" kindref="compound">Backend</ref>.<ref refid="namespace_molim_1_1_backend_1_1_a_p_i" kindref="compound">API</ref>.DTO.Patologie.Responses;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_molim" kindref="compound">Molim</ref>.<ref refid="namespace_molim_1_1_backend" kindref="compound">Backend</ref>.<ref refid="namespace_molim_1_1_backend_1_1_a_p_i" kindref="compound">API</ref>.<ref refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer" kindref="compound">BusinessLayer</ref>.Services.Patologie;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/><ref refid="namespace_molim" kindref="compound">Molim</ref>.<ref refid="namespace_molim_1_1_backend" kindref="compound">Backend</ref>.<ref refid="namespace_molim_1_1_backend_1_1_a_p_i" kindref="compound">API</ref>.DTO.Algoritmi.Responses;</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_controllers" kindref="compound">Molim.Backend.API.Controllers</ref></highlight></codeline>
+<codeline lineno="21"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/>[Route(</highlight><highlight class="stringliteral">&quot;[controller]&quot;</highlight><highlight class="normal">)]</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"><sp/><sp/><sp/><sp/>[ApiController]</highlight></codeline>
+<codeline lineno="24" refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_algoritmi_controller" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_algoritmi_controller" kindref="compound">AlgoritmiController</ref><sp/>:<sp/>ControllerBase</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>readonly<sp/>ILogger&lt;AlgoritmiController&gt;<sp/>_logger;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">private</highlight><highlight class="normal"><sp/>readonly<sp/>BaseService<sp/>_uow;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_algoritmi_controller_1ac11b7e63d03af14e8df1ca15f22bf75e" kindref="member">AlgoritmiController</ref>(ILogger&lt;AlgoritmiController&gt;<sp/>logger,<sp/>BaseService<sp/>uow)</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="31"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_logger<sp/>=<sp/>logger;</highlight></codeline>
+<codeline lineno="32"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>_uow<sp/>=<sp/>uow;</highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="34"><highlight class="normal"></highlight></codeline>
+<codeline lineno="35"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//ALGORITMI</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="36"><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[HttpGet]</highlight></codeline>
+<codeline lineno="38"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[Authorize(AuthenticationSchemes<sp/>=<sp/>JwtBearerDefaults.AuthenticationScheme)]</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/>GetAlgoritmiResponse<sp/><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_algoritmi_controller_1abcfd96ed94f294b0429d01817d5b5dab" kindref="member">GetAlgoritmi</ref>()</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>IEnumerable&lt;DTO.Algoritmi.AlgoritmoDTO&gt;<sp/>algoritmi;</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>(_uow)</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>var<sp/>service<sp/>=<sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>AlgoritmiService(_uow);</highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>algoritmi<sp/>=<sp/>service</highlight></codeline>
+<codeline lineno="48"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.GetAlgoritmi()</highlight></codeline>
+<codeline lineno="49"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>.Select(x<sp/>=&gt;<sp/>AlgoritmiMapper.Map(x));</highlight></codeline>
+<codeline lineno="50"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">return</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/>GetAlgoritmiResponse()</highlight></codeline>
+<codeline lineno="53"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="54"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Algoritmi<sp/>=<sp/>algoritmi</highlight></codeline>
+<codeline lineno="55"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>};</highlight></codeline>
+<codeline lineno="56"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight></codeline>
+<codeline lineno="57"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="58"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/AlgoritmiController.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities" kind="namespace" language="C#">
+    <compoundname>Molim::Backend::API::BusinessLayer::Data::Entities</compoundname>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_accounts" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::Accounts</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_algoritmi" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::Algoritmi</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_diagnosi" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::Diagnosi</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_efmigrationshistory" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::Efmigrationshistory</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_esami" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::Esami</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_features" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::Features</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_features_esame" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::FeaturesEsame</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_immagini" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::Immagini</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::molim_v2Context</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_normalizzazione_feature" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::NormalizzazioneFeature</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_patologie" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::Patologie</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_pazienti" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::Pazienti</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_permessi_profili" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::PermessiProfili</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_profili" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::Profili</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_regioni_di_interesse" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::RegioniDiInteresse</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_score_diagnosi" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::ScoreDiagnosi</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_stili_di_vita" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::StiliDiVita</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_stili_di_vita_pazienti" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::StiliDiVitaPazienti</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_tipi_esami" prot="public">Molim::Backend::API::BusinessLayer::Data::Entities::TipiEsami</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/Accounts.cs" line="4" column="1"/>
+  </compounddef>
+</doxygen>

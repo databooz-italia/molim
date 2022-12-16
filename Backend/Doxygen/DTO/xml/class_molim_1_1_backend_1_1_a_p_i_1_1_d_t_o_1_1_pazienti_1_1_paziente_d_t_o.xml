@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_paziente_d_t_o" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::DTO::Pazienti::PazienteDTO</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_paziente_d_t_o_1a28853dd67e3e98ece43eea3928686f17" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.DTO.Pazienti.PazienteDTO.IdPaziente</definition>
+        <argsstring></argsstring>
+        <name>IdPaziente</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/PazienteDTO.cs" line="9" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/PazienteDTO.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_paziente_d_t_o_1afc5c5cd72759d8826d57686f397e40a5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.DTO.Pazienti.PazienteDTO.NomePaziente</definition>
+        <argsstring></argsstring>
+        <name>NomePaziente</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/PazienteDTO.cs" line="10" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/PazienteDTO.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_paziente_d_t_o_1a938d965db76638cebd462f3a33af7107" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.DTO.Pazienti.PazienteDTO.CognomePaziente</definition>
+        <argsstring></argsstring>
+        <name>CognomePaziente</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/PazienteDTO.cs" line="11" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/PazienteDTO.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_paziente_d_t_o_1a49568569d09e2cc38978147fc5b53b02" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? Molim.Backend.API.DTO.Pazienti.PazienteDTO.AnnoNascita</definition>
+        <argsstring></argsstring>
+        <name>AnnoNascita</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/PazienteDTO.cs" line="12" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/PazienteDTO.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_paziente_d_t_o_1aa69a918abf82efa35c605c80ff03ef36" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.DTO.Pazienti.PazienteDTO.Sesso</definition>
+        <argsstring></argsstring>
+        <name>Sesso</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/PazienteDTO.cs" line="13" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/PazienteDTO.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_paziente_d_t_o_1a3e936513934afa309198378d5a5aa8bf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.DTO.Pazienti.PazienteDTO.City</definition>
+        <argsstring></argsstring>
+        <name>City</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/PazienteDTO.cs" line="14" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/PazienteDTO.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_paziente_d_t_o_1a33d7e188ac0043801c862d43394b44a6" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.DTO.Pazienti.PazienteDTO.CodiceFiscale</definition>
+        <argsstring></argsstring>
+        <name>CodiceFiscale</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/PazienteDTO.cs" line="15" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/PazienteDTO.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_paziente_d_t_o_1aae7a7ee6afdabe8ffde78c478f70a570" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.DTO.Pazienti.PazienteDTO.Indirizzo</definition>
+        <argsstring></argsstring>
+        <name>Indirizzo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/PazienteDTO.cs" line="16" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/PazienteDTO.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_paziente_d_t_o_1ae76dfb8e431cfbc11e1399a84b767503" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.DTO.Pazienti.PazienteDTO.IndirizzoMail</definition>
+        <argsstring></argsstring>
+        <name>IndirizzoMail</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/PazienteDTO.cs" line="17" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/PazienteDTO.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_paziente_d_t_o_1ae861f17f81ef5bc7d53ae81144de9004" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.DTO.Pazienti.PazienteDTO.NumeroCellulare</definition>
+        <argsstring></argsstring>
+        <name>NumeroCellulare</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/PazienteDTO.cs" line="18" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/PazienteDTO.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_paziente_d_t_o_1a1ea20ba7ec31a7e8a94a3c2f3ed5a182" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? Molim.Backend.API.DTO.Pazienti.PazienteDTO.Education</definition>
+        <argsstring></argsstring>
+        <name>Education</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/PazienteDTO.cs" line="19" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/PazienteDTO.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/PazienteDTO.cs" line="7" column="11" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/PazienteDTO.cs" bodystart="8" bodyend="20"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_paziente_d_t_o_1a49568569d09e2cc38978147fc5b53b02" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::PazienteDTO</scope><name>AnnoNascita</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_paziente_d_t_o_1a3e936513934afa309198378d5a5aa8bf" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::PazienteDTO</scope><name>City</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_paziente_d_t_o_1a33d7e188ac0043801c862d43394b44a6" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::PazienteDTO</scope><name>CodiceFiscale</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_paziente_d_t_o_1a938d965db76638cebd462f3a33af7107" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::PazienteDTO</scope><name>CognomePaziente</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_paziente_d_t_o_1a1ea20ba7ec31a7e8a94a3c2f3ed5a182" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::PazienteDTO</scope><name>Education</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_paziente_d_t_o_1a28853dd67e3e98ece43eea3928686f17" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::PazienteDTO</scope><name>IdPaziente</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_paziente_d_t_o_1aae7a7ee6afdabe8ffde78c478f70a570" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::PazienteDTO</scope><name>Indirizzo</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_paziente_d_t_o_1ae76dfb8e431cfbc11e1399a84b767503" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::PazienteDTO</scope><name>IndirizzoMail</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_paziente_d_t_o_1afc5c5cd72759d8826d57686f397e40a5" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::PazienteDTO</scope><name>NomePaziente</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_paziente_d_t_o_1ae861f17f81ef5bc7d53ae81144de9004" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::PazienteDTO</scope><name>NumeroCellulare</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_paziente_d_t_o_1aa69a918abf82efa35c605c80ff03ef36" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::PazienteDTO</scope><name>Sesso</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

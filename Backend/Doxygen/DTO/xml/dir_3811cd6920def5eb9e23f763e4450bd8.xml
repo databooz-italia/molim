@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_3811cd6920def5eb9e23f763e4450bd8" kind="dir">
+    <compoundname>C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Esami</compoundname>
+    <innerdir refid="dir_78649fad4ceafe1029e4b2910392ba7e">C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Esami/Responses</innerdir>
+    <innerfile refid="_esame_paziente_d_t_o_8cs">EsamePazienteDTO.cs</innerfile>
+    <innerfile refid="_feature_esame_d_t_o_8cs">FeatureEsameDTO.cs</innerfile>
+    <innerfile refid="_immagine_d_t_o_8cs">ImmagineDTO.cs</innerfile>
+    <innerfile refid="_region_of_interest_d_t_o_8cs">RegionOfInterestDTO.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Esami/"/>
+  </compounddef>
+</doxygen>

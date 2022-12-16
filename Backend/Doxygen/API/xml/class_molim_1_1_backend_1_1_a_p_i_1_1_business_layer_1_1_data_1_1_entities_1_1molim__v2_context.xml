@@ -1,0 +1,368 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::BusinessLayer::Data::Entities::molim_v2Context</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">DbContext</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context_1a8728cbcd9648960d2215635acd8780e1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DbSet&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_accounts" kindref="compound">Accounts</ref> &gt;</type>
+        <definition>virtual DbSet&lt;Accounts&gt; Molim.Backend.API.BusinessLayer.Data.Entities.molim_v2Context.Accounts</definition>
+        <argsstring></argsstring>
+        <name>Accounts</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/molim_v2Context.cs" line="19" column="30" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/molim_v2Context.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context_1a1984615411ae51df4ffaa1d70b873c44" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DbSet&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_algoritmi" kindref="compound">Algoritmi</ref> &gt;</type>
+        <definition>virtual DbSet&lt;Algoritmi&gt; Molim.Backend.API.BusinessLayer.Data.Entities.molim_v2Context.Algoritmi</definition>
+        <argsstring></argsstring>
+        <name>Algoritmi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/molim_v2Context.cs" line="20" column="30" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/molim_v2Context.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context_1adee1e7d259d4ef5c14e82cca6ec27512" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DbSet&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_diagnosi" kindref="compound">Diagnosi</ref> &gt;</type>
+        <definition>virtual DbSet&lt;Diagnosi&gt; Molim.Backend.API.BusinessLayer.Data.Entities.molim_v2Context.Diagnosi</definition>
+        <argsstring></argsstring>
+        <name>Diagnosi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/molim_v2Context.cs" line="21" column="30" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/molim_v2Context.cs" bodystart="21" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context_1aa56d46249dd410c209097fbd911ec998" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DbSet&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_esami" kindref="compound">Esami</ref> &gt;</type>
+        <definition>virtual DbSet&lt;Esami&gt; Molim.Backend.API.BusinessLayer.Data.Entities.molim_v2Context.Esami</definition>
+        <argsstring></argsstring>
+        <name>Esami</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/molim_v2Context.cs" line="22" column="30" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/molim_v2Context.cs" bodystart="22" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context_1afd521cd1a825669c55f79dd17e43776c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DbSet&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_features" kindref="compound">Features</ref> &gt;</type>
+        <definition>virtual DbSet&lt;Features&gt; Molim.Backend.API.BusinessLayer.Data.Entities.molim_v2Context.Features</definition>
+        <argsstring></argsstring>
+        <name>Features</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/molim_v2Context.cs" line="23" column="30" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/molim_v2Context.cs" bodystart="23" bodyend="23"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context_1a6067c1249046ac6a993bb93a15d3dfc1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DbSet&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_features_esame" kindref="compound">FeaturesEsame</ref> &gt;</type>
+        <definition>virtual DbSet&lt;FeaturesEsame&gt; Molim.Backend.API.BusinessLayer.Data.Entities.molim_v2Context.FeaturesEsame</definition>
+        <argsstring></argsstring>
+        <name>FeaturesEsame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/molim_v2Context.cs" line="24" column="30" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/molim_v2Context.cs" bodystart="24" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context_1a2ee38cf0a58359bc7884fd0bbfa3eb8f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DbSet&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_immagini" kindref="compound">Immagini</ref> &gt;</type>
+        <definition>virtual DbSet&lt;Immagini&gt; Molim.Backend.API.BusinessLayer.Data.Entities.molim_v2Context.Immagini</definition>
+        <argsstring></argsstring>
+        <name>Immagini</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/molim_v2Context.cs" line="25" column="30" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/molim_v2Context.cs" bodystart="25" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context_1a4ddad2773d8d1e07390986ff49b1675b" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DbSet&lt; NormalizzazioneFeatures &gt;</type>
+        <definition>virtual DbSet&lt;NormalizzazioneFeatures&gt; Molim.Backend.API.BusinessLayer.Data.Entities.molim_v2Context.NormalizzazioneFeatures</definition>
+        <argsstring></argsstring>
+        <name>NormalizzazioneFeatures</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/molim_v2Context.cs" line="26" column="30" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/molim_v2Context.cs" bodystart="26" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context_1a8f5a534191f1075a84369775d846cef8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DbSet&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_patologie" kindref="compound">Patologie</ref> &gt;</type>
+        <definition>virtual DbSet&lt;Patologie&gt; Molim.Backend.API.BusinessLayer.Data.Entities.molim_v2Context.Patologie</definition>
+        <argsstring></argsstring>
+        <name>Patologie</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/molim_v2Context.cs" line="27" column="30" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/molim_v2Context.cs" bodystart="27" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context_1a4c4b7a5c703b3eb1fe82299e8814a793" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DbSet&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_pazienti" kindref="compound">Pazienti</ref> &gt;</type>
+        <definition>virtual DbSet&lt;Pazienti&gt; Molim.Backend.API.BusinessLayer.Data.Entities.molim_v2Context.Pazienti</definition>
+        <argsstring></argsstring>
+        <name>Pazienti</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/molim_v2Context.cs" line="28" column="30" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/molim_v2Context.cs" bodystart="28" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context_1a77d68926a6872f0fe1a0638bb0db19a0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DbSet&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_permessi_profili" kindref="compound">PermessiProfili</ref> &gt;</type>
+        <definition>virtual DbSet&lt;PermessiProfili&gt; Molim.Backend.API.BusinessLayer.Data.Entities.molim_v2Context.PermessiProfili</definition>
+        <argsstring></argsstring>
+        <name>PermessiProfili</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/molim_v2Context.cs" line="29" column="30" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/molim_v2Context.cs" bodystart="29" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context_1a5c16786114d4480c3c9e2cf91ce84db8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DbSet&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_profili" kindref="compound">Profili</ref> &gt;</type>
+        <definition>virtual DbSet&lt;Profili&gt; Molim.Backend.API.BusinessLayer.Data.Entities.molim_v2Context.Profili</definition>
+        <argsstring></argsstring>
+        <name>Profili</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/molim_v2Context.cs" line="30" column="30" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/molim_v2Context.cs" bodystart="30" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context_1a36d38f9ea2b75439327f5eb890e1d5bf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DbSet&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_regioni_di_interesse" kindref="compound">RegioniDiInteresse</ref> &gt;</type>
+        <definition>virtual DbSet&lt;RegioniDiInteresse&gt; Molim.Backend.API.BusinessLayer.Data.Entities.molim_v2Context.RegioniDiInteresse</definition>
+        <argsstring></argsstring>
+        <name>RegioniDiInteresse</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/molim_v2Context.cs" line="31" column="30" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/molim_v2Context.cs" bodystart="31" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context_1a0fd427044ed142f2d6ceb76aad5d22cf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DbSet&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_score_diagnosi" kindref="compound">ScoreDiagnosi</ref> &gt;</type>
+        <definition>virtual DbSet&lt;ScoreDiagnosi&gt; Molim.Backend.API.BusinessLayer.Data.Entities.molim_v2Context.ScoreDiagnosi</definition>
+        <argsstring></argsstring>
+        <name>ScoreDiagnosi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/molim_v2Context.cs" line="32" column="30" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/molim_v2Context.cs" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context_1a67fd9f08a42d5a117d50e08e74b71951" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DbSet&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_stili_di_vita" kindref="compound">StiliDiVita</ref> &gt;</type>
+        <definition>virtual DbSet&lt;StiliDiVita&gt; Molim.Backend.API.BusinessLayer.Data.Entities.molim_v2Context.StiliDiVita</definition>
+        <argsstring></argsstring>
+        <name>StiliDiVita</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/molim_v2Context.cs" line="33" column="30" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/molim_v2Context.cs" bodystart="33" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context_1a2517793f7cba1b0ff9088c917fbdf87e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DbSet&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_stili_di_vita_pazienti" kindref="compound">StiliDiVitaPazienti</ref> &gt;</type>
+        <definition>virtual DbSet&lt;StiliDiVitaPazienti&gt; Molim.Backend.API.BusinessLayer.Data.Entities.molim_v2Context.StiliDiVitaPazienti</definition>
+        <argsstring></argsstring>
+        <name>StiliDiVitaPazienti</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/molim_v2Context.cs" line="34" column="30" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/molim_v2Context.cs" bodystart="34" bodyend="34"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context_1aa63d1479b8e8ca21fe33b76fed9aaf0c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DbSet&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_tipi_esami" kindref="compound">TipiEsami</ref> &gt;</type>
+        <definition>virtual DbSet&lt;TipiEsami&gt; Molim.Backend.API.BusinessLayer.Data.Entities.molim_v2Context.TipiEsami</definition>
+        <argsstring></argsstring>
+        <name>TipiEsami</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/molim_v2Context.cs" line="35" column="30" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/molim_v2Context.cs" bodystart="35" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context_1aa1338f1fa14adb48974174bf78fcaeb1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Molim.Backend.API.BusinessLayer.Data.Entities.molim_v2Context.molim_v2Context</definition>
+        <argsstring>()</argsstring>
+        <name>molim_v2Context</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/molim_v2Context.cs" line="9" column="16" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/molim_v2Context.cs" bodystart="9" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context_1a8d3eb8e03dff62165906308d411de56a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Molim.Backend.API.BusinessLayer.Data.Entities.molim_v2Context.molim_v2Context</definition>
+        <argsstring>(DbContextOptions&lt; molim_v2Context &gt; options)</argsstring>
+        <name>molim_v2Context</name>
+        <param>
+          <type>DbContextOptions&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context" kindref="compound">molim_v2Context</ref> &gt;</type>
+          <declname>options</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/molim_v2Context.cs" line="13" column="16" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/molim_v2Context.cs" bodystart="13" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context_1af6be5e36d3815fa116c6483d6f43e70f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Molim.Backend.API.BusinessLayer.Data.Entities.molim_v2Context.OnConfiguring</definition>
+        <argsstring>(DbContextOptionsBuilder optionsBuilder)</argsstring>
+        <name>OnConfiguring</name>
+        <param>
+          <type>DbContextOptionsBuilder</type>
+          <declname>optionsBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/molim_v2Context.cs" line="37" column="33" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/molim_v2Context.cs" bodystart="37" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context_1a15711fc5c31fa4312481499f6bc1bd26" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Molim.Backend.API.BusinessLayer.Data.Entities.molim_v2Context.OnModelCreating</definition>
+        <argsstring>(ModelBuilder modelBuilder)</argsstring>
+        <name>OnModelCreating</name>
+        <param>
+          <type>ModelBuilder</type>
+          <declname>modelBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/molim_v2Context.cs" line="46" column="33" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/molim_v2Context.cs" bodystart="46" bodyend="549"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context_1a1553fa289cb3509f0deb5689f5a31e61" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>partial void</type>
+        <definition>partial void Molim.Backend.API.BusinessLayer.Data.Entities.molim_v2Context.OnModelCreatingPartial</definition>
+        <argsstring>(ModelBuilder modelBuilder)</argsstring>
+        <name>OnModelCreatingPartial</name>
+        <param>
+          <type>ModelBuilder</type>
+          <declname>modelBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/molim_v2Context.cs" line="551" column="22"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>DbContext</label>
+      </node>
+      <node id="1">
+        <label>Molim.Backend.API.BusinessLayer.Data.Entities.molim_v2Context</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>DbContext</label>
+      </node>
+      <node id="1">
+        <label>Molim.Backend.API.BusinessLayer.Data.Entities.molim_v2Context</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/molim_v2Context.cs" line="7" column="19" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/molim_v2Context.cs" bodystart="8" bodyend="552"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context_1a8728cbcd9648960d2215635acd8780e1" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::molim_v2Context</scope><name>Accounts</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context_1a1984615411ae51df4ffaa1d70b873c44" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::molim_v2Context</scope><name>Algoritmi</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context_1adee1e7d259d4ef5c14e82cca6ec27512" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::molim_v2Context</scope><name>Diagnosi</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context_1aa56d46249dd410c209097fbd911ec998" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::molim_v2Context</scope><name>Esami</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context_1afd521cd1a825669c55f79dd17e43776c" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::molim_v2Context</scope><name>Features</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context_1a6067c1249046ac6a993bb93a15d3dfc1" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::molim_v2Context</scope><name>FeaturesEsame</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context_1a2ee38cf0a58359bc7884fd0bbfa3eb8f" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::molim_v2Context</scope><name>Immagini</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context_1aa1338f1fa14adb48974174bf78fcaeb1" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::molim_v2Context</scope><name>molim_v2Context</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context_1a8d3eb8e03dff62165906308d411de56a" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::molim_v2Context</scope><name>molim_v2Context</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context_1a4ddad2773d8d1e07390986ff49b1675b" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::molim_v2Context</scope><name>NormalizzazioneFeatures</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context_1af6be5e36d3815fa116c6483d6f43e70f" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::molim_v2Context</scope><name>OnConfiguring</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context_1a15711fc5c31fa4312481499f6bc1bd26" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::molim_v2Context</scope><name>OnModelCreating</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context_1a1553fa289cb3509f0deb5689f5a31e61" prot="private" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::molim_v2Context</scope><name>OnModelCreatingPartial</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context_1a8f5a534191f1075a84369775d846cef8" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::molim_v2Context</scope><name>Patologie</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context_1a4c4b7a5c703b3eb1fe82299e8814a793" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::molim_v2Context</scope><name>Pazienti</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context_1a77d68926a6872f0fe1a0638bb0db19a0" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::molim_v2Context</scope><name>PermessiProfili</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context_1a5c16786114d4480c3c9e2cf91ce84db8" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::molim_v2Context</scope><name>Profili</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context_1a36d38f9ea2b75439327f5eb890e1d5bf" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::molim_v2Context</scope><name>RegioniDiInteresse</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context_1a0fd427044ed142f2d6ceb76aad5d22cf" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::molim_v2Context</scope><name>ScoreDiagnosi</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context_1a67fd9f08a42d5a117d50e08e74b71951" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::molim_v2Context</scope><name>StiliDiVita</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context_1a2517793f7cba1b0ff9088c917fbdf87e" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::molim_v2Context</scope><name>StiliDiVitaPazienti</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1molim__v2_context_1aa63d1479b8e8ca21fe33b76fed9aaf0c" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::molim_v2Context</scope><name>TipiEsami</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

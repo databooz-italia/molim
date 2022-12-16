@@ -1,0 +1,186 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_accounts_controller" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::Controllers::AccountsController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ControllerBase</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_accounts_controller_1accba48fb19d93aaeb1cee58a1bc75355" prot="private" static="no" mutable="no">
+        <type>readonly ILogger&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_accounts_controller" kindref="compound">AccountsController</ref> &gt;</type>
+        <definition>readonly ILogger&lt;AccountsController&gt; Molim.Backend.API.Controllers.AccountsController._logger</definition>
+        <argsstring></argsstring>
+        <name>_logger</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/AccountsController.cs" line="20" column="34" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/AccountsController.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_accounts_controller_1a51224e4e84f905aafd3d0433d1528d1d" prot="private" static="no" mutable="no">
+        <type>readonly BaseService</type>
+        <definition>readonly BaseService Molim.Backend.API.Controllers.AccountsController._uow</definition>
+        <argsstring></argsstring>
+        <name>_uow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/AccountsController.cs" line="21" column="38" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/AccountsController.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_accounts_controller_1a140e43e70148570ce5d405be030e7098" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_auth_1_1_tokens_provider" kindref="compound">TokensProvider</ref></type>
+        <definition>readonly TokensProvider Molim.Backend.API.Controllers.AccountsController._tokensProvider</definition>
+        <argsstring></argsstring>
+        <name>_tokensProvider</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/AccountsController.cs" line="22" column="41" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/AccountsController.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_accounts_controller_1a1fa4c5c9b11b646208aab59b7a39d77b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Molim.Backend.API.Controllers.AccountsController.AccountsController</definition>
+        <argsstring>(ILogger&lt; AccountsController &gt; logger, BaseService uow, TokensProvider tokenProvider)</argsstring>
+        <name>AccountsController</name>
+        <param>
+          <type>ILogger&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_accounts_controller" kindref="compound">AccountsController</ref> &gt;</type>
+          <declname>logger</declname>
+        </param>
+        <param>
+          <type>BaseService</type>
+          <declname>uow</declname>
+        </param>
+        <param>
+          <type><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_auth_1_1_tokens_provider" kindref="compound">TokensProvider</ref></type>
+          <declname>tokenProvider</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/AccountsController.cs" line="24" column="16" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/AccountsController.cs" bodystart="24" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_accounts_controller_1a1ce58492321dd28972491adaa4762811" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GetAccountsResponse</type>
+        <definition>GetAccountsResponse Molim.Backend.API.Controllers.AccountsController.GetAccounts</definition>
+        <argsstring>(string roleType)</argsstring>
+        <name>GetAccounts</name>
+        <param>
+          <type>string</type>
+          <declname>roleType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/AccountsController.cs" line="33" column="36" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/AccountsController.cs" bodystart="33" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_accounts_controller_1a893fef08b72f6e52f0a01385a5e60612" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult Molim.Backend.API.Controllers.AccountsController.CreateAccount</definition>
+        <argsstring>([FromBody]CreateAccountRequest request)</argsstring>
+        <name>CreateAccount</name>
+        <param>
+          <attributes>[FromBody]</attributes>
+          <type>CreateAccountRequest</type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/AccountsController.cs" line="54" column="30" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/AccountsController.cs" bodystart="54" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_accounts_controller_1ae767f871852b0cafe237d9066d53dbab" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult Molim.Backend.API.Controllers.AccountsController.UpdateAccount</definition>
+        <argsstring>([FromBody] UpdateAccountRequest request, int id)</argsstring>
+        <name>UpdateAccount</name>
+        <param>
+          <attributes>[FromBody]</attributes>
+          <type>UpdateAccountRequest</type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/AccountsController.cs" line="69" column="30" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/AccountsController.cs" bodystart="69" bodyend="80"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_accounts_controller_1a39a90a6e451afaa780bd4ac4d9aacc08" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult Molim.Backend.API.Controllers.AccountsController.DeleteAccount</definition>
+        <argsstring>(int id)</argsstring>
+        <name>DeleteAccount</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/AccountsController.cs" line="84" column="30" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/AccountsController.cs" bodystart="84" bodyend="95"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ControllerBase</label>
+      </node>
+      <node id="1">
+        <label>Molim.Backend.API.Controllers.AccountsController</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_accounts_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ControllerBase</label>
+      </node>
+      <node id="1">
+        <label>Molim.Backend.API.Controllers.AccountsController</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_accounts_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/AccountsController.cs" line="18" column="11" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/AccountsController.cs" bodystart="19" bodyend="96"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_accounts_controller_1accba48fb19d93aaeb1cee58a1bc75355" prot="private" virt="non-virtual"><scope>Molim::Backend::API::Controllers::AccountsController</scope><name>_logger</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_accounts_controller_1a140e43e70148570ce5d405be030e7098" prot="private" virt="non-virtual"><scope>Molim::Backend::API::Controllers::AccountsController</scope><name>_tokensProvider</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_accounts_controller_1a51224e4e84f905aafd3d0433d1528d1d" prot="private" virt="non-virtual"><scope>Molim::Backend::API::Controllers::AccountsController</scope><name>_uow</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_accounts_controller_1a1fa4c5c9b11b646208aab59b7a39d77b" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Controllers::AccountsController</scope><name>AccountsController</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_accounts_controller_1a893fef08b72f6e52f0a01385a5e60612" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Controllers::AccountsController</scope><name>CreateAccount</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_accounts_controller_1a39a90a6e451afaa780bd4ac4d9aacc08" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Controllers::AccountsController</scope><name>DeleteAccount</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_accounts_controller_1a1ce58492321dd28972491adaa4762811" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Controllers::AccountsController</scope><name>GetAccounts</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_accounts_controller_1ae767f871852b0cafe237d9066d53dbab" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Controllers::AccountsController</scope><name>UpdateAccount</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

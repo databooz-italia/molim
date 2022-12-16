@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_esame_paziente_d_t_o" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::DTO::Pazienti::Esami::EsamePazienteDTO</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_esame_paziente_d_t_o_1afbb3fd7f08cdef09a1da1acadf9a5082" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Molim.Backend.API.DTO.Pazienti.Esami.EsamePazienteDTO.IdEsame</definition>
+        <argsstring></argsstring>
+        <name>IdEsame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Esami/EsamePazienteDTO.cs" line="9" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Esami/EsamePazienteDTO.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_esame_paziente_d_t_o_1ad517665cb7054e3a64fb582b1acd2baf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime Molim.Backend.API.DTO.Pazienti.Esami.EsamePazienteDTO.Data</definition>
+        <argsstring></argsstring>
+        <name>Data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Esami/EsamePazienteDTO.cs" line="10" column="25" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Esami/EsamePazienteDTO.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_esame_paziente_d_t_o_1a12031eae9d5e1b7b1ff6d9009bbfa87c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool Molim.Backend.API.DTO.Pazienti.Esami.EsamePazienteDTO.RichiedeImmagini</definition>
+        <argsstring></argsstring>
+        <name>RichiedeImmagini</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Esami/EsamePazienteDTO.cs" line="11" column="21" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Esami/EsamePazienteDTO.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_esame_paziente_d_t_o_1a0f7eeed4ad44002cb23a854365394fbd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.DTO.Pazienti.Esami.EsamePazienteDTO.IdPaziente</definition>
+        <argsstring></argsstring>
+        <name>IdPaziente</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Esami/EsamePazienteDTO.cs" line="12" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Esami/EsamePazienteDTO.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_esame_paziente_d_t_o_1a994eb9f11f506054c6afdfce1c0080ed" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.DTO.Pazienti.Esami.EsamePazienteDTO.DescrizionePaziente</definition>
+        <argsstring></argsstring>
+        <name>DescrizionePaziente</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Esami/EsamePazienteDTO.cs" line="13" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Esami/EsamePazienteDTO.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_esame_paziente_d_t_o_1a525de581cd3e5a81e51e43dd027c9f1f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.DTO.Pazienti.Esami.EsamePazienteDTO.IdPatologia</definition>
+        <argsstring></argsstring>
+        <name>IdPatologia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Esami/EsamePazienteDTO.cs" line="14" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Esami/EsamePazienteDTO.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_esame_paziente_d_t_o_1a4712cd69077d96f91d2014a64f6bedec" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.DTO.Pazienti.Esami.EsamePazienteDTO.DescrizionePatologia</definition>
+        <argsstring></argsstring>
+        <name>DescrizionePatologia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Esami/EsamePazienteDTO.cs" line="15" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Esami/EsamePazienteDTO.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_esame_paziente_d_t_o_1af51bfe053e0bd00b8730923f5297d534" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.DTO.Pazienti.Esami.EsamePazienteDTO.IdTipoEsame</definition>
+        <argsstring></argsstring>
+        <name>IdTipoEsame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Esami/EsamePazienteDTO.cs" line="16" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Esami/EsamePazienteDTO.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_esame_paziente_d_t_o_1a4dcdc555b1d0527038a68e3028d3dbba" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.DTO.Pazienti.Esami.EsamePazienteDTO.DescrizioneTipoEsame</definition>
+        <argsstring></argsstring>
+        <name>DescrizioneTipoEsame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Esami/EsamePazienteDTO.cs" line="17" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Esami/EsamePazienteDTO.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_esame_paziente_d_t_o_1aa146a73983d1403953a808cfd7f69e3a" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>IEnumerable&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_immagine_d_t_o" kindref="compound">ImmagineDTO</ref> &gt;</type>
+        <definition>IEnumerable&lt;ImmagineDTO&gt; Molim.Backend.API.DTO.Pazienti.Esami.EsamePazienteDTO.Immagini</definition>
+        <argsstring></argsstring>
+        <name>Immagini</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Esami/EsamePazienteDTO.cs" line="19" column="28" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Esami/EsamePazienteDTO.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_esame_paziente_d_t_o_1a14e4bd683ffa4fbe46806b6c47aad097" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>IEnumerable&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_feature_esame_d_t_o" kindref="compound">FeatureEsameDTO</ref> &gt;</type>
+        <definition>IEnumerable&lt;FeatureEsameDTO&gt; Molim.Backend.API.DTO.Pazienti.Esami.EsamePazienteDTO.Features</definition>
+        <argsstring></argsstring>
+        <name>Features</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Esami/EsamePazienteDTO.cs" line="20" column="28" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Esami/EsamePazienteDTO.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Esami/EsamePazienteDTO.cs" line="7" column="11" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Esami/EsamePazienteDTO.cs" bodystart="8" bodyend="21"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_esame_paziente_d_t_o_1ad517665cb7054e3a64fb582b1acd2baf" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::Esami::EsamePazienteDTO</scope><name>Data</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_esame_paziente_d_t_o_1a4712cd69077d96f91d2014a64f6bedec" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::Esami::EsamePazienteDTO</scope><name>DescrizionePatologia</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_esame_paziente_d_t_o_1a994eb9f11f506054c6afdfce1c0080ed" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::Esami::EsamePazienteDTO</scope><name>DescrizionePaziente</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_esame_paziente_d_t_o_1a4dcdc555b1d0527038a68e3028d3dbba" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::Esami::EsamePazienteDTO</scope><name>DescrizioneTipoEsame</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_esame_paziente_d_t_o_1a14e4bd683ffa4fbe46806b6c47aad097" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::Esami::EsamePazienteDTO</scope><name>Features</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_esame_paziente_d_t_o_1afbb3fd7f08cdef09a1da1acadf9a5082" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::Esami::EsamePazienteDTO</scope><name>IdEsame</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_esame_paziente_d_t_o_1a525de581cd3e5a81e51e43dd027c9f1f" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::Esami::EsamePazienteDTO</scope><name>IdPatologia</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_esame_paziente_d_t_o_1a0f7eeed4ad44002cb23a854365394fbd" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::Esami::EsamePazienteDTO</scope><name>IdPaziente</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_esame_paziente_d_t_o_1af51bfe053e0bd00b8730923f5297d534" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::Esami::EsamePazienteDTO</scope><name>IdTipoEsame</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_esame_paziente_d_t_o_1aa146a73983d1403953a808cfd7f69e3a" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::Esami::EsamePazienteDTO</scope><name>Immagini</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_esame_paziente_d_t_o_1a12031eae9d5e1b7b1ff6d9009bbfa87c" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::Esami::EsamePazienteDTO</scope><name>RichiedeImmagini</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

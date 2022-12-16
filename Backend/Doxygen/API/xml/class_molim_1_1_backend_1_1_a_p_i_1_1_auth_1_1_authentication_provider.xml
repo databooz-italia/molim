@@ -1,0 +1,105 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_auth_1_1_authentication_provider" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::Auth::AuthenticationProvider</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">HttpContextAccessor</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IAuthenticationProvider</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_auth_1_1_authentication_provider_1a8fbe6834ecc3e2a1fc00fe4f23cadbb0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Molim.Backend.API.Auth.AuthenticationProvider.AuthenticationProvider</definition>
+        <argsstring>()</argsstring>
+        <name>AuthenticationProvider</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Auth/AuthenticationProvider.cs" line="10" column="16" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Auth/AuthenticationProvider.cs" bodystart="10" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_auth_1_1_authentication_provider_1aef6ae60daeefb7e68e3655661db09205" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int?</type>
+        <definition>int? Molim.Backend.API.Auth.AuthenticationProvider.GetLoggedAccountId</definition>
+        <argsstring>()</argsstring>
+        <name>GetLoggedAccountId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Auth/AuthenticationProvider.cs" line="15" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Auth/AuthenticationProvider.cs" bodystart="15" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_auth_1_1_authentication_provider_1af76d706d16ff69b7ff2cf18a209cde3c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Molim.Backend.API.Auth.AuthenticationProvider.GetLoggedAccountUsername</definition>
+        <argsstring>()</argsstring>
+        <name>GetLoggedAccountUsername</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Auth/AuthenticationProvider.cs" line="35" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Auth/AuthenticationProvider.cs" bodystart="35" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_auth_1_1_authentication_provider_1a883716d638f317d4df82323c9b42bc5f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Molim.Backend.API.Auth.AuthenticationProvider.GetMachineID</definition>
+        <argsstring>()</argsstring>
+        <name>GetMachineID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Auth/AuthenticationProvider.cs" line="55" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Auth/AuthenticationProvider.cs" bodystart="55" bodyend="58"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>HttpContextAccessor</label>
+      </node>
+      <node id="3">
+        <label>IAuthenticationProvider</label>
+      </node>
+      <node id="1">
+        <label>Molim.Backend.API.Auth.AuthenticationProvider</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_auth_1_1_authentication_provider"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>HttpContextAccessor</label>
+      </node>
+      <node id="3">
+        <label>IAuthenticationProvider</label>
+      </node>
+      <node id="1">
+        <label>Molim.Backend.API.Auth.AuthenticationProvider</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_auth_1_1_authentication_provider"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Auth/AuthenticationProvider.cs" line="8" column="11" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Auth/AuthenticationProvider.cs" bodystart="9" bodyend="59"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_auth_1_1_authentication_provider_1a8fbe6834ecc3e2a1fc00fe4f23cadbb0" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Auth::AuthenticationProvider</scope><name>AuthenticationProvider</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_auth_1_1_authentication_provider_1aef6ae60daeefb7e68e3655661db09205" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Auth::AuthenticationProvider</scope><name>GetLoggedAccountId</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_auth_1_1_authentication_provider_1af76d706d16ff69b7ff2cf18a209cde3c" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Auth::AuthenticationProvider</scope><name>GetLoggedAccountUsername</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_auth_1_1_authentication_provider_1a883716d638f317d4df82323c9b42bc5f" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Auth::AuthenticationProvider</scope><name>GetMachineID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

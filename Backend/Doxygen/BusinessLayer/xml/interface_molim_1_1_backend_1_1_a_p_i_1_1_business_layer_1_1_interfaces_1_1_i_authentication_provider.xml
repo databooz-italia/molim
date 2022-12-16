@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="interface_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_interfaces_1_1_i_authentication_provider" kind="interface" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::BusinessLayer::Interfaces::IAuthenticationProvider</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_interfaces_1_1_i_authentication_provider_1aedb75d7f51652bffd6e314e4cf7cfa6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int?</type>
+        <definition>int? Molim.Backend.API.BusinessLayer.Interfaces.IAuthenticationProvider.GetLoggedAccountId</definition>
+        <argsstring>()</argsstring>
+        <name>GetLoggedAccountId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Interfaces/IAuthenticationProvider.cs" line="9" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_interfaces_1_1_i_authentication_provider_1a53c7cc3665cda886534a981db0d59cea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Interfaces.IAuthenticationProvider.GetLoggedAccountUsername</definition>
+        <argsstring>()</argsstring>
+        <name>GetLoggedAccountUsername</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Interfaces/IAuthenticationProvider.cs" line="10" column="16"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_interfaces_1_1_i_authentication_provider_1a4a1f746613f411e3fcaeb961ee2722a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Interfaces.IAuthenticationProvider.GetMachineID</definition>
+        <argsstring>()</argsstring>
+        <name>GetMachineID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Interfaces/IAuthenticationProvider.cs" line="11" column="16"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Interfaces/IAuthenticationProvider.cs" line="7" column="22" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Interfaces/IAuthenticationProvider.cs" bodystart="8" bodyend="12"/>
+    <listofallmembers>
+      <member refid="interface_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_interfaces_1_1_i_authentication_provider_1aedb75d7f51652bffd6e314e4cf7cfa6f" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Interfaces::IAuthenticationProvider</scope><name>GetLoggedAccountId</name></member>
+      <member refid="interface_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_interfaces_1_1_i_authentication_provider_1a53c7cc3665cda886534a981db0d59cea" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Interfaces::IAuthenticationProvider</scope><name>GetLoggedAccountUsername</name></member>
+      <member refid="interface_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_interfaces_1_1_i_authentication_provider_1a4a1f746613f411e3fcaeb961ee2722a2" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Interfaces::IAuthenticationProvider</scope><name>GetMachineID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

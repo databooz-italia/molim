@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_patologie_1_1_patologie_service" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::BusinessLayer::Services::Patologie::PatologieService</compoundname>
+    <basecompoundref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service" prot="public" virt="non-virtual">Molim.Backend.API.BusinessLayer.Services.BaseService</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_patologie_1_1_patologie_service_1acab1d29af595481b9268e88cda562731" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Molim.Backend.API.BusinessLayer.Services.Patologie.PatologieService.PatologieService</definition>
+        <argsstring>(MolimDb db, Configuration conf, IAuthenticationProvider auth, ILogger logger)</argsstring>
+        <name>PatologieService</name>
+        <param>
+          <type><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_molim_db" kindref="compound">MolimDb</ref></type>
+          <declname>db</declname>
+        </param>
+        <param>
+          <type><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_configuration" kindref="compound">Configuration</ref></type>
+          <declname>conf</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_interfaces_1_1_i_authentication_provider" kindref="compound">IAuthenticationProvider</ref></type>
+          <declname>auth</declname>
+        </param>
+        <param>
+          <type>ILogger</type>
+          <declname>logger</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Patologie/PatologieService.cs" line="24" column="16" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Patologie/PatologieService.cs" bodystart="24" bodyend="27"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_patologie_1_1_patologie_service_1a5ba3defecfab542e75df0e1e48c900db" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Molim.Backend.API.BusinessLayer.Services.Patologie.PatologieService.PatologieService</definition>
+        <argsstring>(BaseService b)</argsstring>
+        <name>PatologieService</name>
+        <param>
+          <type><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service" kindref="compound">BaseService</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Patologie/PatologieService.cs" line="29" column="16" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Patologie/PatologieService.cs" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_patologie_1_1_patologie_service_1ac4a39637c00185e1e6037123fbfab88a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_patologie_1_1_models_1_1_patologia_proxy" kindref="compound">PatologiaProxy</ref> &gt;</type>
+        <definition>IEnumerable&lt; PatologiaProxy &gt; Molim.Backend.API.BusinessLayer.Services.Patologie.PatologieService.GetPatologie</definition>
+        <argsstring>()</argsstring>
+        <name>GetPatologie</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Patologie/PatologieService.cs" line="34" column="28" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Patologie/PatologieService.cs" bodystart="34" bodyend="112"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BaseService</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IDisposable</label>
+      </node>
+      <node id="1">
+        <label>Molim.Backend.API.BusinessLayer.Services.Patologie.PatologieService</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_patologie_1_1_patologie_service"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BaseService</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>_db</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>_conf</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>_auth</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>DbContext</label>
+      </node>
+      <node id="3">
+        <label>IDisposable</label>
+      </node>
+      <node id="1">
+        <label>Molim.Backend.API.BusinessLayer.Services.Patologie.PatologieService</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_patologie_1_1_patologie_service"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Molim.Backend.API.BusinessLayer.Data.MolimDb</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_molim_db"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>_authProvider</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Molim.Backend.API.BusinessLayer.Interfaces.IAuthenticationProvider</label>
+        <link refid="interface_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_interfaces_1_1_i_authentication_provider"/>
+      </node>
+      <node id="7">
+        <label>Molim.Backend.API.BusinessLayer.Services.Configuration</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_configuration"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Patologie/PatologieService.cs" line="21" column="11" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Patologie/PatologieService.cs" bodystart="22" bodyend="113"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a36217be48299da65d31a87eb60c55d6d" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Patologie::PatologieService</scope><name>_auth</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a9192187bf2560ff73c19b0aef14f1e47" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Patologie::PatologieService</scope><name>_conf</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1ac57080880999c7ee8934bdd3c604551d" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Patologie::PatologieService</scope><name>_db</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a4b12efc8d974ac29ca5f03cc5482a6c4" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Patologie::PatologieService</scope><name>_logger</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a6330d4e327ae7cc6edf09d7279e7b3a2" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Patologie::PatologieService</scope><name>BaseService</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1ae2117087b44b26782caa1f6c8c43eb53" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Patologie::PatologieService</scope><name>BaseService</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a2ef723fe8681ace7c663b7b8819d572d" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Patologie::PatologieService</scope><name>CheckPermissionBase</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a170d3181c78a90d2e637579de6ffd5bb" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Patologie::PatologieService</scope><name>CheckPermissionBase</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a8c84e15cab213eb8256ac6354d6b256d" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Patologie::PatologieService</scope><name>CheckPermissionBase</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a4de5455074d660f45875aff92ebaf172" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Patologie::PatologieService</scope><name>Complete</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a6b6e7f00a5c2d12bb111ffbaba2f2042" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Patologie::PatologieService</scope><name>Database</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a27bb528bc06be6bac2d3a92b5298ec9d" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Patologie::PatologieService</scope><name>Dispose</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1acffb84144b7314d8a213d7b8b4be91cc" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Patologie::PatologieService</scope><name>GetAccountFilter</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_patologie_1_1_patologie_service_1ac4a39637c00185e1e6037123fbfab88a" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Patologie::PatologieService</scope><name>GetPatologie</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1ae6d1ec877514141042d2d976b4cd3b92" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Patologie::PatologieService</scope><name>MolimConfiguration</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_patologie_1_1_patologie_service_1acab1d29af595481b9268e88cda562731" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Patologie::PatologieService</scope><name>PatologieService</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_patologie_1_1_patologie_service_1a5ba3defecfab542e75df0e1e48c900db" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Patologie::PatologieService</scope><name>PatologieService</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

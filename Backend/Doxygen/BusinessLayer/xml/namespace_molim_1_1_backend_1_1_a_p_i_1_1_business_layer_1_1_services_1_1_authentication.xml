@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication" kind="namespace" language="C#">
+    <compoundname>Molim::Backend::API::BusinessLayer::Services::Authentication</compoundname>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_accounts_service" prot="public">Molim::Backend::API::BusinessLayer::Services::Authentication::AccountsService</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_pazienti_service" prot="public">Molim::Backend::API::BusinessLayer::Services::Authentication::PazientiService</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_permissions_service" prot="public">Molim::Backend::API::BusinessLayer::Services::Authentication::PermissionsService</innerclass>
+    <innernamespace refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_models">Molim::Backend::API::BusinessLayer::Services::Authentication::Models</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication/AccountsService.cs" line="16" column="1"/>
+  </compounddef>
+</doxygen>

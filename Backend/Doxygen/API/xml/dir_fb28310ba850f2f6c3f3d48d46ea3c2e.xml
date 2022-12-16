@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_fb28310ba850f2f6c3f3d48d46ea3c2e" kind="dir">
+    <compoundname>C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers</compoundname>
+    <innerfile refid="_accounts_controller_8cs">AccountsController.cs</innerfile>
+    <innerfile refid="_algoritmi_controller_8cs">AlgoritmiController.cs</innerfile>
+    <innerfile refid="_auth_controller_8cs">AuthController.cs</innerfile>
+    <innerfile refid="_patologie_controller_8cs">PatologieController.cs</innerfile>
+    <innerfile refid="_pazienti_controller_8cs">PazientiController.cs</innerfile>
+    <innerfile refid="_version_controller_8cs">VersionController.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/"/>
+  </compounddef>
+</doxygen>

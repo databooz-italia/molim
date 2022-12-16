@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_diagnosi_1_1_requests_1_1_crea_diagnosi_request" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::DTO::Pazienti::Diagnosi::Requests::CreaDiagnosiRequest</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_diagnosi_1_1_requests_1_1_crea_diagnosi_request_1ab4f965c2abc0ad2352d3f371671eab6c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.DTO.Pazienti.Diagnosi.Requests.CreaDiagnosiRequest.IdPaziente</definition>
+        <argsstring></argsstring>
+        <name>IdPaziente</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Diagnosi/Requests/CreaDiagnosiRequest.cs" line="9" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Diagnosi/Requests/CreaDiagnosiRequest.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_diagnosi_1_1_requests_1_1_crea_diagnosi_request_1a39c64940bf93ef9aa888eba785edc8d1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.DTO.Pazienti.Diagnosi.Requests.CreaDiagnosiRequest.IdPatologia</definition>
+        <argsstring></argsstring>
+        <name>IdPatologia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Diagnosi/Requests/CreaDiagnosiRequest.cs" line="10" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Diagnosi/Requests/CreaDiagnosiRequest.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_diagnosi_1_1_requests_1_1_crea_diagnosi_request_1ab5fafd9dd3a67fb3a1cce58fd83a4169" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime Molim.Backend.API.DTO.Pazienti.Diagnosi.Requests.CreaDiagnosiRequest.Date</definition>
+        <argsstring></argsstring>
+        <name>Date</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Diagnosi/Requests/CreaDiagnosiRequest.cs" line="11" column="25" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Diagnosi/Requests/CreaDiagnosiRequest.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_diagnosi_1_1_requests_1_1_crea_diagnosi_request_1af4dc58760cbb772841121c0536964141" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.DTO.Pazienti.Diagnosi.Requests.CreaDiagnosiRequest.Esito</definition>
+        <argsstring></argsstring>
+        <name>Esito</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Diagnosi/Requests/CreaDiagnosiRequest.cs" line="12" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Diagnosi/Requests/CreaDiagnosiRequest.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Diagnosi/Requests/CreaDiagnosiRequest.cs" line="7" column="11" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Diagnosi/Requests/CreaDiagnosiRequest.cs" bodystart="8" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_diagnosi_1_1_requests_1_1_crea_diagnosi_request_1ab5fafd9dd3a67fb3a1cce58fd83a4169" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::Diagnosi::Requests::CreaDiagnosiRequest</scope><name>Date</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_diagnosi_1_1_requests_1_1_crea_diagnosi_request_1af4dc58760cbb772841121c0536964141" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::Diagnosi::Requests::CreaDiagnosiRequest</scope><name>Esito</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_diagnosi_1_1_requests_1_1_crea_diagnosi_request_1a39c64940bf93ef9aa888eba785edc8d1" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::Diagnosi::Requests::CreaDiagnosiRequest</scope><name>IdPatologia</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_diagnosi_1_1_requests_1_1_crea_diagnosi_request_1ab4f965c2abc0ad2352d3f371671eab6c" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::Diagnosi::Requests::CreaDiagnosiRequest</scope><name>IdPaziente</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

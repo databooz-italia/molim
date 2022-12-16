@@ -1,0 +1,409 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.9.2" xml:lang="en-US">
+  <compound refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_account_d_t_o" kind="class"><name>Molim::Backend::API::DTO::Accounts::AccountDTO</name>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_account_d_t_o_1a854c622214bdbd49fdda8cac1d2d634f" kind="property"><name>Account_ID</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_account_d_t_o_1a33a19c5e720fe2bd91fbc1eb08aaede8" kind="property"><name>AccountType_ID</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_account_d_t_o_1a4c27fb7c46e3dfeb77fd647e0ba8f07f" kind="property"><name>FirstName</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_account_d_t_o_1a18dced98f1b612b7d148df0755ca85b1" kind="property"><name>LastName</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_account_d_t_o_1af0614d7db16f6cef2722445e6fccc92c" kind="property"><name>Username</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_account_d_t_o_1a222d2af1900f385781259ab7522f8d2b" kind="property"><name>RoleType</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_account_d_t_o_1a1df4fc33825137b7bafc385e5d635236" kind="property"><name>RoleDescription</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_account_d_t_o_1a846cadd917fcf27f0493babe3852771c" kind="property"><name>AvailableBookings</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_account_d_t_o_1a0c5dc2c298eceb9a5325b4064faf3a0d" kind="property"><name>AvailableBookingsToDate</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_account_d_t_o_1a5bc394a9bb7ec00aad3711509afe53d9" kind="property"><name>Version</name></member>
+  </compound>
+  <compound refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_algoritmi_1_1_algoritmo_d_t_o" kind="class"><name>Molim::Backend::API::DTO::Algoritmi::AlgoritmoDTO</name>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_algoritmi_1_1_algoritmo_d_t_o_1a64b616c3205ce4bebc86be8acf846c29" kind="property"><name>Id</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_algoritmi_1_1_algoritmo_d_t_o_1a1f22c5a9cf1e346dfbad8276deecb430" kind="property"><name>IdPatologia</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_algoritmi_1_1_algoritmo_d_t_o_1a91f31b6936ce1ddb89b0c11ff52fe17c" kind="property"><name>IdTipoEsame</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_algoritmi_1_1_algoritmo_d_t_o_1a70dd13a89ec53ae77dccf64d0890a335" kind="property"><name>Descrizione</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_algoritmi_1_1_algoritmo_d_t_o_1a70eae918f07788d1046db45bb9c2923e" kind="property"><name>EndpointRest</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_algoritmi_1_1_algoritmo_d_t_o_1a5647dd36e89503b02ebee2d200ad4603" kind="property"><name>Tipo</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_algoritmi_1_1_algoritmo_d_t_o_1a02e9e833fe8147ae4292499a14306ace" kind="property"><name>OggettoDiPredizione</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_algoritmi_1_1_algoritmo_d_t_o_1a7874a3adc822ecf821889c6fe82fed59" kind="property"><name>Features</name></member>
+  </compound>
+  <compound refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_auth_1_1_requests_1_1_authentication_request" kind="class"><name>Molim::Backend::API::DTO::Auth::Requests::AuthenticationRequest</name>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_auth_1_1_requests_1_1_authentication_request_1a8586ff25d110202ff9d0d9b72ca079ce" kind="property"><name>Username</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_auth_1_1_requests_1_1_authentication_request_1a546b15d9753d2e81aa08599d0514fc5b" kind="property"><name>Password</name></member>
+  </compound>
+  <compound refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_auth_1_1_responses_1_1_authentication_response" kind="class"><name>Molim::Backend::API::DTO::Auth::Responses::AuthenticationResponse</name>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_auth_1_1_responses_1_1_authentication_response_1aa4fb4486ea97ae3f8c22f08087b2064d" kind="property"><name>ShortTermToken</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_auth_1_1_responses_1_1_authentication_response_1a5d6429ef7a9f13faf9b86260440d7278" kind="property"><name>LongTermToken</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_auth_1_1_responses_1_1_authentication_response_1ac0593b187b34dba67a547dc335680e03" kind="property"><name>Username</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_auth_1_1_responses_1_1_authentication_response_1a0a51311d800675bbbf74f587a3cdc403" kind="property"><name>Account_ID</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_auth_1_1_responses_1_1_authentication_response_1a6cf4c58fbaaae72fa60193bb68f2464d" kind="property"><name>RoleType</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_auth_1_1_responses_1_1_authentication_response_1a80a54321031eb8236aa40f74f2762b3b" kind="property"><name>Permissions</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_auth_1_1_responses_1_1_authentication_response_1a684050d663e30c6bdbcf8c363b8663cb" kind="property"><name>ResetPassword</name></member>
+  </compound>
+  <compound refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_diagnosi_1_1_requests_1_1_crea_diagnosi_request" kind="class"><name>Molim::Backend::API::DTO::Pazienti::Diagnosi::Requests::CreaDiagnosiRequest</name>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_diagnosi_1_1_requests_1_1_crea_diagnosi_request_1ab4f965c2abc0ad2352d3f371671eab6c" kind="property"><name>IdPaziente</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_diagnosi_1_1_requests_1_1_crea_diagnosi_request_1a39c64940bf93ef9aa888eba785edc8d1" kind="property"><name>IdPatologia</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_diagnosi_1_1_requests_1_1_crea_diagnosi_request_1ab5fafd9dd3a67fb3a1cce58fd83a4169" kind="property"><name>Date</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_diagnosi_1_1_requests_1_1_crea_diagnosi_request_1af4dc58760cbb772841121c0536964141" kind="property"><name>Esito</name></member>
+  </compound>
+  <compound refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_requests_1_1_create_account_request" kind="class"><name>Molim::Backend::API::DTO::Accounts::Requests::CreateAccountRequest</name>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_requests_1_1_create_account_request_1ab20c9453adf5bb0f238a09b0dd082410" kind="property"><name>RoleType</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_requests_1_1_create_account_request_1a2bca17282966ff2023b335ed8f0c7257" kind="property"><name>Username</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_requests_1_1_create_account_request_1a650240e8dbf18151d7b9b485da698547" kind="property"><name>LastName</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_requests_1_1_create_account_request_1a97e169eb5f028724168ce9301c8d11e4" kind="property"><name>FirstName</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_requests_1_1_create_account_request_1a15cca3282728b7f2b0844f42e6429563" kind="property"><name>Password</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_requests_1_1_create_account_request_1ab380896d7a6aa2c4fd371d4708332b32" kind="property"><name>Bookings</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_requests_1_1_create_account_request_1a36795eb5e2cd10f5673f4682966e13ab" kind="property"><name>AccountType_ID</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_requests_1_1_create_account_request_1a97a4584eee6115d133a36861bfcd0baa" kind="property"><name>BookingsToDate</name></member>
+  </compound>
+  <compound refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_requests_1_1_create_paziente_request" kind="class"><name>Molim::Backend::API::DTO::Pazienti::Requests::CreatePazienteRequest</name>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_requests_1_1_create_paziente_request_1a839f8959765d11a308dede45b524317b" kind="property"><name>IdPaziente</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_requests_1_1_create_paziente_request_1af96605f1c4a1cb6dfea68008a18c7068" kind="property"><name>NomePaziente</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_requests_1_1_create_paziente_request_1a817ddd900004fcfe7030e3b2d8fd3fa5" kind="property"><name>CognomePaziente</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_requests_1_1_create_paziente_request_1a919025897e05763acf8a80894fe9e27f" kind="property"><name>AnnoNascita</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_requests_1_1_create_paziente_request_1ac8ab9c01ceb4a2c3e2282277283768d3" kind="property"><name>Sesso</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_requests_1_1_create_paziente_request_1a7df226cc06dc30a0aa3a5a96e26ca589" kind="property"><name>City</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_requests_1_1_create_paziente_request_1a69b58d4524de726b9d0d0fb4968f1cf7" kind="property"><name>CodiceFiscale</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_requests_1_1_create_paziente_request_1ade4ff9e0baf10cdde4a181d45ffd683d" kind="property"><name>Indirizzo</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_requests_1_1_create_paziente_request_1a20cd0a32e0840c429f3bb001afaacd03" kind="property"><name>IndirizzoMail</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_requests_1_1_create_paziente_request_1a5d2a2b81bb68402d475722bf542103a7" kind="property"><name>NumeroCellulare</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_requests_1_1_create_paziente_request_1af0dbe09525d081ddf4ce68ec0d804eb7" kind="property"><name>Education</name></member>
+  </compound>
+  <compound refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni_1_1_requests_1_1_create_predizione_paziente" kind="class"><name>Molim::Backend::API::DTO::Pazienti::Predizioni::Requests::CreatePredizionePaziente</name>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni_1_1_requests_1_1_create_predizione_paziente_1a7c756930f060a701cd00999c2ab18144" kind="property"><name>IdAlgoritmo</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni_1_1_requests_1_1_create_predizione_paziente_1ab40e52ffc47de127672a489deb23db90" kind="property"><name>IdPaziente</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni_1_1_requests_1_1_create_predizione_paziente_1a107568726c34f3ce8d913c9aa2195a48" kind="property"><name>IdImmagine</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni_1_1_requests_1_1_create_predizione_paziente_1ae7c8ad0a8fa38fdf221e9af731f9d147" kind="property"><name>IdRegioneDiInteresse</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni_1_1_requests_1_1_create_predizione_paziente_1a6be5425db5bbe8bf927799e1e9238d51" kind="property"><name>IdPatologia</name></member>
+  </compound>
+  <compound refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_diagnosi_1_1_diagnosi_d_t_o" kind="class"><name>Molim::Backend::API::DTO::Pazienti::Diagnosi::DiagnosiDTO</name>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_diagnosi_1_1_diagnosi_d_t_o_1afce7e5ff9691fd4a8fad2855a1505ca1" kind="property"><name>ID</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_diagnosi_1_1_diagnosi_d_t_o_1af9a14b33da975d21a7c8afbbb4c8d0f7" kind="property"><name>IdPaziente</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_diagnosi_1_1_diagnosi_d_t_o_1a677283cfd4290464f642f28c079a2a1c" kind="property"><name>IdPatologia</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_diagnosi_1_1_diagnosi_d_t_o_1aa9e60365d94a051e1e4aea8ffab86941" kind="property"><name>Data</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_diagnosi_1_1_diagnosi_d_t_o_1a6673556127e31a00934eb7ec1e326f0f" kind="property"><name>DescrizionePatologia</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_diagnosi_1_1_diagnosi_d_t_o_1a225cda6e38d652fb13a3db41aa0b3180" kind="property"><name>DescrizionePaziente</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_diagnosi_1_1_diagnosi_d_t_o_1a5a390a35b5847d4b63c82dead771fa44" kind="property"><name>Esito</name></member>
+  </compound>
+  <compound refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_errors_1_1_error_object" kind="class"><name>Molim::Backend::API::DTO::Errors::ErrorObject</name>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_errors_1_1_error_object_1aec5774c781d153305df99ba221558da6" kind="property"><name>Code</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_errors_1_1_error_object_1ab761b8786a28e5730444ccbe1f09ce03" kind="property"><name>Description</name></member>
+  </compound>
+  <compound refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_errors_1_1_error_response" kind="class"><name>Molim::Backend::API::DTO::Errors::ErrorResponse</name>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_errors_1_1_error_response_1af95cc3d931e5b71afa7b08a5c2ddbcc8" kind="property"><name>Errors</name></member>
+  </compound>
+  <compound refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_esame_paziente_d_t_o" kind="class"><name>Molim::Backend::API::DTO::Pazienti::Esami::EsamePazienteDTO</name>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_esame_paziente_d_t_o_1afbb3fd7f08cdef09a1da1acadf9a5082" kind="property"><name>IdEsame</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_esame_paziente_d_t_o_1ad517665cb7054e3a64fb582b1acd2baf" kind="property"><name>Data</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_esame_paziente_d_t_o_1a12031eae9d5e1b7b1ff6d9009bbfa87c" kind="property"><name>RichiedeImmagini</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_esame_paziente_d_t_o_1a0f7eeed4ad44002cb23a854365394fbd" kind="property"><name>IdPaziente</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_esame_paziente_d_t_o_1a994eb9f11f506054c6afdfce1c0080ed" kind="property"><name>DescrizionePaziente</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_esame_paziente_d_t_o_1a525de581cd3e5a81e51e43dd027c9f1f" kind="property"><name>IdPatologia</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_esame_paziente_d_t_o_1a4712cd69077d96f91d2014a64f6bedec" kind="property"><name>DescrizionePatologia</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_esame_paziente_d_t_o_1af51bfe053e0bd00b8730923f5297d534" kind="property"><name>IdTipoEsame</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_esame_paziente_d_t_o_1a4dcdc555b1d0527038a68e3028d3dbba" kind="property"><name>DescrizioneTipoEsame</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_esame_paziente_d_t_o_1aa146a73983d1403953a808cfd7f69e3a" kind="property"><name>Immagini</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_esame_paziente_d_t_o_1a14e4bd683ffa4fbe46806b6c47aad097" kind="property"><name>Features</name></member>
+  </compound>
+  <compound refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_algoritmi_1_1_feature_algoritmo_d_t_o" kind="class"><name>Molim::Backend::API::DTO::Algoritmi::FeatureAlgoritmoDTO</name>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_algoritmi_1_1_feature_algoritmo_d_t_o_1aae175ae62e2dfc411e0b0fe4c93f124b" kind="property"><name>IdAlgoritmo</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_algoritmi_1_1_feature_algoritmo_d_t_o_1ab555f0bee5fe52a89b4da63fe741145f" kind="property"><name>IdFeature</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_algoritmi_1_1_feature_algoritmo_d_t_o_1a08bb57035a4782b46221e8305d8001e1" kind="property"><name>Obbligatorio</name></member>
+  </compound>
+  <compound refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_patologie_1_1_feature_d_t_o" kind="class"><name>Molim::Backend::API::DTO::Patologie::FeatureDTO</name>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_patologie_1_1_feature_d_t_o_1a41c7dc8b5c9196c30460e30d2dc4c084" kind="property"><name>Id</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_patologie_1_1_feature_d_t_o_1abfc77783ac77192f5c0b3180bdcd4fd5" kind="property"><name>IdFeature</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_patologie_1_1_feature_d_t_o_1a0d009533039d676136e66d4fd8bfead2" kind="property"><name>IdPatologia</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_patologie_1_1_feature_d_t_o_1ac11e37ff0a4719445207581771c02acb" kind="property"><name>IdTipologiaEsame</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_patologie_1_1_feature_d_t_o_1ab50836d5f1135918a3144963a9150a09" kind="property"><name>DescrizionePatologia</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_patologie_1_1_feature_d_t_o_1ac3948a9b4ef30f722c82658f6d4af0e6" kind="property"><name>DescrizioneTipologiaEsame</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_patologie_1_1_feature_d_t_o_1ac07c8f0ce45e27e0eb7e131452f6a917" kind="property"><name>TipoValore</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_patologie_1_1_feature_d_t_o_1aa383fc32b72a8170c80f7f2825c5a94c" kind="property"><name>ValoreMinimo</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_patologie_1_1_feature_d_t_o_1aef8a804c43e1baa1ba3faf2a1dc71bc0" kind="property"><name>ValoreMassimo</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_patologie_1_1_feature_d_t_o_1a9628ce8cc7f5f84f6c6c09fc3b119edc" kind="property"><name>ValoriAmmessi</name></member>
+  </compound>
+  <compound refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_feature_esame_d_t_o" kind="class"><name>Molim::Backend::API::DTO::Pazienti::Esami::FeatureEsameDTO</name>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_feature_esame_d_t_o_1a8d118d5085379677fb7a9de778062d1c" kind="property"><name>IdFeature</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_feature_esame_d_t_o_1a8f695528beb57da2daade568b5d01251" kind="property"><name>Descrizione</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_feature_esame_d_t_o_1a5039a76a80986cb8e85cc297158b531c" kind="property"><name>DataInizioValidita</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_feature_esame_d_t_o_1ae69a9c4236b98fff23b116eec28dc3f6" kind="property"><name>DataFineValidita</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_feature_esame_d_t_o_1ab1952af7856d7cdac94dcd302c18b328" kind="property"><name>Valore</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_feature_esame_d_t_o_1ad28a1729c7cb35f818d20ec8258e1b95" kind="property"><name>TipoValore</name></member>
+  </compound>
+  <compound refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_responses_1_1_get_accounts_response" kind="class"><name>Molim::Backend::API::DTO::Accounts::Responses::GetAccountsResponse</name>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_responses_1_1_get_accounts_response_1a24ef82e138ecf8f7ec3959fec7d079fe" kind="property"><name>Accounts</name></member>
+  </compound>
+  <compound refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_algoritmi_1_1_responses_1_1_get_algoritmi_response" kind="class"><name>Molim::Backend::API::DTO::Algoritmi::Responses::GetAlgoritmiResponse</name>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_algoritmi_1_1_responses_1_1_get_algoritmi_response_1ab548555ecfad833012c065ff15d7b4f5" kind="property"><name>Algoritmi</name></member>
+  </compound>
+  <compound refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_diagnosi_1_1_responses_1_1_get_diagnosi_paziente_response" kind="class"><name>Molim::Backend::API::DTO::Pazienti::Diagnosi::Responses::GetDiagnosiPazienteResponse</name>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_diagnosi_1_1_responses_1_1_get_diagnosi_paziente_response_1af4cee4e1948cefb8c1743f6e7f20b182" kind="property"><name>DiagnosiPaziente</name></member>
+  </compound>
+  <compound refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_responses_1_1_get_esami_paziente_response" kind="class"><name>Molim::Backend::API::DTO::Pazienti::Esami::Responses::GetEsamiPazienteResponse</name>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_responses_1_1_get_esami_paziente_response_1a34da843b0fa469437fe6eaaa5b46fd2c" kind="property"><name>EsamiPaziente</name></member>
+  </compound>
+  <compound refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_patologie_1_1_responses_1_1_get_patologie_response" kind="class"><name>Molim::Backend::API::DTO::Patologie::Responses::GetPatologieResponse</name>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_patologie_1_1_responses_1_1_get_patologie_response_1a2f218b7513d70f5fe050943f9395bce9" kind="property"><name>Patologie</name></member>
+  </compound>
+  <compound refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_responses_1_1_get_pazienti_response" kind="class"><name>Molim::Backend::API::DTO::Pazienti::Responses::GetPazientiResponse</name>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_responses_1_1_get_pazienti_response_1a475196a0452d40895d93acc69633834c" kind="property"><name>Pazienti</name></member>
+  </compound>
+  <compound refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni_1_1_responses_1_1_get_predizioni_paziente_response" kind="class"><name>Molim::Backend::API::DTO::Pazienti::Predizioni::Responses::GetPredizioniPazienteResponse</name>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni_1_1_responses_1_1_get_predizioni_paziente_response_1af8ca2150d517193553f15d6b38f305ed" kind="property"><name>PredizioniPaziente</name></member>
+  </compound>
+  <compound refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_immagine_d_t_o" kind="class"><name>Molim::Backend::API::DTO::Pazienti::Esami::ImmagineDTO</name>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_immagine_d_t_o_1a3adb80fa1976a4a93e8dd48d82bcf6f4" kind="property"><name>ID</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_immagine_d_t_o_1a37430756ed4721e8185b9b7cdee6d65a" kind="property"><name>IdEsame</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_immagine_d_t_o_1a94a74e0728a09c1c92cc58bc4cb31c86" kind="property"><name>Nome</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_immagine_d_t_o_1ab5a6a549d660c7d1955cf19d1e2a72ae" kind="property"><name>Dimensione</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_immagine_d_t_o_1a3ce346f069da81a45d3e69eeebc2fc73" kind="property"><name>DataCaricamento</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_immagine_d_t_o_1ab1044ab3e620c65cc2b2b432137878ab" kind="property"><name>Features</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_immagine_d_t_o_1aabeaceef5d4cf6765c2ac04ccf975974" kind="property"><name>RegioniDiInteresse</name></member>
+  </compound>
+  <compound refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_patologie_1_1_patologia_d_t_o" kind="class"><name>Molim::Backend::API::DTO::Patologie::PatologiaDTO</name>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_patologie_1_1_patologia_d_t_o_1a2988ad55d809bab647a9f4b78a41826f" kind="property"><name>ID</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_patologie_1_1_patologia_d_t_o_1ad07e5d107353aab5d536c2780eac32cd" kind="property"><name>Descrizione</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_patologie_1_1_patologia_d_t_o_1ae8d3703f982b5b2c754d0c33c0459386" kind="property"><name>TipiEsami</name></member>
+  </compound>
+  <compound refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_paziente_d_t_o" kind="class"><name>Molim::Backend::API::DTO::Pazienti::PazienteDTO</name>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_paziente_d_t_o_1a28853dd67e3e98ece43eea3928686f17" kind="property"><name>IdPaziente</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_paziente_d_t_o_1afc5c5cd72759d8826d57686f397e40a5" kind="property"><name>NomePaziente</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_paziente_d_t_o_1a938d965db76638cebd462f3a33af7107" kind="property"><name>CognomePaziente</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_paziente_d_t_o_1a49568569d09e2cc38978147fc5b53b02" kind="property"><name>AnnoNascita</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_paziente_d_t_o_1aa69a918abf82efa35c605c80ff03ef36" kind="property"><name>Sesso</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_paziente_d_t_o_1a3e936513934afa309198378d5a5aa8bf" kind="property"><name>City</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_paziente_d_t_o_1a33d7e188ac0043801c862d43394b44a6" kind="property"><name>CodiceFiscale</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_paziente_d_t_o_1aae7a7ee6afdabe8ffde78c478f70a570" kind="property"><name>Indirizzo</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_paziente_d_t_o_1ae76dfb8e431cfbc11e1399a84b767503" kind="property"><name>IndirizzoMail</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_paziente_d_t_o_1ae861f17f81ef5bc7d53ae81144de9004" kind="property"><name>NumeroCellulare</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_paziente_d_t_o_1a1ea20ba7ec31a7e8a94a3c2f3ed5a182" kind="property"><name>Education</name></member>
+  </compound>
+  <compound refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni_1_1_predizione_d_t_o" kind="class"><name>Molim::Backend::API::DTO::Pazienti::Predizioni::PredizioneDTO</name>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni_1_1_predizione_d_t_o_1a876c8c3f9c01d3acd9e07426b898a5db" kind="property"><name>ID</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni_1_1_predizione_d_t_o_1a90e9a8d0634ac13e057df622f2fda641" kind="property"><name>IdPaziente</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni_1_1_predizione_d_t_o_1a6111ec7f3aeab312c25a85b2f14220be" kind="property"><name>IdPatologia</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni_1_1_predizione_d_t_o_1abbae4af77983f2731300841bbbd548a0" kind="property"><name>IdAlgoritmo</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni_1_1_predizione_d_t_o_1a94e244c2d8ab4a81a7bc2b347f4e16a2" kind="property"><name>DataRichiesta</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni_1_1_predizione_d_t_o_1a04161dd97a718e6329bb5e9956275220" kind="property"><name>DescrizionePatologia</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni_1_1_predizione_d_t_o_1a327f468f81dfeeacf01bec3207224b30" kind="property"><name>DescrizioneAlgoritmo</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni_1_1_predizione_d_t_o_1a7eff111d6708c6a90cfe1d39511118d0" kind="property"><name>DescrizionePaziente</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni_1_1_predizione_d_t_o_1aa81a579da08535bb00639995e1255da4" kind="property"><name>EsitoPredizione</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni_1_1_predizione_d_t_o_1a7aad66501ba9ed0d85f93b6e9083fcb2" kind="property"><name>Esito</name></member>
+  </compound>
+  <compound refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_region_of_interest_d_t_o" kind="class"><name>Molim::Backend::API::DTO::Pazienti::Esami::RegionOfInterestDTO</name>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_region_of_interest_d_t_o_1abf7a094f6dfdede09f653b81b11aa49f" kind="property"><name>ID</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_region_of_interest_d_t_o_1aa1e42fe9b6637ff3b664d2d6a87d0ce8" kind="property"><name>NomeFile</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_region_of_interest_d_t_o_1a370ec841c1e6bb60160ba3267f817456" kind="property"><name>Dimensione</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_region_of_interest_d_t_o_1a65cc06957a97a3b74a6bb80514930fe6" kind="property"><name>IdImmagine</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_region_of_interest_d_t_o_1a25dd48d253a0e7f74671daf896224c23" kind="property"><name>NomeFileImmagine</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_region_of_interest_d_t_o_1a1c9425fcbb454844b6154046b27a0d3b" kind="property"><name>Features</name></member>
+  </compound>
+  <compound refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_auth_1_1_requests_1_1_reset_password_request" kind="class"><name>Molim::Backend::API::DTO::Auth::Requests::ResetPasswordRequest</name>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_auth_1_1_requests_1_1_reset_password_request_1af5b6fa8e1322f6a62430437d19a915a3" kind="property"><name>OldPassword</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_auth_1_1_requests_1_1_reset_password_request_1acdb195c532454d35943f34e5448fa070" kind="property"><name>NewPassword</name></member>
+  </compound>
+  <compound refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_patologie_1_1_tipologia_esame_d_t_o" kind="class"><name>Molim::Backend::API::DTO::Patologie::TipologiaEsameDTO</name>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_patologie_1_1_tipologia_esame_d_t_o_1a7ad5f9d7699e5a8a3cce6c84f7bff201" kind="property"><name>IdTipologiaEsame</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_patologie_1_1_tipologia_esame_d_t_o_1a9d810e854893ba62f5ea6c2539a8a096" kind="property"><name>IdPatologia</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_patologie_1_1_tipologia_esame_d_t_o_1aa6b2c3e0687f4d61445d61949cd28b08" kind="property"><name>Descrizione</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_patologie_1_1_tipologia_esame_d_t_o_1aeb2a51aa939e29b24d70262debebd2ec" kind="property"><name>RichiedeImmagini</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_patologie_1_1_tipologia_esame_d_t_o_1a47c1f8912d67f776fb53ed70ea3fca36" kind="property"><name>Features</name></member>
+  </compound>
+  <compound refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_requests_1_1_update_account_request" kind="class"><name>Molim::Backend::API::DTO::Accounts::Requests::UpdateAccountRequest</name>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_requests_1_1_update_account_request_1a4d689ad959edbf250c5ee15a72ad6b27" kind="property"><name>Username</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_requests_1_1_update_account_request_1a2b3bcfe17106120b1fcb2eb94a65d780" kind="property"><name>Password</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_requests_1_1_update_account_request_1a184bb2ea3f3b47f481266cfdec5403b2" kind="property"><name>LastName</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_requests_1_1_update_account_request_1aededa91a8bce3d1cf7b99542abf6b42d" kind="property"><name>FirstName</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_requests_1_1_update_account_request_1a1cc629fdcb1c4e1e81e057899a6026cf" kind="property"><name>Bookings</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_requests_1_1_update_account_request_1a6662421f731a3b24dbc69b51845af3dc" kind="property"><name>BookingsToDate</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_requests_1_1_update_account_request_1aceced28a7ead89a2b6e0d3fa18b90013" kind="property"><name>AccountType_ID</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_requests_1_1_update_account_request_1a9103a46718f7f10251fcbb40616954d9" kind="property"><name>Version</name></member>
+  </compound>
+  <compound refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_requests_1_1_update_paziente_request" kind="class"><name>Molim::Backend::API::DTO::Pazienti::Requests::UpdatePazienteRequest</name>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_requests_1_1_update_paziente_request_1a09eac77319c157150df0b5f02cf895a3" kind="property"><name>NomePaziente</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_requests_1_1_update_paziente_request_1ae923681f43eea82276b882b5e210444a" kind="property"><name>CognomePaziente</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_requests_1_1_update_paziente_request_1a2d6521b52f92bc83355570e4a7eede74" kind="property"><name>AnnoNascita</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_requests_1_1_update_paziente_request_1a177055d51d0eb9e5fcbbd6bef3ca5a47" kind="property"><name>Sesso</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_requests_1_1_update_paziente_request_1aede9ba1dc12732934c444193a7fd0424" kind="property"><name>City</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_requests_1_1_update_paziente_request_1a4dbf2e30963b0e8cd8f09917448cce85" kind="property"><name>CodiceFiscale</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_requests_1_1_update_paziente_request_1a397201a7967602392d5d1072483f231e" kind="property"><name>Indirizzo</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_requests_1_1_update_paziente_request_1a0a0f408b833d19c7c11187da61a4c90a" kind="property"><name>IndirizzoMail</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_requests_1_1_update_paziente_request_1a80c501c7cb7cc7cf77fa60e443ee67fe" kind="property"><name>NumeroCellulare</name></member>
+    <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_requests_1_1_update_paziente_request_1a5d5d6688784ba97cd81467651a218210" kind="property"><name>Education</name></member>
+  </compound>
+  <compound refid="namespace_molim" kind="namespace"><name>Molim</name>
+  </compound>
+  <compound refid="namespace_molim_1_1_backend" kind="namespace"><name>Molim::Backend</name>
+  </compound>
+  <compound refid="namespace_molim_1_1_backend_1_1_a_p_i" kind="namespace"><name>Molim::Backend::API</name>
+  </compound>
+  <compound refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o" kind="namespace"><name>Molim::Backend::API::DTO</name>
+  </compound>
+  <compound refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts" kind="namespace"><name>Molim::Backend::API::DTO::Accounts</name>
+  </compound>
+  <compound refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_requests" kind="namespace"><name>Molim::Backend::API::DTO::Accounts::Requests</name>
+  </compound>
+  <compound refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_responses" kind="namespace"><name>Molim::Backend::API::DTO::Accounts::Responses</name>
+  </compound>
+  <compound refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_algoritmi" kind="namespace"><name>Molim::Backend::API::DTO::Algoritmi</name>
+  </compound>
+  <compound refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_algoritmi_1_1_responses" kind="namespace"><name>Molim::Backend::API::DTO::Algoritmi::Responses</name>
+  </compound>
+  <compound refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_auth" kind="namespace"><name>Molim::Backend::API::DTO::Auth</name>
+  </compound>
+  <compound refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_auth_1_1_requests" kind="namespace"><name>Molim::Backend::API::DTO::Auth::Requests</name>
+  </compound>
+  <compound refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_auth_1_1_responses" kind="namespace"><name>Molim::Backend::API::DTO::Auth::Responses</name>
+  </compound>
+  <compound refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_errors" kind="namespace"><name>Molim::Backend::API::DTO::Errors</name>
+  </compound>
+  <compound refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_patologie" kind="namespace"><name>Molim::Backend::API::DTO::Patologie</name>
+  </compound>
+  <compound refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_patologie_1_1_responses" kind="namespace"><name>Molim::Backend::API::DTO::Patologie::Responses</name>
+  </compound>
+  <compound refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti" kind="namespace"><name>Molim::Backend::API::DTO::Pazienti</name>
+  </compound>
+  <compound refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_diagnosi" kind="namespace"><name>Molim::Backend::API::DTO::Pazienti::Diagnosi</name>
+  </compound>
+  <compound refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_diagnosi_1_1_requests" kind="namespace"><name>Molim::Backend::API::DTO::Pazienti::Diagnosi::Requests</name>
+  </compound>
+  <compound refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_diagnosi_1_1_responses" kind="namespace"><name>Molim::Backend::API::DTO::Pazienti::Diagnosi::Responses</name>
+  </compound>
+  <compound refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami" kind="namespace"><name>Molim::Backend::API::DTO::Pazienti::Esami</name>
+  </compound>
+  <compound refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_responses" kind="namespace"><name>Molim::Backend::API::DTO::Pazienti::Esami::Responses</name>
+  </compound>
+  <compound refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni" kind="namespace"><name>Molim::Backend::API::DTO::Pazienti::Predizioni</name>
+  </compound>
+  <compound refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni_1_1_requests" kind="namespace"><name>Molim::Backend::API::DTO::Pazienti::Predizioni::Requests</name>
+  </compound>
+  <compound refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni_1_1_responses" kind="namespace"><name>Molim::Backend::API::DTO::Pazienti::Predizioni::Responses</name>
+  </compound>
+  <compound refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_requests" kind="namespace"><name>Molim::Backend::API::DTO::Pazienti::Requests</name>
+  </compound>
+  <compound refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_responses" kind="namespace"><name>Molim::Backend::API::DTO::Pazienti::Responses</name>
+  </compound>
+  <compound refid="namespace_newtonsoft_1_1_json" kind="namespace"><name>Newtonsoft::Json</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="_account_d_t_o_8cs" kind="file"><name>AccountDTO.cs</name>
+  </compound>
+  <compound refid="_create_account_request_8cs" kind="file"><name>CreateAccountRequest.cs</name>
+  </compound>
+  <compound refid="_update_account_request_8cs" kind="file"><name>UpdateAccountRequest.cs</name>
+  </compound>
+  <compound refid="_get_accounts_response_8cs" kind="file"><name>GetAccountsResponse.cs</name>
+  </compound>
+  <compound refid="_algoritmo_d_t_o_8cs" kind="file"><name>AlgoritmoDTO.cs</name>
+  </compound>
+  <compound refid="_feature_algoritmo_d_t_o_8cs" kind="file"><name>FeatureAlgoritmoDTO.cs</name>
+  </compound>
+  <compound refid="_get_algoritmi_response_8cs" kind="file"><name>GetAlgoritmiResponse.cs</name>
+  </compound>
+  <compound refid="_authentication_request_8cs" kind="file"><name>AuthenticationRequest.cs</name>
+  </compound>
+  <compound refid="_reset_password_request_8cs" kind="file"><name>ResetPasswordRequest.cs</name>
+  </compound>
+  <compound refid="_authentication_response_8cs" kind="file"><name>AuthenticationResponse.cs</name>
+  </compound>
+  <compound refid="_error_object_8cs" kind="file"><name>ErrorObject.cs</name>
+  </compound>
+  <compound refid="_error_response_8cs" kind="file"><name>ErrorResponse.cs</name>
+  </compound>
+  <compound refid="_8_n_e_t_standard_00_version_0av2_80_8_assembly_attributes_8cs" kind="file"><name>.NETStandard,Version=v2.0.AssemblyAttributes.cs</name>
+  </compound>
+  <compound refid="_molim_8_backend_8_a_p_i_8_d_t_o_8_assembly_info_8cs" kind="file"><name>Molim.Backend.API.DTO.AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="_feature_d_t_o_8cs" kind="file"><name>FeatureDTO.cs</name>
+  </compound>
+  <compound refid="_patologia_d_t_o_8cs" kind="file"><name>PatologiaDTO.cs</name>
+  </compound>
+  <compound refid="_get_patologie_response_8cs" kind="file"><name>GetPatologieResponse.cs</name>
+  </compound>
+  <compound refid="_tipologia_esame_d_t_o_8cs" kind="file"><name>TipologiaEsameDTO.cs</name>
+  </compound>
+  <compound refid="_diagnosi_d_t_o_8cs" kind="file"><name>DiagnosiDTO.cs</name>
+  </compound>
+  <compound refid="_crea_diagnosi_request_8cs" kind="file"><name>CreaDiagnosiRequest.cs</name>
+  </compound>
+  <compound refid="_get_diagnosi_paziente_response_8cs" kind="file"><name>GetDiagnosiPazienteResponse.cs</name>
+  </compound>
+  <compound refid="_esame_paziente_d_t_o_8cs" kind="file"><name>EsamePazienteDTO.cs</name>
+  </compound>
+  <compound refid="_feature_esame_d_t_o_8cs" kind="file"><name>FeatureEsameDTO.cs</name>
+  </compound>
+  <compound refid="_immagine_d_t_o_8cs" kind="file"><name>ImmagineDTO.cs</name>
+  </compound>
+  <compound refid="_region_of_interest_d_t_o_8cs" kind="file"><name>RegionOfInterestDTO.cs</name>
+  </compound>
+  <compound refid="_get_esami_paziente_response_8cs" kind="file"><name>GetEsamiPazienteResponse.cs</name>
+  </compound>
+  <compound refid="_paziente_d_t_o_8cs" kind="file"><name>PazienteDTO.cs</name>
+  </compound>
+  <compound refid="_predizione_d_t_o_8cs" kind="file"><name>PredizioneDTO.cs</name>
+  </compound>
+  <compound refid="_create_predizione_paziente_8cs" kind="file"><name>CreatePredizionePaziente.cs</name>
+  </compound>
+  <compound refid="_get_predizioni_paziente_response_8cs" kind="file"><name>GetPredizioniPazienteResponse.cs</name>
+  </compound>
+  <compound refid="_create_paziente_request_8cs" kind="file"><name>CreatePazienteRequest.cs</name>
+  </compound>
+  <compound refid="_update_paziente_request_8cs" kind="file"><name>UpdatePazienteRequest.cs</name>
+  </compound>
+  <compound refid="_get_pazienti_response_8cs" kind="file"><name>GetPazientiResponse.cs</name>
+  </compound>
+  <compound refid="dir_79da751a201e9b4a2efd56b407a13b68" kind="dir"><name>C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Accounts</name>
+  </compound>
+  <compound refid="dir_b63508eb869a3d4d2484983a49fceb24" kind="dir"><name>C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Algoritmi</name>
+  </compound>
+  <compound refid="dir_fc09b2862de8eeba3257336c6e73907b" kind="dir"><name>C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Auth</name>
+  </compound>
+  <compound refid="dir_a39b3967a342468018e50f975ab96c88" kind="dir"><name>C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/obj/Debug</name>
+  </compound>
+  <compound refid="dir_9e99d21e1667dea37f8c0d464f1e5893" kind="dir"><name>C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Diagnosi</name>
+  </compound>
+  <compound refid="dir_6d6704509a1bde1c7a857f45f7a74fc3" kind="dir"><name>C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Errors</name>
+  </compound>
+  <compound refid="dir_3811cd6920def5eb9e23f763e4450bd8" kind="dir"><name>C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Esami</name>
+  </compound>
+  <compound refid="dir_ac49fb236cee6cb61b9ea2acc35d97b3" kind="dir"><name>C:/Progetti/Molim/Backend/Molim.Backend.API.DTO</name>
+  </compound>
+  <compound refid="dir_c6edd3c4318461826138b4cdbe8189f1" kind="dir"><name>C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/obj/Debug/netstandard2.0</name>
+  </compound>
+  <compound refid="dir_532388f8131ce579c21e9982cd06aff2" kind="dir"><name>C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/obj</name>
+  </compound>
+  <compound refid="dir_474cebbbfddc09f690be074328b94211" kind="dir"><name>C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Patologie</name>
+  </compound>
+  <compound refid="dir_930eccc66a8f69018fd865e5efdc488f" kind="dir"><name>C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti</name>
+  </compound>
+  <compound refid="dir_7be184deb962ec4fb90d956ed081f6c1" kind="dir"><name>C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Predizioni</name>
+  </compound>
+  <compound refid="dir_9de7e23871afac310bf37a0fb8eda6e8" kind="dir"><name>C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Accounts/Requests</name>
+  </compound>
+  <compound refid="dir_ff1c493afaa5b4df671271ce972c28c4" kind="dir"><name>C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Auth/Requests</name>
+  </compound>
+  <compound refid="dir_440f865586c94678f5889980cb808ce0" kind="dir"><name>C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Diagnosi/Requests</name>
+  </compound>
+  <compound refid="dir_d572d139cbc444376f74dc99c42fbf08" kind="dir"><name>C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Predizioni/Requests</name>
+  </compound>
+  <compound refid="dir_05b60a0a46f0b38c7b9918c03d114217" kind="dir"><name>C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Requests</name>
+  </compound>
+  <compound refid="dir_77f875d5b40d2499c1d0e37e634685c0" kind="dir"><name>C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Accounts/Responses</name>
+  </compound>
+  <compound refid="dir_0a98b9dee85ffea8471034a2868d6303" kind="dir"><name>C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Algoritmi/Responses</name>
+  </compound>
+  <compound refid="dir_546b0ee463a6303f5740517ece8d923b" kind="dir"><name>C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Auth/Responses</name>
+  </compound>
+  <compound refid="dir_98530dbe5a0e5b1bbb1447780c21c33d" kind="dir"><name>C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Patologie/Responses</name>
+  </compound>
+  <compound refid="dir_2ea7414a5754917104edd6d4a8b1fa0b" kind="dir"><name>C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Diagnosi/Responses</name>
+  </compound>
+  <compound refid="dir_78649fad4ceafe1029e4b2910392ba7e" kind="dir"><name>C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Esami/Responses</name>
+  </compound>
+  <compound refid="dir_be89af6271fa17b08e758670f3be2c06" kind="dir"><name>C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Predizioni/Responses</name>
+  </compound>
+  <compound refid="dir_8b9f4bac0db348791cd9c1f7568f63f6" kind="dir"><name>C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Responses</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,317 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_accounts_service" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::BusinessLayer::Services::Authentication::AccountsService</compoundname>
+    <basecompoundref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service" prot="public" virt="non-virtual">Molim.Backend.API.BusinessLayer.Services.BaseService</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_accounts_service_1a768fd90d138bd4d6e12f3d402a4e0649" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Molim.Backend.API.BusinessLayer.Services.Authentication.AccountsService.AccountsService</definition>
+        <argsstring>(MolimDb db, Configuration conf, IAuthenticationProvider auth, ILogger logger)</argsstring>
+        <name>AccountsService</name>
+        <param>
+          <type><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_molim_db" kindref="compound">MolimDb</ref></type>
+          <declname>db</declname>
+        </param>
+        <param>
+          <type><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_configuration" kindref="compound">Configuration</ref></type>
+          <declname>conf</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_interfaces_1_1_i_authentication_provider" kindref="compound">IAuthenticationProvider</ref></type>
+          <declname>auth</declname>
+        </param>
+        <param>
+          <type>ILogger</type>
+          <declname>logger</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication/AccountsService.cs" line="21" column="16" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication/AccountsService.cs" bodystart="21" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_accounts_service_1a26d10f2bea31051463202b9c32945367" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Molim.Backend.API.BusinessLayer.Services.Authentication.AccountsService.AccountsService</definition>
+        <argsstring>(BaseService b)</argsstring>
+        <name>AccountsService</name>
+        <param>
+          <type><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service" kindref="compound">BaseService</ref></type>
+          <declname>b</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication/AccountsService.cs" line="26" column="16" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication/AccountsService.cs" bodystart="26" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_accounts_service_1a424b4c4f449c4288e3f1d8d5ab0891d1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IEnumerable&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_models_1_1_account_proxy" kindref="compound">AccountProxy</ref> &gt;</type>
+        <definition>IEnumerable&lt; AccountProxy &gt; Molim.Backend.API.BusinessLayer.Services.Authentication.AccountsService.GetAccounts</definition>
+        <argsstring>(string role)</argsstring>
+        <name>GetAccounts</name>
+        <param>
+          <type>string</type>
+          <declname>role</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication/AccountsService.cs" line="31" column="28" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication/AccountsService.cs" bodystart="31" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_accounts_service_1a24dfc797a3e8e502badfd11b37e5c355" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_models_1_1_account_proxy" kindref="compound">AccountProxy</ref></type>
+        <definition>AccountProxy Molim.Backend.API.BusinessLayer.Services.Authentication.AccountsService.Authenticate</definition>
+        <argsstring>(string username, string password)</argsstring>
+        <name>Authenticate</name>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication/AccountsService.cs" line="55" column="29" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication/AccountsService.cs" bodystart="55" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_accounts_service_1a6230b41058524c56f2e82ba5d482524a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_account" kindref="compound">Account</ref></type>
+        <definition>Account Molim.Backend.API.BusinessLayer.Services.Authentication.AccountsService.CreateAccount</definition>
+        <argsstring>(string username, string firstName, string lastName, string password, int? bookings, DateTime? bookingsToDate, string roleType, int? accountType_id)</argsstring>
+        <name>CreateAccount</name>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>firstName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>lastName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <param>
+          <type>int?</type>
+          <declname>bookings</declname>
+        </param>
+        <param>
+          <type>DateTime?</type>
+          <declname>bookingsToDate</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>roleType</declname>
+        </param>
+        <param>
+          <type>int?</type>
+          <declname>accountType_id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication/AccountsService.cs" line="83" column="24" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication/AccountsService.cs" bodystart="83" bodyend="119"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_accounts_service_1af09d4d584b89877c0ad1cb2694118b65" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_account" kindref="compound">Account</ref></type>
+        <definition>Account Molim.Backend.API.BusinessLayer.Services.Authentication.AccountsService.UpdateAccount</definition>
+        <argsstring>(int id, string username, string firstName, string lastName, string password, int? bookings, DateTime? bookingsToDate, int? accountType_id, long version)</argsstring>
+        <name>UpdateAccount</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>username</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>firstName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>lastName</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>password</declname>
+        </param>
+        <param>
+          <type>int?</type>
+          <declname>bookings</declname>
+        </param>
+        <param>
+          <type>DateTime?</type>
+          <declname>bookingsToDate</declname>
+        </param>
+        <param>
+          <type>int?</type>
+          <declname>accountType_id</declname>
+        </param>
+        <param>
+          <type>long</type>
+          <declname>version</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication/AccountsService.cs" line="121" column="24" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication/AccountsService.cs" bodystart="121" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_accounts_service_1a9fd316d4627c0e8c69e0e65d6c09475f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Molim.Backend.API.BusinessLayer.Services.Authentication.AccountsService.DeleteAccount</definition>
+        <argsstring>(int id)</argsstring>
+        <name>DeleteAccount</name>
+        <param>
+          <type>int</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication/AccountsService.cs" line="155" column="21" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication/AccountsService.cs" bodystart="155" bodyend="170"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_accounts_service_1ad2c436b5a02fe907b7b034dc0672e61a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Molim.Backend.API.BusinessLayer.Services.Authentication.AccountsService.ChangePassword</definition>
+        <argsstring>(string oldPassword, string newPassowrd)</argsstring>
+        <name>ChangePassword</name>
+        <param>
+          <type>string</type>
+          <declname>oldPassword</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>newPassowrd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication/AccountsService.cs" line="171" column="21" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication/AccountsService.cs" bodystart="171" bodyend="193"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>BaseService</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>IDisposable</label>
+      </node>
+      <node id="1">
+        <label>Molim.Backend.API.BusinessLayer.Services.Authentication.AccountsService</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_accounts_service"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>BaseService</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>_db</edgelabel>
+        </childnode>
+        <childnode refid="7" relation="usage">
+          <edgelabel>_conf</edgelabel>
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>_auth</edgelabel>
+        </childnode>
+      </node>
+      <node id="5">
+        <label>DbContext</label>
+      </node>
+      <node id="3">
+        <label>IDisposable</label>
+      </node>
+      <node id="1">
+        <label>Molim.Backend.API.BusinessLayer.Services.Authentication.AccountsService</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_accounts_service"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Molim.Backend.API.BusinessLayer.Data.MolimDb</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_molim_db"/>
+        <childnode refid="5" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="usage">
+          <edgelabel>_authProvider</edgelabel>
+        </childnode>
+      </node>
+      <node id="6">
+        <label>Molim.Backend.API.BusinessLayer.Interfaces.IAuthenticationProvider</label>
+        <link refid="interface_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_interfaces_1_1_i_authentication_provider"/>
+      </node>
+      <node id="7">
+        <label>Molim.Backend.API.BusinessLayer.Services.Configuration</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_configuration"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication/AccountsService.cs" line="18" column="11" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication/AccountsService.cs" bodystart="19" bodyend="194"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a36217be48299da65d31a87eb60c55d6d" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::AccountsService</scope><name>_auth</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a9192187bf2560ff73c19b0aef14f1e47" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::AccountsService</scope><name>_conf</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1ac57080880999c7ee8934bdd3c604551d" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::AccountsService</scope><name>_db</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a4b12efc8d974ac29ca5f03cc5482a6c4" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::AccountsService</scope><name>_logger</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_accounts_service_1a768fd90d138bd4d6e12f3d402a4e0649" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::AccountsService</scope><name>AccountsService</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_accounts_service_1a26d10f2bea31051463202b9c32945367" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::AccountsService</scope><name>AccountsService</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_accounts_service_1a24dfc797a3e8e502badfd11b37e5c355" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::AccountsService</scope><name>Authenticate</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a6330d4e327ae7cc6edf09d7279e7b3a2" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::AccountsService</scope><name>BaseService</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1ae2117087b44b26782caa1f6c8c43eb53" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::AccountsService</scope><name>BaseService</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_accounts_service_1ad2c436b5a02fe907b7b034dc0672e61a" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::AccountsService</scope><name>ChangePassword</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a2ef723fe8681ace7c663b7b8819d572d" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::AccountsService</scope><name>CheckPermissionBase</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a170d3181c78a90d2e637579de6ffd5bb" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::AccountsService</scope><name>CheckPermissionBase</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a8c84e15cab213eb8256ac6354d6b256d" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::AccountsService</scope><name>CheckPermissionBase</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a4de5455074d660f45875aff92ebaf172" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::AccountsService</scope><name>Complete</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_accounts_service_1a6230b41058524c56f2e82ba5d482524a" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::AccountsService</scope><name>CreateAccount</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a6b6e7f00a5c2d12bb111ffbaba2f2042" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::AccountsService</scope><name>Database</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_accounts_service_1a9fd316d4627c0e8c69e0e65d6c09475f" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::AccountsService</scope><name>DeleteAccount</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1a27bb528bc06be6bac2d3a92b5298ec9d" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::AccountsService</scope><name>Dispose</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1acffb84144b7314d8a213d7b8b4be91cc" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::AccountsService</scope><name>GetAccountFilter</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_accounts_service_1a424b4c4f449c4288e3f1d8d5ab0891d1" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::AccountsService</scope><name>GetAccounts</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_base_service_1ae6d1ec877514141042d2d976b4cd3b92" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::AccountsService</scope><name>MolimConfiguration</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_accounts_service_1af09d4d584b89877c0ad1cb2694118b65" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::AccountsService</scope><name>UpdateAccount</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

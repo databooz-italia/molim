@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_46971cce3abc87ed6d2be451105bcc5e" kind="dir">
+    <compoundname>C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Algoritmi/Models</compoundname>
+    <innerfile refid="_algoritmo_proxy_8cs">AlgoritmoProxy.cs</innerfile>
+    <innerfile refid="_feature_algoritmo_proxy_8cs">FeatureAlgoritmoProxy.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Algoritmi/Models/"/>
+  </compounddef>
+</doxygen>

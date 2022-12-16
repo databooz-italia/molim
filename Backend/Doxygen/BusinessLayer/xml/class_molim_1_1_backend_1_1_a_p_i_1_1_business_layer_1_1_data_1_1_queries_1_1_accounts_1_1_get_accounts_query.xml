@@ -1,0 +1,46 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_accounts_query" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::BusinessLayer::Data::Queries::Accounts::GetAccountsQuery</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_accounts_query_1aee8a0b45d350fe820a0407ca4c2f3323" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IQueryable&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_account" kindref="compound">Account</ref> &gt;</type>
+        <definition>static IQueryable&lt; Account &gt; Molim.Backend.API.BusinessLayer.Data.Queries.Accounts.GetAccountsQuery.GetAccounts</definition>
+        <argsstring>(this MolimDb _db, int? account_id, string roleType, bool? deleted=false)</argsstring>
+        <name>GetAccounts</name>
+        <param>
+          <type>this <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_molim_db" kindref="compound">MolimDb</ref></type>
+          <declname>_db</declname>
+        </param>
+        <param>
+          <type>int?</type>
+          <declname>account_id</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>roleType</declname>
+        </param>
+        <param>
+          <type>bool?</type>
+          <declname>deleted</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Accounts/GetAccountsQuery.cs" line="12" column="34" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Accounts/GetAccountsQuery.cs" bodystart="12" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Accounts/GetAccountsQuery.cs" line="10" column="19" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Accounts/GetAccountsQuery.cs" bodystart="11" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_accounts_1_1_get_accounts_query_1aee8a0b45d350fe820a0407ca4c2f3323" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Queries::Accounts::GetAccountsQuery</scope><name>GetAccounts</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

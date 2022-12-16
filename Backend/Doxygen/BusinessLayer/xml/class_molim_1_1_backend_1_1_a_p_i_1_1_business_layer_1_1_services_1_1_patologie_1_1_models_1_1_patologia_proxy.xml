@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_patologie_1_1_models_1_1_patologia_proxy" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::BusinessLayer::Services::Patologie::Models::PatologiaProxy</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_patologie_1_1_models_1_1_patologia_proxy_1a0a235cabeea9a60c68693fc07a2bb32f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Services.Patologie.Models.PatologiaProxy.ID</definition>
+        <argsstring></argsstring>
+        <name>ID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Patologie/Models/PatologiaProxy.cs" line="9" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Patologie/Models/PatologiaProxy.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_patologie_1_1_models_1_1_patologia_proxy_1aca4a38b07436407742b9f591c0e9fcde" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Services.Patologie.Models.PatologiaProxy.Descrizione</definition>
+        <argsstring></argsstring>
+        <name>Descrizione</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Patologie/Models/PatologiaProxy.cs" line="10" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Patologie/Models/PatologiaProxy.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_patologie_1_1_models_1_1_patologia_proxy_1ade203348d16db7f9fef270f73302b350" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>IEnumerable&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_patologie_1_1_models_1_1_tipologia_esame_proxy" kindref="compound">TipologiaEsameProxy</ref> &gt;</type>
+        <definition>IEnumerable&lt;TipologiaEsameProxy&gt; Molim.Backend.API.BusinessLayer.Services.Patologie.Models.PatologiaProxy.TipiEsami</definition>
+        <argsstring></argsstring>
+        <name>TipiEsami</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Patologie/Models/PatologiaProxy.cs" line="12" column="28" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Patologie/Models/PatologiaProxy.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Patologie/Models/PatologiaProxy.cs" line="7" column="11" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Patologie/Models/PatologiaProxy.cs" bodystart="8" bodyend="13"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_patologie_1_1_models_1_1_patologia_proxy_1aca4a38b07436407742b9f591c0e9fcde" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Patologie::Models::PatologiaProxy</scope><name>Descrizione</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_patologie_1_1_models_1_1_patologia_proxy_1a0a235cabeea9a60c68693fc07a2bb32f" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Patologie::Models::PatologiaProxy</scope><name>ID</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_patologie_1_1_models_1_1_patologia_proxy_1ade203348d16db7f9fef270f73302b350" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Patologie::Models::PatologiaProxy</scope><name>TipiEsami</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

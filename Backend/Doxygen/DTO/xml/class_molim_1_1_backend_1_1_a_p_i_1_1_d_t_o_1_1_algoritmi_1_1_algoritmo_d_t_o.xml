@@ -1,0 +1,127 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_algoritmi_1_1_algoritmo_d_t_o" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::DTO::Algoritmi::AlgoritmoDTO</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_algoritmi_1_1_algoritmo_d_t_o_1a64b616c3205ce4bebc86be8acf846c29" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Molim.Backend.API.DTO.Algoritmi.AlgoritmoDTO.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Algoritmi/AlgoritmoDTO.cs" line="9" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Algoritmi/AlgoritmoDTO.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_algoritmi_1_1_algoritmo_d_t_o_1a1f22c5a9cf1e346dfbad8276deecb430" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.DTO.Algoritmi.AlgoritmoDTO.IdPatologia</definition>
+        <argsstring></argsstring>
+        <name>IdPatologia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Algoritmi/AlgoritmoDTO.cs" line="10" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Algoritmi/AlgoritmoDTO.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_algoritmi_1_1_algoritmo_d_t_o_1a91f31b6936ce1ddb89b0c11ff52fe17c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.DTO.Algoritmi.AlgoritmoDTO.IdTipoEsame</definition>
+        <argsstring></argsstring>
+        <name>IdTipoEsame</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Algoritmi/AlgoritmoDTO.cs" line="11" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Algoritmi/AlgoritmoDTO.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_algoritmi_1_1_algoritmo_d_t_o_1a70dd13a89ec53ae77dccf64d0890a335" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.DTO.Algoritmi.AlgoritmoDTO.Descrizione</definition>
+        <argsstring></argsstring>
+        <name>Descrizione</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Algoritmi/AlgoritmoDTO.cs" line="12" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Algoritmi/AlgoritmoDTO.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_algoritmi_1_1_algoritmo_d_t_o_1a70eae918f07788d1046db45bb9c2923e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.DTO.Algoritmi.AlgoritmoDTO.EndpointRest</definition>
+        <argsstring></argsstring>
+        <name>EndpointRest</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Algoritmi/AlgoritmoDTO.cs" line="13" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Algoritmi/AlgoritmoDTO.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_algoritmi_1_1_algoritmo_d_t_o_1a5647dd36e89503b02ebee2d200ad4603" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.DTO.Algoritmi.AlgoritmoDTO.Tipo</definition>
+        <argsstring></argsstring>
+        <name>Tipo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Algoritmi/AlgoritmoDTO.cs" line="14" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Algoritmi/AlgoritmoDTO.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_algoritmi_1_1_algoritmo_d_t_o_1a02e9e833fe8147ae4292499a14306ace" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.DTO.Algoritmi.AlgoritmoDTO.OggettoDiPredizione</definition>
+        <argsstring></argsstring>
+        <name>OggettoDiPredizione</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Algoritmi/AlgoritmoDTO.cs" line="15" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Algoritmi/AlgoritmoDTO.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_algoritmi_1_1_algoritmo_d_t_o_1a7874a3adc822ecf821889c6fe82fed59" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>IEnumerable&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_algoritmi_1_1_feature_algoritmo_d_t_o" kindref="compound">FeatureAlgoritmoDTO</ref> &gt;</type>
+        <definition>IEnumerable&lt;FeatureAlgoritmoDTO&gt; Molim.Backend.API.DTO.Algoritmi.AlgoritmoDTO.Features</definition>
+        <argsstring></argsstring>
+        <name>Features</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Algoritmi/AlgoritmoDTO.cs" line="17" column="28" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Algoritmi/AlgoritmoDTO.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Algoritmi/AlgoritmoDTO.cs" line="7" column="11" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Algoritmi/AlgoritmoDTO.cs" bodystart="8" bodyend="18"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_algoritmi_1_1_algoritmo_d_t_o_1a70dd13a89ec53ae77dccf64d0890a335" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Algoritmi::AlgoritmoDTO</scope><name>Descrizione</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_algoritmi_1_1_algoritmo_d_t_o_1a70eae918f07788d1046db45bb9c2923e" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Algoritmi::AlgoritmoDTO</scope><name>EndpointRest</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_algoritmi_1_1_algoritmo_d_t_o_1a7874a3adc822ecf821889c6fe82fed59" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Algoritmi::AlgoritmoDTO</scope><name>Features</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_algoritmi_1_1_algoritmo_d_t_o_1a64b616c3205ce4bebc86be8acf846c29" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Algoritmi::AlgoritmoDTO</scope><name>Id</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_algoritmi_1_1_algoritmo_d_t_o_1a1f22c5a9cf1e346dfbad8276deecb430" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Algoritmi::AlgoritmoDTO</scope><name>IdPatologia</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_algoritmi_1_1_algoritmo_d_t_o_1a91f31b6936ce1ddb89b0c11ff52fe17c" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Algoritmi::AlgoritmoDTO</scope><name>IdTipoEsame</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_algoritmi_1_1_algoritmo_d_t_o_1a02e9e833fe8147ae4292499a14306ace" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Algoritmi::AlgoritmoDTO</scope><name>OggettoDiPredizione</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_algoritmi_1_1_algoritmo_d_t_o_1a5647dd36e89503b02ebee2d200ad4603" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Algoritmi::AlgoritmoDTO</scope><name>Tipo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

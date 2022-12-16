@@ -1,0 +1,158 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_enums" kind="namespace" language="C#">
+    <compoundname>Molim::Backend::API::BusinessLayer::Data::Entities::Enums</compoundname>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_enums_1a3e28ff664e73cbe7f9e3df160acc81a0" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>Permissions</name>
+        <enumvalue id="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_enums_1a3e28ff664e73cbe7f9e3df160acc81a0a7b7bc2512ee1fedcd76bdc68926d4f7b" prot="public">
+          <name>Administrator</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_enums_1a3e28ff664e73cbe7f9e3df160acc81a0a53c3ead3cf1b15d6c4a75ca108639974" prot="public">
+          <name>ReadAccounts</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_enums_1a3e28ff664e73cbe7f9e3df160acc81a0aff73f1128f8ebcac8679ea4bd99768a3" prot="public">
+          <name>CreateAccounts</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_enums_1a3e28ff664e73cbe7f9e3df160acc81a0ae3e5313af4f4cc119181519d9b35703f" prot="public">
+          <name>UpdateAccounts</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_enums_1a3e28ff664e73cbe7f9e3df160acc81a0a5921ccbf465db81d3e546c6474dfff59" prot="public">
+          <name>DeleteAccounts</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_enums_1a3e28ff664e73cbe7f9e3df160acc81a0a988d25824414bdc7db509a21600ce9c2" prot="public">
+          <name>ReadPazienti</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_enums_1a3e28ff664e73cbe7f9e3df160acc81a0aff67b82910440a011a55e997ee919872" prot="public">
+          <name>CreatePazienti</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_enums_1a3e28ff664e73cbe7f9e3df160acc81a0ab7c5d2366e9a224febb75896706cfef2" prot="public">
+          <name>UpdatePazienti</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_enums_1a3e28ff664e73cbe7f9e3df160acc81a0a858c22012a099800bc3d4f01e62846cd" prot="public">
+          <name>DeletePazienti</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_enums_1a3e28ff664e73cbe7f9e3df160acc81a0a4ee6c9133c67e92c6b8f2f40db6cf580" prot="public">
+          <name>ReadEsamiPazienti</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_enums_1a3e28ff664e73cbe7f9e3df160acc81a0a0573d14175613fc118bef718aa03e7ac" prot="public">
+          <name>ReadPatologie</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_enums_1a3e28ff664e73cbe7f9e3df160acc81a0a785eb8294920a11c09edc311cc9d9f9e" prot="public">
+          <name>UploadImmagineEsame</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Enums/Permissions.cs" line="7" column="11" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Enums/Permissions.cs" bodystart="8" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_enums_1a5eca14717f727709c32bb90ee82506eb" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>TipiAlgoritmo</name>
+        <enumvalue id="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_enums_1a5eca14717f727709c32bb90ee82506ebaf0063a1e56fa5dd7636ef8455903ac66" prot="public">
+          <name>FEATURE_EXTRACTION</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_enums_1a5eca14717f727709c32bb90ee82506ebaaf66bfad1fdc1ecb4c7bd03c59bd3951" prot="public">
+          <name>PREDICTION</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Enums/TipiAlgoritmo.cs" line="7" column="11" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Enums/TipiAlgoritmo.cs" bodystart="8" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_enums_1ad276e1203d98530db81397d8d7880eb0" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>TipiValoreTest</name>
+        <enumvalue id="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_enums_1ad276e1203d98530db81397d8d7880eb0a8c52b192ebd2cdc7326dec5b2039fc42" prot="public">
+          <name>NUMERICO</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_enums_1ad276e1203d98530db81397d8d7880eb0a77e10375a9831223ecd78b5b8aab522c" prot="public">
+          <name>TESTUALE</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Enums/TipiValoreTest.cs" line="7" column="11" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Enums/TipiValoreTest.cs" bodystart="8" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Entities/Enums/Permissions.cs" line="5" column="1"/>
+  </compounddef>
+</doxygen>

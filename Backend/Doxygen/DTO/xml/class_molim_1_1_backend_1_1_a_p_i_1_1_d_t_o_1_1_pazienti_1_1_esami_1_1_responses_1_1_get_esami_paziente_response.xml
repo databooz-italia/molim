@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_responses_1_1_get_esami_paziente_response" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::DTO::Pazienti::Esami::Responses::GetEsamiPazienteResponse</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_responses_1_1_get_esami_paziente_response_1a34da843b0fa469437fe6eaaa5b46fd2c" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Dictionary&lt; string, IEnumerable&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_esame_paziente_d_t_o" kindref="compound">EsamePazienteDTO</ref> &gt; &gt;</type>
+        <definition>Dictionary&lt;string, IEnumerable&lt;EsamePazienteDTO&gt; &gt; Molim.Backend.API.DTO.Pazienti.Esami.Responses.GetEsamiPazienteResponse.EsamiPaziente</definition>
+        <argsstring></argsstring>
+        <name>EsamiPaziente</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Esami/Responses/GetEsamiPazienteResponse.cs" line="9" column="27" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Esami/Responses/GetEsamiPazienteResponse.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Esami/Responses/GetEsamiPazienteResponse.cs" line="7" column="11" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Esami/Responses/GetEsamiPazienteResponse.cs" bodystart="8" bodyend="10"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_esami_1_1_responses_1_1_get_esami_paziente_response_1a34da843b0fa469437fe6eaaa5b46fd2c" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::Esami::Responses::GetEsamiPazienteResponse</scope><name>EsamiPaziente</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

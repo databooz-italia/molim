@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_474cebbbfddc09f690be074328b94211" kind="dir">
+    <compoundname>C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Patologie</compoundname>
+    <innerdir refid="dir_98530dbe5a0e5b1bbb1447780c21c33d">C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Patologie/Responses</innerdir>
+    <innerfile refid="_feature_d_t_o_8cs">FeatureDTO.cs</innerfile>
+    <innerfile refid="_patologia_d_t_o_8cs">PatologiaDTO.cs</innerfile>
+    <innerfile refid="_tipologia_esame_d_t_o_8cs">TipologiaEsameDTO.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Patologie/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,8 @@
+var searchData=
+[
+  ['updateaccountrequest_0',['UpdateAccountRequest',['../class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_requests_1_1_update_account_request.html',1,'Molim::Backend::API::DTO::Accounts::Requests']]],
+  ['updateaccountrequest_2ecs_1',['UpdateAccountRequest.cs',['../_update_account_request_8cs.html',1,'']]],
+  ['updatepazienterequest_2',['UpdatePazienteRequest',['../class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_requests_1_1_update_paziente_request.html',1,'Molim::Backend::API::DTO::Pazienti::Requests']]],
+  ['updatepazienterequest_2ecs_3',['UpdatePazienteRequest.cs',['../_update_paziente_request_8cs.html',1,'']]],
+  ['username_4',['Username',['../class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_account_d_t_o.html#af0614d7db16f6cef2722445e6fccc92c',1,'Molim.Backend.API.DTO.Accounts.AccountDTO.Username()'],['../class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_requests_1_1_create_account_request.html#a2bca17282966ff2023b335ed8f0c7257',1,'Molim.Backend.API.DTO.Accounts.Requests.CreateAccountRequest.Username()'],['../class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_accounts_1_1_requests_1_1_update_account_request.html#a4d689ad959edbf250c5ee15a72ad6b27',1,'Molim.Backend.API.DTO.Accounts.Requests.UpdateAccountRequest.Username()'],['../class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_auth_1_1_requests_1_1_authentication_request.html#a8586ff25d110202ff9d0d9b72ca079ce',1,'Molim.Backend.API.DTO.Auth.Requests.AuthenticationRequest.Username()'],['../class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_auth_1_1_responses_1_1_authentication_response.html#ac0593b187b34dba67a547dc335680e03',1,'Molim.Backend.API.DTO.Auth.Responses.AuthenticationResponse.Username()']]]
+];

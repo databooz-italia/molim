@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="interface_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_interfaces_1_1_entities_1_1_i_concurrency_object" kind="interface" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::BusinessLayer::Interfaces::Entities::IConcurrencyObject</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_interfaces_1_1_entities_1_1_i_concurrency_object_1ae994950033e2c8fab252391b51c937da" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long Molim.Backend.API.BusinessLayer.Interfaces.Entities.IConcurrencyObject.Version</definition>
+        <argsstring></argsstring>
+        <name>Version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Interfaces/Entities/IConcurrencyObject.cs" line="9" column="14" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Interfaces/Entities/IConcurrencyObject.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Interfaces/Entities/IConcurrencyObject.cs" line="7" column="22" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Interfaces/Entities/IConcurrencyObject.cs" bodystart="8" bodyend="10"/>
+    <listofallmembers>
+      <member refid="interface_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_interfaces_1_1_entities_1_1_i_concurrency_object_1ae994950033e2c8fab252391b51c937da" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Interfaces::Entities::IConcurrencyObject</scope><name>Version</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

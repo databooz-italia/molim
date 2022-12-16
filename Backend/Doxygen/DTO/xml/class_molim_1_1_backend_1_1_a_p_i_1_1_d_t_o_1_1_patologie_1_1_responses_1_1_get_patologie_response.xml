@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_patologie_1_1_responses_1_1_get_patologie_response" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::DTO::Patologie::Responses::GetPatologieResponse</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_patologie_1_1_responses_1_1_get_patologie_response_1a2f218b7513d70f5fe050943f9395bce9" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>IEnumerable&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_patologie_1_1_patologia_d_t_o" kindref="compound">PatologiaDTO</ref> &gt;</type>
+        <definition>IEnumerable&lt;PatologiaDTO&gt; Molim.Backend.API.DTO.Patologie.Responses.GetPatologieResponse.Patologie</definition>
+        <argsstring></argsstring>
+        <name>Patologie</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Patologie/Responses/GetPatologieResponse.cs" line="9" column="28" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Patologie/Responses/GetPatologieResponse.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Patologie/Responses/GetPatologieResponse.cs" line="7" column="11" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Patologie/Responses/GetPatologieResponse.cs" bodystart="8" bodyend="10"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_patologie_1_1_responses_1_1_get_patologie_response_1a2f218b7513d70f5fe050943f9395bce9" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Patologie::Responses::GetPatologieResponse</scope><name>Patologie</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

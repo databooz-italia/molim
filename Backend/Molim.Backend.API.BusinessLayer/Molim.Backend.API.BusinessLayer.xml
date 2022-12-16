@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Molim.Backend.API.BusinessLayer</name>
+    </assembly>
+    <members>
+        <member name="M:Molim.Backend.API.BusinessLayer.Interfaces.IManagerRichiesteEsecuzione.GetIdEsecutore">
+            <summary>
+            Ritorna l'id dell'esecutore più scarico, ovvero con meno fasi != complete
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Molim.Backend.API.BusinessLayer.Interfaces.IManagerRichiesteEsecuzione.InitializeParametriRichiesta(Molim.Backend.API.BusinessLayer.Data.Entities.RichiestaEsecuzione)">
+            <summary>
+            Imposta la proprità parametri della richiesta secondo le logiche del manager implementato. By default, imposta IManagerRichiesteEsecuzione.ParametriRichiesta.
+            </summary>
+            <param name="richiesta"></param>
+        </member>
+        <member name="M:Molim.Backend.API.BusinessLayer.Interfaces.IManagerRichiesteEsecuzione.InitializeFasiRichiestaEsecuzioni(Molim.Backend.API.BusinessLayer.Data.Entities.RichiestaEsecuzione)">
+            <summary>
+            Popola le fasi nell'entità passata in ingresso e le persiste sul db
+            </summary>
+            <param name=""></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

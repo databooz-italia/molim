@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Molim.Backend.API.DTO.Accounts.Requests.CreateAccountRequest" Collapsed="true">
+    <Position X="14.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EAIAAEAAAAAgAAAAAQAAAAAAAAAAAAACAAAAACAAAAg=</HashCode>
+      <FileName>Accounts\Requests\CreateAccountRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.DTO.Accounts.Requests.UpdateAccountRequest" Collapsed="true">
+    <Position X="14.25" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>MAAAAEAAAAAgAAAAAQAAAAAAAAAAAAACAAAAACAAAAg=</HashCode>
+      <FileName>Accounts\Requests\UpdateAccountRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.DTO.Accounts.Responses.GetAccountsResponse" Collapsed="true">
+    <Position X="9.5" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAA=</HashCode>
+      <FileName>Accounts\Responses\GetAccountsResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.DTO.Accounts.AccountDTO" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MAIAAEAAAIAAAAAAIQCAAAAAAAAAAAAAAAAAAAAAACg=</HashCode>
+      <FileName>Accounts\AccountDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.DTO.Algoritmi.Responses.GetAlgoritmiResponse" Collapsed="true">
+    <Position X="11.5" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Algoritmi\Responses\GetAlgoritmiResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.DTO.Algoritmi.AlgoritmoDTO" Collapsed="true">
+    <Position X="6" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABACAAAEAAAAAAAAAAABAACAAAAAAAAAAAQBAAAAAAQ=</HashCode>
+      <FileName>Algoritmi\AlgoritmoDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.DTO.Algoritmi.FeatureAlgoritmoDTO" Collapsed="true">
+    <Position X="3.75" Y="2.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>Algoritmi\FeatureAlgoritmoDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.DTO.Auth.Requests.AuthenticationRequest" Collapsed="true">
+    <Position X="7.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
+      <FileName>Auth\Requests\AuthenticationRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.DTO.Auth.Requests.ResetPasswordRequest" Collapsed="true">
+    <Position X="10" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAAAAEAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Auth\Requests\ResetPasswordRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.DTO.Auth.Responses.AuthenticationResponse" Collapsed="true">
+    <Position X="10" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAABQCAAAAAAAAAAAAAEAEAAAAIAAA=</HashCode>
+      <FileName>Auth\Responses\AuthenticationResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.DTO.Errors.ErrorObject" Collapsed="true">
+    <Position X="10.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Errors\ErrorObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.DTO.Errors.ErrorResponse" Collapsed="true">
+    <Position X="12.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Errors\ErrorResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.DTO.Patologie.Responses.GetPatologieResponse" Collapsed="true">
+    <Position X="6.25" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Patologie\Responses\GetPatologieResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.DTO.Patologie.FeatureDTO" Collapsed="true">
+    <Position X="6" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACBAAQAgAAAAAAAAAAAACABAAIAAAAgABAAAEAAAA=</HashCode>
+      <FileName>Patologie\FeatureDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.DTO.Patologie.PatologiaDTO" Collapsed="true">
+    <Position X="14.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAgAAA=</HashCode>
+      <FileName>Patologie\PatologiaDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.DTO.Patologie.TipologiaEsameDTO" Collapsed="true">
+    <Position X="12.25" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAQAAAAAAAAABABAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Patologie\TipologiaEsameDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.DTO.Pazienti.Diagnosi.Requests.CreaDiagnosiRequest" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAACEAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Pazienti\Diagnosi\Requests\CreaDiagnosiRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.DTO.Pazienti.Diagnosi.Responses.GetDiagnosiPazienteResponse" Collapsed="true">
+    <Position X="14" Y="2.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pazienti\Diagnosi\Responses\GetDiagnosiPazienteResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.DTO.Pazienti.Diagnosi.DiagnosiDTO" Collapsed="true">
+    <Position X="9" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABACAAAAAgAAAAAIAAACEAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pazienti\Diagnosi\DiagnosiDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.DTO.Pazienti.Esami.Responses.GetEsamiPazienteResponse" Collapsed="true">
+    <Position X="3.75" Y="3.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pazienti\Esami\Responses\GetEsamiPazienteResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.DTO.Pazienti.Esami.EsamePazienteDTO" Collapsed="true">
+    <Position X="14.5" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAgAAAABIBAAKEAAAAABAAAAABAEAAAAA=</HashCode>
+      <FileName>Pazienti\Esami\EsamePazienteDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.DTO.Pazienti.Esami.FeatureEsameDTO" Collapsed="true">
+    <Position X="7.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAgAAAAAAAAAAAAAEAAAAAAAAAABAAAEQAAA=</HashCode>
+      <FileName>Pazienti\Esami\FeatureEsameDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.DTO.Pazienti.Esami.ImmagineDTO" Collapsed="true">
+    <Position X="13" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAEAABAAAAgQAAAAAAAAAAAEEAAAA=</HashCode>
+      <FileName>Pazienti\Esami\ImmagineDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.DTO.Pazienti.Esami.RegionOfInterestDTO" Collapsed="true">
+    <Position X="8" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAgAAAAAABAAAAgAAAAAAAEAACAAAAAAA=</HashCode>
+      <FileName>Pazienti\Esami\RegionOfInterestDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.DTO.Pazienti.Predizioni.Requests.CreatePredizionePaziente" Collapsed="true">
+    <Position X="6.75" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAACEAAAAAAAAEAAAAAAEAAA=</HashCode>
+      <FileName>Pazienti\Predizioni\Requests\CreatePredizionePaziente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.DTO.Pazienti.Predizioni.Responses.GetPredizioniPazienteResponse" Collapsed="true">
+    <Position X="10.25" Y="3.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAA=</HashCode>
+      <FileName>Pazienti\Predizioni\Responses\GetPredizioniPazienteResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.DTO.Pazienti.Predizioni.PredizioneDTO" Collapsed="true">
+    <Position X="6.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABACAAAEDgAAAAAIAAACEAAAAAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Pazienti\Predizioni\PredizioneDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.DTO.Pazienti.Requests.CreatePazienteRequest" Collapsed="true">
+    <Position X="3.75" Y="1.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAgBAQAAEAAIAAAAgAAEAgAAAAAAAQAgAAAAAAA=</HashCode>
+      <FileName>Pazienti\Requests\CreatePazienteRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.DTO.Pazienti.Requests.UpdatePazienteRequest" Collapsed="true">
+    <Position X="3.75" Y="5.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAgBAQAAEAAIAAAAgAAAAgAAAAAAAQAgAAAAAAA=</HashCode>
+      <FileName>Pazienti\Requests\UpdatePazienteRequest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.DTO.Pazienti.Responses.GetPazientiResponse" Collapsed="true">
+    <Position X="8.25" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pazienti\Responses\GetPazientiResponse.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Molim.Backend.API.DTO.Pazienti.PazienteDTO" Collapsed="true">
+    <Position X="3.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAgBAQAAEAAIAAAAgAAEAgAAAAAAAQAgAAAAAAA=</HashCode>
+      <FileName>Pazienti\PazienteDTO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_patologie_1_1_get_algoritmi_query" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::BusinessLayer::Data::Queries::Patologie::GetAlgoritmiQuery</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_patologie_1_1_get_algoritmi_query_1a259a544b042b56862a76d908deb87bbd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IQueryable&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_algoritmo" kindref="compound">Algoritmo</ref> &gt;</type>
+        <definition>static IQueryable&lt; Algoritmo &gt; Molim.Backend.API.BusinessLayer.Data.Queries.Patologie.GetAlgoritmiQuery.GetAlgoritmi</definition>
+        <argsstring>(this MolimDb _db)</argsstring>
+        <name>GetAlgoritmi</name>
+        <param>
+          <type>this <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_molim_db" kindref="compound">MolimDb</ref></type>
+          <declname>_db</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Algoritmi/GetAlgoritmiQuery.cs" line="11" column="34" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Algoritmi/GetAlgoritmiQuery.cs" bodystart="11" bodyend="15"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Algoritmi/GetAlgoritmiQuery.cs" line="9" column="19" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Algoritmi/GetAlgoritmiQuery.cs" bodystart="10" bodyend="16"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_queries_1_1_patologie_1_1_get_algoritmi_query_1a259a544b042b56862a76d908deb87bbd" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Queries::Patologie::GetAlgoritmiQuery</scope><name>GetAlgoritmi</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

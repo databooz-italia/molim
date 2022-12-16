@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="_error_codes_8cs" kind="file" language="C#">
+    <compoundname>ErrorCodes.cs</compoundname>
+    <innernamespace refid="namespace_molim">Molim</innernamespace>
+    <innernamespace refid="namespace_molim_1_1_backend">Molim::Backend</innernamespace>
+    <innernamespace refid="namespace_molim_1_1_backend_1_1_a_p_i">Molim::Backend::API</innernamespace>
+    <innernamespace refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer">Molim::Backend::API::BusinessLayer</innernamespace>
+    <innernamespace refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_exceptions">Molim::Backend::API::BusinessLayer::Exceptions</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Text;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal"><ref refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_exceptions" kindref="compound">Molim.Backend.API.BusinessLayer.Exceptions</ref></highlight></codeline>
+<codeline lineno="6"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">public</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">enum</highlight><highlight class="normal"><sp/><ref refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_exceptions_1a2f2fbf2e67d7ec75ef83e0bc8f02fe86" kindref="member">ErrorCodes</ref></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_exceptions_1a2f2fbf2e67d7ec75ef83e0bc8f02fe86a9edf8fbf00a57d95a0af4923c9a1ec6f" kindref="member">BadRequest</ref>,</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_exceptions_1a2f2fbf2e67d7ec75ef83e0bc8f02fe86a6738b5a70a74d827be561d52b09d65ae" kindref="member">DuplicateUsername</ref>,</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_exceptions_1a2f2fbf2e67d7ec75ef83e0bc8f02fe86a38c300f4fc9ce8a77aad4a30de05cad8" kindref="member">NotFound</ref>,</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_exceptions_1a2f2fbf2e67d7ec75ef83e0bc8f02fe86ae06d1ba70f1331e9f9a113cc2f887d3f" kindref="member">Unauthorized</ref>,</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_exceptions_1a2f2fbf2e67d7ec75ef83e0bc8f02fe86a5f642905d3f13429b6c2a6321fb4f966" kindref="member">NoBookingsLeft</ref>,</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_exceptions_1a2f2fbf2e67d7ec75ef83e0bc8f02fe86a6140c41eed2db8c6b1a3aa46ab2e3d51" kindref="member">AuthFail</ref>,</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_exceptions_1a2f2fbf2e67d7ec75ef83e0bc8f02fe86ae7775ab2e1dad40d39fdfc19f22fc4a3" kindref="member">DuplicateAccountType</ref>,</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_exceptions_1a2f2fbf2e67d7ec75ef83e0bc8f02fe86aaa3994f4d7b78bc9bba0dce1a197b728" kindref="member">CannotDeleteRelated</ref>,</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_exceptions_1a2f2fbf2e67d7ec75ef83e0bc8f02fe86a5599199068c0198545ede879b493d82f" kindref="member">HorseBusy</ref>,</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_exceptions_1a2f2fbf2e67d7ec75ef83e0bc8f02fe86aafe11c4446c2d3d4a7a961fd36f921c3" kindref="member">DuplicateHorse</ref>,</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_exceptions_1a2f2fbf2e67d7ec75ef83e0bc8f02fe86ab5c586b2332b4b1ed8c54586e204a4b8" kindref="member">DuplicatePaziente</ref></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="21"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Exceptions/ErrorCodes.cs"/>
+  </compounddef>
+</doxygen>

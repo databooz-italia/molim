@@ -1,0 +1,406 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_pazienti_controller" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::Controllers::PazientiController</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ControllerBase</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_pazienti_controller_1a90e5f9fa598b3ddbd39c02ca50c638a9" prot="private" static="no" mutable="no">
+        <type>readonly ILogger&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_pazienti_controller" kindref="compound">PazientiController</ref> &gt;</type>
+        <definition>readonly ILogger&lt;PazientiController&gt; Molim.Backend.API.Controllers.PazientiController._logger</definition>
+        <argsstring></argsstring>
+        <name>_logger</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PazientiController.cs" line="36" column="34" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PazientiController.cs" bodystart="36" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_pazienti_controller_1af9def5faa6600a1d788d8bbcc0656344" prot="private" static="no" mutable="no">
+        <type>readonly BaseService</type>
+        <definition>readonly BaseService Molim.Backend.API.Controllers.PazientiController._uow</definition>
+        <argsstring></argsstring>
+        <name>_uow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PazientiController.cs" line="37" column="38" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PazientiController.cs" bodystart="37" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_pazienti_controller_1a2a015bab7b1803e2693dd939877fdda8" prot="private" static="no" mutable="no">
+        <type>readonly IWebHostEnvironment</type>
+        <definition>readonly IWebHostEnvironment Molim.Backend.API.Controllers.PazientiController._env</definition>
+        <argsstring></argsstring>
+        <name>_env</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PazientiController.cs" line="38" column="46" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PazientiController.cs" bodystart="38" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_pazienti_controller_1a01b8fb30872974b26f0eead23a6c6ec5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Molim.Backend.API.Controllers.PazientiController.PazientiController</definition>
+        <argsstring>(ILogger&lt; PazientiController &gt; logger, BaseService uow, IWebHostEnvironment env)</argsstring>
+        <name>PazientiController</name>
+        <param>
+          <type>ILogger&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_pazienti_controller" kindref="compound">PazientiController</ref> &gt;</type>
+          <declname>logger</declname>
+        </param>
+        <param>
+          <type>BaseService</type>
+          <declname>uow</declname>
+        </param>
+        <param>
+          <type>IWebHostEnvironment</type>
+          <declname>env</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PazientiController.cs" line="40" column="16" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PazientiController.cs" bodystart="40" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_pazienti_controller_1acc2ea2124c11bf259d7880b9cd4b9814" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GetPazientiResponse</type>
+        <definition>GetPazientiResponse Molim.Backend.API.Controllers.PazientiController.GetPazienti</definition>
+        <argsstring>()</argsstring>
+        <name>GetPazienti</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PazientiController.cs" line="51" column="36" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PazientiController.cs" bodystart="51" bodyend="68"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_pazienti_controller_1afe84888d0dd8d32a77172521a7cbf34d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult Molim.Backend.API.Controllers.PazientiController.CreatePaziente</definition>
+        <argsstring>([FromBody] CreatePazienteRequest request)</argsstring>
+        <name>CreatePaziente</name>
+        <param>
+          <attributes>[FromBody]</attributes>
+          <type>CreatePazienteRequest</type>
+          <declname>request</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PazientiController.cs" line="72" column="30" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PazientiController.cs" bodystart="72" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_pazienti_controller_1ad67bb21199d18ccb55a540533f9fdb36" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult Molim.Backend.API.Controllers.PazientiController.UpdatePaziente</definition>
+        <argsstring>([FromBody] UpdatePazienteRequest request, string id)</argsstring>
+        <name>UpdatePaziente</name>
+        <param>
+          <attributes>[FromBody]</attributes>
+          <type>UpdatePazienteRequest</type>
+          <declname>request</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PazientiController.cs" line="99" column="30" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PazientiController.cs" bodystart="99" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_pazienti_controller_1a1551a5acfb8375e94405ee2a229ac6f5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult Molim.Backend.API.Controllers.PazientiController.DeletePaziente</definition>
+        <argsstring>(string id)</argsstring>
+        <name>DeletePaziente</name>
+        <param>
+          <type>string</type>
+          <declname>id</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PazientiController.cs" line="126" column="30" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PazientiController.cs" bodystart="126" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_pazienti_controller_1a24b7a359823fb88e3da41727ffd44b1f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GetEsamiPazienteResponse</type>
+        <definition>GetEsamiPazienteResponse Molim.Backend.API.Controllers.PazientiController.GetEsamiPaziente</definition>
+        <argsstring>(string idPaziente)</argsstring>
+        <name>GetEsamiPaziente</name>
+        <param>
+          <type>string</type>
+          <declname>idPaziente</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PazientiController.cs" line="145" column="41" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PazientiController.cs" bodystart="145" bodyend="162"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_pazienti_controller_1a1a689916c04abf2cc52980f0b4623358" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Molim.Backend.API.Controllers.PazientiController.SaveEsame</definition>
+        <argsstring>([FromBody] EsamePazienteDTO esame)</argsstring>
+        <name>SaveEsame</name>
+        <param>
+          <attributes>[FromBody]</attributes>
+          <type>EsamePazienteDTO</type>
+          <declname>esame</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PazientiController.cs" line="166" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PazientiController.cs" bodystart="166" bodyend="184"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_pazienti_controller_1a8772e6592d7e0859f19e7b927ed96e6c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>PhysicalFileResult</type>
+        <definition>PhysicalFileResult Molim.Backend.API.Controllers.PazientiController.DownloadFileImmagine</definition>
+        <argsstring>(string idPaziente, int idEsame, int idImmagine)</argsstring>
+        <name>DownloadFileImmagine</name>
+        <param>
+          <type>string</type>
+          <declname>idPaziente</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>idEsame</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>idImmagine</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PazientiController.cs" line="190" column="35" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PazientiController.cs" bodystart="190" bodyend="198"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_pazienti_controller_1abbafcae174d64011f363c20748d3c8f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Molim.Backend.API.Controllers.PazientiController.UploadFileEsame</definition>
+        <argsstring>(IFormFile file)</argsstring>
+        <name>UploadFileEsame</name>
+        <param>
+          <type>IFormFile</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PazientiController.cs" line="203" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PazientiController.cs" bodystart="203" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_pazienti_controller_1a2bbd015f67df9259c3153f4409124c8d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Molim.Backend.API.Controllers.PazientiController.UploadROIImmagine</definition>
+        <argsstring>(IFormFile file)</argsstring>
+        <name>UploadROIImmagine</name>
+        <param>
+          <type>IFormFile</type>
+          <declname>file</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PazientiController.cs" line="237" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PazientiController.cs" bodystart="237" bodyend="265"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_pazienti_controller_1a11aae0b55c4b627f5417b6a09df062f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult Molim.Backend.API.Controllers.PazientiController.SaveFeatureEsame</definition>
+        <argsstring>(string idPaziente, int idEsame, [FromBody] FeatureEsameDTO featureEsame)</argsstring>
+        <name>SaveFeatureEsame</name>
+        <param>
+          <type>string</type>
+          <declname>idPaziente</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>idEsame</declname>
+        </param>
+        <param>
+          <attributes>[FromBody]</attributes>
+          <type>FeatureEsameDTO</type>
+          <declname>featureEsame</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PazientiController.cs" line="271" column="30" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PazientiController.cs" bodystart="271" bodyend="286"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_pazienti_controller_1a53dcea9a2f90338fb46016eab91fc0ae" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GetPredizioniPazienteResponse</type>
+        <definition>GetPredizioniPazienteResponse Molim.Backend.API.Controllers.PazientiController.GetPredizioniPaziente</definition>
+        <argsstring>(string idPaziente)</argsstring>
+        <name>GetPredizioniPaziente</name>
+        <param>
+          <type>string</type>
+          <declname>idPaziente</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PazientiController.cs" line="298" column="46" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PazientiController.cs" bodystart="298" bodyend="315"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_pazienti_controller_1a9ab41c7543be58ce9a3bed6f1b47418d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task&lt; GetPredizioniPazienteResponse &gt;</type>
+        <definition>async Task&lt; GetPredizioniPazienteResponse &gt; Molim.Backend.API.Controllers.PazientiController.CreatePredizionePaziente</definition>
+        <argsstring>(CreatePredizionePaziente req)</argsstring>
+        <name>CreatePredizionePaziente</name>
+        <param>
+          <type>CreatePredizionePaziente</type>
+          <declname>req</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PazientiController.cs" line="319" column="27" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PazientiController.cs" bodystart="319" bodyend="335"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_pazienti_controller_1a1abea77f1f8ecca6a86c7a1d57d45cd4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>GetDiagnosiPazienteResponse</type>
+        <definition>GetDiagnosiPazienteResponse Molim.Backend.API.Controllers.PazientiController.GetDiagnosiPaziente</definition>
+        <argsstring>(string idPaziente)</argsstring>
+        <name>GetDiagnosiPaziente</name>
+        <param>
+          <type>string</type>
+          <declname>idPaziente</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PazientiController.cs" line="343" column="44" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PazientiController.cs" bodystart="343" bodyend="360"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_pazienti_controller_1a8bd446e90bcfacf2f1f46575d64610a9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>IActionResult</type>
+        <definition>IActionResult Molim.Backend.API.Controllers.PazientiController.CreaDiagnosiPaziente</definition>
+        <argsstring>([FromBody] CreaDiagnosiRequest diagnosi)</argsstring>
+        <name>CreaDiagnosiPaziente</name>
+        <param>
+          <attributes>[FromBody]</attributes>
+          <type>CreaDiagnosiRequest</type>
+          <declname>diagnosi</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PazientiController.cs" line="364" column="30" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PazientiController.cs" bodystart="364" bodyend="381"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_pazienti_controller_1a6c85280416077ebc853a39caeb5fe9f2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string Molim.Backend.API.Controllers.PazientiController.GetPathImmagine</definition>
+        <argsstring>(int idImmagine, bool isRoi=false)</argsstring>
+        <name>GetPathImmagine</name>
+        <param>
+          <type>int</type>
+          <declname>idImmagine</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>isRoi</declname>
+          <defval>false</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PazientiController.cs" line="385" column="24" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PazientiController.cs" bodystart="385" bodyend="393"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>ControllerBase</label>
+      </node>
+      <node id="1">
+        <label>Molim.Backend.API.Controllers.PazientiController</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_pazienti_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>ControllerBase</label>
+      </node>
+      <node id="1">
+        <label>Molim.Backend.API.Controllers.PazientiController</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_pazienti_controller"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PazientiController.cs" line="34" column="11" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Controllers/PazientiController.cs" bodystart="35" bodyend="394"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_pazienti_controller_1a2a015bab7b1803e2693dd939877fdda8" prot="private" virt="non-virtual"><scope>Molim::Backend::API::Controllers::PazientiController</scope><name>_env</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_pazienti_controller_1a90e5f9fa598b3ddbd39c02ca50c638a9" prot="private" virt="non-virtual"><scope>Molim::Backend::API::Controllers::PazientiController</scope><name>_logger</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_pazienti_controller_1af9def5faa6600a1d788d8bbcc0656344" prot="private" virt="non-virtual"><scope>Molim::Backend::API::Controllers::PazientiController</scope><name>_uow</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_pazienti_controller_1a8bd446e90bcfacf2f1f46575d64610a9" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Controllers::PazientiController</scope><name>CreaDiagnosiPaziente</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_pazienti_controller_1afe84888d0dd8d32a77172521a7cbf34d" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Controllers::PazientiController</scope><name>CreatePaziente</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_pazienti_controller_1a9ab41c7543be58ce9a3bed6f1b47418d" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Controllers::PazientiController</scope><name>CreatePredizionePaziente</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_pazienti_controller_1a1551a5acfb8375e94405ee2a229ac6f5" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Controllers::PazientiController</scope><name>DeletePaziente</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_pazienti_controller_1a8772e6592d7e0859f19e7b927ed96e6c" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Controllers::PazientiController</scope><name>DownloadFileImmagine</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_pazienti_controller_1a1abea77f1f8ecca6a86c7a1d57d45cd4" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Controllers::PazientiController</scope><name>GetDiagnosiPaziente</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_pazienti_controller_1a24b7a359823fb88e3da41727ffd44b1f" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Controllers::PazientiController</scope><name>GetEsamiPaziente</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_pazienti_controller_1a6c85280416077ebc853a39caeb5fe9f2" prot="private" virt="non-virtual"><scope>Molim::Backend::API::Controllers::PazientiController</scope><name>GetPathImmagine</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_pazienti_controller_1acc2ea2124c11bf259d7880b9cd4b9814" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Controllers::PazientiController</scope><name>GetPazienti</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_pazienti_controller_1a53dcea9a2f90338fb46016eab91fc0ae" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Controllers::PazientiController</scope><name>GetPredizioniPaziente</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_pazienti_controller_1a01b8fb30872974b26f0eead23a6c6ec5" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Controllers::PazientiController</scope><name>PazientiController</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_pazienti_controller_1a1a689916c04abf2cc52980f0b4623358" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Controllers::PazientiController</scope><name>SaveEsame</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_pazienti_controller_1a11aae0b55c4b627f5417b6a09df062f2" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Controllers::PazientiController</scope><name>SaveFeatureEsame</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_pazienti_controller_1ad67bb21199d18ccb55a540533f9fdb36" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Controllers::PazientiController</scope><name>UpdatePaziente</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_pazienti_controller_1abbafcae174d64011f363c20748d3c8f9" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Controllers::PazientiController</scope><name>UploadFileEsame</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_controllers_1_1_pazienti_controller_1a2bbd015f67df9259c3153f4409124c8d" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Controllers::PazientiController</scope><name>UploadROIImmagine</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

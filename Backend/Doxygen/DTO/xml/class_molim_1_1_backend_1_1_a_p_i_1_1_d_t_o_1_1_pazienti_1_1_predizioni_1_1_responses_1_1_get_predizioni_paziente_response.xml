@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni_1_1_responses_1_1_get_predizioni_paziente_response" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::DTO::Pazienti::Predizioni::Responses::GetPredizioniPazienteResponse</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni_1_1_responses_1_1_get_predizioni_paziente_response_1af8ca2150d517193553f15d6b38f305ed" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>Dictionary&lt; string, IEnumerable&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni_1_1_predizione_d_t_o" kindref="compound">PredizioneDTO</ref> &gt; &gt;</type>
+        <definition>Dictionary&lt;string, IEnumerable&lt;PredizioneDTO&gt; &gt; Molim.Backend.API.DTO.Pazienti.Predizioni.Responses.GetPredizioniPazienteResponse.PredizioniPaziente</definition>
+        <argsstring></argsstring>
+        <name>PredizioniPaziente</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Predizioni/Responses/GetPredizioniPazienteResponse.cs" line="9" column="27" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Predizioni/Responses/GetPredizioniPazienteResponse.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Predizioni/Responses/GetPredizioniPazienteResponse.cs" line="7" column="11" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Predizioni/Responses/GetPredizioniPazienteResponse.cs" bodystart="8" bodyend="10"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni_1_1_responses_1_1_get_predizioni_paziente_response_1af8ca2150d517193553f15d6b38f305ed" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::Predizioni::Responses::GetPredizioniPazienteResponse</scope><name>PredizioniPaziente</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

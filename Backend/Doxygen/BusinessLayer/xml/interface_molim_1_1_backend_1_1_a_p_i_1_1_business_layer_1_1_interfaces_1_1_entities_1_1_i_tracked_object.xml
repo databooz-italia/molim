@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="interface_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_interfaces_1_1_entities_1_1_i_tracked_object" kind="interface" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::BusinessLayer::Interfaces::Entities::ITrackedObject</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="interface_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_interfaces_1_1_entities_1_1_i_tracked_object_1a3603c03ca202283e10c1d61066f68363" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? Molim.Backend.API.BusinessLayer.Interfaces.Entities.ITrackedObject.CreatorAccount_ID</definition>
+        <argsstring></argsstring>
+        <name>CreatorAccount_ID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Interfaces/Entities/ITrackedObject.cs" line="9" column="13" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Interfaces/Entities/ITrackedObject.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_interfaces_1_1_entities_1_1_i_tracked_object_1a857728f43ce47b89716d663b9ba46b52" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? Molim.Backend.API.BusinessLayer.Interfaces.Entities.ITrackedObject.UpdaterAccount_ID</definition>
+        <argsstring></argsstring>
+        <name>UpdaterAccount_ID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Interfaces/Entities/ITrackedObject.cs" line="10" column="13" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Interfaces/Entities/ITrackedObject.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_interfaces_1_1_entities_1_1_i_tracked_object_1a3d420b9fbdc9efb5fac01dcb23578a3f" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime Molim.Backend.API.BusinessLayer.Interfaces.Entities.ITrackedObject.CreationDate</definition>
+        <argsstring></argsstring>
+        <name>CreationDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Interfaces/Entities/ITrackedObject.cs" line="11" column="18" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Interfaces/Entities/ITrackedObject.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="interface_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_interfaces_1_1_entities_1_1_i_tracked_object_1aa3cb09d451a63491f36788ea67f92cc1" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime Molim.Backend.API.BusinessLayer.Interfaces.Entities.ITrackedObject.LastUpdateDate</definition>
+        <argsstring></argsstring>
+        <name>LastUpdateDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Interfaces/Entities/ITrackedObject.cs" line="12" column="18" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Interfaces/Entities/ITrackedObject.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Interfaces/Entities/ITrackedObject.cs" line="7" column="22" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Interfaces/Entities/ITrackedObject.cs" bodystart="8" bodyend="13"/>
+    <listofallmembers>
+      <member refid="interface_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_interfaces_1_1_entities_1_1_i_tracked_object_1a3d420b9fbdc9efb5fac01dcb23578a3f" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Interfaces::Entities::ITrackedObject</scope><name>CreationDate</name></member>
+      <member refid="interface_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_interfaces_1_1_entities_1_1_i_tracked_object_1a3603c03ca202283e10c1d61066f68363" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Interfaces::Entities::ITrackedObject</scope><name>CreatorAccount_ID</name></member>
+      <member refid="interface_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_interfaces_1_1_entities_1_1_i_tracked_object_1aa3cb09d451a63491f36788ea67f92cc1" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Interfaces::Entities::ITrackedObject</scope><name>LastUpdateDate</name></member>
+      <member refid="interface_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_interfaces_1_1_entities_1_1_i_tracked_object_1a857728f43ce47b89716d663b9ba46b52" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Interfaces::Entities::ITrackedObject</scope><name>UpdaterAccount_ID</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

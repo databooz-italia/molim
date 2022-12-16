@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_algoritmi_1_1_models_1_1_feature_algoritmo_proxy" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::BusinessLayer::Services::Algoritmi::Models::FeatureAlgoritmoProxy</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_algoritmi_1_1_models_1_1_feature_algoritmo_proxy_1a1169d5fecdc91e3c929b5b85d284df41" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Molim.Backend.API.BusinessLayer.Services.Algoritmi.Models.FeatureAlgoritmoProxy.IdAlgoritmo</definition>
+        <argsstring></argsstring>
+        <name>IdAlgoritmo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Algoritmi/Models/FeatureAlgoritmoProxy.cs" line="9" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Algoritmi/Models/FeatureAlgoritmoProxy.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_algoritmi_1_1_models_1_1_feature_algoritmo_proxy_1adc1148195649f10bc1149e624108afaa" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Molim.Backend.API.BusinessLayer.Services.Algoritmi.Models.FeatureAlgoritmoProxy.IdFeature</definition>
+        <argsstring></argsstring>
+        <name>IdFeature</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Algoritmi/Models/FeatureAlgoritmoProxy.cs" line="10" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Algoritmi/Models/FeatureAlgoritmoProxy.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_algoritmi_1_1_models_1_1_feature_algoritmo_proxy_1a687bb2b93e9673086030cbac28218bdf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool Molim.Backend.API.BusinessLayer.Services.Algoritmi.Models.FeatureAlgoritmoProxy.Obbligatorio</definition>
+        <argsstring></argsstring>
+        <name>Obbligatorio</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Algoritmi/Models/FeatureAlgoritmoProxy.cs" line="11" column="21" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Algoritmi/Models/FeatureAlgoritmoProxy.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Algoritmi/Models/FeatureAlgoritmoProxy.cs" line="7" column="11" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Algoritmi/Models/FeatureAlgoritmoProxy.cs" bodystart="8" bodyend="12"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_algoritmi_1_1_models_1_1_feature_algoritmo_proxy_1a1169d5fecdc91e3c929b5b85d284df41" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Algoritmi::Models::FeatureAlgoritmoProxy</scope><name>IdAlgoritmo</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_algoritmi_1_1_models_1_1_feature_algoritmo_proxy_1adc1148195649f10bc1149e624108afaa" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Algoritmi::Models::FeatureAlgoritmoProxy</scope><name>IdFeature</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_algoritmi_1_1_models_1_1_feature_algoritmo_proxy_1a687bb2b93e9673086030cbac28218bdf" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Algoritmi::Models::FeatureAlgoritmoProxy</scope><name>Obbligatorio</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

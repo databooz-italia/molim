@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_e288ffc14d61853ac5e327597378ac0b" kind="dir">
+    <compoundname>C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti</compoundname>
+    <innerfile refid="_get_dettagli_esame_query_8cs">GetDettagliEsameQuery.cs</innerfile>
+    <innerfile refid="_get_diagnosi_query_8cs">GetDiagnosiQuery.cs</innerfile>
+    <innerfile refid="_get_esami_query_8cs">GetEsamiQuery.cs</innerfile>
+    <innerfile refid="_get_immagini_query_8cs">GetImmaginiQuery.cs</innerfile>
+    <innerfile refid="_get_pazienti_query_8cs">GetPazientiQuery.cs</innerfile>
+    <innerfile refid="_get_predizioni_query_8cs">GetPredizioniQuery.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data/Queries/Pazienti/"/>
+  </compounddef>
+</doxygen>

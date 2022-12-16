@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_c6edd3c4318461826138b4cdbe8189f1" kind="dir">
+    <compoundname>C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/obj/Debug/netstandard2.0</compoundname>
+    <innerfile refid="_8_n_e_t_standard_00_version_0av2_80_8_assembly_attributes_8cs">.NETStandard,Version=v2.0.AssemblyAttributes.cs</innerfile>
+    <innerfile refid="_molim_8_backend_8_a_p_i_8_d_t_o_8_assembly_info_8cs">Molim.Backend.API.DTO.AssemblyInfo.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/obj/Debug/netstandard2.0/"/>
+  </compounddef>
+</doxygen>

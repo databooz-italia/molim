@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_errors_1_1_error_response" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::DTO::Errors::ErrorResponse</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_errors_1_1_error_response_1af95cc3d931e5b71afa7b08a5c2ddbcc8" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>List&lt; <ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_errors_1_1_error_object" kindref="compound">ErrorObject</ref> &gt;</type>
+        <definition>List&lt;ErrorObject&gt; Molim.Backend.API.DTO.Errors.ErrorResponse.Errors</definition>
+        <argsstring></argsstring>
+        <name>Errors</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Errors/ErrorResponse.cs" line="11" column="21" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Errors/ErrorResponse.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Errors/ErrorResponse.cs" line="8" column="11" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Errors/ErrorResponse.cs" bodystart="9" bodyend="12"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_errors_1_1_error_response_1af95cc3d931e5b71afa7b08a5c2ddbcc8" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Errors::ErrorResponse</scope><name>Errors</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

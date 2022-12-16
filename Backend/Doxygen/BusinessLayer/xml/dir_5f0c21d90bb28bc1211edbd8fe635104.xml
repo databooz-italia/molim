@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_5f0c21d90bb28bc1211edbd8fe635104" kind="dir">
+    <compoundname>C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Interfaces/Entities</compoundname>
+    <innerfile refid="_i_concurrency_object_8cs">IConcurrencyObject.cs</innerfile>
+    <innerfile refid="_i_tracked_object_8cs">ITrackedObject.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Interfaces/Entities/"/>
+  </compounddef>
+</doxygen>

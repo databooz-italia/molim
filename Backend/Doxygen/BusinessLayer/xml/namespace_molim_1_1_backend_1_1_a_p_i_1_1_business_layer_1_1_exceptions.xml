@@ -1,0 +1,103 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_exceptions" kind="namespace" language="C#">
+    <compoundname>Molim::Backend::API::BusinessLayer::Exceptions</compoundname>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_exceptions_1_1_business_managed_exception" prot="public">Molim::Backend::API::BusinessLayer::Exceptions::BusinessManagedException</innerclass>
+    <innerclass refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_exceptions_1_1_data_managed_exception" prot="public">Molim::Backend::API::BusinessLayer::Exceptions::DataManagedException</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_exceptions_1a2f2fbf2e67d7ec75ef83e0bc8f02fe86" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>ErrorCodes</name>
+        <enumvalue id="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_exceptions_1a2f2fbf2e67d7ec75ef83e0bc8f02fe86a9edf8fbf00a57d95a0af4923c9a1ec6f" prot="public">
+          <name>BadRequest</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_exceptions_1a2f2fbf2e67d7ec75ef83e0bc8f02fe86a6738b5a70a74d827be561d52b09d65ae" prot="public">
+          <name>DuplicateUsername</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_exceptions_1a2f2fbf2e67d7ec75ef83e0bc8f02fe86a38c300f4fc9ce8a77aad4a30de05cad8" prot="public">
+          <name>NotFound</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_exceptions_1a2f2fbf2e67d7ec75ef83e0bc8f02fe86ae06d1ba70f1331e9f9a113cc2f887d3f" prot="public">
+          <name>Unauthorized</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_exceptions_1a2f2fbf2e67d7ec75ef83e0bc8f02fe86a5f642905d3f13429b6c2a6321fb4f966" prot="public">
+          <name>NoBookingsLeft</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_exceptions_1a2f2fbf2e67d7ec75ef83e0bc8f02fe86a6140c41eed2db8c6b1a3aa46ab2e3d51" prot="public">
+          <name>AuthFail</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_exceptions_1a2f2fbf2e67d7ec75ef83e0bc8f02fe86ae7775ab2e1dad40d39fdfc19f22fc4a3" prot="public">
+          <name>DuplicateAccountType</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_exceptions_1a2f2fbf2e67d7ec75ef83e0bc8f02fe86aaa3994f4d7b78bc9bba0dce1a197b728" prot="public">
+          <name>CannotDeleteRelated</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_exceptions_1a2f2fbf2e67d7ec75ef83e0bc8f02fe86a5599199068c0198545ede879b493d82f" prot="public">
+          <name>HorseBusy</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_exceptions_1a2f2fbf2e67d7ec75ef83e0bc8f02fe86aafe11c4446c2d3d4a7a961fd36f921c3" prot="public">
+          <name>DuplicateHorse</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_exceptions_1a2f2fbf2e67d7ec75ef83e0bc8f02fe86ab5c586b2332b4b1ed8c54586e204a4b8" prot="public">
+          <name>DuplicatePaziente</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Exceptions/ErrorCodes.cs" line="7" column="11" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Exceptions/ErrorCodes.cs" bodystart="8" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Exceptions/BusinessManagedException.cs" line="5" column="1"/>
+  </compounddef>
+</doxygen>

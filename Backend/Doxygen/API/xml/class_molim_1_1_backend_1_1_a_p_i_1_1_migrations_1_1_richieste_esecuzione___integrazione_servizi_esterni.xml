@@ -1,0 +1,92 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_richieste_esecuzione___integrazione_servizi_esterni" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::Migrations::RichiesteEsecuzione_IntegrazioneServiziEsterni</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Migration</basecompoundref>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_richieste_esecuzione___integrazione_servizi_esterni_1a2d52d65398994cb961b7df18acc7d52f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Molim.Backend.API.Migrations.RichiesteEsecuzione_IntegrazioneServiziEsterni.Up</definition>
+        <argsstring>(MigrationBuilder migrationBuilder)</argsstring>
+        <name>Up</name>
+        <param>
+          <type>MigrationBuilder</type>
+          <declname>migrationBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Migrations/20210820103336_RichiesteEsecuzione_IntegrazioneServiziEsterni.cs" line="9" column="33" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Migrations/20210820103336_RichiesteEsecuzione_IntegrazioneServiziEsterni.cs" bodystart="9" bodyend="137"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_richieste_esecuzione___integrazione_servizi_esterni_1abf80ce460b0c4ee35d844b9cb795100b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Molim.Backend.API.Migrations.RichiesteEsecuzione_IntegrazioneServiziEsterni.Down</definition>
+        <argsstring>(MigrationBuilder migrationBuilder)</argsstring>
+        <name>Down</name>
+        <param>
+          <type>MigrationBuilder</type>
+          <declname>migrationBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Migrations/20210820103336_RichiesteEsecuzione_IntegrazioneServiziEsterni.cs" line="139" column="33" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Migrations/20210820103336_RichiesteEsecuzione_IntegrazioneServiziEsterni.cs" bodystart="139" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_richieste_esecuzione___integrazione_servizi_esterni_1a3376c31fd3f2a34206896e5383c9f1e5" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Molim.Backend.API.Migrations.RichiesteEsecuzione_IntegrazioneServiziEsterni.BuildTargetModel</definition>
+        <argsstring>(ModelBuilder modelBuilder)</argsstring>
+        <name>BuildTargetModel</name>
+        <param>
+          <type>ModelBuilder</type>
+          <declname>modelBuilder</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Migrations/20210820103336_RichiesteEsecuzione_IntegrazioneServiziEsterni.Designer.cs" line="15" column="33" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Migrations/20210820103336_RichiesteEsecuzione_IntegrazioneServiziEsterni.Designer.cs" bodystart="15" bodyend="1155"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>Migration</label>
+      </node>
+      <node id="1">
+        <label>Molim.Backend.API.Migrations.RichiesteEsecuzione_IntegrazioneServiziEsterni</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_richieste_esecuzione___integrazione_servizi_esterni"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Migration</label>
+      </node>
+      <node id="1">
+        <label>Molim.Backend.API.Migrations.RichiesteEsecuzione_IntegrazioneServiziEsterni</label>
+        <link refid="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_richieste_esecuzione___integrazione_servizi_esterni"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Migrations/20210820103336_RichiesteEsecuzione_IntegrazioneServiziEsterni.cs" line="7" column="19" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Migrations/20210820103336_RichiesteEsecuzione_IntegrazioneServiziEsterni.cs" bodystart="8" bodyend="177"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_richieste_esecuzione___integrazione_servizi_esterni_1a3376c31fd3f2a34206896e5383c9f1e5" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::Migrations::RichiesteEsecuzione_IntegrazioneServiziEsterni</scope><name>BuildTargetModel</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_richieste_esecuzione___integrazione_servizi_esterni_1abf80ce460b0c4ee35d844b9cb795100b" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::Migrations::RichiesteEsecuzione_IntegrazioneServiziEsterni</scope><name>Down</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_migrations_1_1_richieste_esecuzione___integrazione_servizi_esterni_1a2d52d65398994cb961b7df18acc7d52f" prot="protected" virt="non-virtual"><scope>Molim::Backend::API::Migrations::RichiesteEsecuzione_IntegrazioneServiziEsterni</scope><name>Up</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

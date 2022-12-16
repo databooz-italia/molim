@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_40947bad12bf4c8db02263f6b226a55e" kind="dir">
+    <compoundname>C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models</compoundname>
+    <innerfile refid="_diagnosi_proxy_8cs">DiagnosiProxy.cs</innerfile>
+    <innerfile refid="_esame_paziente_proxy_8cs">EsamePazienteProxy.cs</innerfile>
+    <innerfile refid="_feature_esame_proxy_8cs">FeatureEsameProxy.cs</innerfile>
+    <innerfile refid="_immagine_proxy_8cs">ImmagineProxy.cs</innerfile>
+    <innerfile refid="_paziente_proxy_8cs">PazienteProxy.cs</innerfile>
+    <innerfile refid="_predizione_proxy_8cs">PredizioneProxy.cs</innerfile>
+    <innerfile refid="_region_of_interest_proxy_8cs">RegionOfInterestProxy.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Pazienti/Models/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_ff1c493afaa5b4df671271ce972c28c4" kind="dir">
+    <compoundname>C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Auth/Requests</compoundname>
+    <innerfile refid="_authentication_request_8cs">AuthenticationRequest.cs</innerfile>
+    <innerfile refid="_reset_password_request_8cs">ResetPasswordRequest.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Auth/Requests/"/>
+  </compounddef>
+</doxygen>

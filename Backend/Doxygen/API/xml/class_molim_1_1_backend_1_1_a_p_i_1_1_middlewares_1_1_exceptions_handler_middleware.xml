@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_middlewares_1_1_exceptions_handler_middleware" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::Middlewares::ExceptionsHandlerMiddleware</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_molim_1_1_backend_1_1_a_p_i_1_1_middlewares_1_1_exceptions_handler_middleware_1a176b862203ed070e49ef543e6b1b36cf" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void Molim.Backend.API.Middlewares.ExceptionsHandlerMiddleware.UseManagedExceptionHandler</definition>
+        <argsstring>(this IApplicationBuilder app, ILogger logger)</argsstring>
+        <name>UseManagedExceptionHandler</name>
+        <param>
+          <type>this IApplicationBuilder</type>
+          <declname>app</declname>
+        </param>
+        <param>
+          <type>ILogger</type>
+          <declname>logger</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Middlewares/ExceptionsHandlerMiddleware.cs" line="16" column="28" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Middlewares/ExceptionsHandlerMiddleware.cs" bodystart="16" bodyend="65"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Middlewares/ExceptionsHandlerMiddleware.cs" line="14" column="19" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Middlewares/ExceptionsHandlerMiddleware.cs" bodystart="15" bodyend="66"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_middlewares_1_1_exceptions_handler_middleware_1a176b862203ed070e49ef543e6b1b36cf" prot="public" virt="non-virtual"><scope>Molim::Backend::API::Middlewares::ExceptionsHandlerMiddleware</scope><name>UseManagedExceptionHandler</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

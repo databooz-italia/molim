@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_959fb0065c040d3da6bf17ca55b10853" kind="dir">
+    <compoundname>C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer</compoundname>
+    <innerdir refid="dir_3f2cb2176149abbb886c251f38f80dd8">C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Data</innerdir>
+    <innerdir refid="dir_a6eaf94e7f54ade4c24933b555200a78">C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Exceptions</innerdir>
+    <innerdir refid="dir_422b1fab23a8cd2e0b27737a653039b9">C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Interfaces</innerdir>
+    <innerdir refid="dir_9ebd5c8e8727d5db9b682eb682809240">C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/obj</innerdir>
+    <innerdir refid="dir_dd828c9bce7ce3a4bd4d150b4fd5f58d">C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/"/>
+  </compounddef>
+</doxygen>

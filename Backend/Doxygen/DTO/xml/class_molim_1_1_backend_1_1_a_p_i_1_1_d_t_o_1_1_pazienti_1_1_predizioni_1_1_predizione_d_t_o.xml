@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni_1_1_predizione_d_t_o" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::DTO::Pazienti::Predizioni::PredizioneDTO</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni_1_1_predizione_d_t_o_1a876c8c3f9c01d3acd9e07426b898a5db" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Molim.Backend.API.DTO.Pazienti.Predizioni.PredizioneDTO.ID</definition>
+        <argsstring></argsstring>
+        <name>ID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Predizioni/PredizioneDTO.cs" line="9" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Predizioni/PredizioneDTO.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni_1_1_predizione_d_t_o_1a90e9a8d0634ac13e057df622f2fda641" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.DTO.Pazienti.Predizioni.PredizioneDTO.IdPaziente</definition>
+        <argsstring></argsstring>
+        <name>IdPaziente</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Predizioni/PredizioneDTO.cs" line="10" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Predizioni/PredizioneDTO.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni_1_1_predizione_d_t_o_1a6111ec7f3aeab312c25a85b2f14220be" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.DTO.Pazienti.Predizioni.PredizioneDTO.IdPatologia</definition>
+        <argsstring></argsstring>
+        <name>IdPatologia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Predizioni/PredizioneDTO.cs" line="11" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Predizioni/PredizioneDTO.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni_1_1_predizione_d_t_o_1abbae4af77983f2731300841bbbd548a0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Molim.Backend.API.DTO.Pazienti.Predizioni.PredizioneDTO.IdAlgoritmo</definition>
+        <argsstring></argsstring>
+        <name>IdAlgoritmo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Predizioni/PredizioneDTO.cs" line="12" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Predizioni/PredizioneDTO.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni_1_1_predizione_d_t_o_1a94e244c2d8ab4a81a7bc2b347f4e16a2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime</type>
+        <definition>DateTime Molim.Backend.API.DTO.Pazienti.Predizioni.PredizioneDTO.DataRichiesta</definition>
+        <argsstring></argsstring>
+        <name>DataRichiesta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Predizioni/PredizioneDTO.cs" line="13" column="25" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Predizioni/PredizioneDTO.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni_1_1_predizione_d_t_o_1a04161dd97a718e6329bb5e9956275220" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.DTO.Pazienti.Predizioni.PredizioneDTO.DescrizionePatologia</definition>
+        <argsstring></argsstring>
+        <name>DescrizionePatologia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Predizioni/PredizioneDTO.cs" line="14" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Predizioni/PredizioneDTO.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni_1_1_predizione_d_t_o_1a327f468f81dfeeacf01bec3207224b30" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.DTO.Pazienti.Predizioni.PredizioneDTO.DescrizioneAlgoritmo</definition>
+        <argsstring></argsstring>
+        <name>DescrizioneAlgoritmo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Predizioni/PredizioneDTO.cs" line="15" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Predizioni/PredizioneDTO.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni_1_1_predizione_d_t_o_1a7eff111d6708c6a90cfe1d39511118d0" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.DTO.Pazienti.Predizioni.PredizioneDTO.DescrizionePaziente</definition>
+        <argsstring></argsstring>
+        <name>DescrizionePaziente</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Predizioni/PredizioneDTO.cs" line="16" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Predizioni/PredizioneDTO.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni_1_1_predizione_d_t_o_1aa81a579da08535bb00639995e1255da4" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.DTO.Pazienti.Predizioni.PredizioneDTO.EsitoPredizione</definition>
+        <argsstring></argsstring>
+        <name>EsitoPredizione</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Predizioni/PredizioneDTO.cs" line="17" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Predizioni/PredizioneDTO.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni_1_1_predizione_d_t_o_1a7aad66501ba9ed0d85f93b6e9083fcb2" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.DTO.Pazienti.Predizioni.PredizioneDTO.Esito</definition>
+        <argsstring></argsstring>
+        <name>Esito</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Predizioni/PredizioneDTO.cs" line="18" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Predizioni/PredizioneDTO.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Predizioni/PredizioneDTO.cs" line="7" column="11" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Pazienti/Predizioni/PredizioneDTO.cs" bodystart="8" bodyend="19"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni_1_1_predizione_d_t_o_1a94e244c2d8ab4a81a7bc2b347f4e16a2" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::Predizioni::PredizioneDTO</scope><name>DataRichiesta</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni_1_1_predizione_d_t_o_1a327f468f81dfeeacf01bec3207224b30" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::Predizioni::PredizioneDTO</scope><name>DescrizioneAlgoritmo</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni_1_1_predizione_d_t_o_1a04161dd97a718e6329bb5e9956275220" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::Predizioni::PredizioneDTO</scope><name>DescrizionePatologia</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni_1_1_predizione_d_t_o_1a7eff111d6708c6a90cfe1d39511118d0" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::Predizioni::PredizioneDTO</scope><name>DescrizionePaziente</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni_1_1_predizione_d_t_o_1a7aad66501ba9ed0d85f93b6e9083fcb2" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::Predizioni::PredizioneDTO</scope><name>Esito</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni_1_1_predizione_d_t_o_1aa81a579da08535bb00639995e1255da4" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::Predizioni::PredizioneDTO</scope><name>EsitoPredizione</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni_1_1_predizione_d_t_o_1a876c8c3f9c01d3acd9e07426b898a5db" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::Predizioni::PredizioneDTO</scope><name>ID</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni_1_1_predizione_d_t_o_1abbae4af77983f2731300841bbbd548a0" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::Predizioni::PredizioneDTO</scope><name>IdAlgoritmo</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni_1_1_predizione_d_t_o_1a6111ec7f3aeab312c25a85b2f14220be" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::Predizioni::PredizioneDTO</scope><name>IdPatologia</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_d_t_o_1_1_pazienti_1_1_predizioni_1_1_predizione_d_t_o_1a90e9a8d0634ac13e057df622f2fda641" prot="public" virt="non-virtual"><scope>Molim::Backend::API::DTO::Pazienti::Predizioni::PredizioneDTO</scope><name>IdPaziente</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

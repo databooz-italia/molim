@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_9de7e23871afac310bf37a0fb8eda6e8" kind="dir">
+    <compoundname>C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Accounts/Requests</compoundname>
+    <innerfile refid="_create_account_request_8cs">CreateAccountRequest.cs</innerfile>
+    <innerfile refid="_update_account_request_8cs">UpdateAccountRequest.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.DTO/Accounts/Requests/"/>
+  </compounddef>
+</doxygen>

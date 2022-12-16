@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_models_1_1_account_proxy" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::BusinessLayer::Services::Authentication::Models::AccountProxy</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_models_1_1_account_proxy_1af34d49b9fce89dfb1f79850d2512b3b5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int Molim.Backend.API.BusinessLayer.Services.Authentication.Models.AccountProxy.ID</definition>
+        <argsstring></argsstring>
+        <name>ID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication/Models/AccountProxy.cs" line="10" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication/Models/AccountProxy.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_models_1_1_account_proxy_1a7b37120356e9507ad70191b835cc76fd" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? Molim.Backend.API.BusinessLayer.Services.Authentication.Models.AccountProxy.AccountType_ID</definition>
+        <argsstring></argsstring>
+        <name>AccountType_ID</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication/Models/AccountProxy.cs" line="11" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication/Models/AccountProxy.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_models_1_1_account_proxy_1ad604da47a45ba3e5d3d470c95efa4013" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Services.Authentication.Models.AccountProxy.Username</definition>
+        <argsstring></argsstring>
+        <name>Username</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication/Models/AccountProxy.cs" line="12" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication/Models/AccountProxy.cs" bodystart="12" bodyend="12"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_models_1_1_account_proxy_1a8184f7d73db3861bc37002227967ac63" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Services.Authentication.Models.AccountProxy.FirstName</definition>
+        <argsstring></argsstring>
+        <name>FirstName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication/Models/AccountProxy.cs" line="13" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication/Models/AccountProxy.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_models_1_1_account_proxy_1a75768c0a2b390ae9ec27e4667eb759ca" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Services.Authentication.Models.AccountProxy.LastName</definition>
+        <argsstring></argsstring>
+        <name>LastName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication/Models/AccountProxy.cs" line="14" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication/Models/AccountProxy.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_models_1_1_account_proxy_1a4b1a5050acb3d2728c8cee56de9718de" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Services.Authentication.Models.AccountProxy.RoleType</definition>
+        <argsstring></argsstring>
+        <name>RoleType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication/Models/AccountProxy.cs" line="15" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication/Models/AccountProxy.cs" bodystart="15" bodyend="15"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_models_1_1_account_proxy_1a38275db2a1191d1a03b78f88850de00e" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Services.Authentication.Models.AccountProxy.RoleDescription</definition>
+        <argsstring></argsstring>
+        <name>RoleDescription</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication/Models/AccountProxy.cs" line="16" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication/Models/AccountProxy.cs" bodystart="16" bodyend="16"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_models_1_1_account_proxy_1a7d87cb591c8ea1bfc465b8d81b9cab11" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? Molim.Backend.API.BusinessLayer.Services.Authentication.Models.AccountProxy.AvailableBookings</definition>
+        <argsstring></argsstring>
+        <name>AvailableBookings</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication/Models/AccountProxy.cs" line="17" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication/Models/AccountProxy.cs" bodystart="17" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_models_1_1_account_proxy_1a6dbb6223cf4ba3a4f51ec58c969aee8d" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>DateTime?</type>
+        <definition>DateTime? Molim.Backend.API.BusinessLayer.Services.Authentication.Models.AccountProxy.AvailableBookingsToDate</definition>
+        <argsstring></argsstring>
+        <name>AvailableBookingsToDate</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication/Models/AccountProxy.cs" line="18" column="25" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication/Models/AccountProxy.cs" bodystart="18" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_models_1_1_account_proxy_1ab8af3e11e70e1b03870dde9ff0120577" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool Molim.Backend.API.BusinessLayer.Services.Authentication.Models.AccountProxy.ResetPassword</definition>
+        <argsstring></argsstring>
+        <name>ResetPassword</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication/Models/AccountProxy.cs" line="19" column="21" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication/Models/AccountProxy.cs" bodystart="19" bodyend="19"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_models_1_1_account_proxy_1a8d8337d0491e43dbb9375c6d31d1ae23" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>long</type>
+        <definition>long Molim.Backend.API.BusinessLayer.Services.Authentication.Models.AccountProxy.Version</definition>
+        <argsstring></argsstring>
+        <name>Version</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication/Models/AccountProxy.cs" line="20" column="21" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication/Models/AccountProxy.cs" bodystart="20" bodyend="20"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication/Models/AccountProxy.cs" line="8" column="11" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API.BusinessLayer/Services/Authentication/Models/AccountProxy.cs" bodystart="9" bodyend="22"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_models_1_1_account_proxy_1a7b37120356e9507ad70191b835cc76fd" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::Models::AccountProxy</scope><name>AccountType_ID</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_models_1_1_account_proxy_1a7d87cb591c8ea1bfc465b8d81b9cab11" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::Models::AccountProxy</scope><name>AvailableBookings</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_models_1_1_account_proxy_1a6dbb6223cf4ba3a4f51ec58c969aee8d" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::Models::AccountProxy</scope><name>AvailableBookingsToDate</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_models_1_1_account_proxy_1a8184f7d73db3861bc37002227967ac63" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::Models::AccountProxy</scope><name>FirstName</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_models_1_1_account_proxy_1af34d49b9fce89dfb1f79850d2512b3b5" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::Models::AccountProxy</scope><name>ID</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_models_1_1_account_proxy_1a75768c0a2b390ae9ec27e4667eb759ca" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::Models::AccountProxy</scope><name>LastName</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_models_1_1_account_proxy_1ab8af3e11e70e1b03870dde9ff0120577" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::Models::AccountProxy</scope><name>ResetPassword</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_models_1_1_account_proxy_1a38275db2a1191d1a03b78f88850de00e" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::Models::AccountProxy</scope><name>RoleDescription</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_models_1_1_account_proxy_1a4b1a5050acb3d2728c8cee56de9718de" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::Models::AccountProxy</scope><name>RoleType</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_models_1_1_account_proxy_1ad604da47a45ba3e5d3d470c95efa4013" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::Models::AccountProxy</scope><name>Username</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_services_1_1_authentication_1_1_models_1_1_account_proxy_1a8d8337d0491e43dbb9375c6d31d1ae23" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Services::Authentication::Models::AccountProxy</scope><name>Version</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

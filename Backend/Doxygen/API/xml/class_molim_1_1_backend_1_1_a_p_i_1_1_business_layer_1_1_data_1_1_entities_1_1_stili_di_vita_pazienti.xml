@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_stili_di_vita_pazienti" kind="class" language="C#" prot="public">
+    <compoundname>Molim::Backend::API::BusinessLayer::Data::Entities::StiliDiVitaPazienti</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_stili_di_vita_pazienti_1a6f1fc28cf39d81017c01b39bbb7ae026" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Data.Entities.StiliDiVitaPazienti.IdPaziente</definition>
+        <argsstring></argsstring>
+        <name>IdPaziente</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/StiliDiVitaPazienti.cs" line="8" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/StiliDiVitaPazienti.cs" bodystart="8" bodyend="8"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_stili_di_vita_pazienti_1a4b16888644df701088f02175e99c4e52" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>string</type>
+        <definition>string Molim.Backend.API.BusinessLayer.Data.Entities.StiliDiVitaPazienti.IdStileDiVita</definition>
+        <argsstring></argsstring>
+        <name>IdStileDiVita</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/StiliDiVitaPazienti.cs" line="9" column="23" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/StiliDiVitaPazienti.cs" bodystart="9" bodyend="9"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_stili_di_vita_pazienti_1a25e1782a6034ac860cc0657356c403ab" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? Molim.Backend.API.BusinessLayer.Data.Entities.StiliDiVitaPazienti.CreatorAccountId</definition>
+        <argsstring></argsstring>
+        <name>CreatorAccountId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/StiliDiVitaPazienti.cs" line="10" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/StiliDiVitaPazienti.cs" bodystart="10" bodyend="10"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_stili_di_vita_pazienti_1acd7caeb9c000cfb25c692d470ad5e8a5" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int?</type>
+        <definition>int? Molim.Backend.API.BusinessLayer.Data.Entities.StiliDiVitaPazienti.UpdaterAccountId</definition>
+        <argsstring></argsstring>
+        <name>UpdaterAccountId</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/StiliDiVitaPazienti.cs" line="11" column="20" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/StiliDiVitaPazienti.cs" bodystart="11" bodyend="11"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_stili_di_vita_pazienti_1a18fb4c955fece5b176eca0abed6ddfbe" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_pazienti" kindref="compound">Pazienti</ref></type>
+        <definition>virtual Pazienti Molim.Backend.API.BusinessLayer.Data.Entities.StiliDiVitaPazienti.IdPazienteNavigation</definition>
+        <argsstring></argsstring>
+        <name>IdPazienteNavigation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/StiliDiVitaPazienti.cs" line="13" column="33" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/StiliDiVitaPazienti.cs" bodystart="13" bodyend="13"/>
+      </memberdef>
+      <memberdef kind="property" id="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_stili_di_vita_pazienti_1ab04d4cd1369544d7d867496c0a03e7cf" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type><ref refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_stili_di_vita" kindref="compound">StiliDiVita</ref></type>
+        <definition>virtual StiliDiVita Molim.Backend.API.BusinessLayer.Data.Entities.StiliDiVitaPazienti.IdStileDiVitaNavigation</definition>
+        <argsstring></argsstring>
+        <name>IdStileDiVitaNavigation</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/StiliDiVitaPazienti.cs" line="14" column="36" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/StiliDiVitaPazienti.cs" bodystart="14" bodyend="14"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/StiliDiVitaPazienti.cs" line="6" column="19" bodyfile="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/StiliDiVitaPazienti.cs" bodystart="7" bodyend="15"/>
+    <listofallmembers>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_stili_di_vita_pazienti_1a25e1782a6034ac860cc0657356c403ab" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::StiliDiVitaPazienti</scope><name>CreatorAccountId</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_stili_di_vita_pazienti_1a6f1fc28cf39d81017c01b39bbb7ae026" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::StiliDiVitaPazienti</scope><name>IdPaziente</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_stili_di_vita_pazienti_1a18fb4c955fece5b176eca0abed6ddfbe" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::StiliDiVitaPazienti</scope><name>IdPazienteNavigation</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_stili_di_vita_pazienti_1a4b16888644df701088f02175e99c4e52" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::StiliDiVitaPazienti</scope><name>IdStileDiVita</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_stili_di_vita_pazienti_1ab04d4cd1369544d7d867496c0a03e7cf" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::StiliDiVitaPazienti</scope><name>IdStileDiVitaNavigation</name></member>
+      <member refid="class_molim_1_1_backend_1_1_a_p_i_1_1_business_layer_1_1_data_1_1_entities_1_1_stili_di_vita_pazienti_1acd7caeb9c000cfb25c692d470ad5e8a5" prot="public" virt="non-virtual"><scope>Molim::Backend::API::BusinessLayer::Data::Entities::StiliDiVitaPazienti</scope><name>UpdaterAccountId</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

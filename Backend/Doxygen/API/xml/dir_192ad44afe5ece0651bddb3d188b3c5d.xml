@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_192ad44afe5ece0651bddb3d188b3c5d" kind="dir">
+    <compoundname>C:/Progetti/Molim/Backend/Molim.Backend.API/Models</compoundname>
+    <innerfile refid="_accounts_8cs">Accounts.cs</innerfile>
+    <innerfile refid="_algoritmi_8cs">Algoritmi.cs</innerfile>
+    <innerfile refid="_diagnosi_8cs">Diagnosi.cs</innerfile>
+    <innerfile refid="_efmigrationshistory_8cs">Efmigrationshistory.cs</innerfile>
+    <innerfile refid="_esami_8cs">Esami.cs</innerfile>
+    <innerfile refid="_features_8cs">Features.cs</innerfile>
+    <innerfile refid="_features_esame_8cs">FeaturesEsame.cs</innerfile>
+    <innerfile refid="_immagini_8cs">Immagini.cs</innerfile>
+    <innerfile refid="molim__v2_context_8cs">molim_v2Context.cs</innerfile>
+    <innerfile refid="_normalizzazione_features_8cs">NormalizzazioneFeatures.cs</innerfile>
+    <innerfile refid="_patologie_8cs">Patologie.cs</innerfile>
+    <innerfile refid="_pazienti_8cs">Pazienti.cs</innerfile>
+    <innerfile refid="_permessi_profili_8cs">PermessiProfili.cs</innerfile>
+    <innerfile refid="_profili_8cs">Profili.cs</innerfile>
+    <innerfile refid="_regioni_di_interesse_8cs">RegioniDiInteresse.cs</innerfile>
+    <innerfile refid="_score_diagnosi_8cs">ScoreDiagnosi.cs</innerfile>
+    <innerfile refid="_stili_di_vita_8cs">StiliDiVita.cs</innerfile>
+    <innerfile refid="_stili_di_vita_pazienti_8cs">StiliDiVitaPazienti.cs</innerfile>
+    <innerfile refid="_tipi_esami_8cs">TipiEsami.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Models/"/>
+  </compounddef>
+</doxygen>

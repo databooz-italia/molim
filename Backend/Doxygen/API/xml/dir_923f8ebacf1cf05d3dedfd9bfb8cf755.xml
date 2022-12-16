@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.2" xml:lang="en-US">
+  <compounddef id="dir_923f8ebacf1cf05d3dedfd9bfb8cf755" kind="dir">
+    <compoundname>C:/Progetti/Molim/Backend/Molim.Backend.API/Migrations</compoundname>
+    <innerfile refid="20210629153120___i_n_i_t_8cs">20210629153120_INIT.cs</innerfile>
+    <innerfile refid="20210629153120___i_n_i_t_8_designer_8cs">20210629153120_INIT.Designer.cs</innerfile>
+    <innerfile refid="20210629154942___add___feature_algoritmo_8cs">20210629154942_Add_FeatureAlgoritmo.cs</innerfile>
+    <innerfile refid="20210629154942___add___feature_algoritmo_8_designer_8cs">20210629154942_Add_FeatureAlgoritmo.Designer.cs</innerfile>
+    <innerfile refid="20210630093533___adattamenti___vari_8cs">20210630093533_Adattamenti_Vari.cs</innerfile>
+    <innerfile refid="20210630093533___adattamenti___vari_8_designer_8cs">20210630093533_Adattamenti_Vari.Designer.cs</innerfile>
+    <innerfile refid="20210630132223___adattamenti___vari__2_8cs">20210630132223_Adattamenti_Vari_2.cs</innerfile>
+    <innerfile refid="20210630132223___adattamenti___vari__2_8_designer_8cs">20210630132223_Adattamenti_Vari_2.Designer.cs</innerfile>
+    <innerfile refid="20210701082852___adattamenti___vari__3_8cs">20210701082852_Adattamenti_Vari_3.cs</innerfile>
+    <innerfile refid="20210701082852___adattamenti___vari__3_8_designer_8cs">20210701082852_Adattamenti_Vari_3.Designer.cs</innerfile>
+    <innerfile refid="20210721155655___per23_luglio_8cs">20210721155655_Per23Luglio.cs</innerfile>
+    <innerfile refid="20210721155655___per23_luglio_8_designer_8cs">20210721155655_Per23Luglio.Designer.cs</innerfile>
+    <innerfile refid="20210820103336___richieste_esecuzione___integrazione_servizi_esterni_8cs">20210820103336_RichiesteEsecuzione_IntegrazioneServiziEsterni.cs</innerfile>
+    <innerfile refid="20210820103336___richieste_esecuzione___integrazione_servizi_esterni_8_designer_8cs">20210820103336_RichiesteEsecuzione_IntegrazioneServiziEsterni.Designer.cs</innerfile>
+    <innerfile refid="20211005201133___integrazione_servizi__051021_8cs">20211005201133_IntegrazioneServizi_051021.cs</innerfile>
+    <innerfile refid="20211005201133___integrazione_servizi__051021_8_designer_8cs">20211005201133_IntegrazioneServizi_051021.Designer.cs</innerfile>
+    <innerfile refid="_molim_db_model_snapshot_8cs">MolimDbModelSnapshot.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Progetti/Molim/Backend/Molim.Backend.API/Migrations/"/>
+  </compounddef>
+</doxygen>
